@@ -1,0 +1,80 @@
+\begin{thebibliography}{10}
+
+\bibitem{DeLone}
+A.~Jeyaraj, ``Delone & mclean models of information system success: Critical
+  meta-review and research directions,'' {\em International Journal of
+  Information Management}, vol.~54, 10 2020.
+
+\bibitem{UMLsequence}
+R.~Karampure, C.~Y. Wang, and Y.~Vashi, ``Uml sequence diagram to axiomatic
+  design matrix conversion: A method for concept improvement for software in
+  integrated systems,'' {\em Procedia CIRP}, vol.~100, pp.~457--462, 2021.
+
+\bibitem{review}
+A.~Abdalazeim and F.~Meziane, ``A review of the generation of requirements
+  specification in natural language using objects uml models and domain
+  ontology,'' {\em Procedia CIRP}, vol.~189, pp.~328--334, 2021.
+
+\bibitem{Weighted}
+R.~Mörbitz and H.~Vogler, ``Weighted parsing for grammar-based language models
+  over multioperator monoids,'' {\em Information and Computation}, vol.~281, 12
+  2021.
+
+\bibitem{Management}
+W.~Behutiye, P.~Karhapää, L.~López, X.~Burgués, S.~Martínez-Fernández,
+  A.~M. Vollmer, P.~Rodríguez, X.~Franch, and M.~Oivo, ``Management of quality
+  requirements in agile and rapid software development: A systematic mapping
+  study,'' {\em Information and Software Technology}, vol.~123, 7 2020.
+
+\bibitem{case}
+G.~Islam and T.~Storer, ``A case study of agile software development for
+  safety-critical systems projects,'' {\em Reliability Engineering and System
+  Safety}, vol.~200, 8 2020.
+
+\bibitem{Improving}
+J.-W. Maessen and X.~Shen, ``Improving the java memory model using crf,'' 2000.
+
+\bibitem{Object}
+E.~V. Sunitha and P.~Samuel, ``Object constraint language for code generation
+  from activity models,'' {\em Information and Software Technology}, vol.~103,
+  pp.~92--111, 11 2018.
+
+\bibitem{Feature}
+R.~Eshuis, ``Feature-oriented engineering of declarative artifact-centric
+  process models,'' {\em Information Systems}, vol.~96, 2 2021.
+
+\bibitem{Generative}
+D.~M. Le, D.~H. Dang, and V.~H. Nguyen, ``Generative software module
+  development for domain-driven design with annotation-based domain specific
+  language,'' {\em Information and Software Technology}, vol.~120, 4 2020.
+
+\bibitem{Topic}
+F.~Pérez, R.~Lapeña, A.~C. Marcén, and C.~Cetina, ``Topic modeling for
+  feature location in software models: Studying both code generation and
+  interpreted models,'' {\em Information and Software Technology}, vol.~140, 12
+  2021.
+
+\bibitem{JSON}
+P.~Bourhis, J.~L. Reutter, and D.~Vrgoč, ``Json: Data model and query
+  languages,'' {\em Information Systems}, vol.~89, 3 2020.
+
+\bibitem{XML-based}
+A.~Khalili, ``An xml-based approach for geo-semantic data exchange from bim to
+  vr applications,'' {\em Automation in Construction}, vol.~121, 1 2021.
+
+\bibitem{CoEdit}
+A.~Alwabel, ``Coedit: A novel error correction mechanism in compilers using
+  spelling correction algorithms,'' {\em Journal of King Saud University -
+  Computer and Information Sciences}, 2021.
+
+\bibitem{Blended}
+L.~Addazi and F.~Ciccozzi, ``Blended graphical and textual modelling for uml
+  profiles: A proof-of-concept implementation and experiment,'' {\em Journal of
+  Systems and Software}, vol.~175, 5 2021.
+
+\bibitem{Multi-level}
+C.~M. Fonseca, J.~P.~A. Almeida, G.~Guizzardi, and V.~A. Carvalho,
+  ``Multi-level conceptual modeling: Theory, language and application,'' {\em
+  Data and Knowledge Engineering}, vol.~134, 7 2021.
+
+\end{thebibliography}
