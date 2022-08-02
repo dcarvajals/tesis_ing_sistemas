@@ -1,0 +1,45 @@
+<armadijojs>
+ <message> --- </message>
+ <diagram> 
+    <packName></packName>
+    <classes> 
+        <class>
+            <action> </action>
+            <className> </className>
+            <visibility> </visibility>
+            <attributes> 
+                <attribute> 
+                    <visibility> </visibility>
+                    <name> </name>
+                    <type> </type>
+                </attribute>
+            </attributes>
+            <methods> 
+                <method> 
+                    <visibility> </visibility>
+                    <name> </name>
+                    <type> </type>
+                    <parameters> 
+                        <param> 
+                            <name> </name>
+                            <type> </type>
+                        </param>
+                    </parameters>
+                </method>
+            </methods>
+        </class>
+    </classes>
+    <relationships> 
+        <relation> 
+            <from> </from>
+            <to> </to>
+            <typeRelatioship> </typeRelatioship>
+            <value> </value>
+            <cardinalidate> </cardinalidate>
+            <from_fk> </from_fk>
+            <to_fk> </to_fk>
+            <simbol> </simbol>
+        </relation>
+    </relationships>
+ </diagram>
+</armadijojs>

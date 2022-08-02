@@ -1,14 +1,39 @@
-\documentclass[12pt, openany, xcolor=table]{book}
-
-% Language setting
-% Replace `english' with e.g. `spanish' to change the document language
+\documentclass[12pt,a4paper,final]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[spanish,es-tabla]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=3.00cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage{setspace}
+\usepackage{titlesec}
+\pagestyle{plain}
+\usepackage{pgfgantt}
+\usepackage{lscape}
+\usepackage{float}
 
+\usepackage[backend=bibtex,style=authoryear]{biblatex}
+\addbibresource{citasArmadillo.bib}
 
-% Set page size and margins
-% Replace `letterpaper' with`a4paper' for UK/EU standard size
-\usepackage[a4paper,top=2.5cm,bottom=2cm,left=3cm,right=2.5cm,marginparwidth=1.75cm]{geometry}
+%interlineado 
+\spacing{1.5}
+%espacio entre parrafos
+\setlength{\parskip}{2mm}
+%sangria
+\setlength{\parindent}{0pt}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\newcommand\caratuladc{\fontsize{15pt}{15pt}\selectfont}
+\newcommand\titulodc{\fontsize{16pt}{16pt}\selectfont}
+\newcommand\titulosndc{\fontsize{14pt}{14pt}\selectfont}
+\newcommand\titulotndc{\fontsize{12pt}{12pt}\selectfont}
+
+\titleformat*{\section}{\titulotndc \bfseries}
+\titleformat*{\subsection}{\titulotndc \bfseries}
+\titleformat*{\subsubsection}{\titulotndc \bfseries}
 
 % Useful packages
 \usepackage{amsmath}
@@ -16,110 +41,34 @@
 \graphicspath{{images/}}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 
-\usepackage{listings}
-
-\usepackage[Conny]{fncychap}
-
-\usepackage{color}
-\definecolor{gray97}{gray}{.97}
-\definecolor{gray75}{gray}{.75}
-\definecolor{gray45}{gray}{.45}
-
-\usepackage{listings}
-
-\usepackage{multirow}
-\usepackage[table,xcdraw]{xcolor}
-\usepackage{longtable}
-
-\lstset{ frame=Ltb,
-	framerule=0pt,
-	aboveskip=0.5cm,
-	framextopmargin=3pt,
-	framexbottommargin=3pt,
-	framexleftmargin=0.4cm,
-	framesep=0pt,
-	rulesep=.4pt,
-	backgroundcolor=\color{gray97},
-	rulesepcolor=\color{black},
-	%
-	stringstyle=\ttfamily,
-	showstringspaces = false,
-	basicstyle=\small\ttfamily,
-	commentstyle=\color{gray45},
-	keywordstyle=\bfseries,
-	%
-	numbers=left,
-	numbersep=15pt,
-	numberstyle=\tiny,
-	numberfirstline = false,
-	breaklines=true,
-}
-
-% minimizar fragmentado de listados
-\lstnewenvironment{listing}[1][]
-{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
-
-\lstdefinestyle{consola}
-{basicstyle=\scriptsize\bf\ttfamily,
-	backgroundcolor=\color{gray75},
-}
-
-\setlength{\parindent}{0pt}
-
 \begin{document}
-
-	%----------------------------------------------------------------------------------------
-	%	PORTADA
-	%----------------------------------------------------------------------------------------
 	
-	\begin{titlepage}
-		\begin{center}
-			
-			\textsc{\Large Universidad Técnica Estatal de Quevedo}\\[4em]
-			
-			%Figura
-			\begin{figure}[h]
-				\begin{center}
-					\includegraphics[width=5cm]{images/logoUTEQ.png}
-				\end{center}
-			\end{figure}
-			
-			\vspace{4em}
-			
-			\textsc{\huge \textbf{Librería JavaScript que permita interpretar la escritura de los casos de uso extendidos}}\\[4em]
-			
-			\textsc{\large Anteproyecto}\\[1em]
-			
-			\textsc{presenta}\\[1em]
-			
-			\textsc{\Large Dúval Ricardo Carvajal Suárez}\\[1em]
-			
-			\textsc{\large Tutor: Ing. Gleiston Guerrero}
-			
-		\end{center}
-		
-		\vspace*{\fill}
-		\textsc{Ecuador, Quevedo. \hspace*{\fill} 2022}
-		
-	\end{titlepage}
+	\section{TITULO}
 	
-	\chapter{Introducción}
+	\par{ARMADILLO.JS LIBRERÍA JAVASCRIPT PARA INTERPRETAR LA ESCRITURA DE LOS CASOS DE USO EXTENDIDOS}
+	
+	\section{INTRODUCCIÓN}
 	
 	El desarrollo de software se vuelve cada vez más indispensable en todos los aspectos de la vida cotidiana, por lo cual se necesitan herramientas que ayuden a agilizar la construcción de diferentes tipos de sistemas de información basados en computadoras (SI) \cite{DeLone}. Utilizando el Lenguaje unificado de modelado (Unified Modeling Language: UML), se pretenden utilizar el diagrama de clases como elemento principal para identificar de manera sencilla como interactuarán todos los objetos del sistema \cite{UMLsequence}. El uso de diagrama de clases constituye una buena solución del modelado de SI, en especial, aquellos proyectos en dónde los requisitos están cambiando constantemente \cite{review}, por lo que necesario una herramienta que permita la actualización de sus modelos con el menor de los esfuerzos.
 	
-	\section{Problematización}
+	\section{PROBLEMATIZACIÓN}
 	
-	El mayor enigma en el desarrollo de un software surge al diseñar su estructura principal por no conocer totalmente la lógica de negocio que se va a automatizar \cite{Weighted}.  Para disminuir el impacto de esta problemática se sugiere el uso de diagramas de clases, es decir que a través de las entidades, sus atributos y métodos facilita las tareas de los diseñadores informáticos y también reduce las tareas de diseño del software \cite{Management}.\\
+	El mayor enigma en el desarrollo de un software surge al diseñar su estructura principal por no conocer totalmente la lógica de negocio que se va a automatizar \cite{Weighted}.  Para disminuir el impacto de esta problemática se sugiere el uso de diagramas de clases, es decir que a través de las entidades, sus atributos y métodos facilita las tareas de los diseñadores informáticos y también reduce las tareas de diseño del software \cite{Management}.
 	
-	Para construir un diagrama de clases se deben manipular herramientas que permitan crear cada componente, con pocos conocimientos sobre cada objeto que interviene en la construcción del mismo \cite{Management}. Además, al momento de continuar con el desarrollo del sistema surgirán modificaciones en requisitos que ya fueron planteados al inicio del proyecto, lo cual provoca malestar en los desarrolladores, ya que; se debe editar los objetos del diagrama sin tener algún tipo de información que permita recordar lo que ya estaba desarrollado \cite{case}.\\
+	Para construir un diagrama de clases se deben manipular herramientas que permitan crear cada componente, con pocos conocimientos sobre cada objeto que interviene en la construcción del mismo \cite{Management}. Además, al momento de continuar con el desarrollo del sistema surgirán modificaciones en requisitos que ya fueron planteados al inicio del proyecto, lo cual provoca malestar en los desarrolladores, ya que; se debe editar los objetos del diagrama sin tener algún tipo de información que permita recordar lo que ya estaba desarrollado \cite{case}.
 	
 	Para obtener información que ya fue analizada sobre le diagrama de clases que se tenga creado, se pretende utilizar un lenguaje simbólico que se encuentra en la herramienta TDDTIoTS (https://aplicaciones.uteq.edu.ec/tddt4iots), este lenguaje no notifica mensajes de advertencia sobre el estado de los textos que describen los casos de uso, además se necesita una documentación más detallada sobre cómo utilizar cada símbolo al momento de describir las acciones de cada caso de uso y no tener inconvenientes al tratar de interpretar cada párrafo. En definitiva, existen varios inconvenientes para crear un diagrama de clases que permita identificar de forma sencilla todo el proceso que se quiere realizar con e software, provocando malos entendidos al momento de empezar a desarrollar el código del sistema.
 	
-	\section{Formulación}
+	\section{JUSTIFICACIÓN}
+	La construcción de los diagramas de clases tienden a contener información redundante o aveces inconsistente para especificar de forma técnica los requisitos funcionales y no funcionales de un sistema informático. Debido a esto se propone el desarrollo de una librería JavaScript, que mediante el lenguaje de símbolos usado por la herramienta TDDT4IoTs para interpretar las descripciones de los casos de uso extendidos, permitan generar de forma automática el diagrama de clases pertinente a los casos de uso planteados. 
+	
+	Ademas esta librería propone generar 2 tipos de estructuras que son JSON y XML que son usadas a nivel global por varias tecnologías de desarrollo, permitiendo combinar el uso de la estructura generada por esta herramienta con las librerías externas dedicadas a la creación de diferentes tipos de diagramas, obteniendo como resultado una grafico visual en relación a la información devuelta por el producto final de este proyecto. 
+	
+	\section{FORMULACIÓN}
 	
 	¿Como interpretar las descripciones de los casos de uso extendidos escritos en el lenguaje de símbolos usado en la herramienta TDDT4IoTS para generar la estructura de un diagrama de clases?
 	
-	\section{Sistematización}
+	\subsection{Sistematización}
 	
 	\begin{enumerate}
 		\item ¿Que estructura se utilizara para generar el diagrama de clases?
@@ -129,7 +78,7 @@
 		\item ¿De que forma se evidenciara la funcionalidad correcta de la librería que se va a desarrollar?
 	\end{enumerate}
 	
-	\section{Objetivos}
+	\section{OBJETIVOS}
 	
 	La problematización de este proyecto ha llevado a plantearse los siguiente objetivos.
 	
@@ -149,32 +98,27 @@
 		\item Evaluar la librería JavaScript con la elaboración de diagramas de clases a partir de casos de uso extendidos correspondientes a sistemas de información reales.
 	\end{enumerate}
 	
-	\section{Justificación}
-	La construcción de los diagramas de clases tienden a contener información redundante o aveces inconsistente para especificar de forma técnica los requisitos funcionales y no funcionales de un sistema informático. Debido a esto se propone el desarrollo de una librería JavaScript, que mediante el lenguaje de símbolos usado por la herramienta TDDT4IoTs para interpretar las descripciones de los casos de uso extendidos, permitan generar de forma automática el diagrama de clases pertinente a los casos de uso planteados. \\
 	
-	Ademas esta librería propone generar 2 tipos de estructuras que son JSON y XML que son usadas a nivel global por varias tecnologías de desarrollo, permitiendo combinar el uso de la estructura generada por esta herramienta con las librerías externas dedicadas a la creación de diferentes tipos de diagramas, obteniendo como resultado una grafico visual en relación a la información devuelta por el producto final de este proyecto. 
-	
-	
-	\chapter{Esquema referencial de marco teórico}
+	\section{ESQUEMA REFERENCIAL DEL MARCO TEÓRICO}
 	
 	En este capítulo, se expondrán los trabajos relacionados con el presentado en este documento que se han identificado en la literatura, y que demuestran que el trabajo propuesto en este documento, aporta algo. Además se contextualiza el trabajo y define los términos novedosos y de poco dominio para los investigadores y para la comunidad.
 	
-	\section{Marco Referencial}
+	\subsection{Marco Referencial}
 	
 	\textbf{Lenguaje de restricciones de objetos para la generación de código
-	a partir de modelos de actividad.} UML(Unified Modeling Language) es un lenguaje que utiliza el diagrama de actividad para modelar el flujo de trabajo y el flujo de objetos en un sistema \cite{Improving}. UML no es un lenguaje totalmente formal, su semántica no está totalmente formalizada ocasionando un escenario donde la presentación precisa del modelo es difícil. Por lo tanto, siempre que se utilicen diagramas de actividades, o cualquier diagrama UML, para la generación de código, se recomienda complementarlo con lenguajes de especificación como el lenguaje de restricciones de objetos OCL (Object Constraint Language) \cite{Object}.   \\
+	a partir de modelos de actividad.} UML(Unified Modeling Language) es un lenguaje que utiliza el diagrama de actividad para modelar el flujo de trabajo y el flujo de objetos en un sistema \cite{Improving}. UML no es un lenguaje totalmente formal, su semántica no está totalmente formalizada ocasionando un escenario donde la presentación precisa del modelo es difícil. Por lo tanto, siempre que se utilicen diagramas de actividades, o cualquier diagrama UML, para la generación de código, se recomienda complementarlo con lenguajes de especificación como el lenguaje de restricciones de objetos OCL (Object Constraint Language) \cite{Object}.   
 
-	\textbf{Desarrollo de módulos de software generativo para el diseño orientado al dominio con un lenguaje específico de dominio basado en anotaciones. }En la terminología del diseño orientado a objetos \cite{Feature}, un módulo de dominio es un paquete. Los actuales marcos de software DDD (Object-oriented domain-driven design) han utilizando una forma simple de DSL(Domain-specific language) interno para construir el modelo de dominio y utilizar este modelo como entrada para generar un prototipo de software. El DSL interno que utilizan se conoce más formalmente como lenguaje específico del dominio basado en anotaciones (aDSL) \cite{Generative}. \\
+	\textbf{Desarrollo de módulos de software generativo para el diseño orientado al dominio con un lenguaje específico de dominio basado en anotaciones. }En la terminología del diseño orientado a objetos \cite{Feature}, un módulo de dominio es un paquete. Los actuales marcos de software DDD (Object-oriented domain-driven design) han utilizando una forma simple de DSL(Domain-specific language) interno para construir el modelo de dominio y utilizar este modelo como entrada para generar un prototipo de software. El DSL interno que utilizan se conoce más formalmente como lenguaje específico del dominio basado en anotaciones (aDSL) \cite{Generative}. 
 	
-	\textbf{Modelado para la localización de características en modelos de software: tanto la generación de código y los modelos interpretados. }Evaluando LDA (Latent Dirichlet Allocation), cada caso de estudio utiliza un tipo diferente de modelos de software: modelos de software para la generación de código, y modelos de software para interpretación. El primer caso de estudio pertenece a un líder mundial en fabricación de trenes, construcciones y Auxiliar de Ferrocarriles. Una empresa que formaliza los productos fabricados en modelos de software utilizando un lenguaje específico de dominio DSL. Los modelos de software se utilizan para generar el firmware que controla sus trenes \cite{Topic}. \\ 
+	\textbf{Modelado para la localización de características en modelos de software: tanto la generación de código y los modelos interpretados. }Evaluando LDA (Latent Dirichlet Allocation), cada caso de estudio utiliza un tipo diferente de modelos de software: modelos de software para la generación de código, y modelos de software para interpretación. El primer caso de estudio pertenece a un líder mundial en fabricación de trenes, construcciones y Auxiliar de Ferrocarriles. Una empresa que formaliza los productos fabricados en modelos de software utilizando un lenguaje específico de dominio DSL. Los modelos de software se utilizan para generar el firmware que controla sus trenes \cite{Topic}. 
 	
 	El segundo estudio de caso pertenece a un videojuego comercial, Kromaia, que utiliza modelos de software para razonar sobre el sistema, realizar validaciones y definir el contenido del juego, como los jefes, los mundos y los objetivos. En Kromaia los modelos de software se utilizan para la interpretación. Así, el contenido definido en los modelos se lee e interpreta cuando se lanza el juego (sin alterar el código fuente del videojuego). El videojuego se ha lanzado en todo el mundo en dos plataformas diferentes (PlayStation 4 y STEAM) y en 8 idiomas diferentes. \cite{Topic}.
 	
-	\section{Marco Contextual}
+	\subsection{Marco Contextual}
 	
 	En esta sección, se describe el entorno de trabajo investigativo realizado a este proyecto. Este marco complementa al resto de los referentes, que sirven de marco a una investigación.
 		
-	\subsection{Metodología ágil}
+	\subsubsection{Metodología ágil}
 	
 	Esta metodología consta de 5 fases. Aparentemente agrupan fases que estén relacionadas al desarrollo de un sistema, desde el análisis de requisitos hasta su debido mantenimiento. Esta última es muy olvidada por los investigadores, y es de mucho interés en la vida de desarrollo. En la figura \ref{fig:metod} se pueden observar las fases que se deberían implementar.
 	
@@ -185,7 +129,7 @@
 		\label{fig:metod}
 	\end{figure}
 	
-	\subsubsection{Descripción general de la metodología}
+	\paragraph{Descripción general de la metodología}
 	Las principales razones del uso de una metodología ágil es el uso de un ciclo de desarrollo iterativo e incremental para la ejecución de este proyecto son:
 	
 	\begin{itemize}
@@ -196,7 +140,7 @@
 		\item Es posible que durante la ejecución del proyecto se altere el orden en el que se desean recibir los módulos.
 	\end{itemize} 
 	
-	\subsubsection{Roles}
+	\paragraph{Roles}
 	
 	El equipo de esta metodología está conformado por 2 roles, Director de proyecto (DP) y el Desarrollador de Sistemas (DS). Todos los miembros de un equipo de desarrollo tienen diferentes roles en la gestión y supervisión de los proyectos. Todos los roles son necesarios para que el proceso funcione eficientemente. 
 	
@@ -214,7 +158,7 @@
 		\end{itemize} 
 	\end{itemize}
 
-	\subsubsection{Fases}
+	\paragraph{Fases}
 	
 	\begin{enumerate}
 		\item \textbf{Búsqueda de aplicativos relacionados:} Buscar aplicativos que realicen procesos similares al que se esta desarrollando. Se deberán especificar varios criterios sobre sus funcionalidades, ventajas y desventajas, vulnerabilidades, versiones, etc. 
@@ -224,31 +168,31 @@
 		\item \textbf{Evaluación con sistemas de información reales:} Finalmente se pueden utilizar estudios de caso reales que puedan ser aplicados sobre el producto final.
 	\end{enumerate}
 	
-	\section{Marco Conceptual}
+	\subsection{Marco Conceptual}
 	En esta sección, se detalla los modelos teóricos, conceptos, argumentos o definiciones que se han desarrollado o investigado en relación con el tema en particular.
 	
-	\subsection{JSON}
+	\subsubsection{JSON}
 	
 	Javascript Object Notation (JSON) es un formato ligero de intercambio de datos. Consisten en asociación de nombres y valores. A pesar de ser independiente del lenguaje de programación, es admitido en una gran cantidad de lenguajes de programación. Se basa en un subconjunto del Estándar de lenguaje de programación JavaScript \cite{JSON}.
 	
-    \subsection{XML}
+    \subsubsection{XML}
     
     Es un lenguaje de marcado similar a HTML. Significa Extensible Markup Language y pertenece a la especificación W3C como lenguaje de marcado de propósito general. Esto significa que, a diferencia de otros lenguajes de marcado, XML no está predefinido, por lo que debe definir su propio marcado. El objetivo principal del lenguaje es compartir datos entre diferentes sistemas, como Internet \cite{XML-based}.
     
-    \subsection{Compiladores}
+    \subsubsection{Compiladores}
     Están diseñados para traducir un fragmento de código escrito en un de lenguaje de programación a lenguaje de máquina que es, el que puede entender la computadora. El compilador analiza el código fuente en busca de errores antes de la traducción. Si se detecta un error, el compilador
     notificar al autor del código para que pueda arreglarlo.. Además, los compiladores modernos o entornos de desarrollo (IDE), puede sugerir soluciones para algunos tipos de errores usando métodos de corrección de errores \cite{CoEdit}.
     
-    \subsection{Lenguajes de modelado}
-    Representan una serie de requisitos basados en la construcción de elementos visuales para definir estructuras y comportamientos que tendrán los sistemas computarizados. UML (Lenguaje Unificado de Modelado) a través del mecanismo de perfilado, se han basado históricamente en notaciones gráficas. UML mediante el mecanismo de perfiles, maximiza la comprensión humana y facilita la comunicación entre las partes interesadas como son el cliente y desarrollador \cite{Blended}. \\
+    \subsubsection{Lenguajes de modelado}
+    Representan una serie de requisitos basados en la construcción de elementos visuales para definir estructuras y comportamientos que tendrán los sistemas computarizados. UML (Lenguaje Unificado de Modelado) a través del mecanismo de perfilado, se han basado históricamente en notaciones gráficas. UML mediante el mecanismo de perfiles, maximiza la comprensión humana y facilita la comunicación entre las partes interesadas como son el cliente y desarrollador \cite{Blended}. 
     
     También existen lenguajes de modelado personalizados para distintas áreas, como por ejemplo en \cite{Multi-level} proponen un lenguaje de modelado conceptual multinivel al denominan ML2 (Lenguaje de Modelado Multinivel). El lenguaje está orientado al modelado conceptual multinivel (de dominio) y pretende cubrir un amplio conjunto de dominios multiniveles. En el diseño de ML2 sigue un enfoque basado en principios, definiendo su sintaxis abstracta para reflejar una teoría formal para el modelado multinivel que se fue desarrollado previamente.
 	
-	\chapter{Metodología}
+	\section{METODOLOGÍA}
 	
 	Para el desarrollo del presente proyecto se tomarán en cuenta la ejecución de varias etapas, aplicando el Modelo de Prototipado para desarrollar un prototipo de la aplicación web que utilice el producto final de esta investigación. A continuación, se describe el enfoque metodológico correspondiente a cada una de las fases. 
 	
-	\section{Búsqueda de aplicativos relacionados}
+	\subsection{Búsqueda de aplicativos relacionados}
 	
 	En esta fase se analizaron varias aplicaciones web que cuentan con la funcionalidad de generar diagramas de clases mediante la escritura de texto. Entre las aplicaciones analizadas se encuentran:
 	
@@ -260,12 +204,12 @@
 		\item \textbf{ditaa: }Es una pequeña utilidad de línea de comandos escrita en Java, que puede convertir diagramas dibujados con arte ascii ('dibujos' que contienen caracteres que se asemejan a líneas como | / - ), en gráficos de mapa de bits adecuados. También se destaca que la aplicación no permite modificar en tiempo real los diagramas generados (http://ditaa.sourceforge.net/). 
 	\end{itemize}
 	
-	\section{Modelamiento}
+	\subsection{Modelamiento}
 	
 	En esta etapa se pretende modelar la funcionalidad que tendrán todos los métodos y funciones necesarias para identificar cada símbolo y poder interpretar todo el texto para generar la estructura del diagrama de clases.
 	Todo el archivo JavaScript estará conformado por estructuras de datos apuntando a la programación orientada a objetos.
 	
-	\section{Desarrollo del código}
+	\subsection{Desarrollo del código}
 	
 	La tercera etapa se dedicará al desarrollo de la librería utilizando el lenguaje de programación JavaScript. Todo el código será escrito en un solo archivo con extensión de tipo .js teniendo como ventaja poder ser vinculado dentro de cualquier archivo HTML que dese utilizar los métodos necesarios para obtener la estructura de todo el diagrama de clases en formato JSON.
 	
@@ -281,7 +225,7 @@
 		\item Relaciones
 	\end{itemize}
 
-	\section{Pruebas unitarias}
+	\subsection{Pruebas unitarias}
 	En esta fase se pretende realizar todas las pruebas posibles a las funciones que se realizaron en la fase anterior, ingresando algunos textos utilizando los símbolos esperando los valores que devuelva la librería. Algunos de los textos que serán ingresados son los siguientes:
 	
 	\begin{itemize}
@@ -307,11 +251,11 @@
 		
 	\end{itemize}
 	
-	\section{Evaluación con sistemas de información reales}
+	\subsection{Evaluación con sistemas de información reales}
 	
 	Se utilizaran estudios de caso con sistemas de información reales para crear las descripciones de los casos de uso extendidos de forma natural. Luego se implementaron los símbolos como se crea conveniente, dependiendo de los requisitos ingresados en el texto. Finalmente se utilizara la librería para observar como devuelve el texto nuevamente en forma natural adicional la estructura del diagrama de clases.
 	
-	\section{Modelo de prototipado}
+	\subsection{Modelo de prototipado}
 	El Modelo de Prototipado se aplica cuando la información detallada relacionada a requerimientos de entrada y salida del sistema no está disponible. En este modelo se asume que tal vez no todos los requerimientos son conocidos en el inicio del desarrollo del sistema. Se usa generalmente cuando un sistema no existe, o en caso de un largo y complejo sistema, cuando no hay procesos manuales para determinar los requerimientos. Los pasos que se ejecutan en el modelo de prototipado son: 
 	
 	\begin{enumerate}
@@ -329,9 +273,21 @@
 		
 	\end{enumerate}
 	
-	\section{Cronograma}
+	\newpage
 	
-	\begin{table}[h!]
+	\begin{landscape}
+	
+	\section{CRONOGRAMA DE ACTIVIDADES}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\linewidth]{images/cronograma.png}
+		\caption{Cronograma de actividades.}
+		\label{fig:usecaseEasyIoT}
+	\end{figure}
+	
+	\end{landscape}
+	
+	\begin{table}[!ht]
 		\centering
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -353,15 +309,8 @@
 		\caption{Cronograma detallado por fecha de lo que se pretende realizar.}
 		\label{tab:my-table}
 	\end{table}
-
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=\linewidth]{images/cronograma.png}
-		\caption{Cronograma de actividades.}
-		\label{fig:usecaseEasyIoT}
-	\end{figure}
 	
-	\chapter{Resultados esperados}
+	\section{RESULTADOS ESPERADOS}
 	
 	\begin{itemize}
 		
@@ -376,7 +325,7 @@
 		
 	\end{itemize}
 	
-	\bibliographystyle{ieeetr}
-	\bibliography{citasArmadillo}
+	\printbibliography[title={\thesection. BIBLIOGRAFÍA}]
+
 	
 \end{document}

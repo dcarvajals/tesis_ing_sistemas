@@ -1,0 +1,45 @@
+{
+    "message": "---",
+    "diagram": {
+        "packName": "---",
+        "class": [
+            {
+                "action": "---",
+                "className": "---",
+                "visibility": "---",
+                "attributes": [
+                    {
+                        "visibility": "---",
+                        "name": "---",
+                        "type": "---"
+                    }
+                ],
+                "methods": [
+                    {
+                        "visibility": "---",
+                        "name": "---",
+                        "type": "---",
+                        "parameters": [
+                            {
+                                "name": "---",
+                                "type": "---"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "relationships": [
+            {
+                "from": "---",
+                "to": "---",
+                "typeRelatioship": "---",
+                "value": "---",
+                "cardinalidate": "---",
+                "from_fk": "---",
+                "to_fk": "---",
+                "simbol": "---"
+            }
+        ]
+    }
+}

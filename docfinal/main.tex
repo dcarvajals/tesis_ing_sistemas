@@ -1,0 +1,62 @@
+\documentclass[12pt,a4paper,final]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=3.00cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage{setspace}
+\usepackage{titlesec}
+\pagestyle{plain}
+
+%interlineado 
+\spacing{1.5}
+%espacio entre parrafos
+\setlength{\parskip}{2mm}
+%sangria
+\setlength{\parindent}{0px}
+
+\setcounter{chapter}{1}
+\setcounter{secnumdepth}{3}
+
+\newcommand\caratuladc{\fontsize{15pt}{15pt}\selectfont}
+\newcommand\titulodc{\fontsize{16pt}{16pt}\selectfont}
+\newcommand\titulosndc{\fontsize{14pt}{14pt}\selectfont}
+\newcommand\titulotndc{\fontsize{12pt}{12pt}\selectfont}
+
+\titleformat{\part}[display]{\filcenter \bfseries }{\filcenter \bfseries \ {\titulodc CAPÍTULO \thepart}}{1.5pt}{}
+
+\titleformat*{\section}{\titulosndc \bfseries}
+\titleformat*{\subsection}{\titulotndc \bfseries}
+\titleformat*{\subsubsection}{\titulotndc \bfseries}
+
+\begin{document}
+	
+	\include{caratula}	
+	\newpage{\ }
+	\thispagestyle{empty}
+	\include{declaracion_autorio}
+	\include{certificacion_culminacion}
+	\include{certificacion_urkund}
+	
+	\part{{\titulodc INTRODUCCIÓN}}
+	
+	\section{\titulosndc Nuevas nuevas bnuenas}
+
+
+	
+	\par{Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.}  
+	
+		\subsection{\titulosndc Nuevas nuevas bnuenas}
+	
+	\par{Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.}
+	
+		\subsubsection{\titulotndc Nuevas nuevas bnuenas}
+	
+	\par{Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu.}
+	
+		
+
+	
+\end{document}
