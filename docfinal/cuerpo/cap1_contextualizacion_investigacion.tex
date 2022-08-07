@@ -1,0 +1,59 @@
+\setcounter{chapter}{1}
+\setcounter{section}{0}
+\part{CONTEXTUALIZACIÓN DE LA INVESTIGACIÓN} 
+
+\section{Problema de investigación.}
+
+\subsection{Planteamiento del problema.}
+
+El mayor enigma en el desarrollo de un software surge al diseñar su estructura principal por no conocer totalmente la lógica de negocio que se va a automatizar \cite{Weighted}.  Para disminuir el impacto de esta problemática se sugiere el uso de diagramas de clases, es decir que a través de las entidades, sus atributos y métodos facilita las tareas de los diseñadores informáticos y también reduce las tareas de diseño del software \cite{Management}.
+
+Para construir un diagrama de clases se deben manipular herramientas que permitan crear cada componente, con pocos conocimientos sobre cada objeto que interviene en la construcción del mismo \cite{Management}. Además, al momento de continuar con el desarrollo del sistema surgirán modificaciones en requisitos que ya fueron planteados al inicio del proyecto, lo cual provoca malestar en los desarrolladores, ya que; se debe editar los objetos del diagrama sin tener algún tipo de información que permita recordar lo que ya estaba desarrollado \cite{case}.
+
+Para obtener información que ya fue analizada sobre le diagrama de clases que se tenga creado, se pretende utilizar un lenguaje simbólico que se encuentra en la herramienta TDDTIoTS (https://aplicaciones.uteq.edu.ec/tddt4iots), este lenguaje no notifica mensajes de advertencia sobre el estado de los textos que describen los casos de uso, además se necesita una documentación más detallada sobre cómo utilizar cada símbolo al momento de describir las acciones de cada caso de uso y no tener inconvenientes al tratar de interpretar cada párrafo. En definitiva, existen varios inconvenientes para crear un diagrama de clases que permita identificar de forma sencilla todo el proceso que se quiere realizar con e software, provocando malos entendidos al momento de empezar a desarrollar el código del sistema.
+
+\textbf{Diagnóstico.}
+
+...
+
+\textbf{Pronóstico.}
+
+...
+
+\subsection{Formulación del problema.}
+
+¿Como interpretar las descripciones de los casos de uso extendidos escritos en el lenguaje de símbolos usado en la herramienta TDDT4IoTS para generar la estructura de un diagrama de clases?
+
+\subsection{Sistematización del problema.}
+
+\begin{enumerate}
+	\item ¿Como se obtendrá el diagrama de clases generado por las descripciones de los casos de uso extendidos?
+	
+	\item ¿Como ayudar a los usuarios a mejorar la escritura de las descripciones de los casos de uso extendidos escritos en un lenguaje de símbolos usado por la herramienta TDDT4IoTS?
+	
+	\item ¿De que forma se evaluara el correcto funcionamiento del producto final de este proyecto de investigación?
+\end{enumerate}
+
+\section{Objetivos.}
+
+La problematización de este proyecto ha llevado a plantearse los siguiente objetivos.
+
+\subsection{Objetivo General.}
+
+Desarrollar una librería JavaScript que interprete las descripciones de los casos de uso usado la herramienta TDDT4IoTS para visualizar la estructura del diagrama de clases pertinente. 
+
+\subsection{Objetivos Específicos.}
+
+\begin{enumerate}
+	\item Generar una estructura JSON y XML con la información obtenida por las descripciones de los casos de uso extendidos para crear un diagrama de clases mediante el uso librerías javascript para crear diagramas.
+	
+	\item Retroalimentar a los usuarios sobre la mala escritura de las descripciones de los casos de uso extendidos escritos en un lenguaje de símbolos usado por la herramienta TDDT4IoTSs. 
+	
+	\item Evaluar la librería JavaScript con la elaboración de diagramas de clases a partir de casos de uso extendidos correspondientes a sistemas de información reales.
+\end{enumerate}
+
+\section{Justificación.}
+
+La construcción de los diagramas de clases tienden a contener información redundante o aveces inconsistente para especificar de forma técnica los requisitos funcionales y no funcionales de un sistema informático. Debido a esto se propone el desarrollo de una librería JavaScript, que mediante el lenguaje de símbolos usado por la herramienta TDDT4IoTs para interpretar las descripciones de los casos de uso extendidos, permitan generar de forma automática el diagrama de clases pertinente a los casos de uso planteados. 
+
+Ademas esta librería propone generar 2 tipos de estructuras que son JSON y XML que son usadas a nivel global por varias tecnologías de desarrollo, permitiendo combinar el uso de la estructura generada por esta herramienta con las librerías externas dedicadas a la creación de diferentes tipos de diagramas, obteniendo como resultado una grafico visual en relación a la información devuelta por el producto final de este proyecto. 

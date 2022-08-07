@@ -1,0 +1,103 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Illegal, another \bibstyle command---line 12 of file main.aux
+ : \bibstyle
+ :          {main}
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: paginas_preliminares/caratula.aux
+Reallocating 'name_of_file' (item size: 1) to 45 items.
+A level-1 auxiliary file: paginas_preliminares/declaracion_autorio.aux
+Reallocating 'name_of_file' (item size: 1) to 51 items.
+A level-1 auxiliary file: paginas_preliminares/certificacion_culminacion.aux
+Reallocating 'name_of_file' (item size: 1) to 46 items.
+A level-1 auxiliary file: paginas_preliminares/certificacion_urkund.aux
+Reallocating 'name_of_file' (item size: 1) to 50 items.
+A level-1 auxiliary file: paginas_preliminares/certificacion_aprobacion.aux
+Reallocating 'name_of_file' (item size: 1) to 40 items.
+A level-1 auxiliary file: paginas_preliminares/agradecimiento.aux
+Reallocating 'name_of_file' (item size: 1) to 37 items.
+A level-1 auxiliary file: paginas_preliminares/dedicatoria.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: paginas_preliminares/resumen.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: paginas_preliminares/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
+A level-1 auxiliary file: paginas_preliminares/introduccion.aux
+Reallocating 'name_of_file' (item size: 1) to 48 items.
+A level-1 auxiliary file: cuerpo/cap1_contextualizacion_investigacion.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: cuerpo/cap2_fundamentacion_teorica.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: cuerpo/bibliografia.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: main-blx.bib
+Database file #2: citasTesis.bib
+Repeated entry---line 349 of file citasTesis.bib
+ : @article{Management
+ :                    ,
+I'm skipping whatever remains of this entry
+Biblatex version: 3.17
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 17 entries,
+            6399 wiz_defined-function locations,
+            1372 strings with 37305 characters,
+and the built_in function-call counts, 138977 in all, are:
+= -- 11345
+> -- 2105
+< -- 586
++ -- 4000
+- -- 772
+* -- 9943
+:= -- 15717
+add.period$ -- 0
+call.type$ -- 17
+change.case$ -- 321
+chr.to.int$ -- 90
+cite$ -- 32
+duplicate$ -- 14148
+empty$ -- 11994
+format.name$ -- 1155
+if$ -- 28089
+int.to.chr$ -- 0
+int.to.str$ -- 47
+missing$ -- 0
+newline$ -- 662
+num.names$ -- 847
+pop$ -- 5766
+preamble$ -- 1
+purify$ -- 439
+quote$ -- 0
+skip$ -- 3369
+stack$ -- 0
+substring$ -- 21231
+swap$ -- 2763
+text.length$ -- 437
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 566
+warning$ -- 0
+while$ -- 1888
+width$ -- 0
+write$ -- 646
+(There were 2 error messages)

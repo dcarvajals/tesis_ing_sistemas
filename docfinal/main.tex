@@ -1,14 +1,20 @@
-\documentclass[12pt,a4paper,final]{book}
+\documentclass[12pt,a4paper,final,oneside,onecolumn,openany]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage[left=3.00cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
-\usepackage[spanish]{babel}
+\usepackage[spanish,english]{babel}
 \usepackage{setspace}
 \usepackage{titlesec}
-\pagestyle{plain}
+%\pagestyle{myheadings}
+%\usepackage{fancyhdr}
+\usepackage{titleps}
+\newpagestyle{main}{
+	\setfoot[][][\thepage] % pares
+	{}{}{\thepage}} % impares
+\pagestyle{main}
 
 %interlineado 
 \spacing{1.5}
@@ -20,43 +26,66 @@
 \setcounter{chapter}{1}
 \setcounter{secnumdepth}{3}
 
+%\renewcommand*\thesection{\arabic{part}}
+
 \newcommand\caratuladc{\fontsize{15pt}{15pt}\selectfont}
 \newcommand\titulodc{\fontsize{16pt}{16pt}\selectfont}
 \newcommand\titulosndc{\fontsize{14pt}{14pt}\selectfont}
 \newcommand\titulotndc{\fontsize{12pt}{12pt}\selectfont}
 
-\titleformat{\part}[display]{\filcenter \bfseries }{\filcenter \bfseries \ {\titulodc CAPÍTULO \thepart}}{1.5pt}{}
+\titleformat{\part}[display]{\filcenter \bfseries \titulodc}{\filcenter \bfseries \ {{\titulodc CAPÍTULO} \thepart}}{1.5pt \thispagestyle{empty}}{}
 
-\titleformat*{\section}{\titulosndc \bfseries}
-\titleformat*{\subsection}{\titulotndc \bfseries}
-\titleformat*{\subsubsection}{\titulotndc \bfseries}
+\titleformat{\section}[block]{\bfseries \titulosndc}{\bfseries \thesection. }{1.5pt}{}
+
+\titleformat{\subsection}[block]{\bfseries \titulosndc}{\bfseries \thesubsection. }{1.5pt}{}
+
+\titleformat{\subsubsection}[block]{\bfseries \titulosndc}{\bfseries \thesubsubsection. }{1.5pt}{}
+
+\usepackage{tocloft}
+\renewcommand\cftpartfont{\titulotndc}
+\renewcommand\cftpartpagefont{\titulotndc}
+\setlength{\cftpartindent}{0em}
+\setlength{\cftchapindent}{0em}
+\setlength{\cftsecindent}{0em}
+\setlength{\cftsubsecindent}{0em}
+\tocloftpagestyle{main}
+\bibliographystyle{main}
+
+\addto\captionsenglish{% Replace "english" with the language you use
+	\renewcommand{\contentsname} {Tabla de contenido
+	\titulotndc}
+}
+
+\usepackage[backend=bibtex,style=ieee, sorting=none]{biblatex}
+\addbibresource{citasTesis.bib}
+
 
 \begin{document}
 	
-	\include{caratula}	
-	\newpage{\ }
 	\thispagestyle{empty}
-	\include{declaracion_autorio}
-	\include{certificacion_culminacion}
-	\include{certificacion_urkund}
+	\include{paginas_preliminares/caratula}
+	\thispagestyle{empty}
+	\newpage{\ }
+	\setcounter{page}{2}
+	\pagenumbering{roman}
+	\include{paginas_preliminares/declaracion_autorio}
+	\include{paginas_preliminares/certificacion_culminacion}
+	\include{paginas_preliminares/certificacion_urkund}
+	\include{paginas_preliminares/certificacion_aprobacion}
+	\include{paginas_preliminares/agradecimiento}
+	\include{paginas_preliminares/dedicatoria}
+	\include{paginas_preliminares/resumen}
+	\include{paginas_preliminares/abstract}
 	
-	\part{{\titulodc INTRODUCCIÓN}}
+	\tableofcontents
+	\cleardoublepage
 	
-	\section{\titulosndc Nuevas nuevas bnuenas}
-
-
-	
-	\par{Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.}  
-	
-		\subsection{\titulosndc Nuevas nuevas bnuenas}
-	
-	\par{Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.}
-	
-		\subsubsection{\titulotndc Nuevas nuevas bnuenas}
-	
-	\par{Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu.}
-	
-		
-
+	\setcounter{page}{1}	
+	\pagenumbering{arabic}
+	\include{paginas_preliminares/introduccion}
+	\include{cuerpo/cap1_contextualizacion_investigacion}
+	\include{cuerpo/cap2_fundamentacion_teorica}
+	\include{cuerpo/bibliografia}
+	\part{ANEXOS}
 	
 \end{document}
