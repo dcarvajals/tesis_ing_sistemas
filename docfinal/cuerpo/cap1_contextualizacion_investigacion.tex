@@ -6,11 +6,15 @@
 
 \subsection{Planteamiento del problema.}
 
-El mayor enigma en el desarrollo de un software surge al diseñar su estructura principal por no conocer totalmente la lógica de negocio que se va a automatizar \cite{Weighted}.  Para disminuir el impacto de esta problemática se sugiere el uso de diagramas de clases, es decir que a través de las entidades, sus atributos y métodos facilita las tareas de los diseñadores informáticos y también reduce las tareas de diseño del software \cite{Management}.
+Con el aumento en la complejidad de los productos de software los desarrolladores de sistemas informáticos han encontrado la manera de mejorar el desarrollo de software, mediante el uso del modelado UML \parencite{Jahan2021}. El modelado de software permite a los desarrolladores comprender todo el diseño de software, obteniendo como resultado una visión general del sistema y una herramienta de comunicación con otros desarrolladores \parencite{gonzalez2022}.
 
-Para construir un diagrama de clases se deben manipular herramientas que permitan crear cada componente, con pocos conocimientos sobre cada objeto que interviene en la construcción del mismo \cite{Management}. Además, al momento de continuar con el desarrollo del sistema surgirán modificaciones en requisitos que ya fueron planteados al inicio del proyecto, lo cual provoca malestar en los desarrolladores, ya que; se debe editar los objetos del diagrama sin tener algún tipo de información que permita recordar lo que ya estaba desarrollado \cite{case}.
+Para empezar con el modelado de un software se necesitan los requisitos planteados por el cliente. Un estudio revelo que el 95\% de los documentos de requisitos de un sistema estaban redactados en algún tipo de lenguaje natural \parencite{Jahan2021}. Todos los requisitos planteados son plasmados en casos de uso, siendo la herramienta de modelado más habitualmente utilizada para representar las especificaciones del software \parencite{hamza2021}. Estos casos de uso permiten analizar más a fondo de forma privada las necesidades del cliente. Sin embargo, al realizar esto suelen surgir confusiones entre el cliente y el desarrollador, debido a que los casos de uso podrían ser modificados, detallando características técnicas del software que el cliente no logrará comprender.
 
-Para obtener información que ya fue analizada sobre le diagrama de clases que se tenga creado, se pretende utilizar un lenguaje simbólico que se encuentra en la herramienta TDDTIoTS (https://aplicaciones.uteq.edu.ec/tddt4iots), este lenguaje no notifica mensajes de advertencia sobre el estado de los textos que describen los casos de uso, además se necesita una documentación más detallada sobre cómo utilizar cada símbolo al momento de describir las acciones de cada caso de uso y no tener inconvenientes al tratar de interpretar cada párrafo. En definitiva, existen varios inconvenientes para crear un diagrama de clases que permita identificar de forma sencilla todo el proceso que se quiere realizar con e software, provocando malos entendidos al momento de empezar a desarrollar el código del sistema.
+El desacuerdo que existe entre el cliente y el desarrollador podría llevar a resultados poco favorables para ambos. Las descripciones de los casos de uso modificados por el desarrollador podrán ser útiles para construir uno de los diagramas más populares del modelado UML como lo es el diagrama de clases \parencite{Abdelnabi2021}. Pero, para el cliente los casos de uso no tendrán sentido lógico respecto a las condiciones previas dictadas por él.
+
+TDDT4IoTS es una herramienta que usa un lenguaje de símbolos para escribir las descripciones de los casos de uso, permitiendo detallar datos técnicos sobre las clases, interfaces, métodos, etc. que formaran parte del sistema informático a desarrollar. Esta herramienta no cuenta con algún mecanismo que permita notificar si se está utilizando de manera correcta los símbolos respectivos. Además, solo permite generar una estructura JSON del diagrama de clases personalizada, sin tomar en cuenta la posibilidad de generar una estructura que pueda ser comprendida por otras herramientas que realizan el modelado con UML.
+
+Sería importante proveer a los desarrolladores de software o usuarios que utilicen la herramienta TDDT4IoTS, una tecnología que permita detectar los errores cometidos al momento de usar el lenguaje de símbolos para crear los casos de uso extendidos. Además, seria interesante generar una estructura del diagrama de clases pertinente a los casos de uso y pueda ser utilizado por otras herramientas de modelado UML.
 
 \textbf{Diagnóstico.}
 
@@ -22,16 +26,16 @@ Para obtener información que ya fue analizada sobre le diagrama de clases que s
 
 \subsection{Formulación del problema.}
 
-¿Como interpretar las descripciones de los casos de uso extendidos escritos en el lenguaje de símbolos usado en la herramienta TDDT4IoTS para generar la estructura de un diagrama de clases?
+¿Es posible detectar los errores de escritura en los casos de uso extendidos, escritos en el lenguaje de símbolos utilizado en la herramienta TDDT4IoTS para generar un diagrama de clases?
 
 \subsection{Sistematización del problema.}
 
 \begin{enumerate}
-	\item ¿Como se obtendrá el diagrama de clases generado por las descripciones de los casos de uso extendidos?
+	\item ¿Qué formatos de archivos permitirá a otras herramientas de modelado modificar los diagramas de clases generados por la librería propuesta?
 	
-	\item ¿Como ayudar a los usuarios a mejorar la escritura de las descripciones de los casos de uso extendidos escritos en un lenguaje de símbolos usado por la herramienta TDDT4IoTS?
+	\item ¿Se puede notificar al desarrollador sobre la incorrecta escritura de los casos de uso redactados con el lenguaje de símbolos?
 	
-	\item ¿De que forma se evaluara el correcto funcionamiento del producto final de este proyecto de investigación?
+	\item ¿Cómo determinar el nivel de efectividad del producto de este proyecto de investigación respecto a la generación del diagrama de clases?
 \end{enumerate}
 
 \section{Objetivos.}
@@ -40,20 +44,24 @@ La problematización de este proyecto ha llevado a plantearse los siguiente obje
 
 \subsection{Objetivo General.}
 
-Desarrollar una librería JavaScript que interprete las descripciones de los casos de uso usado la herramienta TDDT4IoTS para visualizar la estructura del diagrama de clases pertinente. 
+Desarrollar una librería JavaScript que interprete los casos de uso escritos con el lenguaje de símbolos usado en la herramienta TDDT4IoTS, detectando los errores de escritura parar generar un diagrama de clases. 
 
 \subsection{Objetivos Específicos.}
 
 \begin{enumerate}
-	\item Generar una estructura JSON y XML con la información obtenida por las descripciones de los casos de uso extendidos para crear un diagrama de clases mediante el uso librerías javascript para crear diagramas.
+	\item Generar un formato de archivo JSON y XML para que otras herramientas de modelado puedan modificar los diagramas de clases generados por la librería propuesta.
 	
-	\item Retroalimentar a los usuarios sobre la mala escritura de las descripciones de los casos de uso extendidos escritos en un lenguaje de símbolos usado por la herramienta TDDT4IoTSs. 
+	\item Diseñar e implementar una manera de retroalimentar a los usuarios de TDDT4IoTS sobre la incorrecta escritura de los casos de uso redactados con el lenguaje de símbolos. 
 	
-	\item Evaluar la librería JavaScript con la elaboración de diagramas de clases a partir de casos de uso extendidos correspondientes a sistemas de información reales.
+	\item Evaluar la librería JavaScript propuesta, con la elaboración de diagramas de clases a partir de casos de uso extendidos correspondientes a requisitos de sistemas de información.
 \end{enumerate}
 
 \section{Justificación.}
 
-La construcción de los diagramas de clases tienden a contener información redundante o aveces inconsistente para especificar de forma técnica los requisitos funcionales y no funcionales de un sistema informático. Debido a esto se propone el desarrollo de una librería JavaScript, que mediante el lenguaje de símbolos usado por la herramienta TDDT4IoTs para interpretar las descripciones de los casos de uso extendidos, permitan generar de forma automática el diagrama de clases pertinente a los casos de uso planteados. 
+Los requisitos planteados por el cliente no siempre estarán claros desde el principio \parencite{iqbal2020}. Al momento de comenzar la fase de desarrollo de un sistema informático, pueden surgir problemas que deberán ser resueltos de diferentes formas a las que fueron planteadas al inicio. Existen herramientas que permiten crear los diagramas de casos de uso transmitiendo de forma gráfica los requisitos que se deben ejecutar, pero no detallan toda la información requerida por un solo caso de uso \parencite{Abdelnabi2021}.
 
-Ademas esta librería propone generar 2 tipos de estructuras que son JSON y XML que son usadas a nivel global por varias tecnologías de desarrollo, permitiendo combinar el uso de la estructura generada por esta herramienta con las librerías externas dedicadas a la creación de diferentes tipos de diagramas, obteniendo como resultado una grafico visual en relación a la información devuelta por el producto final de este proyecto. 
+Toda la información de un caso de uso detalla las condiciones previas, precondiciones y secuencia de eventos que deberá seguir un sistema informático \parencite{iqbal2020}. Es decir, toda esa información permitirá generar otros tipos de diagramas usando el modelado UML. Sin embargo, las herramientas existentes hasta el momento permiten generar varios tipos de diagramas UML, pero es necesario para poder crearlos o modificarlos, construirlos por separado y de manera manual.
+
+Una solución para mejorar el rendimiento de los desarrolladores es utilizar un lenguaje para la escritura de los casos de uso que permita escribir toda la información necesaria de un caso de uso y al mismo tiempo permita detallar información técnica del sistema informático. Se podrá obtener todo lo necesario para crear un diagrama de casos de uso y generar de forma automática la estructura del diagrama de clases pertinente a los datos técnicos detallados con la ayuda del lenguaje de símbolos usando por la herramienta TDDT4IoTS. 
+
+Para los usuarios de la herramienta TDDT4IoTS será muy beneficioso contar con una librería que le permita interpretar para detectar si la escritura de la información es correcta. Además, el producto final de este trabajo permitirá modificar los casos de uso y al mismo tiempo poder hacerlo con los datos técnicos referentes al diagrama de clases, tratando de reducir el tiempo en el refinamiento de modelos del software. Finalmente se puede mencionar que no se ha encontrado aplicaciones o algún tipo de software que permita escribir los casos de uso, haciendo posible la generación de otros tipos de diagramas. 

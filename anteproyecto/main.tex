@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper,final]{article}
+\documentclass[12pt,a4paper,final, xcolor=table, table]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
@@ -12,8 +12,11 @@
 \usepackage{pgfgantt}
 \usepackage{lscape}
 \usepackage{float}
+\usepackage{titlesec}
+\usepackage{times}
 
 \usepackage[backend=bibtex,style=authoryear]{biblatex}
+\DeclareLanguageMapping{spanish}{spanish-apa}
 \addbibresource{citasArmadillo.bib}
 
 %interlineado 
@@ -40,77 +43,102 @@
 \usepackage{graphicx}
 \graphicspath{{images/}}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{xcolor}
+
 
 \begin{document}
 	
+	\include{solicitud}
+	\include{formato}
+	
 	\section{TITULO}
 	
-	\par{LIBRERÍA JAVASCRIPT PARA INTERPRETAR LA ESCRITURA DE LOS CASOS DE USO EXTENDIDOS USANDO UN LENGUAJE DE SÍMBOLOS}
+	\par{LIBRERÍA JAVASCRIPT PARA DETECTAR ERRORES EN LA ESCRITURA DE LOS CASOS DE USO ESCRITOS EN UN LENGUAJE DE SÍMBOLOS}
 	
 	\section{INTRODUCCIÓN}
 	
-	El desarrollo de software se vuelve cada vez más indispensable en todos los aspectos de la vida cotidiana, por lo cual se necesitan herramientas que ayuden a agilizar la construcción de diferentes tipos de sistemas de información basados en computadoras (SI) \cite{DeLone}. Utilizando el Lenguaje unificado de modelado (Unified Modeling Language: UML), se pretenden utilizar el diagrama de clases como elemento principal para identificar de manera sencilla como interactuarán todos los objetos del sistema \cite{UMLsequence}. El uso de diagrama de clases constituye una buena solución del modelado de SI, en especial, aquellos proyectos en dónde los requisitos están cambiando constantemente \cite{review}, por lo que necesario una herramienta que permita la actualización de sus modelos con el menor de los esfuerzos.
+	Los sistemas informáticos se están volviendo cada vez más indispensable en todos los aspectos de la vida cotidiana. Por ende, los desarrolladores de software buscan disminuir el tiempo que toma desarrollar diferentes tipos de aplicaciones \parencite{Panthi2022}. Para la construcción de una aplicación informática se necesitan aplicar varios conceptos técnicos para su correcto funcionamiento \parencite{Chen2022}. Al igual que el plano de un edificio se detallando las principales características físicas del terreno, columnas, puertas, ventanas, etc. Se necesita documentar con precisión el comportamiento que deben tener todos los artefactos de un software y de ser necesario que sean reutilizables \parencite{Hamdi2022}.
+	
+	\textit{Unified Modeling Languag}e (UML) con su traducción al español Lenguaje Unificado de Modelado, se utiliza específicamente en la industria del software para especificar, visualizar, construir y documentos los artefactos de un sistema de software \parencite{Bergstrom2022}. UML se encuentra definido oficialmente por el \textit{Object Management Group} (OMG) con su traducción al español Grupo de Administración de Objetos \parencite{Omg2009}. Algunos investigadores han propuesto que la mejor forma de generar modelos UML es a partir de modelos estáticos como los diagramas de casos de uso y diagramas de clases \parencite{Jahan2021}.
+	
+	Los diagramas de casos de uso representan al sistema mediante los usuarios (actores) y sus requisitos (casos de uso). La información de cada caso de uso detalla las condiciones previas, precondiciones y secuencia de eventos. Además, incluye la secuencia alternativa de eventos en caso de excepciones o condiciones específicas y las postcondiciones que se deben tomar en cuenta al momento de estar utilizando el software \parencite{iqbal2020}. Existe la forma de comprimir globalmente los requisitos de un sistema, una de las herramientas más populares para poder realizarlo son los diagramas de clases \parencite{Abdelnabi2021}. 
+	
+	En UML los diagramas de clases representan la estructura estática de los objetos y sus posibles conexiones dentro del software. Se lo utiliza para ilustrar el punto de vista estático, exponiendo un conjunto de clases, interfaces y relaciones \parencite{abu2020}. Se lo desarrolla durante la fase de elaboración y se perfecciona posteriormente en la fase de construcción \parencite{Omg2009}, representando el modelo del dominio del sistema. Además, es uno de los diagramas más útiles en UML, ya que trazan claramente la estructura de un sistema concreto al modelar sus clases, atributos, operaciones y relaciones entre clases \parencite{abu2020}.
+	
+	En la herramienta TDDT4IoTS \parencite{tddt4iots} es posible escribir las descripciones de los casos de uso usando un lenguaje de símbolos, pero es necesario verificar si los casos de uso estan escritos de manera correcta. Este trabajo tiene como idea, desarrollar una librería escrita en el lenguaje de programación JavaScript denominada \textbf{Armadillo.js}. Armadillo permitirá interpretar las descripciones de los casos de uso extendidos, escritos en un lenguaje de símbolos usado por la herramienta TDDT4IoTS. Finalmente se obtiene como resultado la estructura de un diagrama de clases pertinente a la información obtenida por los casos de uso de forma automática.
+
 	
 	\section{PROBLEMATIZACIÓN}
 	
-	El mayor enigma en el desarrollo de un software surge al diseñar su estructura principal por no conocer totalmente la lógica de negocio que se va a automatizar \cite{Weighted}.  Para disminuir el impacto de esta problemática se sugiere el uso de diagramas de clases, es decir que a través de las entidades, sus atributos y métodos facilita las tareas de los diseñadores informáticos y también reduce las tareas de diseño del software \cite{Management}.
+	Con el aumento en la complejidad de los productos de software los desarrolladores de sistemas informáticos han encontrado la manera de mejorar el desarrollo de software, mediante el uso del modelado UML \parencite{Jahan2021}. El modelado de software permite a los desarrolladores comprender todo el diseño de software, obteniendo como resultado una visión general del sistema y una herramienta de comunicación con otros desarrolladores \parencite{gonzalez2022}.
 	
-	Para construir un diagrama de clases se deben manipular herramientas que permitan crear cada componente, con pocos conocimientos sobre cada objeto que interviene en la construcción del mismo \cite{Management}. Además, al momento de continuar con el desarrollo del sistema surgirán modificaciones en requisitos que ya fueron planteados al inicio del proyecto, lo cual provoca malestar en los desarrolladores, ya que; se debe editar los objetos del diagrama sin tener algún tipo de información que permita recordar lo que ya estaba desarrollado \cite{case}.
+	Para empezar con el modelado de un software se necesitan los requisitos planteados por el cliente. Un estudio revelo que el 95\% de los documentos de requisitos de un sistema estaban redactados en algún tipo de lenguaje natural \parencite{Jahan2021}. Todos los requisitos planteados son plasmados en casos de uso, siendo la herramienta de modelado más habitualmente utilizada para representar las especificaciones del software \parencite{hamza2021}. Estos casos de uso permiten analizar más a fondo de forma privada las necesidades del cliente. Sin embargo, al realizar esto suelen surgir confusiones entre el cliente y el desarrollador, debido a que los casos de uso podrían ser modificados, detallando características técnicas del software que el cliente no logrará comprender.
 	
-	Para obtener información que ya fue analizada sobre le diagrama de clases que se tenga creado, se pretende utilizar un lenguaje simbólico que se encuentra en la herramienta TDDTIoTS (https://aplicaciones.uteq.edu.ec/tddt4iots), este lenguaje no notifica mensajes de advertencia sobre el estado de los textos que describen los casos de uso, además se necesita una documentación más detallada sobre cómo utilizar cada símbolo al momento de describir las acciones de cada caso de uso y no tener inconvenientes al tratar de interpretar cada párrafo. En definitiva, existen varios inconvenientes para crear un diagrama de clases que permita identificar de forma sencilla todo el proceso que se quiere realizar con e software, provocando malos entendidos al momento de empezar a desarrollar el código del sistema.
+	El desacuerdo que existe entre el cliente y el desarrollador podría llevar a resultados poco favorables para ambos. Las descripciones de los casos de uso modificados por el desarrollador podrán ser útiles para construir uno de los diagramas más populares del modelado UML como lo es el diagrama de clases \parencite{Abdelnabi2021}. Pero, para el cliente los casos de uso no tendrán sentido lógico respecto a las condiciones previas dictadas por él.
+	
+	TDDT4IoTS es una herramienta que usa un lenguaje de símbolos para escribir las descripciones de los casos de uso, permitiendo detallar datos técnicos sobre las clases, interfaces, métodos, etc. que formaran parte del sistema informático a desarrollar. Esta herramienta no cuenta con algún mecanismo que permita notificar si se está utilizando de manera correcta los símbolos respectivos. Además, solo permite generar una estructura JSON del diagrama de clases personalizada, sin tomar en cuenta la posibilidad de generar una estructura que pueda ser comprendida por otras herramientas que realizan el modelado con UML.
+	
+	Sería importante proveer a los desarrolladores de software o usuarios que utilicen la herramienta TDDT4IoTS, una tecnología que permita detectar los errores cometidos al momento de usar el lenguaje de símbolos para crear los casos de uso extendidos. Además, seria interesante generar una estructura del diagrama de clases pertinente a los casos de uso y pueda ser utilizado por otras herramientas de modelado UML.
+	
 	
 	\section{JUSTIFICACIÓN}
-	La construcción de los diagramas de clases tienden a contener información redundante o aveces inconsistente para especificar de forma técnica los requisitos funcionales y no funcionales de un sistema informático. Debido a esto se propone el desarrollo de una librería JavaScript, que mediante el lenguaje de símbolos usado por la herramienta TDDT4IoTs para interpretar las descripciones de los casos de uso extendidos, permitan generar de forma automática el diagrama de clases pertinente a los casos de uso planteados. 
 	
-	Ademas esta librería propone generar 2 tipos de estructuras que son JSON y XML que son usadas a nivel global por varias tecnologías de desarrollo, permitiendo combinar el uso de la estructura generada por esta herramienta con las librerías externas dedicadas a la creación de diferentes tipos de diagramas, obteniendo como resultado una grafico visual en relación a la información devuelta por el producto final de este proyecto. 
+	Los requisitos planteados por el cliente no siempre estarán claros desde el principio \parencite{iqbal2020}. Al momento de comenzar la fase de desarrollo de un sistema informático, pueden surgir problemas que deberán ser resueltos de diferentes formas a las que fueron planteadas al inicio. Existen herramientas que permiten crear los diagramas de casos de uso transmitiendo de forma gráfica los requisitos que se deben ejecutar, pero no detallan toda la información requerida por un solo caso de uso \parencite{Abdelnabi2021}.
+	
+	Toda la información de un caso de uso detalla las condiciones previas, precondiciones y secuencia de eventos que deberá seguir un sistema informático \parencite{iqbal2020}. Es decir, toda esa información permitirá generar otros tipos de diagramas usando el modelado UML. Sin embargo, las herramientas existentes hasta el momento permiten generar varios tipos de diagramas UML, pero es necesario para poder crearlos o modificarlos, construirlos por separado y de manera manual.
+	
+	Una solución para mejorar el rendimiento de los desarrolladores es utilizar un lenguaje para la escritura de los casos de uso que permita escribir toda la información necesaria de un caso de uso y al mismo tiempo permita detallar información técnica del sistema informático. Se podrá obtener todo lo necesario para crear un diagrama de casos de uso y generar de forma automática la estructura del diagrama de clases pertinente a los datos técnicos detallados con la ayuda del lenguaje de símbolos usando por la herramienta TDDT4IoTS. 
+	
+	Para los usuarios de la herramienta TDDT4IoTS será muy beneficioso contar con una librería que le permita interpretar para detectar si la escritura de la información es correcta. Además, el producto final de este trabajo permitirá modificar los casos de uso y al mismo tiempo poder hacerlo con los datos técnicos referentes al diagrama de clases, tratando de reducir el tiempo en el refinamiento de modelos del software. Finalmente se puede mencionar que no se ha encontrado aplicaciones o algún tipo de software que permita escribir los casos de uso, haciendo posible la generación de otros tipos de diagramas.
+	
 	
 	\section{FORMULACIÓN}
 	
-	¿Como interpretar las descripciones de los casos de uso extendidos escritos en el lenguaje de símbolos usado en la herramienta TDDT4IoTS para generar la estructura de un diagrama de clases?
+	¿Es posible detectar los errores de escritura en los casos de uso extendidos, escritos en el lenguaje de símbolos utilizado en la herramienta TDDT4IoTS para generar un diagrama de clases?
 	
 	\subsection{Sistematización}
 	
 	\begin{enumerate}
-		\item ¿Como se obtendrá el diagrama de clases generado por las descripciones de los casos de uso extendidos?
+		\item ¿Qué formatos de archivos permitirá a otras herramientas de modelado modificar los diagramas de clases generados por la librería propuesta?
 		
-		\item ¿Como ayudar a los usuarios a mejorar la escritura de las descripciones de los casos de uso extendidos escritos en un lenguaje de símbolos usado por la herramienta TDDT4IoTS?
+		\item ¿Se puede notificar al desarrollador sobre la incorrecta escritura de los casos de uso redactados con el lenguaje de símbolos?
 		
-		\item ¿De que forma se evaluara el correcto funcionamiento del producto final de este proyecto de investigación?
+		\item ¿Cómo determinar el nivel de efectividad del producto de este proyecto de investigación respecto a la generación del diagrama de clases?
 	\end{enumerate}
 	
 	\section{OBJETIVOS}
 	
-	La problematización de este proyecto ha llevado a plantearse los siguiente objetivos.
+	La problematización de este proyecto ha llevado a plantearse los siguientes objetivos.
 	
 	\subsection{Objetivo principal}
 	
-	Desarrollar una librería JavaScript que interprete las descripciones de los casos de uso usado la herramienta TDDT4IoTS para visualizar la estructura del diagrama de clases pertinente. 
+	Desarrollar una librería JavaScript que interprete los casos de uso escritos con el lenguaje de símbolos usado en la herramienta TDDT4IoTS, detectando los errores de escritura parar generar un diagrama de clases. 
 	
 	\subsection{Objetivos específicos}
 	
 	\begin{enumerate}
-		\item Generar una estructura JSON y XML con la información obtenida por las descripciones de los casos de uso extendidos para crear un diagrama de clases mediante el uso librerías javascript para crear diagramas.
+		\item Generar un formato de archivo JSON y XML para que otras herramientas de modelado puedan modificar los diagramas de clases generados por la librería propuesta.
 		
-		\item Retroalimentar a los usuarios sobre la mala escritura de las descripciones de los casos de uso extendidos escritos en un lenguaje de símbolos usado por la herramienta TDDT4IoTSs. 
+		\item Diseñar e implementar una manera de retroalimentar a los usuarios de TDDT4IoTS sobre la incorrecta escritura de los casos de uso redactados con el lenguaje de símbolos. 
 		
-		\item Evaluar la librería JavaScript con la elaboración de diagramas de clases a partir de casos de uso extendidos correspondientes a sistemas de información reales.
+		\item Evaluar la librería JavaScript propuesta, con la elaboración de diagramas de clases a partir de casos de uso extendidos correspondientes a requisitos de sistemas de información.
 	\end{enumerate}
 	
 	
 	\section{ESQUEMA REFERENCIAL DEL MARCO TEÓRICO}
 	
-	En este capítulo, se expondrán los trabajos relacionados con el presentado en este documento que se han identificado en la literatura, y que demuestran que el trabajo propuesto en este documento, aporta algo. Además se contextualiza el trabajo y define los términos novedosos y de poco dominio para los investigadores y para la comunidad.
+	En este capítulo, se expondrán los trabajos relacionados con el presentado en este documento que se han identificado en la literatura, y que demuestran que el trabajo propuesto en este documento aporta algo. Además, se contextualiza el trabajo y define los términos novedosos y de poco dominio para los investigadores y para la comunidad.
 	
 	\subsection{Marco Referencial}
 	
 	\textbf{Lenguaje de restricciones de objetos para la generación de código
-	a partir de modelos de actividad.} UML(Unified Modeling Language) es un lenguaje que utiliza el diagrama de actividad para modelar el flujo de trabajo y el flujo de objetos en un sistema \cite{Improving}. UML no es un lenguaje totalmente formal, su semántica no está totalmente formalizada ocasionando un escenario donde la presentación precisa del modelo es difícil. Por lo tanto, siempre que se utilicen diagramas de actividades, o cualquier diagrama UML, para la generación de código, se recomienda complementarlo con lenguajes de especificación como el lenguaje de restricciones de objetos OCL (Object Constraint Language) \cite{Object}.   
+	a partir de modelos de actividad.} UML(Unified Modeling Language) es un lenguaje que utiliza el diagrama de actividad para modelar el flujo de trabajo y el flujo de objetos en un sistema \parencite{Improving}. UML no es un lenguaje totalmente formal, su semántica no está totalmente formalizada ocasionando un escenario donde la presentación precisa del modelo es difícil. Por lo tanto, siempre que se utilicen diagramas de actividades, o cualquier diagrama UML, para la generación de código, se recomienda complementarlo con lenguajes de especificación como el lenguaje de restricciones de objetos OCL (Object Constraint Language) \parencite{Object}.   
 
-	\textbf{Desarrollo de módulos de software generativo para el diseño orientado al dominio con un lenguaje específico de dominio basado en anotaciones. }En la terminología del diseño orientado a objetos \cite{Feature}, un módulo de dominio es un paquete. Los actuales marcos de software DDD (Object-oriented domain-driven design) han utilizando una forma simple de DSL(Domain-specific language) interno para construir el modelo de dominio y utilizar este modelo como entrada para generar un prototipo de software. El DSL interno que utilizan se conoce más formalmente como lenguaje específico del dominio basado en anotaciones (aDSL) \cite{Generative}. 
+	\textbf{Desarrollo de módulos de software generativo para el diseño orientado al dominio con un lenguaje específico de dominio basado en anotaciones. }En la terminología del diseño orientado a objetos \parencite{Feature}, un módulo de dominio es un paquete. Los actuales marcos de software DDD (Object-oriented domain-driven design) han utilizado una forma simple de DSL(Domain-specific language) interno para construir el modelo de dominio y utilizar este modelo como entrada para generar un prototipo de software. El DSL interno que utilizan se conoce más formalmente como lenguaje específico del dominio basado en anotaciones (aDSL) \parencite{Generative}. 
 	
-	\textbf{Modelado para la localización de características en modelos de software: tanto la generación de código y los modelos interpretados. }Evaluando LDA (Latent Dirichlet Allocation), cada caso de estudio utiliza un tipo diferente de modelos de software: modelos de software para la generación de código, y modelos de software para interpretación. El primer caso de estudio pertenece a un líder mundial en fabricación de trenes, construcciones y Auxiliar de Ferrocarriles. Una empresa que formaliza los productos fabricados en modelos de software utilizando un lenguaje específico de dominio DSL. Los modelos de software se utilizan para generar el firmware que controla sus trenes \cite{Topic}. 
+	\textbf{Modelado para la localización de características en modelos de software: tanto la generación de código y los modelos interpretados. }Evaluando LDA (Latent Dirichlet Allocation), cada caso de estudio utiliza un tipo diferente de modelos de software: modelos de software para la generación de código, y modelos de software para interpretación. El primer caso de estudio pertenece a un líder mundial en fabricación de trenes, construcciones y Auxiliar de Ferrocarriles. Una empresa que formaliza los productos fabricados en modelos de software utilizando un lenguaje específico de dominio DSL. Los modelos de software se utilizan para generar el firmware que controla sus trenes \parencite{Topic}. 
 	
-	El segundo estudio de caso pertenece a un videojuego comercial, Kromaia, que utiliza modelos de software para razonar sobre el sistema, realizar validaciones y definir el contenido del juego, como los jefes, los mundos y los objetivos. En Kromaia los modelos de software se utilizan para la interpretación. Así, el contenido definido en los modelos se lee e interpreta cuando se lanza el juego (sin alterar el código fuente del videojuego). El videojuego se ha lanzado en todo el mundo en dos plataformas diferentes (PlayStation 4 y STEAM) y en 8 idiomas diferentes. \cite{Topic}.
+	El segundo estudio de caso pertenece a un videojuego comercial, Kromaia, que utiliza modelos de software para razonar sobre el sistema, realizar validaciones y definir el contenido del juego, como los jefes, los mundos y los objetivos. En Kromaia los modelos de software se utilizan para la interpretación. Así, el contenido definido en los modelos se lee e interpreta cuando se lanza el juego (sin alterar el código fuente del videojuego). El videojuego se ha lanzado en todo el mundo en dos plataformas diferentes (PlayStation 4 y STEAM) y en 8 idiomas diferentes. \parencite{Topic}.
 	
 	\subsection{Marco Contextual}
 	
@@ -171,20 +199,20 @@
 	
 	\subsubsection{JSON}
 	
-	Javascript Object Notation (JSON) es un formato ligero de intercambio de datos. Consisten en asociación de nombres y valores. A pesar de ser independiente del lenguaje de programación, es admitido en una gran cantidad de lenguajes de programación. Se basa en un subconjunto del Estándar de lenguaje de programación JavaScript \cite{JSON}.
+	Javascript Object Notation (JSON) es un formato ligero de intercambio de datos. Consisten en asociación de nombres y valores. A pesar de ser independiente del lenguaje de programación, es admitido en una gran cantidad de lenguajes de programación. Se basa en un subconjunto del Estándar de lenguaje de programación JavaScript \parencite{JSON}.
 	
     \subsubsection{XML}
     
-    Es un lenguaje de marcado similar a HTML. Significa Extensible Markup Language y pertenece a la especificación W3C como lenguaje de marcado de propósito general. Esto significa que, a diferencia de otros lenguajes de marcado, XML no está predefinido, por lo que debe definir su propio marcado. El objetivo principal del lenguaje es compartir datos entre diferentes sistemas, como Internet \cite{XML-based}.
+    Es un lenguaje de marcado similar a HTML. Significa Extensible Markup Language y pertenece a la especificación W3C como lenguaje de marcado de propósito general. Esto significa que, a diferencia de otros lenguajes de marcado, XML no está predefinido, por lo que debe definir su propio marcado. El objetivo principal del lenguaje es compartir datos entre diferentes sistemas, como Internet \parencite{XML-based}.
     
     \subsubsection{Compiladores}
     Están diseñados para traducir un fragmento de código escrito en un de lenguaje de programación a lenguaje de máquina que es, el que puede entender la computadora. El compilador analiza el código fuente en busca de errores antes de la traducción. Si se detecta un error, el compilador
-    notificar al autor del código para que pueda arreglarlo.. Además, los compiladores modernos o entornos de desarrollo (IDE), puede sugerir soluciones para algunos tipos de errores usando métodos de corrección de errores \cite{CoEdit}.
+    notificar al autor del código para que pueda arreglarlo.. Además, los compiladores modernos o entornos de desarrollo (IDE), puede sugerir soluciones para algunos tipos de errores usando métodos de corrección de errores \parencite{CoEdit}.
     
     \subsubsection{Lenguajes de modelado}
-    Representan una serie de requisitos basados en la construcción de elementos visuales para definir estructuras y comportamientos que tendrán los sistemas computarizados. UML (Lenguaje Unificado de Modelado) a través del mecanismo de perfilado, se han basado históricamente en notaciones gráficas. UML mediante el mecanismo de perfiles, maximiza la comprensión humana y facilita la comunicación entre las partes interesadas como son el cliente y desarrollador \cite{Blended}. 
+    Representan una serie de requisitos basados en la construcción de elementos visuales para definir estructuras y comportamientos que tendrán los sistemas computarizados. UML (Lenguaje Unificado de Modelado) a través del mecanismo de perfilado, se han basado históricamente en notaciones gráficas. UML mediante el mecanismo de perfiles, maximiza la comprensión humana y facilita la comunicación entre las partes interesadas como son el cliente y desarrollador \parencite{Blended}. 
     
-    También existen lenguajes de modelado personalizados para distintas áreas, como por ejemplo en \cite{Multi-level} proponen un lenguaje de modelado conceptual multinivel al denominan ML2 (Lenguaje de Modelado Multinivel). El lenguaje está orientado al modelado conceptual multinivel (de dominio) y pretende cubrir un amplio conjunto de dominios multiniveles. En el diseño de ML2 sigue un enfoque basado en principios, definiendo su sintaxis abstracta para reflejar una teoría formal para el modelado multinivel que se fue desarrollado previamente.
+    También existen lenguajes de modelado personalizados para distintas áreas, como por ejemplo en \parencite{Multi-level} proponen un lenguaje de modelado conceptual multinivel al denominan ML2 (Lenguaje de Modelado Multinivel). El lenguaje está orientado al modelado conceptual multinivel (de dominio) y pretende cubrir un amplio conjunto de dominios multiniveles. En el diseño de ML2 sigue un enfoque basado en principios, definiendo su sintaxis abstracta para reflejar una teoría formal para el modelado multinivel que se fue desarrollado previamente.
 	
 	\section{METODOLOGÍA}
 	
@@ -302,7 +330,7 @@
 			\textbf{Pruebas unitarias}                                                                                                                                                                                & \textbf{22-08-2022} & \textbf{18-09-2022}   \\ \hline
 			\begin{tabular}[c]{@{}l@{}}Crear los textos con los símbolos que serán \\ utilizados como textos de entrada\end{tabular}                                                                                  & 22-08-2022          & 31-08-2022            \\ \hline
 			\begin{tabular}[c]{@{}l@{}}Comparar la información de respuesta que \\ debió generar la librería con la que genero\end{tabular}                                                                           & 01-09-2022          & 18-09-2022            \\ \hline
-			\textbf{Evaluación con sistemas de información reales}                                                                                                                                                    & \textbf{22-07-2022} & \textbf{06-11-2022}   \\ \hline
+			\textbf{Evaluación con sistemas de información reales}                                                                                                                                                    & \textbf{19-09-2022} & \textbf{06-11-2022}   \\ \hline
 		\end{tabular}
 		\caption{Cronograma detallado por fecha de lo que se pretende realizar.}
 		\label{tab:my-table}
@@ -312,18 +340,33 @@
 	
 	\begin{itemize}
 		
-		\item Para el desarrollo de la librería JavaScript se pretende obtener un solo archivo .js que permita interpretar cada símbolo del lenguaje mediante funciones escritas de forma estructura y documentada con el objetivo de que con el pasar de los años se pueda ir mejorando constantemente la librería, ademas se encontrara alojada en un repositorio de libre acceso como lo es GitHub y que le código este disponible para la comunidad. 
+		\item Para poder utilizar la información generada por la librería se organizaran todos los datos obtenidos por el texto ingresando especificando las funcionalidades que tendrá el software mediante las descripciones de los casos de uso extendidos, se utilizaran dos formatos de archivos como lo son: JSON Y XML. Estas estructuras deberán permitir modificar el diagrama de clases con otras librerías de desarrollo para crear diferentes tipos de diagramas como por ejemplo: jsUML, JointJS, Rappid etc. 
 		
-		\item Para poder utilizar la información generada por la librería se organizaran todos los datos obtenidos por el texto ingresando especificando las funcionalidades que tendrá el software mediante las descripciones de los casos de uso extendidos, se utilizaran dos estructuras de datos como lo son: JSON Y XML. Estas estructuras deberán permitir generar el diagrama de clases con otras librerías de desarrollo para crear diferentes tipos de diagramas como por ejemplo: jsUML, JointJS, Rappid etc. 
+		\item Diseñar una manera de retroalimentar a los usuarios de TDDT4IoTs mediante mensajes de alerta con diferentes tipos de estado identificados por varios colores. Cada mensaje mencionara los errores detectados en la escritura de los casos de uso.
 		
-		\item Una vez que estén listas las descripciones de los casos de uso extendidos, a primera vista sera un poco complicado determinar sobre que trata cada texto. Debido a esto se pretender obtener como resultado las descripciones de los casos de uso escritas de forma natural, omitiendo todos los símbolos que fueron utilizados sobre el texto y obtener un texto plano que pueda ser comprendido por cualquier tipo de usuario que no conozca sobre el lenguaje de símbolos. 
-		 
-		
-		\item Al momento de contar con todos los objetivos específicos planteados para este proyecto, se realizaran casos de uso sobre sistemas de información reales demostrando la generación de su respectivo diagrama de clases dependiendo de las descripciones ingresadas por el analista. 
+		\item Al momento de contar con todos los objetivos específicos planteados para este proyecto, se realizaran casos de uso sobre sistemas de información demostrando la generación de su respectivo diagrama de clases dependiendo de las descripciones ingresadas por el analista. 
 		
 	\end{itemize}
 	
 	\printbibliography[title={\thesection. BIBLIOGRAFÍA}]
+	
+	\begin{tabular}{@{}p{3in}p{3in}@{}}
+		\vspace{3cm} \dotfill   & \vspace{3cm} \dotfill\\
+		\vspace{-1cm}
+		\begin{center}
+			\textbf{Firma de responsabilidad del  Estudiante}
+			Carvajal Suárez Dúval Ricardo   \\ 
+			\textbf{CC.:} 070638894-9  
+		\end{center}   
+		& 
+		\vspace{-1cm}
+		\begin{center}
+			\textbf{{ Firma de responsabilidad del  Docente Auspiciante}} \\
+			Ing. Gleiston Ciceron Guerrero Ulloa, MDS
+			\textbf{CC.:} 091353175-2 
+		\end{center}  \\                 
+		& \\[8ex]
+	\end{tabular}
 
 	
 \end{document}

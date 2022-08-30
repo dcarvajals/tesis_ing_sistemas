@@ -4,7 +4,7 @@ The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: biblatex.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
-Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'name_of_file' (item size: 1) to 15 items.
 Illegal, another \bibstyle command---line 12 of file main.aux
  : \bibstyle
  :          {main}
@@ -51,53 +51,51 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: main-blx.bib
-Database file #2: citasTesis.bib
-Repeated entry---line 349 of file citasTesis.bib
- : @article{Management
- :                    ,
-I'm skipping whatever remains of this entry
+Database file #2: citasArmadillo.bib
+Warning--entry type for "tddt4iots" isn't style-file defined
+--line 394 of file citasArmadillo.bib
 Biblatex version: 3.17
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 17 entries,
+You've used 23 entries,
             6399 wiz_defined-function locations,
-            1372 strings with 37305 characters,
-and the built_in function-call counts, 138977 in all, are:
-= -- 11345
-> -- 2105
-< -- 586
-+ -- 4000
-- -- 772
-* -- 9943
-:= -- 15717
+            1432 strings with 41047 characters,
+and the built_in function-call counts, 220373 in all, are:
+= -- 18678
+> -- 3167
+< -- 921
++ -- 6199
+- -- 1200
+* -- 16301
+:= -- 25020
 add.period$ -- 0
-call.type$ -- 17
-change.case$ -- 321
-chr.to.int$ -- 90
-cite$ -- 32
-duplicate$ -- 14148
-empty$ -- 11994
-format.name$ -- 1155
-if$ -- 28089
+call.type$ -- 23
+change.case$ -- 522
+chr.to.int$ -- 102
+cite$ -- 44
+duplicate$ -- 21106
+empty$ -- 18951
+format.name$ -- 1730
+if$ -- 44794
 int.to.chr$ -- 0
-int.to.str$ -- 47
+int.to.str$ -- 62
 missing$ -- 0
-newline$ -- 662
-num.names$ -- 847
-pop$ -- 5766
+newline$ -- 929
+num.names$ -- 1241
+pop$ -- 8064
 preamble$ -- 1
-purify$ -- 439
+purify$ -- 705
 quote$ -- 0
-skip$ -- 3369
+skip$ -- 4970
 stack$ -- 0
-substring$ -- 21231
-swap$ -- 2763
-text.length$ -- 437
-text.prefix$ -- 0
+substring$ -- 36530
+swap$ -- 3983
+text.length$ -- 635
+text.prefix$ -- 1
 top$ -- 1
-type$ -- 566
+type$ -- 769
 warning$ -- 0
-while$ -- 1888
+while$ -- 2817
 width$ -- 0
-write$ -- 646
-(There were 2 error messages)
+write$ -- 907
+(There was 1 error message)

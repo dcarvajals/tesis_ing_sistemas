@@ -1,0 +1,61 @@
+<div class="flex" style="flex-direction: column;height:100vh;margin 0;">
+<div class="p-2 bgarm-primary flex">
+  <img src="assets/img/SVG/locoIconoarm.svg" alt="" width="20" class="mr-2">
+  <div class=""><span class="text-white"> Armadillo compiler </span></div>
+</div>
+  <div class="" style="flex: 1">
+<p-splitter layout="horizontal" [style]="{'height':'100%'}" [panelSizes]="[20,80]" [minSizes]="[20,80]" styleClass="mb-5">
+  <ng-template pTemplate>
+    <div class="col p-0">
+      <div class="bgarm-secundary p-2">
+        <span style="letter-spacing: 1.5px"> <strong> Use case descriptions </strong> </span>
+      </div>
+      <div class="text-center mt-3">
+        <button class="btn-newdescription p-2"> <i class="pi pi-plus"></i> New description </button>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template pTemplate>
+    <p-splitter layout="vertical" [panelSizes]="[60,40]" [minSizes]="[60,40]">
+      <ng-template pTemplate [style]="{'overflow': 'auto'}">
+        <div class="col p-0">
+          <div class="bgarm-secundary">
+            <button class="btn-compiler-play" style="float: right"
+                    pTooltip="Interpret" tooltipPosition="left"> <i class="pi pi-play"></i> </button>
+            <button class="btn-compiler-active"> Enter text </button>
+            <button class="btn-compiler-inactive"> Class Diagram </button>
+            <button class="btn-compiler-inactive"> JSON </button>
+            <button class="btn-compiler-inactive"> XML </button>
+          </div>
+          <div class="">
+          <p-editor [style]="{'border-bottom':'1px solid black', 'height':'20vh'}" spellcheck="false">
+            <ng-template pTemplate="header">
+              <span class="ql-formats">
+                  <button type="button" class="ql-bold" aria-label="Bold"></button>
+                  <button type="button" class="ql-italic" aria-label="Italic"></button>
+                  <button type="button" class="ql-underline" aria-label="Underline"></button>
+              </span>
+            </ng-template>
+          </p-editor>
+          </div>
+          <div class="bgarm-secundary p-2">
+            <span > <strong> Natural text </strong> </span>
+          </div>
+          <div class="p-2">
+            <p> Nuevo texto interpretado </p>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template pTemplate>
+        <div class="col p-0">
+          <div class="bgarm-secundary p-2 flex">
+            <img src="assets/img/terminal.png" width="15" alt="" class="mr-3">
+            <span > <strong> Console </strong> </span>
+          </div>
+        </div>
+      </ng-template>
+    </p-splitter>
+  </ng-template>
+</p-splitter>
+  </div>
+</div>

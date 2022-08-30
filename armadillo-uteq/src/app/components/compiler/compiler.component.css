@@ -1,0 +1,11 @@
+*{
+  letter-spacing: 1.5px
+}
+
+.btn-newdescription{
+  background: #274C77;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}

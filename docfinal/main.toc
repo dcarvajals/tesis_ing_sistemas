@@ -1,22 +1,22 @@
 \babel@toc {english}{}\relax 
-\contentsline {part}{I\hspace {1em}CONTEXTUALIZACIÓN DE LA INVESTIGACIÓN}{2}{}%
-\contentsline {section}{\numberline {1.1}Problema de investigación.}{3}{}%
-\contentsline {subsection}{\numberline {1.1.1}Planteamiento del problema.}{3}{}%
-\contentsline {subsection}{\numberline {1.1.2}Formulación del problema.}{4}{}%
-\contentsline {subsection}{\numberline {1.1.3}Sistematización del problema.}{4}{}%
-\contentsline {section}{\numberline {1.2}Objetivos.}{4}{}%
-\contentsline {subsection}{\numberline {1.2.1}Objetivo General.}{4}{}%
-\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos.}{4}{}%
-\contentsline {section}{\numberline {1.3}Justificación.}{5}{}%
-\contentsline {part}{II\hspace {1em}FUNDAMENTACIÓN TEÓRICA DE LA INVESTIGACIÓN}{6}{}%
-\contentsline {section}{\numberline {2.1}Marco conceptual.}{7}{}%
-\contentsline {subsection}{\numberline {2.1.1}JSON.}{7}{}%
-\contentsline {subsection}{\numberline {2.1.2}XML.}{7}{}%
-\contentsline {subsection}{\numberline {2.1.3}Compiladores.}{7}{}%
-\contentsline {subsection}{\numberline {2.1.4}Lenguajes de modelado.}{8}{}%
-\contentsline {section}{\numberline {2.2}Marco referencial.}{8}{}%
-\contentsline {subsection}{\numberline {2.2.1}Lenguaje de restricciones de objetos para la generación de código a partir de modelos de actividad}{8}{}%
-\contentsline {subsection}{\numberline {2.2.2}Desarrollo de módulos de software generativo para el diseño orientado al dominio con un lenguaje específico de dominio basado en anotaciones}{9}{}%
-\contentsline {subsection}{\numberline {2.2.3}Modelado para la localización de características en modelos de software: tanto la generación de código y los modelos interpretados.}{9}{}%
-\contentsline {part}{III\hspace {1em}BIBLIOGRAFÍA}{10}{}%
-\contentsline {part}{IV\hspace {1em}ANEXOS}{14}{}%
+\contentsline {part}{I\hspace {1em}CONTEXTUALIZACIÓN DE LA INVESTIGACIÓN}{3}{}%
+\contentsline {section}{\numberline {1.1}Problema de investigación.}{4}{}%
+\contentsline {subsection}{\numberline {1.1.1}Planteamiento del problema.}{4}{}%
+\contentsline {subsection}{\numberline {1.1.2}Formulación del problema.}{5}{}%
+\contentsline {subsection}{\numberline {1.1.3}Sistematización del problema.}{5}{}%
+\contentsline {section}{\numberline {1.2}Objetivos.}{5}{}%
+\contentsline {subsection}{\numberline {1.2.1}Objetivo General.}{5}{}%
+\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos.}{6}{}%
+\contentsline {section}{\numberline {1.3}Justificación.}{6}{}%
+\contentsline {part}{II\hspace {1em}FUNDAMENTACIÓN TEÓRICA DE LA INVESTIGACIÓN}{8}{}%
+\contentsline {section}{\numberline {2.1}Marco conceptual.}{9}{}%
+\contentsline {subsection}{\numberline {2.1.1}JSON.}{9}{}%
+\contentsline {subsection}{\numberline {2.1.2}XML.}{9}{}%
+\contentsline {subsection}{\numberline {2.1.3}Compiladores.}{9}{}%
+\contentsline {subsection}{\numberline {2.1.4}Lenguajes de modelado.}{10}{}%
+\contentsline {section}{\numberline {2.2}Marco referencial.}{10}{}%
+\contentsline {subsection}{\numberline {2.2.1}Lenguaje de restricciones de objetos para la generación de código a partir de modelos de actividad}{10}{}%
+\contentsline {subsection}{\numberline {2.2.2}Desarrollo de módulos de software generativo para el diseño orientado al dominio con un lenguaje específico de dominio basado en anotaciones}{11}{}%
+\contentsline {subsection}{\numberline {2.2.3}Modelado para la localización de características en modelos de software: tanto la generación de código y los modelos interpretados.}{11}{}%
+\contentsline {section}{\numberline {2.3}Marco referencial.}{11}{}%
+\contentsline {part}{III\hspace {1em}BIBLIOGRAFÍA}{12}{}%

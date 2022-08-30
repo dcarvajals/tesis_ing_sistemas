@@ -1,0 +1,12 @@
+.arm-center-vh{
+  display:grid;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.bg-tdd{
+  background: url("src/assets/img/dashboard_tdd.png");
+}

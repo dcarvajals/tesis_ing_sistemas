@@ -87,7 +87,7 @@
       <file>main-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>citasTesis.bib</file>
+      <file>citasArmadillo.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

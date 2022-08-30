@@ -22,52 +22,50 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: main-blx.bib
 Database file #2: citasArmadillo.bib
-Repeated entry---line 349 of file citasArmadillo.bib
- : @article{Management
- :                    ,
-I'm skipping whatever remains of this entry
+Warning--entry type for "tddt4iots" isn't style-file defined
+--line 394 of file citasArmadillo.bib
 Biblatex version: 3.17
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 17 entries,
+You've used 23 entries,
             6399 wiz_defined-function locations,
-            1359 strings with 36802 characters,
-and the built_in function-call counts, 143020 in all, are:
-= -- 11441
-> -- 2115
-< -- 657
-+ -- 3974
-- -- 760
-* -- 10696
-:= -- 15857
+            1419 strings with 40540 characters,
+and the built_in function-call counts, 224520 in all, are:
+= -- 18810
+> -- 3020
+< -- 994
++ -- 6102
+- -- 1084
+* -- 17068
+:= -- 25090
 add.period$ -- 0
-call.type$ -- 17
-change.case$ -- 383
-chr.to.int$ -- 90
-cite$ -- 32
-duplicate$ -- 14649
-empty$ -- 12520
-format.name$ -- 1161
-if$ -- 29062
+call.type$ -- 23
+change.case$ -- 603
+chr.to.int$ -- 102
+cite$ -- 44
+duplicate$ -- 21763
+empty$ -- 19665
+format.name$ -- 1677
+if$ -- 45748
 int.to.chr$ -- 0
-int.to.str$ -- 47
+int.to.str$ -- 62
 missing$ -- 0
-newline$ -- 726
-num.names$ -- 895
-pop$ -- 5807
+newline$ -- 1016
+num.names$ -- 1307
+pop$ -- 8145
 preamble$ -- 1
-purify$ -- 479
+purify$ -- 750
 quote$ -- 0
-skip$ -- 3499
+skip$ -- 5010
 stack$ -- 0
-substring$ -- 21293
-swap$ -- 3154
-text.length$ -- 492
-text.prefix$ -- 16
+substring$ -- 36611
+swap$ -- 4491
+text.length$ -- 686
+text.prefix$ -- 23
 top$ -- 1
-type$ -- 566
+type$ -- 769
 warning$ -- 0
-while$ -- 1920
+while$ -- 2861
 width$ -- 0
-write$ -- 710
-(There was 1 error message)
+write$ -- 994
+(There was 1 warning)

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html ng-app="app">
+    <head>
+        <title>Armadillo JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="angular.js" type="text/javascript"></script>
+        <script src="jquery.min.js" type="text/javascript"></script>
+        <script src="armadillo.js" type="text/javascript"></script>
+    </head>
+    <body ng-controller="interpret_controller" style="text-align: center">
+        <div>Generar la estructura json y xml</div>
+        <textarea style="width: 500px" ng-model="interprete.newstring" rows="10" col="40"></textarea> <br>
+        <button type="button" class="btn button-d w-100" ng-click="interprete.transform()">
+                <i class="fas fa-retweet"></i> Convert
+            </button>
+        <script src="ctrl_interprete.js" type="text/javascript"></script>
+    </body>
+</html>
