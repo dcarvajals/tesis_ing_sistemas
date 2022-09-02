@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.23)  1 SEP 2022 19:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.23)  1 SEP 2022 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -819,13 +819,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] [10] [11] [12]
-Overfull \hbox (12.19437pt too wide) in paragraph at lines 41--42
+Overfull \hbox (12.19437pt too wide) in paragraph at lines 42--43
 \T1/ptm/m/n/12 Es un lenguaje de mar-cado sim-i-lar a HTML. Sig-nifica Ex-ten-s
 i-ble Markup Lan-guage y pertenece
  []
 
 
-Overfull \hbox (17.90474pt too wide) in paragraph at lines 48--49
+Overfull \hbox (17.90474pt too wide) in paragraph at lines 49--50
 \T1/ptm/m/n/12 definir es-truc-turas y com-por-tamien-tos que ten-drán los sis-
 temas com-puta-riza-dos. UML (Lenguaje
  []
@@ -861,8 +861,8 @@ https : / / aplicaciones . uteq . edu . ec / tddt4iots/$\T1/ptm/m/n/12 .
 ! Misplaced alignment tab character &.
 <argument> Journal of Intelligent &
                                     Fuzzy Systems
-l.4 	\printbibliography[title={\emph{}}]
-                                        
+l.4 \printbibliography[title={\emph{}}]
+                                       
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -909,7 +909,7 @@ live/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2022/texmf-
 dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on main.pdf (31 pages, 324268 bytes).
+Output written on main.pdf (31 pages, 324590 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
