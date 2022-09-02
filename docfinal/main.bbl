@@ -137,6 +137,77 @@
     \field{year}{2022}
   \endentry
 
+  \entry{Kulesza2020}{article}{}
+    \name{author}{5}{}{%
+      {{hash=KR}{%
+         family={Kulesza},
+         familyi={K\bibinitperiod},
+         given={Raoni},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SMFD}{%
+         family={Sousa},
+         familyi={S\bibinitperiod},
+         given={Marcelo Fernandes\bibnamedelima De},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+      {{hash=AMLMD}{%
+         family={Araújo},
+         familyi={A\bibinitperiod},
+         given={Matheus Lima Moura\bibnamedelima De},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=ACPD}{%
+         family={Araújo},
+         familyi={A\bibinitperiod},
+         given={Claudiomar Pereira\bibnamedelima De},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+      {{hash=FAM}{%
+         family={Filho},
+         familyi={F\bibinitperiod},
+         given={Aguinaldo\bibnamedelima Macedo},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer International Publishing}%
+    }
+    \strng{namehash}{KRSMFDAMLMD+1}
+    \strng{fullhash}{KRSMFDAMLMDACPDFAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Web systems were initially supported by a client–server architecture and
+  three standards (URL, HTTP, and HTML), and have considerable evolution in the
+  last two decades. Usability, scalability, maintenance, portability,
+  robustness, security, and integration with other systems are the main
+  challenges of this software category. This tutorial presents the history and
+  evolution of Web-based software architectures. We discuss current software
+  architectural styles, patterns, and development platforms based on
+  client-side and server-side technologies. In addition, we also discuss Web
+  3.0 requirements such as communication protocols, microservices, MV*
+  browser-based frameworks, boilerplates client-side code, asynchronous
+  programming, and integration with cloud computing infrastructures.%
+    }
+    \verb{doi}
+    \verb 10.1007/978-3-030-35102-1_1/FIGURES/6
+    \endverb
+    \field{isbn}{9783030351021}
+    \field{pages}{3\bibrangedash 21}
+    \field{title}{Evolution of web systems architectures: A roadmap}
+    \verb{url}
+    \verb https://link.springer.com/chapter/10.1007/978-3-030-35102-1_1
+    \endverb
+    \field{journaltitle}{Special Topics in Multimedia, IoT and Web
+  Technologies}
+    \field{month}{01}
+    \field{year}{2020}
+  \endentry
+
   \entry{Hamdi2022}{article}{}
     \name{author}{3}{}{%
       {{hash=HMS}{%
@@ -200,6 +271,117 @@
     \field{journaltitle}{Innovations in Systems and Software Engineering}
     \field{month}{03}
     \field{year}{2022}
+  \endentry
+
+  \entry{Guerra2021}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GE}{%
+         family={Guerra},
+         familyi={G\bibinitperiod},
+         given={Eduardo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DADO}{%
+         family={Dias},
+         familyi={D\bibinitperiod},
+         given={Antonio De\bibnamedelima Oliveira},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  O\bibinitperiod},
+      }}%
+      {{hash=VLGD}{%
+         family={Veras},
+         familyi={V\bibinitperiod},
+         given={Luiz Gustavo\bibnamedelima D.O.},
+         giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Aguiar},
+         familyi={A\bibinitperiod},
+         given={Ademar},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Choma},
+         familyi={C\bibinitperiod},
+         given={Joelma},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=STSD}{%
+         family={Silva},
+         familyi={S\bibinitperiod},
+         given={Tiago Silva\bibnamedelima Da},
+         giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \keyw{Adaptive architecture,adaptive object model,metadata,object-oriented
+  design,runtime environment,software architecture,software
+  engineering,software framework,software reusability,software tools}
+    \strng{namehash}{GEDADOVLGD+1}
+    \strng{fullhash}{GEDADOVLGDAACJSTSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Adaptive Object Model (AOM) is an architectural style in which domain
+  entity types are represented as instances that can be changed at runtime. It
+  can be used to achieve higher flexibility in domain classes. Due to AOM
+  entities having a distinct structure, they are not compatible with most
+  popular frameworks, especially those that use reflection and code
+  annotations. To solve such limitations, this study aims to propose a model
+  that enables the reuse of frameworks designed for classic object-oriented
+  domain models in an AOM application. The proposed model uses
+  dynamically-generated adapters for AOM entities that encapsulate them in a
+  class with the format expected by the frameworks. A reference implementation
+  was developed in the Esfinge AOM RoleMapper framework to evaluate the
+  viability of the proposed model. Initially, to evaluate the solution
+  feasibility, a case study was carried out using the Hibernate framework.
+  Further, an experiment was conducted to assess how the participants perceived
+  the framework functionality reuse through the proposed model. The feasibility
+  study revealed that the solution could be applied in a complex setting for
+  the chosen object-relational mapping frame. It raised some difficulties that
+  can be addressed in future studies. In the experiment, the development time
+  did not present a significant difference compared to the competing approach.
+  Despite the considerable learning curve, most participants considered that
+  the proposed approach has more advantages than the alternative. Based on the
+  evaluations, we can conclude that the proposed model can be successfully
+  employed to use AOM entities with frameworks that were not designed for AOM
+  applications. The possibility of reusing existing frameworks can reduce the
+  effort required to adopt an AOM architecture and, consequently, be a
+  facilitator in implementing more flexible and adaptive approaches.%
+    }
+    \verb{doi}
+    \verb 10.1109/ACCESS.2021.3087795
+    \endverb
+    \field{issn}{21693536}
+    \field{pages}{85124\bibrangedash 85143}
+    \field{title}{A Model to Enable the Reuse of Metadata-Based Frameworks in
+  Adaptive Object Model Architectures}
+    \field{volume}{9}
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2021}
+  \endentry
+
+  \entry{OMGUML24}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={OMG},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{About the Unified Modeling Language Specification Version
+  2.4}
+    \verb{url}
+    \verb https://www.omg.org/spec/UML/2.4/
+    \endverb
   \endentry
 
   \entry{Bergstrom2022}{article}{}
@@ -273,8 +455,8 @@
          familyi={O\bibinitperiod},
       }}%
     }
-    \strng{namehash}{O1}
-    \strng{fullhash}{O1}
+    \strng{namehash}{O2}
+    \strng{fullhash}{O2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{isbn}{2009201388}
@@ -351,6 +533,125 @@
   Requirements Engineering}
     \field{month}{09}
     \field{year}{2021}
+  \endentry
+
+  \entry{Losavio2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LF}{%
+         family={Losavio},
+         familyi={L\bibinitperiod},
+         given={Francisca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Matteo},
+         familyi={M\bibinitperiod},
+         given={Alfredo},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PI}{%
+         family={Pacilli},
+         familyi={P\bibinitperiod},
+         given={Irma},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Universidad del Zulia}%
+    }
+    \strng{namehash}{LFMAPI1}
+    \strng{fullhash}{LFMAPI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    One of the present concerns of Software Engineering is to reduce the gap
+  between the stages of requirements engineering and software system
+  engineering; the growing interest in the discipline of Domain Engineering is
+  justly to try to fillin this gap. This work is framed in the context of the
+  early identificationof non functional requirements (NFR). Functional
+  requirements (FR) and NFR are integrated into the use case model, according
+  to the approach of Chung et al., where an initial architectonical
+  configurationis achieved according to the goal-oriented approach of Yu
+  etal.Our main contribution consists in adding to the Chung et al. a domain
+  analysis step based on the ISO/IEC9126-1 quality standards, for the early
+  specification of NFR, using a quality model representing a quality view of
+  the domain knowledge. This domain analysis allows a precise justification of
+  the system’s global requirements and boundaries, which are not at all
+  justifiedby Chung, reusing this knowledge on the quality goals of
+  architectural styles and main functionality to obtain the initial
+  architecture for the application. The main contribution and result is this
+  extension step of domain analysis to the Chung et al. process; it can be
+  applied in the context of software product lines design methods and in early
+  stages of architecture centric software development methods. A unified
+  language of software product quality which is generally missing is also
+  provided by our approach.%
+    }
+    \field{issn}{1690-7515}
+    \field{issue}{3}
+    \field{pages}{11\bibrangedash 28}
+    \field{title}{Goal-oriented Process for Domain Analysis Using Quality
+  Standards}
+    \verb{url}
+    \verb http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1690-75152009
+    \verb 000300002&lng=es&nrm=iso&tlng=es http://ve.scielo.org/scielo.php?scri
+    \verb pt=sci_abstract&pid=S1690-75152009000300002&lng=es&nrm=iso&tlng=es
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{Enlace}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Zapata2008}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZCM}{%
+         family={Zapata},
+         familyi={Z\bibinitperiod},
+         given={Carlos\bibnamedelima Mario},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={González},
+         familyi={G\bibinitperiod},
+         given={Guillermo},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{OCL,UML,XMI,XML,Xquery,class diagram,consistence rules,graphic user
+  interfaces,use cases}
+    \strng{namehash}{ZCMGG1}
+    \strng{fullhash}{ZCMGG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In a software lifetime, during definition and analysis stages, a
+  specification of requirements is carried out. For such a purpose, it is
+  necessary to get through a process to capture interested persons’ needs and
+  expectations, which will later be translated into a set of models
+  representing both the problem and the solution. Most models are frequently
+  expressed by the UML (Unified Modeling Language) which defines a set of
+  devices for specifying software requirements which should be consistent with
+  the same model. However, consistency among several devices is not defined in
+  the UML specification and not too much work has been made with this type of
+  consistence. This article proposes a method to verify consistence among UML
+  class diagram and use case diagram in a formal way. Such a process is carried
+  out through an evaluation of several rules defined in the OCL (Object
+  Constraint Language), which should be fulfilled to assure that information
+  provided by such models is consistent. As both diagrams participation is
+  recognized when preparing GUI (Graphic User Interfaces) consistence with this
+  device is additionally defined.%
+    }
+    \field{issn}{2248-4094}
+    \field{issue}{12}
+    \field{title}{Formal OCL Specification of Consistency Rules between the UML
+  Class and the Use Case Models and the Interfaces Model}
+    \verb{url}
+    \verb http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S1692-3324
+    \verb 2008000100010
+    \endverb
+    \field{volume}{7}
+    \field{journaltitle}{Revista Ingenierías Universidad de Medellín}
+    \field{month}{06}
+    \field{year}{2008}
   \endentry
 
   \entry{iqbal2020}{article}{}
@@ -548,45 +849,45 @@
 
   \entry{tddt4iots}{misc}{}
     \name{author}{6}{}{%
-      {{hash=UGG}{%
-         family={Ulloa},
-         familyi={U\bibinitperiod},
-         given={G.\bibnamedelima Guerrero},
-         giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+      {{hash=GUG}{%
+         family={Guerrero-Ulloa},
+         familyi={G\bibinithyphendelim U\bibinitperiod},
+         given={Gleiston},
+         giveni={G\bibinitperiod},
       }}%
-      {{hash=SDC}{%
-         family={Suárez},
-         familyi={S\bibinitperiod},
-         given={D.\bibnamedelima Carvajal},
-         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=CSD}{%
+         family={Carvajal-Suárez},
+         familyi={C\bibinithyphendelim S\bibinitperiod},
+         given={Duval},
+         giveni={D\bibinitperiod},
       }}%
-      {{hash=CGB}{%
-         family={Casanova},
-         familyi={C\bibinitperiod},
-         given={G.\bibnamedelima Brito},
-         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      {{hash=BCG}{%
+         family={Brito\bibnamedelima Casanova},
+         familyi={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Geovanny},
+         giveni={G\bibinitperiod},
       }}%
-      {{hash=APE}{%
-         family={A.},
-         familyi={A\bibinitperiod},
-         given={Pachay\bibnamedelima Espinoza},
-         giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+      {{hash=PEA}{%
+         family={Pachay\bibnamedelima Espinoza},
+         familyi={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+         given={Anthony.},
+         giveni={A\bibinitperiod},
       }}%
-      {{hash=HJ}{%
+      {{hash=HMJ}{%
          family={Hornos},
          familyi={H\bibinitperiod},
-         given={J.M.},
-         giveni={J\bibinitperiod},
+         given={Miguel\bibnamedelima Juan},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
-      {{hash=CRD}{%
-         family={C},
-         familyi={C},
-         given={Rodríguez\bibnamedelima Domínguez},
-         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      {{hash=RDC}{%
+         family={Rodríguez-Domínguez},
+         familyi={R\bibinithyphendelim D\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{UGGSDCCGB+1}
-    \strng{fullhash}{UGGSDCCGBAPEHJCRD1}
+    \strng{namehash}{GUGCSDBCG+1}
+    \strng{fullhash}{GUGCSDBCGPEAHMJRDC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{Test-Driven Development Tool for IoT-based System}
@@ -696,294 +997,244 @@
     \field{year}{2021}
   \endentry
 
-  \entry{JSON}{article}{}
+  \entry{Tan2010}{article}{}
     \name{author}{3}{}{%
-      {{hash=BP}{%
-         family={Bourhis},
-         familyi={B\bibinitperiod},
-         given={Pierre},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=RJL}{%
-         family={Reutter},
-         familyi={R\bibinitperiod},
-         given={Juan\bibnamedelima L.},
-         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=VD}{%
-         family={Vrgoč},
-         familyi={V\bibinitperiod},
-         given={Domagoj},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier Ltd}%
-    }
-    \keyw{JSON,Navigation,Schema languages}
-    \strng{namehash}{BPRJLVD1}
-    \strng{fullhash}{BPRJLVD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Despite the fact that JSON is currently one of the most popular formats for
-  exchanging data on the Web, there are very few studies on this topic and
-  there is no agreement upon a theoretical framework for dealing with JSON.
-  Therefore in this paper we propose a formal data model for JSON documents
-  and, based on the common features present in available systems using JSON, we
-  define a lightweight query language allowing us to navigate through JSON
-  documents, study the complexity of basic computational tasks associated with
-  this language, and compare its expressive power with practical languages for
-  managing JSON data.%
-    }
-    \verb{doi}
-    \verb 10.1016/J.IS.2019.101478
-    \endverb
-    \field{issn}{03064379}
-    \field{title}{JSON: Data model and query languages}
-    \field{volume}{89}
-    \field{journaltitle}{Information Systems}
-    \field{month}{03}
-    \field{year}{2020}
-  \endentry
-
-  \entry{XML-based}{article}{}
-    \name{author}{1}{}{%
-      {{hash=KA}{%
-         family={Khalili},
-         familyi={K\bibinitperiod},
-         given={Alireza},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier B.V.}%
-    }
-    \keyw{BIM,Geo-semantic,IFC,OpenBIM,Virtual reality,XML}
-    \strng{namehash}{KA1}
-    \strng{fullhash}{KA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Virtual Reality (VR) and Building Information Modelling (BIM) have been
-  steadily growing over the past decade and found practical applications in
-  project planning, design review and construction planning analysis
-  particularly in the Architecture, Engineering, Construction, and Facility
-  Management (AEC/FM) industry. However, data exchange between BIM and VR is a
-  complex and time consuming process, which has limited VR applications in
-  practice. To address this challenge, this research proposes a novel method
-  that enables an efficient interoperability of BIM and VR including geometry
-  of each element along with required semantic data of the BIM model. In this
-  method, geometry and semantic data are extracted from BIM models through an
-  Extensible Markup Language (XML) file, which is then optimized to be
-  efficiently imported and recreated into the VR environment. The backward
-  communication is performed by converting XML file to IFC, which is then
-  imported to the BIM application. A prototype was developed to implement the
-  proposed methodology. A building case study was used to demonstrate the
-  capability of the method including considerably short transfer time, high
-  quality rendering and geo-semantic data exchange for design and construction.
-  These capabilities promote VR applications in the AEC/FM industry as the
-  required information for design and construction plan review including
-  Architectural parameter (e.g., material, texture and dimensions), Engineering
-  parameters (e.g., loads, R-Value), cost, schedule and clashes can be
-  exchanged between BIM and VR in near real time.%
-    }
-    \verb{doi}
-    \verb 10.1016/J.AUTCON.2020.103425
-    \endverb
-    \field{issn}{09265805}
-    \field{title}{An XML-based approach for geo-semantic data exchange from BIM
-  to VR applications}
-    \field{volume}{121}
-    \field{journaltitle}{Automation in Construction}
-    \field{month}{01}
-    \field{year}{2021}
-  \endentry
-
-  \entry{CoEdit}{article}{}
-    \name{author}{1}{}{%
-      {{hash=AA}{%
-         family={Alwabel},
-         familyi={A\bibinitperiod},
-         given={Abdulelah},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {King Saud bin Abdulaziz University}%
-    }
-    \keyw{Compilers,Edit and compile,Editex,Error enhancing,Error repairs,Four
-  Way}
-    \strng{namehash}{AA1}
-    \strng{fullhash}{AA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Modern compilers can be useful, not only in detecting programming errors
-  but also by suggesting several repairs and solutions for those errors using
-  error repair techniques. Error repair refers to the process of finding a
-  repair for an error that happens as a result of compiling a piece of code
-  written by computer programmers. However, a repair is not always consistent
-  with the purpose of programmers. This means a compiler suggests a repair
-  which is different from what the programmer wanted to write. Many compilers
-  fail to suggest the correct repair when programming errors occur as a result
-  of misspelling errors. The aim of this paper is to enhance the error repair
-  process in compilers using spelling correction algorithms. A typical compiler
-  does not provide solutions for the most common syntax programming errors
-  which occur as a result of misspelling. Such errors are easy to detect by
-  compilers but difficult to suggest a fix that is the correct form. Therefore,
-  a novel error correction mechanism which is called CoEdit approach is
-  developed to help compilers to suggest the most suitable repair for
-  programming errors occurred as a result of mistyping errors. Four-Way and
-  Editex algorithms are well known spelling correction algorithms are also
-  extended and employed to be compatible to work with programming languages.
-  CoEdit approach employs these algorithms in order to find repairs to
-  misspelling errors. CoEdit is a generic approach to enhance error repair in
-  any compilers for any language because it targets misspelling compiler
-  errors. This paper concludes that using the Editex algorithm with CoEdit is
-  the best choice in the case of finding repairs to programming errors that
-  occur as a result of spelling errors.%
-    }
-    \verb{doi}
-    \verb 10.1016/J.JKSUCI.2021.02.010
-    \endverb
-    \field{issn}{22131248}
-    \field{title}{CoEdit: A novel error correction mechanism in compilers using
-  spelling correction algorithms}
-    \field{journaltitle}{Journal of King Saud University - Computer and
-  Information Sciences}
-    \field{year}{2021}
-  \endentry
-
-  \entry{Blended}{article}{}
-    \name{author}{2}{}{%
-      {{hash=AL}{%
-         family={Addazi},
-         familyi={A\bibinitperiod},
-         given={Lorenzo},
+      {{hash=TL}{%
+         family={Tan},
+         familyi={T\bibinitperiod},
+         given={Li},
          giveni={L\bibinitperiod},
       }}%
-      {{hash=CF}{%
-         family={Ciccozzi},
-         familyi={C\bibinitperiod},
-         given={Federico},
-         giveni={F\bibinitperiod},
+      {{hash=YZ}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Zongyuan},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=XJ}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={Jinkui},
+         giveni={J\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {Elsevier Inc.}%
-    }
-    \keyw{Blended modelling,MARTE,Multi-view modelling,Papyrus,UML
-  profiles,Xtext}
-    \strng{namehash}{ALCF1}
-    \strng{fullhash}{ALCF1}
+    \keyw{Automatic generation,Lexical analysis,OCL,UML class diagram,XMI}
+    \strng{namehash}{TLYZXJ1}
+    \strng{fullhash}{TLYZXJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    Domain-specific modelling languages defined by extending or constraining
-  the Unified Modelling Language (UML) through the profiling mechanism have
-  historically relied on graphical notations to maximise human understanding
-  and facilitate communication among stakeholders. Other notations, such as
-  text-, form-, or table-based are, however, often preferred for specific
-  modelling purposes, due to the nature of a specific domain or the available
-  tooling, or for personal preference. Currently, the state of the art support
-  for UML-based languages provides an almost completely detached, or even
-  entirely mutually exclusive, use of graphical and textual modelling. This
-  becomes inadequate when dealing with the development of modern systems
-  carried out by heterogeneous stakeholders. Our intuition is that a modelling
-  framework based on seamless blended multi-notations can disclose several
-  benefits, among which: flexible separation of concerns, multi-view modelling
-  based on multiple notations, convenient text-based editing operations (inside
-  and outside the modelling environment), and eventually faster modelling
-  activities. In this paper we report on: (i) a proof-of-concept implementation
-  of a framework for UML and profiles modelling using blended textual and
-  graphical notations, and (ii) an experiment on the framework, which
-  eventually shows that blended multi-notation modelling performs better than
-  standard single-notation modelling.%
+    As a standard modeling language of software architecture design, UML lacks
+  formal semantics on account of its informal graphical notation. To further
+  provide refined description of UML, OCL is primarily and widely employed.
+  Generally, OCL constraints are written manually, which may cause
+  incorrectness and extra overhead. Therefore, generating OCL constraints
+  template for UML models is a superior solution. The OCL constraints template
+  automatically generated can be used as a reference for software designers.
+  First of all, the significance of automatic generation of OCL constraints was
+  emphasized, and then the application domain of OCL was shown, followed by a
+  lexical analysis of how to extract the target objects in UML models where OCL
+  constraints were needed to build and an algorithm of extraction. Eventually,
+  this extraction algorithm was implemented by Perl. In our way, the overall
+  quality and efficiency of software design is enhanced and thus contributions
+  are made for the automation of Software Engineering. © 2010 IEEE.%
     }
     \verb{doi}
-    \verb 10.1016/J.JSS.2021.110912
+    \verb 10.1109/ICSESS.2010.5552361
     \endverb
-    \field{issn}{01641212}
-    \field{title}{Blended graphical and textual modelling for UML profiles: A
-  proof-of-concept implementation and experiment}
-    \field{volume}{175}
-    \field{journaltitle}{Journal of Systems and Software}
-    \field{month}{05}
+    \field{isbn}{9781424460526}
+    \field{pages}{392\bibrangedash 395}
+    \field{title}{OCL constraints automatic generation for UML class diagram}
+    \field{journaltitle}{Proceedings 2010 IEEE International Conference on
+  Software Engineering and Service Sciences, ICSESS 2010}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Chen2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CL}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Lei},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zeng},
+         familyi={Z\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Society of Mechanical Engineers Digital Collection}%
+    }
+    \keyw{Automotive engineering,Computer software,Engineering
+  prototypes,Semantics,UML}
+    \strng{namehash}{CLZY1}
+    \strng{fullhash}{CLZY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this paper, a novel approach is proposed to transform a requirement text
+  described by natural language into two UML diagrams - use case and class
+  diagrams. The transformation consists of two steps: from natural language to
+  an intermediate graphic language called recursive object model (ROM) and from
+  ROM to UML. The ROM diagram corresponding to a text includes the main
+  semantic information implied in the text by modeling the relations between
+  words in a text. Based on the semantics in the ROM diagram, a set of
+  generation rules are proposed to generate UML diagrams from a ROM diagram. A
+  software prototype R2U is presented as a proof of concept for this approach.
+  A case study shows that the proposed approach is feasible. The proposed
+  approach can be applied to requirements modeling in various engineering
+  fields such as software engineering, automotive engineering, and aerospace
+  engineering. The future work is pointed out at the end of this paper. © 2009
+  by ASME.%
+    }
+    \verb{doi}
+    \verb 10.1115/DETC2009-86514
+    \endverb
+    \field{isbn}{9780791848999}
+    \field{issue}{PARTS A AND B}
+    \field{pages}{779\bibrangedash 786}
+    \field{title}{Automatic Generation of UML Diagrams From Product
+  Requirements Described by Natural Language}
+    \field{volume}{2}
+    \field{journaltitle}{Proceedings of the ASME Design Engineering Technical
+  Conference}
+    \field{month}{07}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Dawood2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=OOSD}{%
+         family={Omer},
+         familyi={O\bibinitperiod},
+         given={Omer Salih\bibnamedelima Dawood},
+         giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Eltyeb},
+         familyi={E\bibinitperiod},
+         given={Safaa},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers (IEEE)}%
+    }
+    \strng{namehash}{OOSDES1}
+    \strng{fullhash}{OOSDES1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ICAAID51067.2022.9799502
+    \endverb
+    \field{pages}{1\bibrangedash 5}
+    \field{title}{Towards an Automatic Generation of UML Class Diagrams from
+  Textual Requirements using Case-based Reasoning Approach}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Alashqar2021}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AAM}{%
+         family={Alashqar},
+         familyi={A\bibinitperiod},
+         given={Abdelkareem\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Natural language processing,Object-oriented,Scenarios,Software
+  engineering,UML,Use cases}
+    \strng{namehash}{AAM1}
+    \strng{fullhash}{AAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Effective software modeling tools are necessary for successful achievement
+  of software engineering activities, especially when working in the analysis
+  and design phase. Automating these tools facilitates work, makes it more
+  productive and reduces cost and time of development. This paper aims at the
+  development and validation of a method and a software tool for automatic
+  generation of UML diagrams when following the approach of object-oriented
+  development. These diagrams are generated from scenario-based requirements in
+  order to facilitate the modeling process. So, a template of scenario-based
+  requirements and its components are identified and constructed. Then a method
+  including an algorithm is designed and implemented based on natural language
+  processing (NLP) to generate UML diagrams automatically from the
+  scenario-based requirements. The diagrams include sequence and class
+  diagrams. The ability, performance and benefits of the proposed method and
+  the software tool are reported by experimental results.%
+    }
+    \field{issue}{02}
+    \field{title}{Automatic Generation of UML Diagrams from Scenario-Based User
+  Requirements}
+    \field{volume}{07}
+    \field{journaltitle}{Jordanian Journal of Computers and Information
+  Technology (JJCIT)}
+    \field{month}{06}
     \field{year}{2021}
   \endentry
 
-  \entry{Multi-level}{article}{}
-    \name{author}{4}{}{%
-      {{hash=FCM}{%
-         family={Fonseca},
-         familyi={F\bibinitperiod},
-         given={Claudenir\bibnamedelima M.},
-         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+  \entry{Shweta2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=S}{%
+         family={Shweta},
+         familyi={S\bibinitperiod},
       }}%
-      {{hash=AJPA}{%
-         family={Almeida},
-         familyi={A\bibinitperiod},
-         given={João Paulo\bibnamedelima A.},
-         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
-  A\bibinitperiod},
-      }}%
-      {{hash=GG}{%
-         family={Guizzardi},
-         familyi={G\bibinitperiod},
-         given={Giancarlo},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=CVA}{%
-         family={Carvalho},
-         familyi={C\bibinitperiod},
-         given={Victorio\bibnamedelima A.},
-         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+      {{hash=SR}{%
+         family={Sanyal},
+         familyi={S\bibinitperiod},
+         given={Ratna},
+         giveni={R\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Elsevier B.V.}%
+      {IOS Press}%
     }
-    \keyw{Conceptual modeling,Methodologies and tools,Modeling
-  language,Multi-level modeling}
-    \strng{namehash}{FCMAJPAGG+1}
-    \strng{fullhash}{FCMAJPAGGCVA1}
+    \keyw{Unified modeling language,class diagram,functional
+  requirements,natural language processing}
+    \strng{namehash}{SSR1}
+    \strng{fullhash}{SSR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    In many important subject domains, there are central real-world phenomena
-  that span across multiple classification levels. In these subject domains,
-  besides having the traditional type-level domain regularities (classes) that
-  classify multiple concrete instances, we also have higher-order type-level
-  regularities (metaclasses) that classify multiple instances that are
-  themselves types. Multi-Level Modeling aims to address this technical
-  challenge. Despite the advances in this area in the last decade, a number of
-  requirements arising from representation needs in subject domains have not
-  yet been addressed in current modeling approaches. In this paper, we address
-  this issue by proposing an expressive multi-level conceptual modeling
-  language (dubbed ML2). We follow a principled language engineering approach
-  in the design of ML2, constructing its abstract syntax as to reflect a fully
-  axiomatized theory for multi-level modeling (termed MLT*). We show that ML2
-  enables the expression of a number of multi-level modeling scenarios that
-  cannot be currently expressed in the existing multi-level modeling languages.
-  A textual syntax for ML2 is provided with an implementation in Xtext. We
-  discuss how the formal theory influences the language in two aspects: (i) by
-  providing rigorous justification for the language's syntactic rules, which
-  follow MLT* theorems and (ii) by forming the basis for model simulation and
-  verification. We show that the language can reveal problems in multi-level
-  taxonomic structures, using Wikidata fragments to demonstrate the language's
-  practical relevance.%
+    In this research work, we propose a rule based approach for the automatic
+  extraction of UML diagram from the unstructured format of software functional
+  requirements. The existing work provides decent results for active sentences
+  and positive sentences but the challenge in our work is to automatic extract
+  class diagram elements from passive voice type sentences and negative
+  sentences. Furthermore, there is scope to do more research in extraction
+  process using multi-word terms. Thus, we have endeavored to automatic extract
+  the class diagram elements by overcoming these challenges. The methodology
+  uses the Stanford CoreNLP Tools along with Java for the practical
+  implementation of formulated rules. Our approach has proved that without
+  supplant the human being and their decision making, one could reduce the
+  human effort while designing functional requirements. Several case studies
+  were performed to compare class diagrams generated by our methodology to the
+  ones created by experts. Our methodology outperforms the existing work and
+  provides impressive Average completeness (0.82), Average correctness (0.92)
+  and Average redundancy (0.15). Results show that class diagram elements
+  extracted by our methodology are precise as well as accurate and hence, in
+  practice, such class diagrams would be a good preliminary diagram to converge
+  towards to precise and comprehensive class diagrams.%
     }
     \verb{doi}
-    \verb 10.1016/J.DATAK.2021.101894
+    \verb 10.3233/JIFS-179871
     \endverb
-    \field{issn}{0169023X}
-    \field{title}{Multi-level conceptual modeling: Theory, language and
-  application}
-    \field{volume}{134}
-    \field{journaltitle}{Data and Knowledge Engineering}
-    \field{month}{07}
-    \field{year}{2021}
+    \field{issn}{1064-1246}
+    \field{issue}{2}
+    \field{pages}{2047\bibrangedash 2059}
+    \field{title}{Impact of passive and negative sentences in automatic
+  generation of static UML diagram using NLP}
+    \field{volume}{39}
+    \field{journaltitle}{Journal of Intelligent & Fuzzy Systems}
+    \field{month}{01}
+    \field{year}{2020}
   \endentry
 
   \entry{Improving}{report}{}
@@ -1287,6 +1538,296 @@
     \field{volume}{140}
     \field{journaltitle}{Information and Software Technology}
     \field{month}{12}
+    \field{year}{2021}
+  \endentry
+
+  \entry{JSON}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BP}{%
+         family={Bourhis},
+         familyi={B\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RJL}{%
+         family={Reutter},
+         familyi={R\bibinitperiod},
+         given={Juan\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=VD}{%
+         family={Vrgoč},
+         familyi={V\bibinitperiod},
+         given={Domagoj},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Ltd}%
+    }
+    \keyw{JSON,Navigation,Schema languages}
+    \strng{namehash}{BPRJLVD1}
+    \strng{fullhash}{BPRJLVD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Despite the fact that JSON is currently one of the most popular formats for
+  exchanging data on the Web, there are very few studies on this topic and
+  there is no agreement upon a theoretical framework for dealing with JSON.
+  Therefore in this paper we propose a formal data model for JSON documents
+  and, based on the common features present in available systems using JSON, we
+  define a lightweight query language allowing us to navigate through JSON
+  documents, study the complexity of basic computational tasks associated with
+  this language, and compare its expressive power with practical languages for
+  managing JSON data.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.IS.2019.101478
+    \endverb
+    \field{issn}{03064379}
+    \field{title}{JSON: Data model and query languages}
+    \field{volume}{89}
+    \field{journaltitle}{Information Systems}
+    \field{month}{03}
+    \field{year}{2020}
+  \endentry
+
+  \entry{XML-based}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KA}{%
+         family={Khalili},
+         familyi={K\bibinitperiod},
+         given={Alireza},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier B.V.}%
+    }
+    \keyw{BIM,Geo-semantic,IFC,OpenBIM,Virtual reality,XML}
+    \strng{namehash}{KA1}
+    \strng{fullhash}{KA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Virtual Reality (VR) and Building Information Modelling (BIM) have been
+  steadily growing over the past decade and found practical applications in
+  project planning, design review and construction planning analysis
+  particularly in the Architecture, Engineering, Construction, and Facility
+  Management (AEC/FM) industry. However, data exchange between BIM and VR is a
+  complex and time consuming process, which has limited VR applications in
+  practice. To address this challenge, this research proposes a novel method
+  that enables an efficient interoperability of BIM and VR including geometry
+  of each element along with required semantic data of the BIM model. In this
+  method, geometry and semantic data are extracted from BIM models through an
+  Extensible Markup Language (XML) file, which is then optimized to be
+  efficiently imported and recreated into the VR environment. The backward
+  communication is performed by converting XML file to IFC, which is then
+  imported to the BIM application. A prototype was developed to implement the
+  proposed methodology. A building case study was used to demonstrate the
+  capability of the method including considerably short transfer time, high
+  quality rendering and geo-semantic data exchange for design and construction.
+  These capabilities promote VR applications in the AEC/FM industry as the
+  required information for design and construction plan review including
+  Architectural parameter (e.g., material, texture and dimensions), Engineering
+  parameters (e.g., loads, R-Value), cost, schedule and clashes can be
+  exchanged between BIM and VR in near real time.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.AUTCON.2020.103425
+    \endverb
+    \field{issn}{09265805}
+    \field{title}{An XML-based approach for geo-semantic data exchange from BIM
+  to VR applications}
+    \field{volume}{121}
+    \field{journaltitle}{Automation in Construction}
+    \field{month}{01}
+    \field{year}{2021}
+  \endentry
+
+  \entry{CoEdit}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AA}{%
+         family={Alwabel},
+         familyi={A\bibinitperiod},
+         given={Abdulelah},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {King Saud bin Abdulaziz University}%
+    }
+    \keyw{Compilers,Edit and compile,Editex,Error enhancing,Error repairs,Four
+  Way}
+    \strng{namehash}{AA1}
+    \strng{fullhash}{AA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Modern compilers can be useful, not only in detecting programming errors
+  but also by suggesting several repairs and solutions for those errors using
+  error repair techniques. Error repair refers to the process of finding a
+  repair for an error that happens as a result of compiling a piece of code
+  written by computer programmers. However, a repair is not always consistent
+  with the purpose of programmers. This means a compiler suggests a repair
+  which is different from what the programmer wanted to write. Many compilers
+  fail to suggest the correct repair when programming errors occur as a result
+  of misspelling errors. The aim of this paper is to enhance the error repair
+  process in compilers using spelling correction algorithms. A typical compiler
+  does not provide solutions for the most common syntax programming errors
+  which occur as a result of misspelling. Such errors are easy to detect by
+  compilers but difficult to suggest a fix that is the correct form. Therefore,
+  a novel error correction mechanism which is called CoEdit approach is
+  developed to help compilers to suggest the most suitable repair for
+  programming errors occurred as a result of mistyping errors. Four-Way and
+  Editex algorithms are well known spelling correction algorithms are also
+  extended and employed to be compatible to work with programming languages.
+  CoEdit approach employs these algorithms in order to find repairs to
+  misspelling errors. CoEdit is a generic approach to enhance error repair in
+  any compilers for any language because it targets misspelling compiler
+  errors. This paper concludes that using the Editex algorithm with CoEdit is
+  the best choice in the case of finding repairs to programming errors that
+  occur as a result of spelling errors.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.JKSUCI.2021.02.010
+    \endverb
+    \field{issn}{22131248}
+    \field{title}{CoEdit: A novel error correction mechanism in compilers using
+  spelling correction algorithms}
+    \field{journaltitle}{Journal of King Saud University - Computer and
+  Information Sciences}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Blended}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AL}{%
+         family={Addazi},
+         familyi={A\bibinitperiod},
+         given={Lorenzo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Ciccozzi},
+         familyi={C\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Inc.}%
+    }
+    \keyw{Blended modelling,MARTE,Multi-view modelling,Papyrus,UML
+  profiles,Xtext}
+    \strng{namehash}{ALCF1}
+    \strng{fullhash}{ALCF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Domain-specific modelling languages defined by extending or constraining
+  the Unified Modelling Language (UML) through the profiling mechanism have
+  historically relied on graphical notations to maximise human understanding
+  and facilitate communication among stakeholders. Other notations, such as
+  text-, form-, or table-based are, however, often preferred for specific
+  modelling purposes, due to the nature of a specific domain or the available
+  tooling, or for personal preference. Currently, the state of the art support
+  for UML-based languages provides an almost completely detached, or even
+  entirely mutually exclusive, use of graphical and textual modelling. This
+  becomes inadequate when dealing with the development of modern systems
+  carried out by heterogeneous stakeholders. Our intuition is that a modelling
+  framework based on seamless blended multi-notations can disclose several
+  benefits, among which: flexible separation of concerns, multi-view modelling
+  based on multiple notations, convenient text-based editing operations (inside
+  and outside the modelling environment), and eventually faster modelling
+  activities. In this paper we report on: (i) a proof-of-concept implementation
+  of a framework for UML and profiles modelling using blended textual and
+  graphical notations, and (ii) an experiment on the framework, which
+  eventually shows that blended multi-notation modelling performs better than
+  standard single-notation modelling.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.JSS.2021.110912
+    \endverb
+    \field{issn}{01641212}
+    \field{title}{Blended graphical and textual modelling for UML profiles: A
+  proof-of-concept implementation and experiment}
+    \field{volume}{175}
+    \field{journaltitle}{Journal of Systems and Software}
+    \field{month}{05}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Multi-level}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FCM}{%
+         family={Fonseca},
+         familyi={F\bibinitperiod},
+         given={Claudenir\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=AJPA}{%
+         family={Almeida},
+         familyi={A\bibinitperiod},
+         given={João Paulo\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Guizzardi},
+         familyi={G\bibinitperiod},
+         given={Giancarlo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CVA}{%
+         family={Carvalho},
+         familyi={C\bibinitperiod},
+         given={Victorio\bibnamedelima A.},
+         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier B.V.}%
+    }
+    \keyw{Conceptual modeling,Methodologies and tools,Modeling
+  language,Multi-level modeling}
+    \strng{namehash}{FCMAJPAGG+1}
+    \strng{fullhash}{FCMAJPAGGCVA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In many important subject domains, there are central real-world phenomena
+  that span across multiple classification levels. In these subject domains,
+  besides having the traditional type-level domain regularities (classes) that
+  classify multiple concrete instances, we also have higher-order type-level
+  regularities (metaclasses) that classify multiple instances that are
+  themselves types. Multi-Level Modeling aims to address this technical
+  challenge. Despite the advances in this area in the last decade, a number of
+  requirements arising from representation needs in subject domains have not
+  yet been addressed in current modeling approaches. In this paper, we address
+  this issue by proposing an expressive multi-level conceptual modeling
+  language (dubbed ML2). We follow a principled language engineering approach
+  in the design of ML2, constructing its abstract syntax as to reflect a fully
+  axiomatized theory for multi-level modeling (termed MLT*). We show that ML2
+  enables the expression of a number of multi-level modeling scenarios that
+  cannot be currently expressed in the existing multi-level modeling languages.
+  A textual syntax for ML2 is provided with an implementation in Xtext. We
+  discuss how the formal theory influences the language in two aspects: (i) by
+  providing rigorous justification for the language's syntactic rules, which
+  follow MLT* theorems and (ii) by forming the basis for model simulation and
+  verification. We show that the language can reveal problems in multi-level
+  taxonomic structures, using Wikidata fragments to demonstrate the language's
+  practical relevance.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.DATAK.2021.101894
+    \endverb
+    \field{issn}{0169023X}
+    \field{title}{Multi-level conceptual modeling: Theory, language and
+  application}
+    \field{volume}{134}
+    \field{journaltitle}{Data and Knowledge Engineering}
+    \field{month}{07}
     \field{year}{2021}
   \endentry
 \enddatalist
