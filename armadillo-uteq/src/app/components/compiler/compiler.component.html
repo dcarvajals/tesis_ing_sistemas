@@ -1,61 +1,124 @@
+<div #ElementRefDiv></div>
 <div class="flex" style="flex-direction: column;height:100vh;margin 0;">
-<div class="p-2 bgarm-primary flex">
-  <img src="assets/img/SVG/locoIconoarm.svg" alt="" width="20" class="mr-2">
-  <div class=""><span class="text-white"> Armadillo compiler </span></div>
-</div>
+  <div class="p-2 bgarm-primary flex">
+    <img src="assets/img/SVG/locoIconoarm.svg" alt="" width="20" class="mr-2">
+    <div class=""><span class="text-white"> Armadillo compiler </span></div>
+  </div>
   <div class="" style="flex: 1">
-<p-splitter layout="horizontal" [style]="{'height':'100%'}" [panelSizes]="[20,80]" [minSizes]="[20,80]" styleClass="mb-5">
-  <ng-template pTemplate>
-    <div class="col p-0">
-      <div class="bgarm-secundary p-2">
-        <span style="letter-spacing: 1.5px"> <strong> Use case descriptions </strong> </span>
-      </div>
-      <div class="text-center mt-3">
-        <button class="btn-newdescription p-2"> <i class="pi pi-plus"></i> New description </button>
-      </div>
-    </div>
-  </ng-template>
-  <ng-template pTemplate>
-    <p-splitter layout="vertical" [panelSizes]="[60,40]" [minSizes]="[60,40]">
-      <ng-template pTemplate [style]="{'overflow': 'auto'}">
+    <p-splitter layout="horizontal" [style]="{'height':'100%'}" [panelSizes]="[20,80]" [minSizes]="[20,80]"
+                styleClass="mb-5">
+      <ng-template pTemplate>
         <div class="col p-0">
-          <div class="bgarm-secundary">
-            <button class="btn-compiler-play" style="float: right"
-                    pTooltip="Interpret" tooltipPosition="left"> <i class="pi pi-play"></i> </button>
-            <button class="btn-compiler-active"> Enter text </button>
-            <button class="btn-compiler-inactive"> Class Diagram </button>
-            <button class="btn-compiler-inactive"> JSON </button>
-            <button class="btn-compiler-inactive"> XML </button>
-          </div>
-          <div class="">
-          <p-editor [style]="{'border-bottom':'1px solid black', 'height':'20vh'}" spellcheck="false">
-            <ng-template pTemplate="header">
-              <span class="ql-formats">
-                  <button type="button" class="ql-bold" aria-label="Bold"></button>
-                  <button type="button" class="ql-italic" aria-label="Italic"></button>
-                  <button type="button" class="ql-underline" aria-label="Underline"></button>
-              </span>
-            </ng-template>
-          </p-editor>
-          </div>
           <div class="bgarm-secundary p-2">
-            <span > <strong> Natural text </strong> </span>
+            <span style="letter-spacing: 1.5px"> <strong> Use case descriptions </strong> </span>
           </div>
-          <div class="p-2">
-            <p> Nuevo texto interpretado </p>
+          <div class="text-center mt-3">
+            <button class="btn-newdescription p-2" (click)="addNewDescription()"><i class="pi pi-plus"></i> New
+              description
+            </button>
+          </div>
+          <div class=" p-2">
+            <strong> List of descriptions </strong>
+            <div class="field mt-2" *ngFor="let item of descriptions; let i = index">
+              <div class="p-2 hover:bg-blue-100 cursor-pointer mb-2"
+                   [class]="validateColorDescription(item)" (click)="selectedDescription(item, i)">
+                <span [class]="item.selected ? 'font-bold' : ''"> Description # {{i + 1}} </span>
+                <i class="pi pi-trash text-pink-500"
+                   style="float: right"></i>
+              </div>
+            </div>
           </div>
         </div>
       </ng-template>
       <ng-template pTemplate>
-        <div class="col p-0">
-          <div class="bgarm-secundary p-2 flex">
-            <img src="assets/img/terminal.png" width="15" alt="" class="mr-3">
-            <span > <strong> Console </strong> </span>
-          </div>
-        </div>
+        <p-splitter layout="vertical" [panelSizes]="[50,30]" [minSizes]="[60,30]">
+          <ng-template pTemplate [style]="{'overflow': 'auto'}">
+            <div class="col p-0">
+              <div class="bgarm-secundary">
+                <button class="btn-compiler-play" style="float: right" (click)="execute()"
+                        pTooltip="Interpret" tooltipPosition="left"><i class="pi pi-play"></i></button>
+                <button [class]="tabEnterText ? 'btn-compiler-active' : 'btn-compiler-inactive'"
+                        (click)="changeTab('enterText')"> Enter text
+                </button>
+                <button [class]="tabClassDiagram ? 'btn-compiler-active' : 'btn-compiler-inactive'"
+                        (click)="changeTab('classDiagram')"> Class Diagram
+                </button>
+                <button [class]="tabJson ? 'btn-compiler-active' : 'btn-compiler-inactive'" (click)="changeTab('json')">
+                  JSON
+                </button>
+                <button [class]="tabXml ? 'btn-compiler-active' : 'btn-compiler-inactive'" (click)="changeTab('xml')">
+                  XML
+                </button>
+              </div>
+              <!-- Tab para ingresar la descripcion -->
+              <div class="p-2" *ngIf="tabEnterText" style="overflow: auto; width: 100%; height: 50vh">
+                <div class="p-2">
+                  <strong class=""> Selected description # {{indexSelected + 1}} </strong>
+                </div>
+                <textarea class="p-2" [(ngModel)]="model_text" pInputText
+                          style="height: 25vh; width: 100%; border: none; font-size: 13px"></textarea>
+                <!--<p-editor [style]="{'border-bottom':'1px solid black', 'height':'20vh'}" spellcheck="false"
+                          [(ngModel)]="model_text">
+                  <ng-template pTemplate="header">
+                  <span class="ql-formats">
+                      <button type="button" class="ql-bold" aria-label="Bold"></button>
+                      <button type="button" class="ql-italic" aria-label="Italic"></button>
+                      <button type="button" class="ql-underline" aria-label="Underline"></button>
+                  </span>
+                  </ng-template>
+                </p-editor>-->
+                <div class="bgarm-secundary p-2">
+                  <span> <strong> Natural text </strong> </span>
+                </div>
+                <div class="p-2">
+                  {{natural_text}}
+                </div>
+              </div>
+              <!-- Tab para visualizar el diagrama de clases -->
+              <div class="p-2" [style.display]="tabClassDiagram ? 'block' : 'none'" style="overflow: auto; width: 100%">
+                <div #areaDiagram class="ud_diagram_div overflow-hidden p-2 border-1" draggable="true"
+                     style="max-width: 2000px; max-height: 2000px ; height: 50vh">
+                  <canvas id="mac">
+                  </canvas>
+                  <canvas id="mot">
+                  </canvas>
+                </div>
+              </div>
+              <!-- Tab para visualizar el json generado -->
+              <div class="" *ngIf="tabJson" style="height: 50vh !important; overflow: auto;">
+                <div class="p-2">
+
+                  <textarea [(ngModel)]="viewJson"
+                            style="width: 100%; border: none; height: 48vh;font-family: monospace;"
+                            readonly> </textarea>
+                </div>
+              </div>
+              <!-- Tab para visualizar el xml generado -->
+              <div class="" [style.display]="tabXml ? 'block' : 'none'">
+                <div class="p-2">
+                  <textarea #textareaxml [(ngModel)]="viewXml"
+                            style="width: 100%; border: none; height: 48vh;font-family: monospace;"
+                            readonly> </textarea>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+          <ng-template pTemplate>
+            <div class="col p-0">
+              <div class="bgarm-secundary p-2 flex">
+                <img src="assets/img/terminal.png" width="15" alt="" class="mr-3">
+                <span> <strong> Console </strong> </span>
+              </div>
+              <div style="height: 30vh !important; overflow: auto;">
+                <div class="p-2" *ngFor="let item of notifications; let i = index">
+                    <span [class]="validateColorConsole(item.status)" style="font-family: 'monospace'"> <strong> {{item.type}}
+                      : </strong> {{item.information}} </span>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </p-splitter>
       </ng-template>
     </p-splitter>
-  </ng-template>
-</p-splitter>
   </div>
 </div>

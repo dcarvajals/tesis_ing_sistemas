@@ -11,6 +11,8 @@ import { MaincomponentComponent } from './components/maincomponent/maincomponent
 import {SplitterModule} from "primeng/splitter";
 import {EditorModule} from "primeng/editor";
 import {TooltipModule} from "primeng/tooltip";
+import {FormsModule} from "@angular/forms";
+import {PrettyJsonPipe} from "./models/PrettyJsonPipe";
 
 @NgModule({
   declarations: [
@@ -18,16 +20,18 @@ import {TooltipModule} from "primeng/tooltip";
     TopbarComponent,
     MainComponent,
     CompilerComponent,
-    MaincomponentComponent
+    MaincomponentComponent,
+    PrettyJsonPipe
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    ButtonModule,
-    SplitterModule,
-    EditorModule,
-    TooltipModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        ButtonModule,
+        SplitterModule,
+        EditorModule,
+        TooltipModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

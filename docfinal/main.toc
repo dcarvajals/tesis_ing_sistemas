@@ -10,13 +10,31 @@
 \contentsline {section}{\numberline {1.3}Justificación.}{7}{}%
 \contentsline {part}{II\hspace {1em}FUNDAMENTACIÓN TEÓRICA DE LA INVESTIGACIÓN}{9}{}%
 \contentsline {section}{\numberline {2.1}Marco referencial}{10}{}%
-\contentsline {subsection}{\numberline {2.1.1}Lenguaje de restricciones de objetos para la generación de código a partir de modelos de actividad}{11}{}%
-\contentsline {subsection}{\numberline {2.1.2}Desarrollo de módulos de software generativo para el diseño orientado al dominio con un lenguaje específico de dominio basado en anotaciones}{12}{}%
-\contentsline {subsection}{\numberline {2.1.3}Modelado para la localización de características en modelos de software: tanto la generación de código y los modelos interpretados.}{12}{}%
-\contentsline {section}{\numberline {2.2}Marco conceptual}{12}{}%
-\contentsline {subsection}{\numberline {2.2.1}JSON}{13}{}%
-\contentsline {subsection}{\numberline {2.2.2}XML}{13}{}%
-\contentsline {subsection}{\numberline {2.2.3}Compiladores}{13}{}%
-\contentsline {subsection}{\numberline {2.2.4}Lenguajes de modelado}{13}{}%
-\contentsline {section}{\numberline {2.3}Marco referencial.}{14}{}%
-\contentsline {part}{III\hspace {1em}BIBLIOGRAFÍA}{15}{}%
+\contentsline {section}{\numberline {2.2}Marco contextual}{11}{}%
+\contentsline {subsection}{\numberline {2.2.1}Metodología de desarrollo aplicada al proyecto}{11}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Descripción general de la metodología}{12}{}%
+\contentsline {paragraph}{Roles}{14}{}%
+\contentsline {paragraph}{Fases}{14}{}%
+\contentsline {section}{\numberline {2.3}Marco conceptual}{17}{}%
+\contentsline {subsection}{\numberline {2.3.1}Lenguajes de marcado}{17}{}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}JSON}{17}{}%
+\contentsline {subsubsection}{\numberline {2.3.1.2}XML}{17}{}%
+\contentsline {subsection}{\numberline {2.3.2}Compiladores}{18}{}%
+\contentsline {subsection}{\numberline {2.3.3}Modelamiento de software}{19}{}%
+\contentsline {subsection}{\numberline {2.3.4}Metamodelado}{19}{}%
+\contentsline {subsection}{\numberline {2.3.5}Desarrollo ágil de software}{21}{}%
+\contentsline {part}{III\hspace {1em}MÉTODOLOGÍA DE LA INVESTIGACIÓN}{24}{}%
+\contentsline {section}{\numberline {3.1}Localización}{25}{}%
+\contentsline {section}{\numberline {3.2}Tipo de investigación}{25}{}%
+\contentsline {section}{\numberline {3.3}Método de investigación}{25}{}%
+\contentsline {subsection}{\numberline {3.3.1}Método analítico}{25}{}%
+\contentsline {subsection}{\numberline {3.3.2}Método inductivo}{25}{}%
+\contentsline {section}{\numberline {3.4}Fuentes de recopilación de información}{26}{}%
+\contentsline {section}{\numberline {3.5}Diseño de la investigación}{26}{}%
+\contentsline {subsection}{\numberline {3.5.1}Búsqueda de aplicativos relacionados}{26}{}%
+\contentsline {subsection}{\numberline {3.5.2}Modelamiento}{26}{}%
+\contentsline {subsection}{\numberline {3.5.3}Desarrollo del código}{27}{}%
+\contentsline {subsection}{\numberline {3.5.4}Pruebas unitarias}{27}{}%
+\contentsline {subsection}{\numberline {3.5.5}Evaluación con sistemas de información reales}{28}{}%
+\contentsline {subsection}{\numberline {3.5.6}Modelo de prototipado}{28}{}%
+\contentsline {part}{IV\hspace {1em}BIBLIOGRAFÍA}{30}{}%

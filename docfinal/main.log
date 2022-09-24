@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.23)  1 SEP 2022 20:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.5)  23 SEP 2022 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
-LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-08-05>
-(c:/texlive/2022/texmf-dist/tex/latex/base/book.cls
+**./main.tex
+(main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(D:\Archivos de programa\MikTex\tex/latex/base\book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
-(c:/texlive/2022/texmf-dist/tex/latex/base/bk12.clo
+(D:\Archivos de programa\MikTex\tex/latex/base\bk12.clo
 File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -24,60 +24,50 @@ File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(c:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+(D:\Archivos de programa\MikTex\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-(c:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+(D:\Archivos de programa\MikTex\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
+(D:\Archivos de programa\MikTex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(D:\Archivos de programa\MikTex\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+(D:\Archivos de programa\MikTex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen139
 ))
-(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(D:\Archivos de programa\MikTex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
 )
-(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
+(D:\Archivos de programa\MikTex\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
 )
 \inf@bad=\count194
 LaTeX Info: Redefining \frac on input line 234.
 \uproot@=\count195
 \leftroot@=\count196
 LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
 \classnum@=\count197
 \DOTSCASE@=\count198
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count199
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
 \c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
 \c@parentequation=\count267
@@ -97,13 +87,13 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \multlinegap=\skip50
 \multlinetaggap=\skip51
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
 )
-(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(D:\Archivos de programa\MikTex\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(D:\Archivos de programa\MikTex\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -111,37 +101,37 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(c:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+(D:\Archivos de programa\MikTex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+(D:\Archivos de programa\MikTex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
-(c:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(D:\Archivos de programa\MikTex\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+(D:\Archivos de programa\MikTex\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(D:\Archivos de programa\MikTex\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(c:/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+(D:\Archivos de programa\MikTex\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
 )
-(c:/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+(D:\Archivos de programa\MikTex\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(c:/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+(D:\Archivos de programa\MikTex\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+(D:\Archivos de programa\MikTex\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count272
@@ -156,18 +146,26 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen156
 \Gm@layoutvoffset=\dimen157
 \Gm@dimlist=\toks24
-)
-(c:/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2022/07/20 3.78 The Babel package
+
+(D:\Archivos de programa\MikTex\tex/latex/geometry\geometry.cfg))
+(D:\Archivos de programa\MikTex\tex/generic/babel\babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
 \babel@savecnt=\count275
 \U@D=\dimen158
-\l@unhyphenated=\language87
+\l@unhyphenated=\language79
 
-(c:/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
+(D:\Archivos de programa\MikTex\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count276
 
-(c:/texlive/2022/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\Archivos de programa\MikTex\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(D:\Archivos de programa\MikTex\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks25
 \es@quotdepth=\count277
@@ -176,29 +174,21 @@ Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 )
-(c:/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
+(D:\Archivos de programa\MikTex\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language21). Reported on input line 105.
+(babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language21). Reported on input line 108.
+(babel)             (\language73). Reported on input line 108.
 ))
-(c:/texlive/2022/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 11.
-)
-(c:/texlive/2022/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
-Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 11.
-)
-(c:/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
+(D:\Archivos de programa\MikTex\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(c:/texlive/2022/texmf-dist/tex/latex/titlesec/titlesec.sty
+(D:\Archivos de programa\MikTex\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box53
+\ttl@box=\box52
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
 \ttl@plus=\dimen159
@@ -208,13 +198,13 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen162
 \titlewidthfirst=\dimen163
 )
-(c:/texlive/2022/texmf-dist/tex/latex/psnfss/times.sty
+(D:\Archivos de programa\MikTex\tex/latex/psnfss\times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
-(c:/texlive/2022/texmf-dist/tex/latex/titlesec/titleps.sty
+(D:\Archivos de programa\MikTex\tex/latex/titlesec\titleps.sty
 Package: titleps 2021/07/05 v2.14 Page styles
 )
-(c:/texlive/2022/texmf-dist/tex/latex/tocloft/tocloft.sty
+(D:\Archivos de programa\MikTex\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip54
@@ -254,44 +244,44 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cfttabindent=\skip86
 \cfttabnumwidth=\skip87
 )
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
+(D:\Archivos de programa\MikTex\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 
-(c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(D:\Archivos de programa\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(D:\Archivos de programa\MikTex\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(D:\Archivos de programa\MikTex\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(D:\Archivos de programa\MikTex\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count280
 )
-(c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(D:\Archivos de programa\MikTex\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
-(c:/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+(D:\Archivos de programa\MikTex\tex/generic/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(c:/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
+(D:\Archivos de programa\MikTex\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count281
 
-(c:/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def
+(D:\Archivos de programa\MikTex\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(c:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+(D:\Archivos de programa\MikTex\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
+(D:\Archivos de programa\MikTex\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -330,14 +320,13 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@tempcntb=\count314
 \blx@tempcntc=\count315
 \c@blx@maxsection=\count316
-\blx@maxsegment@0=\count317
+\c@blx@maxsegment@0=\count317
 \blx@notetype=\count318
 \blx@parenlevel@text=\count319
 \blx@parenlevel@foot=\count320
-\blx@sectionciteorder@0=\count321
-\blx@sectionciteorderinternal@0=\count322
-\blx@entrysetcounter=\count323
-\blx@biblioinstance=\count324
+\c@blx@sectionciteorder@0=\count321
+\blx@entrysetcounter=\count322
+\blx@biblioinstance=\count323
 \labelnumberwidth=\skip88
 \labelalphawidth=\skip89
 \biblabelsep=\skip90
@@ -348,88 +337,88 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip95
 \blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language88
-\c@mincomprange=\count325
-\c@maxcomprange=\count326
-\c@mincompwidth=\count327
+\blx@langwohyphens=\language80
+\c@mincomprange=\count324
+\c@maxcomprange=\count325
+\c@mincompwidth=\count326
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
+(D:\Archivos de programa\MikTex\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count328
-\c@savedafterword=\count329
-\c@annotator=\count330
-\c@savedannotator=\count331
-\c@author=\count332
-\c@savedauthor=\count333
-\c@bookauthor=\count334
-\c@savedbookauthor=\count335
-\c@commentator=\count336
-\c@savedcommentator=\count337
-\c@editor=\count338
-\c@savededitor=\count339
-\c@editora=\count340
-\c@savededitora=\count341
-\c@editorb=\count342
-\c@savededitorb=\count343
-\c@editorc=\count344
-\c@savededitorc=\count345
-\c@foreword=\count346
-\c@savedforeword=\count347
-\c@holder=\count348
-\c@savedholder=\count349
-\c@introduction=\count350
-\c@savedintroduction=\count351
-\c@namea=\count352
-\c@savednamea=\count353
-\c@nameb=\count354
-\c@savednameb=\count355
-\c@namec=\count356
-\c@savednamec=\count357
-\c@translator=\count358
-\c@savedtranslator=\count359
-\c@shortauthor=\count360
-\c@savedshortauthor=\count361
-\c@shorteditor=\count362
-\c@savedshorteditor=\count363
-\c@labelname=\count364
-\c@savedlabelname=\count365
-\c@institution=\count366
-\c@savedinstitution=\count367
-\c@lista=\count368
-\c@savedlista=\count369
-\c@listb=\count370
-\c@savedlistb=\count371
-\c@listc=\count372
-\c@savedlistc=\count373
-\c@listd=\count374
-\c@savedlistd=\count375
-\c@liste=\count376
-\c@savedliste=\count377
-\c@listf=\count378
-\c@savedlistf=\count379
-\c@location=\count380
-\c@savedlocation=\count381
-\c@organization=\count382
-\c@savedorganization=\count383
-\c@origlocation=\count384
-\c@savedoriglocation=\count385
-\c@origpublisher=\count386
-\c@savedorigpublisher=\count387
-\c@publisher=\count388
-\c@savedpublisher=\count389
-\c@language=\count390
-\c@savedlanguage=\count391
-\c@origlanguage=\count392
-\c@savedoriglanguage=\count393
-\c@pageref=\count394
-\c@savedpageref=\count395
+\c@afterword=\count327
+\c@savedafterword=\count328
+\c@annotator=\count329
+\c@savedannotator=\count330
+\c@author=\count331
+\c@savedauthor=\count332
+\c@bookauthor=\count333
+\c@savedbookauthor=\count334
+\c@commentator=\count335
+\c@savedcommentator=\count336
+\c@editor=\count337
+\c@savededitor=\count338
+\c@editora=\count339
+\c@savededitora=\count340
+\c@editorb=\count341
+\c@savededitorb=\count342
+\c@editorc=\count343
+\c@savededitorc=\count344
+\c@foreword=\count345
+\c@savedforeword=\count346
+\c@holder=\count347
+\c@savedholder=\count348
+\c@introduction=\count349
+\c@savedintroduction=\count350
+\c@namea=\count351
+\c@savednamea=\count352
+\c@nameb=\count353
+\c@savednameb=\count354
+\c@namec=\count355
+\c@savednamec=\count356
+\c@translator=\count357
+\c@savedtranslator=\count358
+\c@shortauthor=\count359
+\c@savedshortauthor=\count360
+\c@shorteditor=\count361
+\c@savedshorteditor=\count362
+\c@labelname=\count363
+\c@savedlabelname=\count364
+\c@institution=\count365
+\c@savedinstitution=\count366
+\c@lista=\count367
+\c@savedlista=\count368
+\c@listb=\count369
+\c@savedlistb=\count370
+\c@listc=\count371
+\c@savedlistc=\count372
+\c@listd=\count373
+\c@savedlistd=\count374
+\c@liste=\count375
+\c@savedliste=\count376
+\c@listf=\count377
+\c@savedlistf=\count378
+\c@location=\count379
+\c@savedlocation=\count380
+\c@organization=\count381
+\c@savedorganization=\count382
+\c@origlocation=\count383
+\c@savedoriglocation=\count384
+\c@origpublisher=\count385
+\c@savedorigpublisher=\count386
+\c@publisher=\count387
+\c@savedpublisher=\count388
+\c@language=\count389
+\c@savedlanguage=\count390
+\c@origlanguage=\count391
+\c@savedoriglanguage=\count392
+\c@pageref=\count393
+\c@savedpageref=\count394
 \shorthandwidth=\skip96
 \shortjournalwidth=\skip97
 \shortserieswidth=\skip98
@@ -447,14 +436,14 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+(D:\Archivos de programa\MikTex\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-bibtex.def
-File: blx-bibtex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+(D:\Archivos de programa\MikTex\tex/latex/biblatex\blx-bibtex.def
+File: blx-bibtex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 
 
 Package biblatex Warning: Using fall-back BibTeX(8) backend:
@@ -463,59 +452,59 @@ Package biblatex Warning: Using fall-back BibTeX(8) backend:
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
-\c@textcitecount=\count396
-\c@textcitetotal=\count397
-\c@textcitemaxnames=\count398
-\c@biburlbigbreakpenalty=\count399
-\c@biburlbreakpenalty=\count400
-\c@biburlnumpenalty=\count401
-\c@biburlucpenalty=\count402
-\c@biburllcpenalty=\count403
+ (D:\Archivos de programa\MikTex\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count395
+\c@textcitetotal=\count396
+\c@textcitemaxnames=\count397
+\c@biburlbigbreakpenalty=\count398
+\c@biburlbreakpenalty=\count399
+\c@biburlnumpenalty=\count400
+\c@biburlucpenalty=\count401
+\c@biburllcpenalty=\count402
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count404
+\c@smartand=\count403
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+(D:\Archivos de programa\MikTex\tex/latex/biblatex-ieee\ieee.bbx
 File: ieee.bbx 2021/12/06 v1.3f biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+(D:\Archivos de programa\MikTex\tex/latex/biblatex/bbx\numeric-comp.bbx
+File: numeric-comp.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+(D:\Archivos de programa\MikTex\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count405
-\c@bbx:relatedtotal=\count406
+(D:\Archivos de programa\MikTex\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count404
+\c@bbx:relatedtotal=\count405
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+(D:\Archivos de programa\MikTex\tex/latex/biblatex-ieee\ieee.cbx
 File: ieee.cbx 2021/12/06 v1.3f biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
-File: numeric-comp.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count407
-\c@cbx@tempcntb=\count408
-\c@cbx@tempcntc=\count409
-\c@cbx@tempcntd=\count410
+(D:\Archivos de programa\MikTex\tex/latex/biblatex/cbx\numeric-comp.cbx
+File: numeric-comp.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count406
+\c@cbx@tempcntb=\count407
+\c@cbx@tempcntc=\count408
+\c@cbx@tempcntd=\count409
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -535,53 +524,53 @@ Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.cfg
+(D:\Archivos de programa\MikTex\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 
-(c:/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-08-05 L3 programming layer (loader) 
+(D:\Archivos de programa\MikTex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
 
-(c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-08-05 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count411
-\l__pdf_internal_box=\box54
+(D:\Archivos de programa\MikTex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count410
+\l__pdf_internal_box=\box53
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2022-08-05 L3 programming layer (loader) 
+(biblatex)             2022-02-24 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-(c:/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2022-06-22 L3 Experimental document command parser
+(D:\Archivos de programa\MikTex\tex/latex/biblatex\blx-case-expl3.sty
+(D:\Archivos de programa\MikTex\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
 )
-Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
-
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count412
-\@quotereset=\count413
+\@quotelevel=\count411
+\@quotereset=\count412
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 65
 .
-(c:/texlive/2022/texmf-dist/tex/latex/psnfss/t1ptm.fd
+(D:\Archivos de programa\MikTex\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./main.aux
-(./paginas_preliminares/caratula.aux)
-(./paginas_preliminares/declaracion_autorio.aux)
-(./paginas_preliminares/certificacion_culminacion.aux)
-(./paginas_preliminares/certificacion_urkund.aux)
-(./paginas_preliminares/certificacion_aprobacion.aux)
-(./paginas_preliminares/agradecimiento.aux)
-(./paginas_preliminares/dedicatoria.aux) (./paginas_preliminares/resumen.aux)
-(./paginas_preliminares/abstract.aux) (./paginas_preliminares/introduccion.aux)
-(./cuerpo/cap1_contextualizacion_investigacion.aux)
-(./cuerpo/cap2_fundamentacion_teorica.aux) (./cuerpo/bibliografia.aux))
+) (main.aux
+(paginas_preliminares/caratula.aux)
+(paginas_preliminares/declaracion_autorio.aux)
+(paginas_preliminares/certificacion_culminacion.aux)
+(paginas_preliminares/certificacion_urkund.aux)
+(paginas_preliminares/certificacion_aprobacion.aux)
+(paginas_preliminares/agradecimiento.aux) (paginas_preliminares/dedicatoria.aux
+) (paginas_preliminares/resumen.aux) (paginas_preliminares/abstract.aux)
+(paginas_preliminares/introduccion.aux)
+(cuerpo/cap1_contextualizacion_investigacion.aux)
+(cuerpo/cap2_fundamentacion_teorica.aux)
+(cuerpo/cap3_metodologia_investigcacion.aux) (cuerpo/bibliografia.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
@@ -599,27 +588,26 @@ LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 
-(c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(D:\Archivos de programa\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count414
+\scratchcounter=\count413
 \scratchdimen=\dimen164
-\scratchbox=\box55
-\nofMPsegments=\count415
-\nofMParguments=\count416
+\scratchbox=\box54
+\nofMPsegments=\count414
+\nofMParguments=\count415
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count417
+\MPscratchCnt=\count416
 \MPscratchDim=\dimen165
-\MPnumerator=\count418
-\makeMPintoPDFobject=\count419
+\MPnumerator=\count417
+\makeMPintoPDFobject=\count418
 \everyMPtoPDFconversion=\toks28
-) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (D:\Archivos de programa\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+(D:\Archivos de programa\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -657,14 +645,14 @@ e
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+(D:\Archivos de programa\MikTex\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
 
-(c:/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
-File: spanish.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+(D:\Archivos de programa\MikTex\tex/latex/biblatex/lbx\spanish.lbx
+File: spanish.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -676,13 +664,13 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 65.
 Package biblatex Info: Reference segment=0 on input line 65.
 \openout2 = `paginas_preliminares/caratula.aux'.
 
 
-(./paginas_preliminares/caratula.tex
+(paginas_preliminares/caratula.tex
 <img/logoUTEQ.png, id=1, 444.66125pt x 513.92pt>
 File: img/logoUTEQ.png Graphic file (type png)
 <use img/logoUTEQ.png>
@@ -691,15 +679,15 @@ Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
 ) [1
 
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/logoUTEQ.
-png>] [1
+{C:/Users/amara/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/logoUT
+EQ.png>] [1
 
 
 ]
 \openout2 = `paginas_preliminares/declaracion_autorio.aux'.
 
 
-(./paginas_preliminares/declaracion_autorio.tex
+(paginas_preliminares/declaracion_autorio.tex
 File: img/logoUTEQ.png Graphic file (type png)
 <use img/logoUTEQ.png>
 Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
@@ -710,7 +698,7 @@ Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
 \openout2 = `paginas_preliminares/certificacion_culminacion.aux'.
 
 
-(./paginas_preliminares/certificacion_culminacion.tex
+(paginas_preliminares/certificacion_culminacion.tex
 File: img/logoUTEQ.png Graphic file (type png)
 <use img/logoUTEQ.png>
 Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
@@ -723,7 +711,7 @@ Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
 \openout2 = `paginas_preliminares/certificacion_urkund.aux'.
 
 
-(./paginas_preliminares/certificacion_urkund.tex
+(paginas_preliminares/certificacion_urkund.tex
 File: img/logoUTEQ.png Graphic file (type png)
 <use img/logoUTEQ.png>
 Package pdftex.def Info: img/logoUTEQ.png  used on input line 5.
@@ -736,7 +724,7 @@ Package pdftex.def Info: img/logoUTEQ.png  used on input line 5.
 \openout2 = `paginas_preliminares/certificacion_aprobacion.aux'.
 
 
-(./paginas_preliminares/certificacion_aprobacion.tex
+(paginas_preliminares/certificacion_aprobacion.tex
 File: img/logoUTEQ.png Graphic file (type png)
 <use img/logoUTEQ.png>
 Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
@@ -749,7 +737,7 @@ Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
 \openout2 = `paginas_preliminares/agradecimiento.aux'.
 
 
-(./paginas_preliminares/agradecimiento.tex) [6
+(paginas_preliminares/agradecimiento.tex) [6
 
 
 
@@ -757,54 +745,54 @@ Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
 \openout2 = `paginas_preliminares/dedicatoria.aux'.
 
 
-(./paginas_preliminares/dedicatoria.tex) [7
+(paginas_preliminares/dedicatoria.tex) [7
 
 
 
 ]
 \openout2 = `paginas_preliminares/resumen.aux'.
 
-
-(./paginas_preliminares/resumen.tex) [8
+ (paginas_preliminares/resumen.tex)
+[8
 
 
 
 ]
 \openout2 = `paginas_preliminares/abstract.aux'.
 
- (./paginas_preliminares/abstract.tex)
-[9
+ (paginas_preliminares/abstract.tex) [9
 
 
 
-] (./main.toc
+] (main.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
- (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(D:\Archivos de programa\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
-(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+(D:\Archivos de programa\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [10
+
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [10
-
-
-]
+ [11]
 \openout2 = `paginas_preliminares/introduccion.aux'.
 
 
-(./paginas_preliminares/introduccion.tex [1
+(paginas_preliminares/introduccion.tex [1
 
 
 ] [2]) [3]
 \openout2 = `cuerpo/cap1_contextualizacion_investigacion.aux'.
 
 
-(./cuerpo/cap1_contextualizacion_investigacion.tex [4
+(cuerpo/cap1_contextualizacion_investigacion.tex [4
 
 
 
@@ -813,46 +801,126 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout2 = `cuerpo/cap2_fundamentacion_teorica.aux'.
 
 
-(./cuerpo/cap2_fundamentacion_teorica.tex [9
+(cuerpo/cap2_fundamentacion_teorica.tex [9
 
 
 
 
-] [10] [11] [12]
-Overfull \hbox (12.19437pt too wide) in paragraph at lines 42--43
+] [10]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 28.
+
+
+LaTeX Warning: Float too large for page by 7.20593pt on input line 48.
+
+[11]
+<img/metodologia.png, id=80, 608.82pt x 536.112pt>
+File: img/metodologia.png Graphic file (type png)
+<use img/metodologia.png>
+Package pdftex.def Info: img/metodologia.png  used on input line 56.
+(pdftex.def)             Requested size: 284.52756pt x 250.54929pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
+4.
+ (D:\Archivos de programa\MikTex\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [12 <./img/metodologia.png>] [13] [14] [15] [16]
+<img/json.png, id=98, 558.73744pt x 243.91125pt>
+File: img/json.png Graphic file (type png)
+<use img/json.png>
+Package pdftex.def Info: img/json.png  used on input line 142.
+(pdftex.def)             Requested size: 341.43306pt x 149.0536pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (12.19437pt too wide) in paragraph at lines 149--150
 \T1/ptm/m/n/12 Es un lenguaje de mar-cado sim-i-lar a HTML. Sig-nifica Ex-ten-s
 i-ble Markup Lan-guage y pertenece
  []
 
+[17]
+<img/xml.png, id=102, 396.58162pt x 210.93806pt>
+File: img/xml.png Graphic file (type png)
+<use img/xml.png>
+Package pdftex.def Info: img/xml.png  used on input line 153.
+(pdftex.def)             Requested size: 341.43306pt x 181.61241pt.
+ [18 <./img/json.png> <./img/xml.png>]
+<img/metamodelo.png, id=108, 314.3745pt x 448.67625pt>
+File: img/metamodelo.png Graphic file (type png)
+<use img/metamodelo.png>
+Package pdftex.def Info: img/metamodelo.png  used on input line 184.
+(pdftex.def)             Requested size: 426.79134pt x 609.17154pt.
 
-Overfull \hbox (17.90474pt too wide) in paragraph at lines 49--50
-\T1/ptm/m/n/12 definir es-truc-turas y com-por-tamien-tos que ten-drán los sis-
-temas com-puta-riza-dos. UML (Lenguaje
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19] [20 <./img/metamodelo.png>]
+<img/metamodelosopamm.png, id=117, 252.34274pt x 459.51675pt>
+File: img/metamodelosopamm.png Graphic file (type png)
+<use img/metamodelosopamm.png>
+Package pdftex.def Info: img/metamodelosopamm.png  used on input line 195.
+(pdftex.def)             Requested size: 284.52756pt x 518.18211pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21] [22 <./img/metamodelosopamm.png>]) [23]
+\openout2 = `cuerpo/cap3_metodologia_investigcacion.aux'.
+
+
+(cuerpo/cap3_metodologia_investigcacion.tex [24
+
+
+
+
+]
+<img/campuslamaria.png, id=131, 444.4605pt x 294.50024pt>
+File: img/campuslamaria.png Graphic file (type png)
+<use img/campuslamaria.png>
+Package pdftex.def Info: img/campuslamaria.png  used on input line 11.
+(pdftex.def)             Requested size: 341.43306pt x 226.2446pt.
+ [25 <./img/campuslamaria.png>] [26]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 69
+.
+ (D:\Archivos de programa\MikTex\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Overfull \hbox (5.95679pt too wide) in paragraph at lines 72--72
+ []\T1/pcr/m/n/12 Create an user *(user %.username=String, .password=String,[] 
+
  []
 
-[13]) [14]
+
+Overfull \hbox (13.15678pt too wide) in paragraph at lines 72--72
+ []\T1/pcr/m/n/12 .status=Status, .user type=UserType, .person=Tutor%) object[]
+ 
+ []
+
+
+Overfull \hbox (13.15678pt too wide) in paragraph at lines 77--77
+ []\T1/pcr/m/n/12 *(TutorDAO &id=Int [/Save/=Tutor{.tutor=Tutor}])s the tutor[]
+ 
+ []
+
+
+Overfull \hbox (20.35678pt too wide) in paragraph at lines 82--82
+ []\T1/pcr/m/n/12 *(UserDAO &-id=Int [/Save/=User{.user=User}])s the user data[
+] 
+ []
+
+[27] [28]) [29]
 \openout2 = `cuerpo/bibliografia.aux'.
 
- (./cuerpo/bibliografia.tex [15
+ (cuerpo/bibliografia.tex [30
 
 
 
 
-]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 4.
+] [31
 
-
-(c:/texlive/2022/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [16
-
-]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
-.
-
-(c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [17]
+] [32]
 Overfull \hbox (37.62073pt too wide) in paragraph at lines 4--4
 \T1/ptm/m/it/12 sys-tem\T1/ptm/m/n/12 . [On-line]. Avail-able: $\T1/pcr/m/n/12 
 https : / / aplicaciones . uteq . edu . ec / tddt4iots/$\T1/ptm/m/n/12 . 
@@ -870,16 +938,17 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[18] [19]) [20] (./main.aux (./paginas_preliminares/caratula.aux)
-(./paginas_preliminares/declaracion_autorio.aux)
-(./paginas_preliminares/certificacion_culminacion.aux)
-(./paginas_preliminares/certificacion_urkund.aux)
-(./paginas_preliminares/certificacion_aprobacion.aux)
-(./paginas_preliminares/agradecimiento.aux)
-(./paginas_preliminares/dedicatoria.aux) (./paginas_preliminares/resumen.aux)
-(./paginas_preliminares/abstract.aux) (./paginas_preliminares/introduccion.aux)
-(./cuerpo/cap1_contextualizacion_investigacion.aux)
-(./cuerpo/cap2_fundamentacion_teorica.aux) (./cuerpo/bibliografia.aux))
+[33] [34]) [35] (main.aux (paginas_preliminares/caratula.aux)
+(paginas_preliminares/declaracion_autorio.aux)
+(paginas_preliminares/certificacion_culminacion.aux)
+(paginas_preliminares/certificacion_urkund.aux)
+(paginas_preliminares/certificacion_aprobacion.aux)
+(paginas_preliminares/agradecimiento.aux) (paginas_preliminares/dedicatoria.aux
+) (paginas_preliminares/resumen.aux) (paginas_preliminares/abstract.aux)
+(paginas_preliminares/introduccion.aux)
+(cuerpo/cap1_contextualizacion_investigacion.aux)
+(cuerpo/cap2_fundamentacion_teorica.aux)
+(cuerpo/cap3_metodologia_investigcacion.aux) (cuerpo/bibliografia.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -897,22 +966,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### semi simple group (level 1) entered at line 22 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14532 strings out of 477678
- 276574 string characters out of 5833467
- 869097 words of memory out of 5000000
- 33039 multiletter control sequences out of 15000+600000
+ 14473 strings out of 478582
+ 278661 string characters out of 2850877
+ 861667 words of memory out of 3000000
+ 32357 multiletter control sequences out of 15000+600000
  523402 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,68p,1885b,10309s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/tex
-live/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2022/texmf-
-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/u
-rw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.p
-fb>
-Output written on main.pdf (31 pages, 324590 bytes).
+ 60i,14n,68p,1855b,10368s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{D:/Archivos de programa/MikTex/fonts/enc/dvips/base/8r.enc}<D:
+/Archivos de programa/MikTex/fonts/type1/urw/courier/ucrr8a.pfb><D:/Archivos de
+ programa/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/Archivos de programa/MikT
+ex/fonts/type1/urw/times/utmr8a.pfb><D:/Archivos de programa/MikTex/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on main.pdf (47 pages, 1099115 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 190 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
