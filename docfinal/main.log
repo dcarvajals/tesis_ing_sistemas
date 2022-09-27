@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.5)  23 SEP 2022 19:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.5)  25 SEP 2022 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -148,41 +148,6 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@dimlist=\toks24
 
 (D:\Archivos de programa\MikTex\tex/latex/geometry\geometry.cfg))
-(D:\Archivos de programa\MikTex\tex/generic/babel\babel.sty
-Package: babel 2022/02/26 3.73 The Babel package
-\babel@savecnt=\count275
-\U@D=\dimen158
-\l@unhyphenated=\language79
-
-(D:\Archivos de programa\MikTex\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count276
-
-*************************************
-* Local config file bblopts.cfg used
-*
-(D:\Archivos de programa\MikTex\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(D:\Archivos de programa\MikTex\tex/latex/babel-spanish\spanish.ldf
-Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks25
-\es@quotdepth=\count277
-Package babel Info: Making " an active character on input line 570.
-Package babel Info: Making . an active character on input line 675.
-Package babel Info: Making < an active character on input line 722.
-Package babel Info: Making > an active character on input line 722.
-)
-(D:\Archivos de programa\MikTex\tex/latex/babel-english\english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 108.
-))
 (D:\Archivos de programa\MikTex\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
@@ -191,15 +156,88 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box52
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
-\ttl@plus=\dimen159
-\ttl@minus=\dimen160
-\ttl@toksa=\toks26
-\titlewidth=\dimen161
-\titlewidthlast=\dimen162
-\titlewidthfirst=\dimen163
+\ttl@plus=\dimen158
+\ttl@minus=\dimen159
+\ttl@toksa=\toks25
+\titlewidth=\dimen160
+\titlewidthlast=\dimen161
+\titlewidthfirst=\dimen162
 )
 (D:\Archivos de programa\MikTex\tex/latex/psnfss\times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(D:\Archivos de programa\MikTex\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen163
+\lightrulewidth=\dimen164
+\cmidrulewidth=\dimen165
+\belowrulesep=\dimen166
+\belowbottomsep=\dimen167
+\aboverulesep=\dimen168
+\abovetopsep=\dimen169
+\cmidrulesep=\dimen170
+\cmidrulekern=\dimen171
+\defaultaddspace=\dimen172
+\@cmidla=\count275
+\@cmidlb=\count276
+\@aboverulesep=\dimen173
+\@belowrulesep=\dimen174
+\@thisruleclass=\count277
+\@lastruleclass=\count278
+\@thisrulewidth=\dimen175
+)
+(D:\Archivos de programa\MikTex\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(D:\Archivos de programa\MikTex\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen176
+\captionmargin=\dimen177
+\caption@leftmargin=\dimen178
+\caption@rightmargin=\dimen179
+\caption@width=\dimen180
+\caption@indent=\dimen181
+\caption@parindent=\dimen182
+\caption@hangindent=\dimen183
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
+)
+(D:\Archivos de programa\MikTex\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count281
+\LTcapwidth=\dimen184
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@gbox=\box57
+\LT@cols=\count282
+\LT@rows=\count283
+\c@LT@tables=\count284
+\c@LT@chunks=\count285
+\LT@p@ftn=\toks26
+)
+(D:\Archivos de programa\MikTex\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count286
+\float@exts=\toks27
+\float@box=\box58
+\@float@everytoks=\toks28
+\@floatcapt=\box59
+)
+(D:\Archivos de programa\MikTex\tex/latex/graphics\color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(D:\Archivos de programa\MikTex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
 )
 (D:\Archivos de programa\MikTex\tex/latex/titlesec\titleps.sty
 Package: titleps 2021/07/05 v2.14 Page styles
@@ -207,42 +245,42 @@ Package: titleps 2021/07/05 v2.14 Page styles
 (D:\Archivos de programa\MikTex\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip54
-\cftbeforetoctitleskip=\skip55
-\cftaftertoctitleskip=\skip56
-\cftbeforepartskip=\skip57
-\cftpartnumwidth=\skip58
-\cftpartindent=\skip59
-\cftbeforechapskip=\skip60
-\cftchapindent=\skip61
-\cftchapnumwidth=\skip62
-\cftbeforesecskip=\skip63
-\cftsecindent=\skip64
-\cftsecnumwidth=\skip65
-\cftbeforesubsecskip=\skip66
-\cftsubsecindent=\skip67
-\cftsubsecnumwidth=\skip68
-\cftbeforesubsubsecskip=\skip69
-\cftsubsubsecindent=\skip70
-\cftsubsubsecnumwidth=\skip71
-\cftbeforeparaskip=\skip72
-\cftparaindent=\skip73
-\cftparanumwidth=\skip74
-\cftbeforesubparaskip=\skip75
-\cftsubparaindent=\skip76
-\cftsubparanumwidth=\skip77
-\cftbeforeloftitleskip=\skip78
-\cftafterloftitleskip=\skip79
-\cftbeforefigskip=\skip80
-\cftfigindent=\skip81
-\cftfignumwidth=\skip82
-\c@lofdepth=\count278
-\c@lotdepth=\count279
-\cftbeforelottitleskip=\skip83
-\cftafterlottitleskip=\skip84
-\cftbeforetabskip=\skip85
-\cfttabindent=\skip86
-\cfttabnumwidth=\skip87
+\cftparskip=\skip58
+\cftbeforetoctitleskip=\skip59
+\cftaftertoctitleskip=\skip60
+\cftbeforepartskip=\skip61
+\cftpartnumwidth=\skip62
+\cftpartindent=\skip63
+\cftbeforechapskip=\skip64
+\cftchapindent=\skip65
+\cftchapnumwidth=\skip66
+\cftbeforesecskip=\skip67
+\cftsecindent=\skip68
+\cftsecnumwidth=\skip69
+\cftbeforesubsecskip=\skip70
+\cftsubsecindent=\skip71
+\cftsubsecnumwidth=\skip72
+\cftbeforesubsubsecskip=\skip73
+\cftsubsubsecindent=\skip74
+\cftsubsubsecnumwidth=\skip75
+\cftbeforeparaskip=\skip76
+\cftparaindent=\skip77
+\cftparanumwidth=\skip78
+\cftbeforesubparaskip=\skip79
+\cftsubparaindent=\skip80
+\cftsubparanumwidth=\skip81
+\cftbeforeloftitleskip=\skip82
+\cftafterloftitleskip=\skip83
+\cftbeforefigskip=\skip84
+\cftfigindent=\skip85
+\cftfignumwidth=\skip86
+\c@lofdepth=\count287
+\c@lotdepth=\count288
+\cftbeforelottitleskip=\skip87
+\cftafterlottitleskip=\skip88
+\cftbeforetabskip=\skip89
+\cfttabindent=\skip90
+\cfttabnumwidth=\skip91
 )
 (D:\Archivos de programa\MikTex\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
@@ -263,7 +301,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )
 (D:\Archivos de programa\MikTex\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count280
+\etb@tempcnta=\count289
 )
 (D:\Archivos de programa\MikTex\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
@@ -273,7 +311,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (D:\Archivos de programa\MikTex\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count281
+\lrq@indent=\count290
 
 (D:\Archivos de programa\MikTex\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -285,62 +323,62 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count282
-\c@listtotal=\count283
-\c@listcount=\count284
-\c@liststart=\count285
-\c@liststop=\count286
-\c@citecount=\count287
-\c@citetotal=\count288
-\c@multicitecount=\count289
-\c@multicitetotal=\count290
-\c@instcount=\count291
-\c@maxnames=\count292
-\c@minnames=\count293
-\c@maxitems=\count294
-\c@minitems=\count295
-\c@citecounter=\count296
-\c@maxcitecounter=\count297
-\c@savedcitecounter=\count298
-\c@uniquelist=\count299
-\c@uniquename=\count300
-\c@refsection=\count301
-\c@refsegment=\count302
-\c@maxextratitle=\count303
-\c@maxextratitleyear=\count304
-\c@maxextraname=\count305
-\c@maxextradate=\count306
-\c@maxextraalpha=\count307
-\c@abbrvpenalty=\count308
-\c@highnamepenalty=\count309
-\c@lownamepenalty=\count310
-\c@maxparens=\count311
-\c@parenlevel=\count312
-\blx@tempcnta=\count313
-\blx@tempcntb=\count314
-\blx@tempcntc=\count315
-\c@blx@maxsection=\count316
-\c@blx@maxsegment@0=\count317
-\blx@notetype=\count318
-\blx@parenlevel@text=\count319
-\blx@parenlevel@foot=\count320
-\c@blx@sectionciteorder@0=\count321
-\blx@entrysetcounter=\count322
-\blx@biblioinstance=\count323
-\labelnumberwidth=\skip88
-\labelalphawidth=\skip89
-\biblabelsep=\skip90
-\bibitemsep=\skip91
-\bibnamesep=\skip92
-\bibinitsep=\skip93
-\bibparsep=\skip94
-\bibhang=\skip95
-\blx@bcfin=\read3
+\c@tabx@nest=\count291
+\c@listtotal=\count292
+\c@listcount=\count293
+\c@liststart=\count294
+\c@liststop=\count295
+\c@citecount=\count296
+\c@citetotal=\count297
+\c@multicitecount=\count298
+\c@multicitetotal=\count299
+\c@instcount=\count300
+\c@maxnames=\count301
+\c@minnames=\count302
+\c@maxitems=\count303
+\c@minitems=\count304
+\c@citecounter=\count305
+\c@maxcitecounter=\count306
+\c@savedcitecounter=\count307
+\c@uniquelist=\count308
+\c@uniquename=\count309
+\c@refsection=\count310
+\c@refsegment=\count311
+\c@maxextratitle=\count312
+\c@maxextratitleyear=\count313
+\c@maxextraname=\count314
+\c@maxextradate=\count315
+\c@maxextraalpha=\count316
+\c@abbrvpenalty=\count317
+\c@highnamepenalty=\count318
+\c@lownamepenalty=\count319
+\c@maxparens=\count320
+\c@parenlevel=\count321
+\blx@tempcnta=\count322
+\blx@tempcntb=\count323
+\blx@tempcntc=\count324
+\c@blx@maxsection=\count325
+\c@blx@maxsegment@0=\count326
+\blx@notetype=\count327
+\blx@parenlevel@text=\count328
+\blx@parenlevel@foot=\count329
+\c@blx@sectionciteorder@0=\count330
+\blx@entrysetcounter=\count331
+\blx@biblioinstance=\count332
+\labelnumberwidth=\skip92
+\labelalphawidth=\skip93
+\biblabelsep=\skip94
+\bibitemsep=\skip95
+\bibnamesep=\skip96
+\bibinitsep=\skip97
+\bibparsep=\skip98
+\bibhang=\skip99
+\blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language80
-\c@mincomprange=\count324
-\c@maxcomprange=\count325
-\c@mincompwidth=\count326
+\blx@langwohyphens=\language79
+\c@mincomprange=\count333
+\c@maxcomprange=\count334
+\c@mincompwidth=\count335
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -351,88 +389,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count327
-\c@savedafterword=\count328
-\c@annotator=\count329
-\c@savedannotator=\count330
-\c@author=\count331
-\c@savedauthor=\count332
-\c@bookauthor=\count333
-\c@savedbookauthor=\count334
-\c@commentator=\count335
-\c@savedcommentator=\count336
-\c@editor=\count337
-\c@savededitor=\count338
-\c@editora=\count339
-\c@savededitora=\count340
-\c@editorb=\count341
-\c@savededitorb=\count342
-\c@editorc=\count343
-\c@savededitorc=\count344
-\c@foreword=\count345
-\c@savedforeword=\count346
-\c@holder=\count347
-\c@savedholder=\count348
-\c@introduction=\count349
-\c@savedintroduction=\count350
-\c@namea=\count351
-\c@savednamea=\count352
-\c@nameb=\count353
-\c@savednameb=\count354
-\c@namec=\count355
-\c@savednamec=\count356
-\c@translator=\count357
-\c@savedtranslator=\count358
-\c@shortauthor=\count359
-\c@savedshortauthor=\count360
-\c@shorteditor=\count361
-\c@savedshorteditor=\count362
-\c@labelname=\count363
-\c@savedlabelname=\count364
-\c@institution=\count365
-\c@savedinstitution=\count366
-\c@lista=\count367
-\c@savedlista=\count368
-\c@listb=\count369
-\c@savedlistb=\count370
-\c@listc=\count371
-\c@savedlistc=\count372
-\c@listd=\count373
-\c@savedlistd=\count374
-\c@liste=\count375
-\c@savedliste=\count376
-\c@listf=\count377
-\c@savedlistf=\count378
-\c@location=\count379
-\c@savedlocation=\count380
-\c@organization=\count381
-\c@savedorganization=\count382
-\c@origlocation=\count383
-\c@savedoriglocation=\count384
-\c@origpublisher=\count385
-\c@savedorigpublisher=\count386
-\c@publisher=\count387
-\c@savedpublisher=\count388
-\c@language=\count389
-\c@savedlanguage=\count390
-\c@origlanguage=\count391
-\c@savedoriglanguage=\count392
-\c@pageref=\count393
-\c@savedpageref=\count394
-\shorthandwidth=\skip96
-\shortjournalwidth=\skip97
-\shortserieswidth=\skip98
-\shorttitlewidth=\skip99
-\shortauthorwidth=\skip100
-\shorteditorwidth=\skip101
-\locallabelnumberwidth=\skip102
-\locallabelalphawidth=\skip103
-\localshorthandwidth=\skip104
-\localshortjournalwidth=\skip105
-\localshortserieswidth=\skip106
-\localshorttitlewidth=\skip107
-\localshortauthorwidth=\skip108
-\localshorteditorwidth=\skip109
+\c@afterword=\count336
+\c@savedafterword=\count337
+\c@annotator=\count338
+\c@savedannotator=\count339
+\c@author=\count340
+\c@savedauthor=\count341
+\c@bookauthor=\count342
+\c@savedbookauthor=\count343
+\c@commentator=\count344
+\c@savedcommentator=\count345
+\c@editor=\count346
+\c@savededitor=\count347
+\c@editora=\count348
+\c@savededitora=\count349
+\c@editorb=\count350
+\c@savededitorb=\count351
+\c@editorc=\count352
+\c@savededitorc=\count353
+\c@foreword=\count354
+\c@savedforeword=\count355
+\c@holder=\count356
+\c@savedholder=\count357
+\c@introduction=\count358
+\c@savedintroduction=\count359
+\c@namea=\count360
+\c@savednamea=\count361
+\c@nameb=\count362
+\c@savednameb=\count363
+\c@namec=\count364
+\c@savednamec=\count365
+\c@translator=\count366
+\c@savedtranslator=\count367
+\c@shortauthor=\count368
+\c@savedshortauthor=\count369
+\c@shorteditor=\count370
+\c@savedshorteditor=\count371
+\c@labelname=\count372
+\c@savedlabelname=\count373
+\c@institution=\count374
+\c@savedinstitution=\count375
+\c@lista=\count376
+\c@savedlista=\count377
+\c@listb=\count378
+\c@savedlistb=\count379
+\c@listc=\count380
+\c@savedlistc=\count381
+\c@listd=\count382
+\c@savedlistd=\count383
+\c@liste=\count384
+\c@savedliste=\count385
+\c@listf=\count386
+\c@savedlistf=\count387
+\c@location=\count388
+\c@savedlocation=\count389
+\c@organization=\count390
+\c@savedorganization=\count391
+\c@origlocation=\count392
+\c@savedoriglocation=\count393
+\c@origpublisher=\count394
+\c@savedorigpublisher=\count395
+\c@publisher=\count396
+\c@savedpublisher=\count397
+\c@language=\count398
+\c@savedlanguage=\count399
+\c@origlanguage=\count400
+\c@savedoriglanguage=\count401
+\c@pageref=\count402
+\c@savedpageref=\count403
+\shorthandwidth=\skip100
+\shortjournalwidth=\skip101
+\shortserieswidth=\skip102
+\shorttitlewidth=\skip103
+\shortauthorwidth=\skip104
+\shorteditorwidth=\skip105
+\locallabelnumberwidth=\skip106
+\locallabelalphawidth=\skip107
+\localshorthandwidth=\skip108
+\localshortjournalwidth=\skip109
+\localshortserieswidth=\skip110
+\localshorttitlewidth=\skip111
+\localshortauthorwidth=\skip112
+\localshorteditorwidth=\skip113
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -454,19 +492,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (D:\Archivos de programa\MikTex\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count395
-\c@textcitetotal=\count396
-\c@textcitemaxnames=\count397
-\c@biburlbigbreakpenalty=\count398
-\c@biburlbreakpenalty=\count399
-\c@biburlnumpenalty=\count400
-\c@biburlucpenalty=\count401
-\c@biburllcpenalty=\count402
+\c@textcitecount=\count404
+\c@textcitetotal=\count405
+\c@textcitemaxnames=\count406
+\c@biburlbigbreakpenalty=\count407
+\c@biburlbreakpenalty=\count408
+\c@biburlnumpenalty=\count409
+\c@biburlucpenalty=\count410
+\c@biburllcpenalty=\count411
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count403
+\c@smartand=\count412
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -488,8 +526,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (D:\Archivos de programa\MikTex\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count404
-\c@bbx:relatedtotal=\count405
+\c@bbx:relatedcount=\count413
+\c@bbx:relatedtotal=\count414
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -501,10 +539,10 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (D:\Archivos de programa\MikTex\tex/latex/biblatex/cbx\numeric-comp.cbx
 File: numeric-comp.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count406
-\c@cbx@tempcntb=\count407
-\c@cbx@tempcntc=\count408
-\c@cbx@tempcntd=\count409
+\c@cbx@tempcnta=\count415
+\c@cbx@tempcntb=\count416
+\c@cbx@tempcntc=\count417
+\c@cbx@tempcntd=\count418
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -535,8 +573,8 @@ Package: expl3 2022-02-24 L3 programming layer (loader)
 
 (D:\Archivos de programa\MikTex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count410
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count419
+\l__pdf_internal_box=\box60
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2022-02-24 L3 programming layer (loader) 
@@ -549,14 +587,35 @@ Package: xparse 2022-01-12 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
+(D:\Archivos de programa\MikTex\tex/latex/listings\listings.sty
+\lst@mode=\count420
+\lst@gtempboxa=\box61
+\lst@token=\toks29
+\lst@length=\count421
+\lst@currlwidth=\dimen185
+\lst@column=\count422
+\lst@pos=\count423
+\lst@lostspace=\dimen186
+\lst@width=\dimen187
+\lst@newlines=\count424
+\lst@lineno=\count425
+\lst@maxwidth=\dimen188
 
-Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
-(biblatex)                Loading 'csquotes' recommended.
+(D:\Archivos de programa\MikTex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count426
+\lst@skipnumbers=\count427
+\lst@framebox=\box62
+)
+(D:\Archivos de programa\MikTex\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+\@quotelevel=\count428
+\@quotereset=\count429
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 13
+3.
 
-\@quotelevel=\count411
-\@quotereset=\count412
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 65
-.
 (D:\Archivos de programa\MikTex\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (main.aux
@@ -570,37 +629,40 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 (paginas_preliminares/introduccion.aux)
 (cuerpo/cap1_contextualizacion_investigacion.aux)
 (cuerpo/cap2_fundamentacion_teorica.aux)
-(cuerpo/cap3_metodologia_investigcacion.aux) (cuerpo/bibliografia.aux))
+(cuerpo/cap3_metodologia_investigcacion.aux)
+(cuerpo/cap4_resultados_discusion.aux)
+(cuerpo/cap5_conclusiones_recomendaciones.aux) (cuerpo/bibliografia.aux)
+(cuerpo/cap6_anexos.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
 
 (D:\Archivos de programa\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count413
-\scratchdimen=\dimen164
-\scratchbox=\box54
-\nofMPsegments=\count414
-\nofMParguments=\count415
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count416
-\MPscratchDim=\dimen165
-\MPnumerator=\count417
-\makeMPintoPDFobject=\count418
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count430
+\scratchdimen=\dimen189
+\scratchbox=\box63
+\nofMPsegments=\count431
+\nofMParguments=\count432
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count433
+\MPscratchDim=\dimen190
+\MPnumerator=\count434
+\makeMPintoPDFobject=\count435
+\everyMPtoPDFconversion=\toks31
 ) (D:\Archivos de programa\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -643,16 +705,19 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+(D:\Archivos de programa\MikTex\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
+
 (D:\Archivos de programa\MikTex\tex/latex/biblatex/lbx\english.lbx
 File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'spanish'...
-Package biblatex Info: ... file 'spanish.lbx' found.
-
-(D:\Archivos de programa\MikTex\tex/latex/biblatex/lbx\spanish.lbx
-File: spanish.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -665,8 +730,9 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 65.
-Package biblatex Info: Reference segment=0 on input line 65.
+Package biblatex Info: Reference section=0 on input line 133.
+Package biblatex Info: Reference segment=0 on input line 133.
+\c@lstlisting=\count436
 \openout2 = `paginas_preliminares/caratula.aux'.
 
 
@@ -765,12 +831,12 @@ Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
 
 
 ] (main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 
 (D:\Archivos de programa\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 
 (D:\Archivos de programa\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -781,154 +847,420 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [11]
+ [11] [12]
+(main.lot)
+\tf@lot=\write5
+\openout5 = `main.lot'.
+
+ [13] (main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [14]
 \openout2 = `paginas_preliminares/introduccion.aux'.
 
+ (paginas_preliminares/introduccion.tex [1
 
-(paginas_preliminares/introduccion.tex [1
 
-
-] [2]) [3]
+]
+[2]) [3]
 \openout2 = `cuerpo/cap1_contextualizacion_investigacion.aux'.
 
-
-(cuerpo/cap1_contextualizacion_investigacion.tex [4
-
+ (cuerpo/cap1_contextualizacion_investigacion.tex [4
 
 
 
-] [5] [6]) [7] [8]
+
+] [5] [6]) [7]
+[8]
 \openout2 = `cuerpo/cap2_fundamentacion_teorica.aux'.
 
-
-(cuerpo/cap2_fundamentacion_teorica.tex [9
-
-
-
-
-] [10]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 28.
-
-
-LaTeX Warning: Float too large for page by 7.20593pt on input line 48.
-
-[11]
-<img/metodologia.png, id=80, 608.82pt x 536.112pt>
-File: img/metodologia.png Graphic file (type png)
-<use img/metodologia.png>
-Package pdftex.def Info: img/metodologia.png  used on input line 56.
-(pdftex.def)             Requested size: 284.52756pt x 250.54929pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-4.
- (D:\Archivos de programa\MikTex\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [12 <./img/metodologia.png>] [13] [14] [15] [16]
-<img/json.png, id=98, 558.73744pt x 243.91125pt>
-File: img/json.png Graphic file (type png)
-<use img/json.png>
-Package pdftex.def Info: img/json.png  used on input line 142.
-(pdftex.def)             Requested size: 341.43306pt x 149.0536pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (12.19437pt too wide) in paragraph at lines 149--150
-\T1/ptm/m/n/12 Es un lenguaje de mar-cado sim-i-lar a HTML. Sig-nifica Ex-ten-s
-i-ble Markup Lan-guage y pertenece
- []
-
-[17]
-<img/xml.png, id=102, 396.58162pt x 210.93806pt>
-File: img/xml.png Graphic file (type png)
-<use img/xml.png>
-Package pdftex.def Info: img/xml.png  used on input line 153.
-(pdftex.def)             Requested size: 341.43306pt x 181.61241pt.
- [18 <./img/json.png> <./img/xml.png>]
-<img/metamodelo.png, id=108, 314.3745pt x 448.67625pt>
-File: img/metamodelo.png Graphic file (type png)
-<use img/metamodelo.png>
-Package pdftex.def Info: img/metamodelo.png  used on input line 184.
-(pdftex.def)             Requested size: 426.79134pt x 609.17154pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19] [20 <./img/metamodelo.png>]
-<img/metamodelosopamm.png, id=117, 252.34274pt x 459.51675pt>
-File: img/metamodelosopamm.png Graphic file (type png)
-<use img/metamodelosopamm.png>
-Package pdftex.def Info: img/metamodelosopamm.png  used on input line 195.
-(pdftex.def)             Requested size: 284.52756pt x 518.18211pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21] [22 <./img/metamodelosopamm.png>]) [23]
-\openout2 = `cuerpo/cap3_metodologia_investigcacion.aux'.
-
-
-(cuerpo/cap3_metodologia_investigcacion.tex [24
+ (cuerpo/cap2_fundamentacion_teorica.tex [9
 
 
 
 
 ]
-<img/campuslamaria.png, id=131, 444.4605pt x 294.50024pt>
+<img/json.png, id=83, 558.73744pt x 243.91125pt>
+File: img/json.png Graphic file (type png)
+<use img/json.png>
+Package pdftex.def Info: img/json.png  used on input line 23.
+(pdftex.def)             Requested size: 341.43306pt x 149.0536pt.
+
+Overfull \hbox (12.19437pt too wide) in paragraph at lines 30--31
+\T1/ptm/m/n/12 Es un lenguaje de mar-cado sim-i-lar a HTML. Sig-nifica Ex-ten-s
+i-ble Markup Lan-guage y pertenece
+ []
+
+[10 <./img/json.png>]
+<img/xml.png, id=89, 396.58162pt x 210.93806pt>
+File: img/xml.png Graphic file (type png)
+<use img/xml.png>
+Package pdftex.def Info: img/xml.png  used on input line 34.
+(pdftex.def)             Requested size: 341.43306pt x 181.61241pt.
+ [11 <./img/xml.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+5.
+
+(D:\Archivos de programa\MikTex\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<img/metamodelo.png, id=94, 314.3745pt x 448.67625pt>
+File: img/metamodelo.png Graphic file (type png)
+<use img/metamodelo.png>
+Package pdftex.def Info: img/metamodelo.png  used on input line 65.
+(pdftex.def)             Requested size: 426.79134pt x 609.17154pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12]
+
+LaTeX Warning: Text page 13 contains only floats.
+
+
+Overfull \vbox (1.52031pt too high) has occurred while \output is active []
+
+
+[13 <./img/metamodelo.png>]
+<img/metamodelosopamm.png, id=102, 252.34274pt x 459.51675pt>
+File: img/metamodelosopamm.png Graphic file (type png)
+<use img/metamodelosopamm.png>
+Package pdftex.def Info: img/metamodelosopamm.png  used on input line 76.
+(pdftex.def)             Requested size: 284.52756pt x 518.18211pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14] [15 <./img/metamodelosopamm.png>] [16]) [17]
+\openout2 = `cuerpo/cap3_metodologia_investigcacion.aux'.
+
+
+(cuerpo/cap3_metodologia_investigcacion.tex [18
+
+
+
+
+]
+<img/campuslamaria.png, id=120, 444.4605pt x 294.50024pt>
 File: img/campuslamaria.png Graphic file (type png)
 <use img/campuslamaria.png>
 Package pdftex.def Info: img/campuslamaria.png  used on input line 11.
 (pdftex.def)             Requested size: 341.43306pt x 226.2446pt.
- [25 <./img/campuslamaria.png>] [26]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 69
+
+Overfull \hbox (7.86174pt too wide) in paragraph at lines 20--21
+\T1/ptm/m/n/12 La eje-cu-ción de este proyecto im-plico re-alizar una in-ves-ti
+-gación de tipo apli-cada. Se analizarán
+ []
+
+[19 <./img/campuslamaria.png>] [20]
+Underfull \hbox (badness 6157) in paragraph at lines 63--64
+[]\T1/ptm/m/n/12 A lo largo de la eje-cu-ción de la
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 65--65
+\T1/ptm/m/it/12 meses, con pref-er-en-cia al pe-ri-odo de
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 67--68
+[]\T1/ptm/m/n/12 Durante la eje-cu-ción del proyecto se
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 67--68
+\T1/ptm/m/n/12 mantiene con-stante con-tacto con el
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 69--70
+[]\T1/ptm/m/n/12 Para brindar el en-torno de tra-bajo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+\T1/ptm/m/n/12 ade-cuado a los de-sar-rol-ladores, la
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/metodologia.png, id=128, 608.82pt x 536.112pt>
+File: img/metodologia.png Graphic file (type png)
+<use img/metodologia.png>
+Package pdftex.def Info: img/metodologia.png  used on input line 107.
+(pdftex.def)             Requested size: 284.52756pt x 250.54929pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21] [22] [23 <./img/metodologia.png>] [24] [25] [26] [27]
+Underfull \hbox (badness 1910) in paragraph at lines 230--230
+[]\T1/ptm/m/n/12 Herramienta para re-alizar video-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
+\T1/ptm/m/n/12 con-fer-en-cias con el tu-tor de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
+[]\T1/ptm/m/n/12 Programas de
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+[]\T1/ptm/m/n/12 Dispositivo de al-ma-ce-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+\T1/ptm/m/n/12 namiento (Disco duro
+ []
+
+) [29]
+\openout2 = `cuerpo/cap4_resultados_discusion.aux'.
+
+ (cuerpo/cap4_resultados_discusion.tex [30
+
+
+
+
+]
+<img/res_001.png, id=162, 1156.32pt x 537.207pt>
+File: img/res_001.png Graphic file (type png)
+<use img/res_001.png>
+Package pdftex.def Info: img/res_001.png  used on input line 17.
+(pdftex.def)             Requested size: 398.33858pt x 185.0579pt.
+ [31 <./img/res_001.png>]
+<img/res_002.png, id=167, 1156.32pt x 536.60475pt>
+File: img/res_002.png Graphic file (type png)
+<use img/res_002.png>
+Package pdftex.def Info: img/res_002.png  used on input line 26.
+(pdftex.def)             Requested size: 398.33858pt x 184.85043pt.
+<img/res_003.png, id=168, 1156.32pt x 537.80925pt>
+File: img/res_003.png Graphic file (type png)
+<use img/res_003.png>
+Package pdftex.def Info: img/res_003.png  used on input line 33.
+(pdftex.def)             Requested size: 398.33858pt x 185.26537pt.
+
+[32 <./img/res_002.png> <./img/res_003.png>]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 43
 .
- (D:\Archivos de programa\MikTex\tex/latex/psnfss\t1pcr.fd
+
+(D:\Archivos de programa\MikTex\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [33] [34] [35]
+<img/modelamientocasodeuso.png, id=185, 587.19376pt x 271.0125pt>
+File: img/modelamientocasodeuso.png Graphic file (type png)
+<use img/modelamientocasodeuso.png>
+Package pdftex.def Info: img/modelamientocasodeuso.png  used on input line 156.
+
+(pdftex.def)             Requested size: 426.79134pt x 196.98146pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--159
+
+ []
+
+[36 <./img/modelamientocasodeuso.png>]
+<img/algoritmoerror.png, id=190, 519.89232pt x 749.80125pt>
+File: img/algoritmoerror.png Graphic file (type png)
+<use img/algoritmoerror.png>
+Package pdftex.def Info: img/algoritmoerror.png  used on input line 168.
+(pdftex.def)             Requested size: 312.9803pt x 451.39444pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--171
+
+ []
+
+[37 <./img/algoritmoerror.png>]
+(D:\Archivos de programa\MikTex\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Overfull \hbox (5.95679pt too wide) in paragraph at lines 72--72
- []\T1/pcr/m/n/12 Create an user *(user %.username=String, .password=String,[] 
+(codigo/variables.js
 
- []
+! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14     {simbol: "\Â¬"
+                       , text: "final"},
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-Overfull \hbox (13.15678pt too wide) in paragraph at lines 72--72
- []\T1/pcr/m/n/12 .status=Status, .user type=UserType, .person=Tutor%) object[]
- 
- []
+! LaTeX Error: Invalid UTF-8 byte "AC.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14     {simbol: "\Â¬"
+                       , text: "final"},
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-Overfull \hbox (13.15678pt too wide) in paragraph at lines 77--77
- []\T1/pcr/m/n/12 *(TutorDAO &id=Int [/Save/=Tutor{.tutor=Tutor}])s the tutor[]
- 
- []
+! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20     , {simbol: "\Â¬"
+                         , text: "final"}
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-Overfull \hbox (20.35678pt too wide) in paragraph at lines 82--82
- []\T1/pcr/m/n/12 *(UserDAO &-id=Int [/Save/=User{.user=User}])s the user data[
-] 
- []
+! LaTeX Error: Invalid UTF-8 byte "AC.
 
-[27] [28]) [29]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20     , {simbol: "\Â¬"
+                         , text: "final"}
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+) [38] (codigo/notificaciones.js) (codigo/detectarsimbolos.js [39]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...c - 1] === "*" && characters[rec] === "Â¿"
+                                                  ) {
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "BF.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...c - 1] === "*" && characters[rec] === "Â¿"
+                                                  ) {
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...c - 1] === "*" && characters[rec] === "Â¡"
+                                                  ) { // Â¿?
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...c - 1] === "*" && characters[rec] === "Â¡"
+                                                  ) { // Â¿?
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ... "*" && characters[rec] === "Â¡") { // Â¿?
+                                                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "BF.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ... "*" && characters[rec] === "Â¡") { // Â¿?
+                                                  
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[40])) [41]
+\openout2 = `cuerpo/cap5_conclusiones_recomendaciones.aux'.
+
+ (cuerpo/cap5_conclusiones_recomendaciones.tex [42
+
+
+
+
+] [43]) [44]
 \openout2 = `cuerpo/bibliografia.aux'.
 
- (cuerpo/bibliografia.tex [30
+
+(cuerpo/bibliografia.tex [45
 
 
 
 
-] [31
+] [46
 
-] [32]
+] [47]
 Overfull \hbox (37.62073pt too wide) in paragraph at lines 4--4
 \T1/ptm/m/it/12 sys-tem\T1/ptm/m/n/12 . [On-line]. Avail-able: $\T1/pcr/m/n/12 
 https : / / aplicaciones . uteq . edu . ec / tddt4iots/$\T1/ptm/m/n/12 . 
  []
 
 ! Misplaced alignment tab character &.
-<argument> Journal of Intelligent &
-                                    Fuzzy Systems
+<argument> Journal of Intelligent {&
+                                    } Fuzzy Systems
 l.4 \printbibliography[title={\emph{}}]
                                        
 I can't figure out why you would want to use a tab mark
@@ -938,7 +1270,76 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[33] [34]) [35] (main.aux (paginas_preliminares/caratula.aux)
+
+Overfull \hbox (68.6631pt too wide) in paragraph at lines 4--4
+[]\T1/ptm/m/it/12 Manifiesto por el de-sar-rollo ágil de soft-ware\T1/ptm/m/n/1
+2 . [On-line]. Avail-able: $\T1/pcr/m/n/12 https : / / agilemanifesto .
+ []
+
+[48]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Â\bibinitperiod).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \printbibliography[title={\emph{}}]
+                                       
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[49]) [50]
+\openout2 = `cuerpo/cap6_anexos.aux'.
+
+ (cuerpo/cap6_anexos.tex [51
+
+
+
+
+]
+<img/anexo1.png, id=239, 1156.32pt x 549.85425pt>
+File: img/anexo1.png Graphic file (type png)
+<use img/anexo1.png>
+Package pdftex.def Info: img/anexo1.png  used on input line 7.
+(pdftex.def)             Requested size: 426.79134pt x 202.94786pt.
+<img/anexo2.png, id=240, 1156.32pt x 550.4565pt>
+File: img/anexo2.png Graphic file (type png)
+<use img/anexo2.png>
+Package pdftex.def Info: img/anexo2.png  used on input line 14.
+(pdftex.def)             Requested size: 426.79134pt x 203.17015pt.
+<img/anexo3.png, id=241, 1156.32pt x 548.64975pt>
+File: img/anexo3.png Graphic file (type png)
+<use img/anexo3.png>
+Package pdftex.def Info: img/anexo3.png  used on input line 21.
+(pdftex.def)             Requested size: 426.79134pt x 202.5033pt.
+ [52 <./img/anexo1.png> <./img/anexo2.png>]
+<img/anexo4.png, id=248, 1156.32pt x 549.85425pt>
+File: img/anexo4.png Graphic file (type png)
+<use img/anexo4.png>
+Package pdftex.def Info: img/anexo4.png  used on input line 28.
+(pdftex.def)             Requested size: 426.79134pt x 202.94786pt.
+<img/anexo5.png, id=249, 1156.32pt x 548.0475pt>
+File: img/anexo5.png Graphic file (type png)
+<use img/anexo5.png>
+Package pdftex.def Info: img/anexo5.png  used on input line 35.
+(pdftex.def)             Requested size: 426.79134pt x 202.281pt.
+ [53 <./img/anexo3.png> <./img/anexo4.png>]
+<img/anexo6.png, id=255, 1156.32pt x 550.4565pt>
+File: img/anexo6.png Graphic file (type png)
+<use img/anexo6.png>
+Package pdftex.def Info: img/anexo6.png  used on input line 42.
+(pdftex.def)             Requested size: 426.79134pt x 203.17015pt.
+<img/anexo7.png, id=256, 1156.32pt x 549.252pt>
+File: img/anexo7.png Graphic file (type png)
+<use img/anexo7.png>
+Package pdftex.def Info: img/anexo7.png  used on input line 49.
+(pdftex.def)             Requested size: 426.79134pt x 202.72559pt.
+) [54 <./img/anexo5.png> <./img/anexo6.png>] [55 <./img/anexo7.png>] (main.aux
+(paginas_preliminares/caratula.aux)
 (paginas_preliminares/declaracion_autorio.aux)
 (paginas_preliminares/certificacion_culminacion.aux)
 (paginas_preliminares/certificacion_urkund.aux)
@@ -948,7 +1349,10 @@ might try typing `S' now just to see what is salvageable.
 (paginas_preliminares/introduccion.aux)
 (cuerpo/cap1_contextualizacion_investigacion.aux)
 (cuerpo/cap2_fundamentacion_teorica.aux)
-(cuerpo/cap3_metodologia_investigcacion.aux) (cuerpo/bibliografia.aux))
+(cuerpo/cap3_metodologia_investigcacion.aux)
+(cuerpo/cap4_resultados_discusion.aux)
+(cuerpo/cap5_conclusiones_recomendaciones.aux) (cuerpo/bibliografia.aux)
+(cuerpo/cap6_anexos.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -963,24 +1367,25 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 22 (\begingroup)
+### semi simple group (level 1) entered at line 50 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14473 strings out of 478582
- 278661 string characters out of 2850877
- 861667 words of memory out of 3000000
- 32357 multiletter control sequences out of 15000+600000
- 523402 words of font info for 93 fonts, out of 8000000 for 9000
+ 16782 strings out of 478582
+ 319014 string characters out of 2850877
+ 1286486 words of memory out of 3000000
+ 34596 multiletter control sequences out of 15000+600000
+ 529010 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,14n,68p,1855b,10368s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 60i,10n,68p,1879b,11289s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {D:/Archivos de programa/MikTex/fonts/enc/dvips/base/8r.enc}<D:
-/Archivos de programa/MikTex/fonts/type1/urw/courier/ucrr8a.pfb><D:/Archivos de
- programa/MikTex/fonts/type1/urw/times/utmb8a.pfb><D:/Archivos de programa/MikT
-ex/fonts/type1/urw/times/utmr8a.pfb><D:/Archivos de programa/MikTex/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on main.pdf (47 pages, 1099115 bytes).
+/Archivos de programa/MikTex/fonts/type1/urw/courier/ucrb8a.pfb><D:/Archivos de
+ programa/MikTex/fonts/type1/urw/courier/ucrr8a.pfb><D:/Archivos de programa/Mi
+kTex/fonts/type1/urw/times/utmb8a.pfb><D:/Archivos de programa/MikTex/fonts/typ
+e1/urw/times/utmr8a.pfb><D:/Archivos de programa/MikTex/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on main.pdf (70 pages, 1979900 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
+ 291 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

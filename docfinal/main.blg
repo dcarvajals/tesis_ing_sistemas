@@ -1,87 +1,107 @@
-This is BibTeX, Version 0.99d (TeX Live 2022)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 15 items.
 Illegal, another \bibstyle command---line 12 of file main.aux
  : \bibstyle
  :          {main}
 I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 34 items.
 A level-1 auxiliary file: paginas_preliminares/caratula.aux
+Reallocating 'name_of_file' (item size: 1) to 45 items.
 A level-1 auxiliary file: paginas_preliminares/declaracion_autorio.aux
+Reallocating 'name_of_file' (item size: 1) to 51 items.
 A level-1 auxiliary file: paginas_preliminares/certificacion_culminacion.aux
+Reallocating 'name_of_file' (item size: 1) to 46 items.
 A level-1 auxiliary file: paginas_preliminares/certificacion_urkund.aux
+Reallocating 'name_of_file' (item size: 1) to 50 items.
 A level-1 auxiliary file: paginas_preliminares/certificacion_aprobacion.aux
+Reallocating 'name_of_file' (item size: 1) to 40 items.
 A level-1 auxiliary file: paginas_preliminares/agradecimiento.aux
+Reallocating 'name_of_file' (item size: 1) to 37 items.
 A level-1 auxiliary file: paginas_preliminares/dedicatoria.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
 A level-1 auxiliary file: paginas_preliminares/resumen.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
 A level-1 auxiliary file: paginas_preliminares/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
 A level-1 auxiliary file: paginas_preliminares/introduccion.aux
+Reallocating 'name_of_file' (item size: 1) to 48 items.
 A level-1 auxiliary file: cuerpo/cap1_contextualizacion_investigacion.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
 A level-1 auxiliary file: cuerpo/cap2_fundamentacion_teorica.aux
+Reallocating 'name_of_file' (item size: 1) to 43 items.
+A level-1 auxiliary file: cuerpo/cap3_metodologia_investigcacion.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: cuerpo/bibliografia.aux
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=200001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: main-blx.bib
 Database file #2: citasArmadillo.bib
 Warning--entry type for "OMGUML24" isn't style-file defined
---line 257 of file citasArmadillo.bib
+--line 129 of file citasArmadillo.bib
 Warning--entry type for "tddt4iots" isn't style-file defined
---line 1277 of file citasArmadillo.bib
-Biblatex version: 3.18
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 33 entries,
+--line 623 of file citasArmadillo.bib
+Warning--entry type for "managil" isn't style-file defined
+--line 773 of file citasArmadillo.bib
+Biblatex version: 3.17
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 35 entries,
             6399 wiz_defined-function locations,
-            1528 strings with 54211 characters,
-and the built_in function-call counts, 320639 in all, are:
-= -- 27319
-> -- 4578
-< -- 1389
-+ -- 8776
-- -- 1704
-* -- 23760
-:= -- 35920
+            1544 strings with 54104 characters,
+and the built_in function-call counts, 339969 in all, are:
+= -- 29012
+> -- 4840
+< -- 1491
++ -- 9522
+- -- 1831
+* -- 24917
+:= -- 38176
 add.period$ -- 0
-call.type$ -- 33
-change.case$ -- 818
-chr.to.int$ -- 120
-cite$ -- 64
-duplicate$ -- 30167
-empty$ -- 27772
-format.name$ -- 2478
-if$ -- 65556
+call.type$ -- 35
+change.case$ -- 889
+chr.to.int$ -- 108
+cite$ -- 68
+duplicate$ -- 32486
+empty$ -- 29237
+format.name$ -- 2634
+if$ -- 69403
 int.to.chr$ -- 0
-int.to.str$ -- 90
+int.to.str$ -- 92
 missing$ -- 0
-newline$ -- 1318
-num.names$ -- 1866
-pop$ -- 11651
+newline$ -- 1396
+num.names$ -- 1967
+pop$ -- 12458
 preamble$ -- 1
-purify$ -- 1077
+purify$ -- 1168
 quote$ -- 0
-skip$ -- 7360
+skip$ -- 7842
 stack$ -- 0
-substring$ -- 53794
-swap$ -- 5782
-text.length$ -- 902
-text.prefix$ -- 0
+substring$ -- 56565
+swap$ -- 6091
+text.length$ -- 952
+text.prefix$ -- 2
 top$ -- 1
-type$ -- 1108
+type$ -- 1175
 warning$ -- 0
-while$ -- 3949
+while$ -- 4248
 width$ -- 0
-write$ -- 1286
+write$ -- 1362
 (There was 1 error message)

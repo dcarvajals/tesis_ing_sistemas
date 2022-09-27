@@ -1232,313 +1232,328 @@
     \field{title}{Impact of passive and negative sentences in automatic
   generation of static UML diagram using NLP}
     \field{volume}{39}
-    \field{journaltitle}{Journal of Intelligent & Fuzzy Systems}
+    \field{journaltitle}{Journal of Intelligent {&} Fuzzy Systems}
     \field{month}{01}
     \field{year}{2020}
   \endentry
 
-  \entry{Improving}{report}{}
-    \name{author}{2}{}{%
-      {{hash=MJW}{%
-         family={Maessen},
-         familyi={M\bibinitperiod},
-         given={Jan-Willem},
-         giveni={J\bibinithyphendelim W\bibinitperiod},
-      }}%
-      {{hash=SX}{%
-         family={Shen},
-         familyi={S\bibinitperiod},
-         given={Xiaowei},
-         giveni={X\bibinitperiod},
-      }}%
-    }
-    \keyw{C12 [Processor Ar-chitectures]: Multiprocessors,D3 [Software]:
-  Programming Languages,D31 [Programming Languages]: Formal Definitions and
-  Theory General Terms Languages, standardization Keywords Memory models, Java,
-  commit/reconcile/fence, compilation}
-    \strng{namehash}{MJWSX1}
-    \strng{fullhash}{MJWSX1}
-    \field{labelnamesource}{author}
+  \entry{managil}{misc}{}
     \field{labeltitlesource}{title}
-    \field{abstract}{%
-    This paper describes alternative memory semantics for Java programs using
-  an enriched version of the Commit/Reconcile/Fence (CRF) memory model [16]. It
-  outlines a set of reasonable practices for safe multithreaded programming in
-  Java. Our semantics allow a number of optimizations such as load reordering
-  that are currently prohibited. Simple thread-local algebraic rules express
-  the effects of optimizations at the source or bytecode level. The rules focus
-  on reordering source-level operations; they yield a simple dependency
-  analysis algorithm for Java. An instruction-by-instruction translation of
-  Java memory operations into CRF operations captures thread interactions
-  precisely. The fine-grained synchronization of CRF means the algebraic rules
-  are easily derived from the translation. CRF can be mapped directly to a
-  modern architecture, and is thus a suitable target for optimizing memory
-  coherence during code generation.%
-    }
-    \field{isbn}{0-89791-88-6}
-    \field{title}{Improving the Java Memory Model Using CRF}
-    \field{journaltitle}{OOPSLA}
-    \field{year}{2000}
-  \endentry
-
-  \entry{Object}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SEV}{%
-         family={Sunitha},
-         familyi={S\bibinitperiod},
-         given={E.\bibnamedelima V.},
-         giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod},
-      }}%
-      {{hash=SP}{%
-         family={Samuel},
-         familyi={S\bibinitperiod},
-         given={Philip},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier B.V.}%
-    }
-    \keyw{Activity diagram,Code generation,OCL,UML,XML}
-    \strng{namehash}{SEVSP1}
-    \strng{fullhash}{SEVSP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Context: Achieving hundred percent automation in code generation process
-  from Unified Modeling Language (UML) models will make a drastic advancement
-  in software industry. UML does not use a fully formalized semantics. So it
-  leads to ambiguity during automatic implementation of UML models. These
-  ambiguities can be avoided to a large extent using Object Constraint Language
-  (OCL). OCL is formal and user friendly which is also familiar to industry
-  people. Objective: This paper examines how to improve the code generation
-  from UML models, with the help of Object Constraint Language. It also
-  explores the possibilities to incorporate OCL in UML activity models and
-  generate code from the OCL enhanced activity diagrams. Method: Meta models
-  for the association of OCL expressions with the UML activity diagram is
-  proposed in the paper. OCL expressions are added as part of the UML activity
-  models to improve the code generation and to specify assertions and behavior.
-  Moreover a tool, called ActivityOCLKode, is implemented which follows the
-  algorithm for code generation. The algorithm is depicted in the text.
-  Results: The tool which is implemented based on the proposed method gives a
-  promising result. More than 80% of source code is generated using the tool.
-  In addition, the average execution time for our approach is only 11.46 ms.
-  Conclusion: The meta model proposed in the paper gives the strong theoretical
-  back ground to attach OCL statements with each element in the UML activity
-  diagrams. The proposed method of code generation will improve the
-  productivity of the software industries, since it reduces the software
-  development effort and time. Since UML and OCL are commonly used in software
-  industry, our method is easily adaptable by software programmers in
-  industry.%
-    }
-    \verb{doi}
-    \verb 10.1016/J.INFSOF.2018.06.010
+    \field{title}{Manifiesto por el Desarrollo Ágil de Software}
+    \verb{url}
+    \verb https://agilemanifesto.org/iso/es/manifesto.html
     \endverb
-    \field{issn}{09505849}
-    \field{pages}{92\bibrangedash 111}
-    \field{title}{Object constraint language for code generation from activity
-  models}
-    \field{volume}{103}
-    \field{journaltitle}{Information and Software Technology}
-    \field{month}{11}
-    \field{year}{2018}
   \endentry
 
-  \entry{Feature}{article}{}
-    \name{author}{1}{}{%
-      {{hash=ER}{%
-         family={Eshuis},
-         familyi={E\bibinitperiod},
-         given={Rik},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier Ltd}%
-    }
-    \keyw{Business artifacts,Feature composition,Variability management}
-    \strng{namehash}{ER1}
-    \strng{fullhash}{ER1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Declarative artifact-centric process models are suitable for specifying
-  knowledge-intensive processes. Currently, such models need to be designed
-  from scratch, even though existing model fragments could be reused to gain
-  efficiency in designing and maintaining declarative artifact-centric process
-  models. To address this problem, this paper proposes an approach for
-  composing model fragments, abstracted into features, into fully specified
-  declarative artifact-centric process models. We use Guard-Stage-Milestone
-  (GSM) schemas as modeling language and let each feature denote a GSM schema
-  fragment. The approach supports feature composition at different levels of
-  granularity. Permutability of features is analyzed. Syntactic conditions that
-  ensure permutability are defined and refactoring of non-permutable into
-  permutable features is discussed. The approach has been evaluated by
-  implementing it in a tool based on the Case Management Model Notation (CMMN)
-  and applying it to three real-world processes. Using the approach,
-  declarative artifact-centric process models can be composed from existing
-  model fragments in an efficient, robust and correct way.%
-    }
-    \verb{doi}
-    \verb 10.1016/J.IS.2020.101644
-    \endverb
-    \field{issn}{03064379}
-    \field{title}{Feature-oriented engineering of declarative artifact-centric
-  process models}
-    \field{volume}{96}
-    \field{journaltitle}{Information Systems}
-    \field{month}{02}
-    \field{year}{2021}
-  \endentry
-
-  \entry{Generative}{article}{}
+  \entry{Mohamed}{report}{}
     \name{author}{3}{}{%
-      {{hash=LDM}{%
-         family={Le},
-         familyi={L\bibinitperiod},
-         given={Duc\bibnamedelima Minh},
-         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      {{hash=MN}{%
+         family={Mohamed},
+         familyi={M\bibinitperiod},
+         given={Nahla},
+         giveni={N\bibinitperiod},
       }}%
-      {{hash=DDH}{%
-         family={Dang},
-         familyi={D\bibinitperiod},
-         given={Duc\bibnamedelima Hanh},
-         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      {{hash=MS}{%
+         family={Mazen},
+         familyi={M\bibinitperiod},
+         given={Sherif},
+         giveni={S\bibinitperiod},
       }}%
-      {{hash=NVH}{%
-         family={Nguyen},
-         familyi={N\bibinitperiod},
-         given={Viet\bibnamedelima Ha},
-         giveni={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+      {{hash=HW}{%
+         family={Helmy},
+         familyi={H\bibinitperiod},
+         given={Waleed},
+         giveni={W\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {Elsevier B.V.}%
-    }
-    \keyw{Attribute-oriented programming (AtOP),Domain-driven design
-  (DDD),Domain-specific language (DSL),Module-based
-  architecture,Object-oriented programming language (OOPL),UML-based domain
-  modelling}
-    \strng{namehash}{LDMDDHNVH1}
-    \strng{fullhash}{LDMDDHNVH1}
+    \keyw{Requirements engineering,analytical hierarchy process,requirements
+  prioritization techniques,software engineering}
+    \strng{namehash}{MNMSHW1}
+    \strng{fullhash}{MNMSHW1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    Context: Object-oriented domain-driven design (DDD) aims to iteratively
-  develop software around a realistic model of the application domain, which
-  both thoroughly captures the domain requirements and is technically feasible
-  for implementation. The main focus of recent work in DDD has been on using a
-  form of annotation-based domain specific language (aDSL), internal to an
-  object-oriented programming language, to build the domain model. However,
-  these work do not consider software modules as first-class objects and thus
-  lack a method for their development. Objective: In this paper, we tackle
-  software module development with the DDD method by adopting a generative
-  approach that uses aDSL. To achieve this, we first extend a previous work on
-  module-based software architecture with three enhancements that make it
-  amenable to generative development. We then treat module configurations as
-  first-class objects and define an aDSL, named MCCL, to express module
-  configuration classes. To improve productivity, we define function MCCGEN to
-  automatically generate each configuration class from the module's domain
-  class. Method: We define our method as a refinement of an aDSL-based software
-  development method from a previous work. We apply meta-modelling with UML/OCL
-  to define MCCL and implement MCCL in a Java software framework. We evaluate
-  the applicability of our method using a case study and formally define an
-  evaluation framework for module generativity. We also analyse the correctness
-  and performance of function MCCGEN. Results: MCCL is an aDSL for module
-  configurations. Our evaluation shows MCCL is applicable to complex problem
-  domains. Further, the MCCs and software modules can be generated with a high
-  and quantifiable degree of automation. Conclusion: Our method bridges an
-  important gap in DDD with a software module development method that uses a
-  novel aDSL with a module-based software architecture and a generative
-  technique for module configuration.%
+    One of the main activities of software requirements analysis is
+  requirements prioritization. The wrong requirements prioritization is risky
+  as it leads to many software failures. The current requirements
+  prioritization techniques can't deal with large requirement numbers
+  efficiently, which is considered one of their main issues. Many researchers
+  have agreed that the analytical hierarchy process (AHP) is one of the best
+  prioritization techniques as it produces highly accurate results. AHP has two
+  main problems: scalability and inconsistency. These problems have motivated
+  us to propose an improved version of AHP for software requirements
+  prioritization, namely Enhanced AHP (E-AHP). A performance evaluation has
+  been done for the conventional AHP, E-AHP, and one of the recent algorithms
+  that also try to solve the AHP scalability problems, namely removing
+  eigenvalues and introducing the dynamic consistency checking algorithm into
+  AHP (ReDCCahp) algorithms The evaluation shows which algorithm takes the
+  least time, uses the least memory, produces the most consistent and accurate
+  results, and has the highest scalability. The three algorithms have been
+  evaluated by running their codes using different numbers of requirements
+  ranging from 10 to 500. The results show that E-AHP is more scalable, takes
+  the least time, uses the least memory, and produces the most consistent and
+  accurate results compared to the other two algorithms. That becomes
+  remarkable when the number of requirements increases. Therefore, E-AHP is
+  suitable to be applied in large software projects, as it can deal efficiently
+  with the large software requirements numbers.%
     }
-    \verb{doi}
-    \verb 10.1016/J.INFSOF.2019.106239
+    \field{issue}{7}
+    \field{pages}{2022}
+    \field{title}{E-AHP: An Enhanced Analytical Hierarchy Process Algorithm for
+  Priotrizing Large Software Requirements Numbers}
+    \verb{url}
+    \verb www.ijacsa.thesai.org
     \endverb
-    \field{issn}{09505849}
-    \field{title}{Generative software module development for domain-driven
-  design with annotation-based domain specific language}
-    \field{volume}{120}
-    \field{journaltitle}{Information and Software Technology}
-    \field{month}{04}
-    \field{year}{2020}
+    \field{volume}{13}
+    \field{journaltitle}{IJACSA) International Journal of Advanced Computer
+  Science and Applications}
   \endentry
 
-  \entry{Topic}{article}{}
-    \name{author}{4}{}{%
-      {{hash=PF}{%
-         family={Pérez},
-         familyi={P\bibinitperiod},
-         given={Francisca},
-         giveni={F\bibinitperiod},
+  \entry{Kudo}{article}{}
+    \name{author}{6}{}{%
+      {{hash=KTN}{%
+         family={Kudo},
+         familyi={K\bibinitperiod},
+         given={Taciana\bibnamedelima Novo},
+         giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
       }}%
-      {{hash=LR}{%
-         family={Lapeña},
-         familyi={L\bibinitperiod},
-         given={Raúl},
-         giveni={R\bibinitperiod},
+      {{hash=BNRDF}{%
+         family={Bulcão-Neto},
+         familyi={B\bibinithyphendelim N\bibinitperiod},
+         given={Renato De\bibnamedelima Freitas},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
       }}%
-      {{hash=MAC}{%
-         family={Marcén},
-         familyi={M\bibinitperiod},
-         given={Ana\bibnamedelima C.},
-         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=VV}{%
+         family={Vicente},
+         familyi={V\bibinitperiod},
+         given={Valdemar},
+         giveni={V\bibinitperiod},
       }}%
-      {{hash=CC}{%
-         family={Cetina},
-         familyi={C\bibinitperiod},
-         given={Carlos},
-         giveni={C\bibinitperiod},
+      {{hash=NG}{%
+         family={Neto},
+         familyi={N\bibinitperiod},
+         given={Graciano},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=A�}{%
+         family={Auri},
+         familyi={A\bibinitperiod},
+         given={·},
+         giveni={�\bibinitperiod},
+      }}%
+      {{hash=VMR}{%
+         family={Vincenzi},
+         familyi={V\bibinitperiod},
+         given={Marcelo\bibnamedelima Rizzo},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {Elsevier B.V.}%
-    }
-    \keyw{Feature location,Search-based software engineering,Software
-  models,Topic modeling}
-    \strng{namehash}{PFLRMAC+1}
-    \strng{fullhash}{PFLRMACCC1}
+    \keyw{Evaluation,Metamodel,Pattern,Quality,Requirement,Testing}
+    \strng{namehash}{KTNBNRDFVV+1}
+    \strng{fullhash}{KTNBNRDFVVNGA�VMR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    Context: In the last 20 years, the research community has increased its
-  attention to the use of topic modeling for software maintenance and evolution
-  tasks in code. Topic modeling is a popular and promising information
-  retrieval technique that represents topics by word probabilities. Latent
-  Dirichlet Allocation (LDA) is one of the most popular topic modeling methods.
-  However, the use of topic modeling in model-driven software development has
-  been largely neglected. Since software models have less noise (implementation
-  details) than software code, software models might be well-suited for topic
-  modeling. Objective: This paper presents our LDA-guided evolutionary approach
-  for feature location in software models. Specifically, we consider two types
-  of software models: models for code generation and interpreted model. Method:
-  We evaluate our approach considering two real-world industrial case studies:
-  code-generation models for train control software, and interpreted models for
-  a commercial video game. To study the impact on the results, we compare our
-  approach for feature location in models against random search and a baseline
-  based on Latent Semantic Indexing, which is a popular information retrieval
-  technique. In addition, we perform a statistical analysis of the results to
-  show that this impact is significant. We also discuss the results in terms of
-  the following aspects: data sparsity, implementation complexity, calibration,
-  and stability. Results: Our approach significantly outperforms the baseline
-  in terms of recall, precision and F-measure when it comes to interpreted
-  models. This is not the case for code-generation models. Conclusions: Our
-  analysis of the results uncovers a recommendation towards results
-  improvement. We also show that calibration approaches can be transferred from
-  code to models. The findings of our work with regards to the compensation of
-  instability have the potential to help not only feature location in models,
-  but also in code.%
+    Poorly executed requirements engineering activities profoundly affect the
+  deliverables' quality and project's budget and schedule. High-quality
+  requirements reuse through requirement patterns has been widely discussed to
+  mitigate these adverse outcomes. Requirement patterns aggregate similar
+  applications' behaviors and services into well-defined templates that can be
+  reused in later specifications. The abstraction capabilities of metamodeling
+  have shown promising results concerning the improvement of the requirement
+  specifications' quality and professionals' productivity. However, there is a
+  lack of research on requirement patterns beyond requirements engineering,
+  even using metamodels as the underlying structure. Besides, most companies
+  often struggle with the cost, rework, and delay effects resulting from a weak
+  alignment between requirements and testing. In this paper, we present a novel
+  metamodeling approach, called Software Pattern MetaModel (SoPaMM), which
+  aligns requirements and testing through requirement patterns and test
+  patterns. Influenced by well-established agile practices, SoPaMM describes
+  functional requirement patterns and acceptance test patterns as user stories
+  integrated with executable behaviors. Another novelty is the evaluation of
+  SoPaMM's quality properties against a metamodel quality evaluation framework.
+  We detail the evaluation planning, discuss evaluation results, and present
+  our study's threats to validity. Our experience with the design and
+  evaluation of SoPaMM is summarized as lessons learned.%
     }
     \verb{doi}
-    \verb 10.1016/J.INFSOF.2021.106676
+    \verb 10.1007/s00766-022-00377-5
     \endverb
-    \field{issn}{09505849}
-    \field{title}{Topic modeling for feature location in software models:
-  Studying both code generation and interpreted models}
-    \field{volume}{140}
-    \field{journaltitle}{Information and Software Technology}
-    \field{month}{12}
-    \field{year}{2021}
+    \field{isbn}{0123456789}
+    \field{pages}{3}
+    \field{title}{Aligning requirements and testing through metamodeling and
+  patterns: design and evaluation}
+    \verb{url}
+    \verb https://doi.org/10.1007/s00766-022-00377-5
+    \endverb
+    \field{volume}{1}
+  \endentry
+
+  \entry{Rokis2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RK}{%
+         family={Rokis},
+         familyi={R\bibinitperiod},
+         given={Karlis},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kirikova},
+         familyi={K\bibinitperiod},
+         given={Marite},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer, Cham}%
+    }
+    \keyw{Citizen developer,Low-code,Low-code development
+  platform,No-code,Requirements,Software development}
+    \strng{namehash}{RKKM1}
+    \strng{fullhash}{RKKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Low-code/no-code software development is an emerging approach delivering
+  the opportunity to build software with a minimal need for manual coding and
+  enhancing the involvement of non-programmers in software development.
+  Low-code principles allow enterprises to save...%
+    }
+    \verb{doi}
+    \verb 10.1007/978-3-031-16947-2_1
+    \endverb
+    \field{pages}{3\bibrangedash 17}
+    \field{title}{Challenges of Low-Code/No-Code Software Development: A
+  Literature Review}
+    \verb{url}
+    \verb https://link.springer.com/chapter/10.1007/978-3-031-16947-2_1
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{Gazzola2022}{article}{}
+    \name{author}{5}{}{%
+      {{hash=GL}{%
+         family={Gazzola},
+         familyi={G\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Mariani},
+         familyi={M\bibinitperiod},
+         given={Leonardo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Orru},
+         familyi={O\bibinitperiod},
+         given={Matteo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pezze},
+         familyi={P\bibinitperiod},
+         given={Mauro},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tappler},
+         familyi={T\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \keyw{Fault detection,Field testing,Field-Ready test cases}
+    \strng{namehash}{GLMLOM+1}
+    \strng{fullhash}{GLMLOMPMTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Software systems may fail in production environments, causing system
+  crashes, erroneous outputs, and overall system instability. Thoroughly
+  testing software systems in development environments can reduce but not avoid
+  failures, due to both the complexity of software applications, which may lead
+  to a myriad of execution conditions impossible to sample exhaustively, and
+  the many behaviors that emerge in production, which can be hardly predicted
+  and exercised during development. This paper presents field-ready test cases,
+  tests designed to run in production environments, aiming to proactively
+  execute soft-ware components in yet unexplored execution scenarios, exposing
+  error states before they result in system failures. Intuitively, the approach
+  conceives the production environment as a testbed for opportunistically
+  executing unit test cases that exploit the objects that become available as
+  test data. The paper presents the results of a set of experiments with
+  field-ready test cases that we produced for the JFreeChart and Apache Commons
+  Lang libraries. Our field-ready test suites execute 64% of the faults that
+  the original test suites miss, and exposes 33% of the missed faults.%
+    }
+    \verb{doi}
+    \verb 10.1109/ICST53961.2022.00017
+    \endverb
+    \field{isbn}{9781665466790}
+    \field{pages}{58\bibrangedash 69}
+    \field{title}{Testing Software in Production Environments with Data from
+  the Field}
+    \field{journaltitle}{Proceedings - 2022 IEEE 15th International Conference
+  on Software Testing, Verification and Validation, ICST 2022}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Whiting2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WE}{%
+         family={Whiting},
+         familyi={W\bibinitperiod},
+         given={E},
+         giveni={E},
+      }}%
+      {{hash=DS}{%
+         family={Datta},
+         familyi={D\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+    }
+    \keyw{Software testing,non-functional requirements,performance testing}
+    \strng{namehash}{WEDS1}
+    \strng{fullhash}{WEDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Testing the non-functional requirements (NFR) of a system is particularly
+  complicated and time-consuming. Challenges in this area are compounded when
+  the system is developed under some offspring of Agile methodologies, which
+  favor iterative development and rapid feedback from extensive testing. The
+  authors of this paper build upon previous work investigating the common
+  challenges and solutions cited in recent peer-reviewed research on this topic
+  to design and build a tool consolidating many of the concepts found in this
+  investigation. The tool is known as LuluPerfTest (LPT) and is an NFR testing
+  framework meant to plug into continuous integration (CI) systems to run NFR
+  tests configured with a JSON script. This allows developers and testers to
+  build maintainable and minimally complex automated NFR test scripts. This
+  study explains the challenges inherent in NFR testing in Agile software
+  development and presents how LPT confronts those challenges. It aims to
+  explain LPT and invite collaboration among other testing, verification, and
+  validation researchers to create an open sources software (OSS) solution to
+  the problems of NFR testing in Agile software development projects. CCS
+  CONCEPTS • Software and its engineering; • Software creation and
+  management ; • Software verification and validation;%
+    }
+    \verb{doi}
+    \verb 10.1145/3520084.3520092
+    \endverb
+    \field{isbn}{9781450395519}
+    \field{title}{Design and Development of a Technology-Agnostic NFR Testing
+  Framework Introducing the framework and discussing the future of load testing
+  in Agile software development}
+    \verb{url}
+    \verb https://doi.org/10.1145/3520084.3520092
+    \endverb
   \endentry
 
   \entry{JSON}{article}{}
@@ -1829,6 +1844,57 @@
     \field{journaltitle}{Data and Knowledge Engineering}
     \field{month}{07}
     \field{year}{2021}
+  \endentry
+
+  \entry{Shafiq2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SM}{%
+         family={Shafiq},
+         familyi={S\bibinitperiod},
+         given={Muneeb},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WU}{%
+         family={Waheed},
+         familyi={W\bibinitperiod},
+         given={Usman},
+         giveni={U\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \keyw{Adaptive Software Development (ASD),Agile Unified Process (AUP),Agile
+  method,Dynamic Systems Development Method (DSDM),Feature driven development
+  (FDD),Microsoft Solutions Framework (MSF),crystal,documentation
+  role,documentation template,extreme programming (XP),lean,requirement format}
+    \strng{namehash}{SMWU1}
+    \strng{fullhash}{SMWU1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    While analyzing agile projects, documentation mentions towards where the
+  project is driving. The study on document creation, role of the document,
+  document template for process models, the aspect(s) to avoid in
+  documentation, information gathered for the documentation, document
+  requirement format and principles regarding documentation of the process
+  structure including extreme programming (XP), lean, crystal, Feature driven
+  development (FDD), Dynamic Systems Development Method (DSDM), Microsoft
+  Solutions Framework (MSF), Agile Unified Process (AUP), Adaptive Software
+  Development (ASD) in documentation context. The survey will help researchers
+  and practitioners in finding correct strategy for the right process model in
+  the right situation.%
+    }
+    \verb{doi}
+    \verb 10.1109/INMIC.2018.8595625
+    \endverb
+    \field{isbn}{9781538675366}
+    \field{title}{Documentation in Agile Development: A Comparative Analysis}
+    \field{journaltitle}{Proceedings of the 21st International Multi Topic
+  Conference, INMIC 2018}
+    \field{month}{12}
+    \field{year}{2018}
   \endentry
 \enddatalist
 \endinput

@@ -5,11 +5,39 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage[left=3.00cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
-\usepackage[spanish,english]{babel}
+
 \usepackage{setspace}
 \usepackage{titlesec}
 \usepackage{times}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{float}
 
+% Label format
+\DeclareCaptionLabelFormat{custom}
+{%
+		#1 #2
+}
+% Separator style
+\DeclareCaptionLabelSeparator{custom}{\newline}
+% Caption format    
+\DeclareCaptionFormat{custom}
+{%
+	\raggedright{#1#2 \textit{#3}}
+}
+\captionsetup
+{
+	format=custom,%
+	labelformat=custom,%
+	labelsep=custom
+}
+
+\usepackage{color}
+\definecolor{gray97}{gray}{.97}
+\definecolor{gray75}{gray}{.75}
+\definecolor{gray45}{gray}{.45}
 %\pagestyle{myheadings}
 %\usepackage{fancyhdr}
 \usepackage{titleps}
@@ -53,14 +81,54 @@
 \tocloftpagestyle{main}
 \bibliographystyle{main}
 
-\addto\captionsenglish{% Replace "english" with the language you use
-	\renewcommand{\contentsname} {Tabla de contenido
-	\titulotndc}
-}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabla}
 
 \usepackage[backend=bibtex,style=ieee, sorting=none]{biblatex}
 \addbibresource{citasArmadillo.bib}
 
+\usepackage{listings}
+\lstset{ frame=Ltb,
+	framerule=0pt,
+	aboveskip=0.5cm,
+	framextopmargin=3pt,
+	framexbottommargin=3pt,
+	framexleftmargin=0.4cm,
+	framesep=0pt,
+	rulesep=.4pt,
+	backgroundcolor=\color{gray97},
+	rulesepcolor=\color{black},
+	%
+	stringstyle=\ttfamily,
+	showstringspaces = false,
+	basicstyle=\small\ttfamily,
+	commentstyle=\color{gray45},
+	keywordstyle=\bfseries,
+	%
+	numbers=left,
+	numbersep=15pt,
+	numberstyle=\tiny,
+	numberfirstline = false,
+	breaklines=true,
+}
+
+% minimizar fragmentado de listados
+\lstnewenvironment{listing}[1][]
+{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+
+\lstdefinestyle{consola}
+{basicstyle=\scriptsize\bf\ttfamily,
+	backgroundcolor=\color{gray75},
+}
+
+\lstdefinestyle{Java}
+{language=java}
+\usepackage{color}
+
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\contentsname}{Tabla de contenido}
+\renewcommand{\listtablename}{Lista de tablas}
+\renewcommand{\listfigurename}{Lista de figuras}
 
 \begin{document}
 	
@@ -79,7 +147,21 @@
 	\include{paginas_preliminares/resumen}
 	\include{paginas_preliminares/abstract}
 	
+	% Índice de contenido
+	\addcontentsline{toc}{chapter}{Tabla de contenido}
 	\tableofcontents
+	
+	\newpage{\ }
+	% Índice de tablas
+	\addcontentsline{toc}{chapter}{Lista de tablas}
+	\listoftables
+	
+	\newpage{\ }
+		
+	% Índice de figuras
+	\addcontentsline{toc}{chapter}{Lista de figuras}
+	\listoffigures
+
 	\cleardoublepage
 	
 	\setcounter{page}{1}	
@@ -88,6 +170,9 @@
 	\include{cuerpo/cap1_contextualizacion_investigacion}
 	\include{cuerpo/cap2_fundamentacion_teorica}
 	\include{cuerpo/cap3_metodologia_investigcacion}
+	\include{cuerpo/cap4_resultados_discusion}
+	\include{cuerpo/cap5_conclusiones_recomendaciones}	
 	\include{cuerpo/bibliografia}
+	\include{cuerpo/cap6_anexos}
 	
 \end{document}
