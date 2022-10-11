@@ -1,0 +1,43 @@
+<package>
+  <diagram>
+    <packName>Default</packName>
+    <class>
+      <action>update</action>
+      <className>Person</className>
+      <visibility>public</visibility>
+      <modifiers></modifiers>
+      <attributes>
+        <visibility>private</visibility>
+        <name>id</name>
+        <type>Int</type>
+      </attributes>
+    </class>
+    <class>
+      <action>update</action>
+      <className>Tutor</className>
+      <visibility>public</visibility>
+      <modifiers></modifiers>
+      <attributes>
+        <visibility>private</visibility>
+        <name>id</name>
+        <type>String</type>
+      </attributes>
+      <methods>
+        <visibility>public</visibility>
+        <name>userRegistration</name>
+        <type>void</type>
+      </methods>
+    </class>
+  </diagram>
+  <relations>
+    <from>Tutor</from>
+    <to>Person</to>
+    <typeRelatioship>generalization</typeRelatioship>
+    <value>register</value>
+    <cardinalidate>1..*</cardinalidate>
+    <from_fk> Person:Person[]</from_fk>
+    <to_fk>tutor :Tutor</to_fk>
+    <simbol>1<>n
+    </simbol>
+  </relations>
+</package>

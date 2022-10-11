@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.5)  25 SEP 2022 23:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.5)  11 OCT 2022 04:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,6 +24,30 @@ File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
+(D:\Archivos de programa\MikTex\tex/generic/babel\babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count194
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(D:\Archivos de programa\MikTex\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count195
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\Archivos de programa\MikTex\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+Package babel Info: You haven't specified a language. I'll use 'nil'
+(babel)             as the main language. Reported on input line 4305.
+
+(D:\Archivos de programa\MikTex\tex/generic/babel\nil.ldf
+Language: nil 2022/02/26 3.73 Nil language
+\l@nil=\language80
+))
 (D:\Archivos de programa\MikTex\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
@@ -43,46 +67,46 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (D:\Archivos de programa\MikTex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen139
+\ex@=\dimen140
 ))
 (D:\Archivos de programa\MikTex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen140
+\pmbraise@=\dimen141
 )
 (D:\Archivos de programa\MikTex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count194
+\inf@bad=\count196
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count195
-\leftroot@=\count196
+\uproot@=\count197
+\leftroot@=\count198
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count197
-\DOTSCASE@=\count198
+\classnum@=\count199
+\DOTSCASE@=\count266
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box50
 \strutbox@=\box51
-\big@size=\dimen141
+\big@size=\dimen142
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count199
-\c@MaxMatrixCols=\count266
+\macc@depth=\count267
+\c@MaxMatrixCols=\count268
 \dotsspace@=\muskip16
-\c@parentequation=\count267
-\dspbrk@lvl=\count268
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
 \tag@help=\toks19
-\row@=\count269
-\column@=\count270
-\maxfields@=\count271
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
 \andhelp@=\toks20
-\eqnshift@=\dimen142
-\alignsep@=\dimen143
-\tagshift@=\dimen144
-\tagwidth@=\dimen145
-\totwidth@=\dimen146
-\lineht@=\dimen147
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
 \@envbody=\toks21
 \multlinegap=\skip50
 \multlinetaggap=\skip51
@@ -122,8 +146,8 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 (D:\Archivos de programa\MikTex\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen148
-\Gin@req@width=\dimen149
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
 )
 (D:\Archivos de programa\MikTex\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -134,17 +158,17 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (D:\Archivos de programa\MikTex\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count272
-\Gm@cntv=\count273
-\c@Gm@tempcnt=\count274
-\Gm@bindingoffset=\dimen150
-\Gm@wd@mp=\dimen151
-\Gm@odd@mp=\dimen152
-\Gm@even@mp=\dimen153
-\Gm@layoutwidth=\dimen154
-\Gm@layoutheight=\dimen155
-\Gm@layouthoffset=\dimen156
-\Gm@layoutvoffset=\dimen157
+\Gm@cnth=\count274
+\Gm@cntv=\count275
+\c@Gm@tempcnt=\count276
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks24
 
 (D:\Archivos de programa\MikTex\tex/latex/geometry\geometry.cfg))
@@ -156,53 +180,53 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box52
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
-\ttl@plus=\dimen158
-\ttl@minus=\dimen159
+\ttl@plus=\dimen159
+\ttl@minus=\dimen160
 \ttl@toksa=\toks25
-\titlewidth=\dimen160
-\titlewidthlast=\dimen161
-\titlewidthfirst=\dimen162
+\titlewidth=\dimen161
+\titlewidthlast=\dimen162
+\titlewidthfirst=\dimen163
 )
 (D:\Archivos de programa\MikTex\tex/latex/psnfss\times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
 (D:\Archivos de programa\MikTex\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen163
-\lightrulewidth=\dimen164
-\cmidrulewidth=\dimen165
-\belowrulesep=\dimen166
-\belowbottomsep=\dimen167
-\aboverulesep=\dimen168
-\abovetopsep=\dimen169
-\cmidrulesep=\dimen170
-\cmidrulekern=\dimen171
-\defaultaddspace=\dimen172
-\@cmidla=\count275
-\@cmidlb=\count276
-\@aboverulesep=\dimen173
-\@belowrulesep=\dimen174
-\@thisruleclass=\count277
-\@lastruleclass=\count278
-\@thisrulewidth=\dimen175
+\heavyrulewidth=\dimen164
+\lightrulewidth=\dimen165
+\cmidrulewidth=\dimen166
+\belowrulesep=\dimen167
+\belowbottomsep=\dimen168
+\aboverulesep=\dimen169
+\abovetopsep=\dimen170
+\cmidrulesep=\dimen171
+\cmidrulekern=\dimen172
+\defaultaddspace=\dimen173
+\@cmidla=\count277
+\@cmidlb=\count278
+\@aboverulesep=\dimen174
+\@belowrulesep=\dimen175
+\@thisruleclass=\count279
+\@lastruleclass=\count280
+\@thisrulewidth=\dimen176
 )
 (D:\Archivos de programa\MikTex\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
 (D:\Archivos de programa\MikTex\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen176
-\captionmargin=\dimen177
-\caption@leftmargin=\dimen178
-\caption@rightmargin=\dimen179
-\caption@width=\dimen180
-\caption@indent=\dimen181
-\caption@parindent=\dimen182
-\caption@hangindent=\dimen183
+\caption@tempdima=\dimen177
+\captionmargin=\dimen178
+\caption@leftmargin=\dimen179
+\caption@rightmargin=\dimen180
+\caption@width=\dimen181
+\caption@indent=\dimen182
+\caption@parindent=\dimen183
+\caption@hangindent=\dimen184
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count279
-\c@continuedfloat=\count280
+\c@caption@flags=\count281
+\c@continuedfloat=\count282
 )
 (D:\Archivos de programa\MikTex\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
@@ -210,22 +234,22 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip55
 \LTpre=\skip56
 \LTpost=\skip57
-\LTchunksize=\count281
-\LTcapwidth=\dimen184
+\LTchunksize=\count283
+\LTcapwidth=\dimen185
 \LT@head=\box53
 \LT@firsthead=\box54
 \LT@foot=\box55
 \LT@lastfoot=\box56
 \LT@gbox=\box57
-\LT@cols=\count282
-\LT@rows=\count283
-\c@LT@tables=\count284
-\c@LT@chunks=\count285
+\LT@cols=\count284
+\LT@rows=\count285
+\c@LT@tables=\count286
+\c@LT@chunks=\count287
 \LT@p@ftn=\toks26
 )
 (D:\Archivos de programa\MikTex\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count286
+\c@float@type=\count288
 \float@exts=\toks27
 \float@box=\box58
 \@float@everytoks=\toks28
@@ -239,48 +263,91 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 )
+(D:\Archivos de programa\MikTex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(D:\Archivos de programa\MikTex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 218.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(D:\Archivos de programa\MikTex\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(D:\Archivos de programa\MikTex\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen186
+\ar@mcellbox=\box60
+\extrarowheight=\dimen187
+\NC@list=\toks29
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box61
+)
+\everycr=\toks30
+\minrowclearance=\skip60
+)
+LaTeX Info: Redefining \color on input line 711.
+\rownum=\count289
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+
+(D:\Archivos de programa\MikTex\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(D:\Archivos de programa\MikTex\tex/latex/xcolor\svgnam.def
+File: svgnam.def 2021/10/31 v2.13 Predefined colors according to SVG 1.1 (UK)
+))
 (D:\Archivos de programa\MikTex\tex/latex/titlesec\titleps.sty
 Package: titleps 2021/07/05 v2.14 Page styles
 )
 (D:\Archivos de programa\MikTex\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip58
-\cftbeforetoctitleskip=\skip59
-\cftaftertoctitleskip=\skip60
-\cftbeforepartskip=\skip61
-\cftpartnumwidth=\skip62
-\cftpartindent=\skip63
-\cftbeforechapskip=\skip64
-\cftchapindent=\skip65
-\cftchapnumwidth=\skip66
-\cftbeforesecskip=\skip67
-\cftsecindent=\skip68
-\cftsecnumwidth=\skip69
-\cftbeforesubsecskip=\skip70
-\cftsubsecindent=\skip71
-\cftsubsecnumwidth=\skip72
-\cftbeforesubsubsecskip=\skip73
-\cftsubsubsecindent=\skip74
-\cftsubsubsecnumwidth=\skip75
-\cftbeforeparaskip=\skip76
-\cftparaindent=\skip77
-\cftparanumwidth=\skip78
-\cftbeforesubparaskip=\skip79
-\cftsubparaindent=\skip80
-\cftsubparanumwidth=\skip81
-\cftbeforeloftitleskip=\skip82
-\cftafterloftitleskip=\skip83
-\cftbeforefigskip=\skip84
-\cftfigindent=\skip85
-\cftfignumwidth=\skip86
-\c@lofdepth=\count287
-\c@lotdepth=\count288
-\cftbeforelottitleskip=\skip87
-\cftafterlottitleskip=\skip88
-\cftbeforetabskip=\skip89
-\cfttabindent=\skip90
-\cfttabnumwidth=\skip91
+\cftparskip=\skip61
+\cftbeforetoctitleskip=\skip62
+\cftaftertoctitleskip=\skip63
+\cftbeforepartskip=\skip64
+\cftpartnumwidth=\skip65
+\cftpartindent=\skip66
+\cftbeforechapskip=\skip67
+\cftchapindent=\skip68
+\cftchapnumwidth=\skip69
+\cftbeforesecskip=\skip70
+\cftsecindent=\skip71
+\cftsecnumwidth=\skip72
+\cftbeforesubsecskip=\skip73
+\cftsubsecindent=\skip74
+\cftsubsecnumwidth=\skip75
+\cftbeforesubsubsecskip=\skip76
+\cftsubsubsecindent=\skip77
+\cftsubsubsecnumwidth=\skip78
+\cftbeforeparaskip=\skip79
+\cftparaindent=\skip80
+\cftparanumwidth=\skip81
+\cftbeforesubparaskip=\skip82
+\cftsubparaindent=\skip83
+\cftsubparanumwidth=\skip84
+\cftbeforeloftitleskip=\skip85
+\cftafterloftitleskip=\skip86
+\cftbeforefigskip=\skip87
+\cftfigindent=\skip88
+\cftfignumwidth=\skip89
+\c@lofdepth=\count290
+\c@lotdepth=\count291
+\cftbeforelottitleskip=\skip90
+\cftafterlottitleskip=\skip91
+\cftbeforetabskip=\skip92
+\cfttabindent=\skip93
+\cfttabnumwidth=\skip94
 )
 (D:\Archivos de programa\MikTex\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
@@ -301,7 +368,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )
 (D:\Archivos de programa\MikTex\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count289
+\etb@tempcnta=\count292
 )
 (D:\Archivos de programa\MikTex\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
@@ -311,7 +378,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (D:\Archivos de programa\MikTex\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count290
+\lrq@indent=\count293
 
 (D:\Archivos de programa\MikTex\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -323,62 +390,62 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count291
-\c@listtotal=\count292
-\c@listcount=\count293
-\c@liststart=\count294
-\c@liststop=\count295
-\c@citecount=\count296
-\c@citetotal=\count297
-\c@multicitecount=\count298
-\c@multicitetotal=\count299
-\c@instcount=\count300
-\c@maxnames=\count301
-\c@minnames=\count302
-\c@maxitems=\count303
-\c@minitems=\count304
-\c@citecounter=\count305
-\c@maxcitecounter=\count306
-\c@savedcitecounter=\count307
-\c@uniquelist=\count308
-\c@uniquename=\count309
-\c@refsection=\count310
-\c@refsegment=\count311
-\c@maxextratitle=\count312
-\c@maxextratitleyear=\count313
-\c@maxextraname=\count314
-\c@maxextradate=\count315
-\c@maxextraalpha=\count316
-\c@abbrvpenalty=\count317
-\c@highnamepenalty=\count318
-\c@lownamepenalty=\count319
-\c@maxparens=\count320
-\c@parenlevel=\count321
-\blx@tempcnta=\count322
-\blx@tempcntb=\count323
-\blx@tempcntc=\count324
-\c@blx@maxsection=\count325
-\c@blx@maxsegment@0=\count326
-\blx@notetype=\count327
-\blx@parenlevel@text=\count328
-\blx@parenlevel@foot=\count329
-\c@blx@sectionciteorder@0=\count330
-\blx@entrysetcounter=\count331
-\blx@biblioinstance=\count332
-\labelnumberwidth=\skip92
-\labelalphawidth=\skip93
-\biblabelsep=\skip94
-\bibitemsep=\skip95
-\bibnamesep=\skip96
-\bibinitsep=\skip97
-\bibparsep=\skip98
-\bibhang=\skip99
-\blx@bcfin=\read2
+\c@tabx@nest=\count294
+\c@listtotal=\count295
+\c@listcount=\count296
+\c@liststart=\count297
+\c@liststop=\count298
+\c@citecount=\count299
+\c@citetotal=\count300
+\c@multicitecount=\count301
+\c@multicitetotal=\count302
+\c@instcount=\count303
+\c@maxnames=\count304
+\c@minnames=\count305
+\c@maxitems=\count306
+\c@minitems=\count307
+\c@citecounter=\count308
+\c@maxcitecounter=\count309
+\c@savedcitecounter=\count310
+\c@uniquelist=\count311
+\c@uniquename=\count312
+\c@refsection=\count313
+\c@refsegment=\count314
+\c@maxextratitle=\count315
+\c@maxextratitleyear=\count316
+\c@maxextraname=\count317
+\c@maxextradate=\count318
+\c@maxextraalpha=\count319
+\c@abbrvpenalty=\count320
+\c@highnamepenalty=\count321
+\c@lownamepenalty=\count322
+\c@maxparens=\count323
+\c@parenlevel=\count324
+\blx@tempcnta=\count325
+\blx@tempcntb=\count326
+\blx@tempcntc=\count327
+\c@blx@maxsection=\count328
+\c@blx@maxsegment@0=\count329
+\blx@notetype=\count330
+\blx@parenlevel@text=\count331
+\blx@parenlevel@foot=\count332
+\c@blx@sectionciteorder@0=\count333
+\blx@entrysetcounter=\count334
+\blx@biblioinstance=\count335
+\labelnumberwidth=\skip95
+\labelalphawidth=\skip96
+\biblabelsep=\skip97
+\bibitemsep=\skip98
+\bibnamesep=\skip99
+\bibinitsep=\skip100
+\bibparsep=\skip101
+\bibhang=\skip102
+\blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language79
-\c@mincomprange=\count333
-\c@maxcomprange=\count334
-\c@mincompwidth=\count335
+\blx@langwohyphens=\language81
+\c@mincomprange=\count336
+\c@maxcomprange=\count337
+\c@mincompwidth=\count338
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -389,88 +456,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count336
-\c@savedafterword=\count337
-\c@annotator=\count338
-\c@savedannotator=\count339
-\c@author=\count340
-\c@savedauthor=\count341
-\c@bookauthor=\count342
-\c@savedbookauthor=\count343
-\c@commentator=\count344
-\c@savedcommentator=\count345
-\c@editor=\count346
-\c@savededitor=\count347
-\c@editora=\count348
-\c@savededitora=\count349
-\c@editorb=\count350
-\c@savededitorb=\count351
-\c@editorc=\count352
-\c@savededitorc=\count353
-\c@foreword=\count354
-\c@savedforeword=\count355
-\c@holder=\count356
-\c@savedholder=\count357
-\c@introduction=\count358
-\c@savedintroduction=\count359
-\c@namea=\count360
-\c@savednamea=\count361
-\c@nameb=\count362
-\c@savednameb=\count363
-\c@namec=\count364
-\c@savednamec=\count365
-\c@translator=\count366
-\c@savedtranslator=\count367
-\c@shortauthor=\count368
-\c@savedshortauthor=\count369
-\c@shorteditor=\count370
-\c@savedshorteditor=\count371
-\c@labelname=\count372
-\c@savedlabelname=\count373
-\c@institution=\count374
-\c@savedinstitution=\count375
-\c@lista=\count376
-\c@savedlista=\count377
-\c@listb=\count378
-\c@savedlistb=\count379
-\c@listc=\count380
-\c@savedlistc=\count381
-\c@listd=\count382
-\c@savedlistd=\count383
-\c@liste=\count384
-\c@savedliste=\count385
-\c@listf=\count386
-\c@savedlistf=\count387
-\c@location=\count388
-\c@savedlocation=\count389
-\c@organization=\count390
-\c@savedorganization=\count391
-\c@origlocation=\count392
-\c@savedoriglocation=\count393
-\c@origpublisher=\count394
-\c@savedorigpublisher=\count395
-\c@publisher=\count396
-\c@savedpublisher=\count397
-\c@language=\count398
-\c@savedlanguage=\count399
-\c@origlanguage=\count400
-\c@savedoriglanguage=\count401
-\c@pageref=\count402
-\c@savedpageref=\count403
-\shorthandwidth=\skip100
-\shortjournalwidth=\skip101
-\shortserieswidth=\skip102
-\shorttitlewidth=\skip103
-\shortauthorwidth=\skip104
-\shorteditorwidth=\skip105
-\locallabelnumberwidth=\skip106
-\locallabelalphawidth=\skip107
-\localshorthandwidth=\skip108
-\localshortjournalwidth=\skip109
-\localshortserieswidth=\skip110
-\localshorttitlewidth=\skip111
-\localshortauthorwidth=\skip112
-\localshorteditorwidth=\skip113
+\c@afterword=\count339
+\c@savedafterword=\count340
+\c@annotator=\count341
+\c@savedannotator=\count342
+\c@author=\count343
+\c@savedauthor=\count344
+\c@bookauthor=\count345
+\c@savedbookauthor=\count346
+\c@commentator=\count347
+\c@savedcommentator=\count348
+\c@editor=\count349
+\c@savededitor=\count350
+\c@editora=\count351
+\c@savededitora=\count352
+\c@editorb=\count353
+\c@savededitorb=\count354
+\c@editorc=\count355
+\c@savededitorc=\count356
+\c@foreword=\count357
+\c@savedforeword=\count358
+\c@holder=\count359
+\c@savedholder=\count360
+\c@introduction=\count361
+\c@savedintroduction=\count362
+\c@namea=\count363
+\c@savednamea=\count364
+\c@nameb=\count365
+\c@savednameb=\count366
+\c@namec=\count367
+\c@savednamec=\count368
+\c@translator=\count369
+\c@savedtranslator=\count370
+\c@shortauthor=\count371
+\c@savedshortauthor=\count372
+\c@shorteditor=\count373
+\c@savedshorteditor=\count374
+\c@labelname=\count375
+\c@savedlabelname=\count376
+\c@institution=\count377
+\c@savedinstitution=\count378
+\c@lista=\count379
+\c@savedlista=\count380
+\c@listb=\count381
+\c@savedlistb=\count382
+\c@listc=\count383
+\c@savedlistc=\count384
+\c@listd=\count385
+\c@savedlistd=\count386
+\c@liste=\count387
+\c@savedliste=\count388
+\c@listf=\count389
+\c@savedlistf=\count390
+\c@location=\count391
+\c@savedlocation=\count392
+\c@organization=\count393
+\c@savedorganization=\count394
+\c@origlocation=\count395
+\c@savedoriglocation=\count396
+\c@origpublisher=\count397
+\c@savedorigpublisher=\count398
+\c@publisher=\count399
+\c@savedpublisher=\count400
+\c@language=\count401
+\c@savedlanguage=\count402
+\c@origlanguage=\count403
+\c@savedoriglanguage=\count404
+\c@pageref=\count405
+\c@savedpageref=\count406
+\shorthandwidth=\skip103
+\shortjournalwidth=\skip104
+\shortserieswidth=\skip105
+\shorttitlewidth=\skip106
+\shortauthorwidth=\skip107
+\shorteditorwidth=\skip108
+\locallabelnumberwidth=\skip109
+\locallabelalphawidth=\skip110
+\localshorthandwidth=\skip111
+\localshortjournalwidth=\skip112
+\localshortserieswidth=\skip113
+\localshorttitlewidth=\skip114
+\localshortauthorwidth=\skip115
+\localshorteditorwidth=\skip116
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -492,19 +559,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (D:\Archivos de programa\MikTex\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count404
-\c@textcitetotal=\count405
-\c@textcitemaxnames=\count406
-\c@biburlbigbreakpenalty=\count407
-\c@biburlbreakpenalty=\count408
-\c@biburlnumpenalty=\count409
-\c@biburlucpenalty=\count410
-\c@biburllcpenalty=\count411
+\c@textcitecount=\count407
+\c@textcitetotal=\count408
+\c@textcitemaxnames=\count409
+\c@biburlbigbreakpenalty=\count410
+\c@biburlbreakpenalty=\count411
+\c@biburlnumpenalty=\count412
+\c@biburlucpenalty=\count413
+\c@biburllcpenalty=\count414
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count412
+\c@smartand=\count415
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -526,8 +593,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (D:\Archivos de programa\MikTex\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count413
-\c@bbx:relatedtotal=\count414
+\c@bbx:relatedcount=\count416
+\c@bbx:relatedtotal=\count417
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -539,10 +606,10 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (D:\Archivos de programa\MikTex\tex/latex/biblatex/cbx\numeric-comp.cbx
 File: numeric-comp.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count415
-\c@cbx@tempcntb=\count416
-\c@cbx@tempcntc=\count417
-\c@cbx@tempcntd=\count418
+\c@cbx@tempcnta=\count418
+\c@cbx@tempcntb=\count419
+\c@cbx@tempcntc=\count420
+\c@cbx@tempcntd=\count421
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -573,8 +640,8 @@ Package: expl3 2022-02-24 L3 programming layer (loader)
 
 (D:\Archivos de programa\MikTex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count419
-\l__pdf_internal_box=\box60
+\l__color_backend_stack_int=\count422
+\l__pdf_internal_box=\box62
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2022-02-24 L3 programming layer (loader) 
@@ -588,34 +655,48 @@ Package: xparse 2022-01-12 L3 Experimental document command parser
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
 (D:\Archivos de programa\MikTex\tex/latex/listings\listings.sty
-\lst@mode=\count420
-\lst@gtempboxa=\box61
-\lst@token=\toks29
-\lst@length=\count421
-\lst@currlwidth=\dimen185
-\lst@column=\count422
-\lst@pos=\count423
-\lst@lostspace=\dimen186
-\lst@width=\dimen187
-\lst@newlines=\count424
-\lst@lineno=\count425
-\lst@maxwidth=\dimen188
+\lst@mode=\count423
+\lst@gtempboxa=\box63
+\lst@token=\toks31
+\lst@length=\count424
+\lst@currlwidth=\dimen188
+\lst@column=\count425
+\lst@pos=\count426
+\lst@lostspace=\dimen189
+\lst@width=\dimen190
+\lst@newlines=\count427
+\lst@lineno=\count428
+\lst@maxwidth=\dimen191
 
 (D:\Archivos de programa\MikTex\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count426
-\lst@skipnumbers=\count427
-\lst@framebox=\box62
+\c@lstnumber=\count429
+\lst@skipnumbers=\count430
+\lst@framebox=\box64
 )
 (D:\Archivos de programa\MikTex\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
-\@quotelevel=\count428
-\@quotereset=\count429
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 13
-3.
 
+(D:\Archivos de programa\MikTex\tex/latex/listingsutf8\listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+
+(D:\Archivos de programa\MikTex\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+
+(D:\Archivos de programa\MikTex\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count431
+\@quotereset=\count432
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 16
+8.
 (D:\Archivos de programa\MikTex\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (main.aux
@@ -635,34 +716,34 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 (cuerpo/cap6_anexos.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
 
 (D:\Archivos de programa\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count430
-\scratchdimen=\dimen189
-\scratchbox=\box63
-\nofMPsegments=\count431
-\nofMParguments=\count432
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count433
-\MPscratchDim=\dimen190
-\MPnumerator=\count434
-\makeMPintoPDFobject=\count435
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count433
+\scratchdimen=\dimen192
+\scratchbox=\box65
+\nofMPsegments=\count434
+\nofMParguments=\count435
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count436
+\MPscratchDim=\dimen193
+\MPnumerator=\count437
+\makeMPintoPDFobject=\count438
+\everyMPtoPDFconversion=\toks33
 ) (D:\Archivos de programa\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -713,12 +794,13 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
+Package biblatex Info: Trying to load language 'nil'...
+Package biblatex Info: ... file 'nil.lbx' not found.
 
-(D:\Archivos de programa\MikTex\tex/latex/biblatex/lbx\english.lbx
-File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
-)
+
+Package biblatex Warning: Language 'nil' not supported.
+(biblatex)                Using dummy definitions on input line 168.
+
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -729,14 +811,13 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
-Package biblatex Info: Reference section=0 on input line 133.
-Package biblatex Info: Reference segment=0 on input line 133.
-\c@lstlisting=\count436
+(main.bbl)
+Package biblatex Info: Reference section=0 on input line 168.
+Package biblatex Info: Reference segment=0 on input line 168.
+\c@lstlisting=\count439
 \openout2 = `paginas_preliminares/caratula.aux'.
 
-
-(paginas_preliminares/caratula.tex
+ (paginas_preliminares/caratula.tex
 <img/logoUTEQ.png, id=1, 444.66125pt x 513.92pt>
 File: img/logoUTEQ.png Graphic file (type png)
 <use img/logoUTEQ.png>
@@ -758,13 +839,24 @@ File: img/logoUTEQ.png Graphic file (type png)
 <use img/logoUTEQ.png>
 Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
 (pdftex.def)             Requested size: 86.49486pt x 96.45386pt.
+
+Overfull \hbox (5.72668pt too wide) in paragraph at lines 14--15
+[]\T1/ptm/m/n/12 La Universidad Técnica Estatal de Quevedo, puede hacer uso de 
+los derechos correspondientes
+ []
+
+
+Overfull \hbox (3.90257pt too wide) in paragraph at lines 14--15
+\T1/ptm/m/n/12 a este documento, según lo establecido por la Ley de Propiedad I
+ntelectual, por su Reglamento
+ []
+
 ) [2
 
 ]
 \openout2 = `paginas_preliminares/certificacion_culminacion.aux'.
 
-
-(paginas_preliminares/certificacion_culminacion.tex
+ (paginas_preliminares/certificacion_culminacion.tex
 File: img/logoUTEQ.png Graphic file (type png)
 <use img/logoUTEQ.png>
 Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
@@ -782,6 +874,12 @@ File: img/logoUTEQ.png Graphic file (type png)
 <use img/logoUTEQ.png>
 Package pdftex.def Info: img/logoUTEQ.png  used on input line 5.
 (pdftex.def)             Requested size: 86.49486pt x 96.45386pt.
+
+Overfull \hbox (32.556pt too wide) in paragraph at lines 15--17
+[]\T1/ptm/m/n/12 El proyecto de investigación titulado "^^PLIBRERÍA JAVASCRIPT 
+QUE PERMITA INTERPRETAR
+ []
+
 ) [4
 
 
@@ -789,8 +887,7 @@ Package pdftex.def Info: img/logoUTEQ.png  used on input line 5.
 ]
 \openout2 = `paginas_preliminares/certificacion_aprobacion.aux'.
 
-
-(paginas_preliminares/certificacion_aprobacion.tex
+ (paginas_preliminares/certificacion_aprobacion.tex
 File: img/logoUTEQ.png Graphic file (type png)
 <use img/logoUTEQ.png>
 Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
@@ -818,25 +915,35 @@ Package pdftex.def Info: img/logoUTEQ.png  used on input line 4.
 ]
 \openout2 = `paginas_preliminares/resumen.aux'.
 
- (paginas_preliminares/resumen.tex)
-[8
+ (paginas_preliminares/resumen.tex
+Overfull \hbox (5.73758pt too wide) in paragraph at lines 5--6
+\T1/ptm/m/n/12 Uno de los diagramas mas utilizados para representar totalmente 
+un software es el denominado
+ []
+
+) [8
 
 
 
 ]
 \openout2 = `paginas_preliminares/abstract.aux'.
 
- (paginas_preliminares/abstract.tex) [9
+ (paginas_preliminares/abstract.tex
+Overfull \hbox (17.95407pt too wide) in paragraph at lines 5--6
+\T1/ptm/m/n/12 most developers this phase in software development is very tedio
+us because of the documentation
+ []
+
+) [9
 
 
 
 ] (main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
-
-(D:\Archivos de programa\MikTex\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (D:\Archivos de programa\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
 (D:\Archivos de programa\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -852,18 +959,89 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [13] (main.lof)
+ [13] (main.lof
+Overfull \hbox (4.0215pt too wide) in paragraph at lines 10--10
+ [][] []\T1/ptm/m/n/12 Ejemplo de como se debe utilizar el símbolo respectivo g
+enerar los parámetros 
+ []
+
+
+Overfull \hbox (29.66582pt too wide) in paragraph at lines 19--19
+ [][] []\T1/ptm/m/n/12 Diagrama de clases generado por la librería usando una l
+ibrería externa denominada 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
  [14]
 \openout2 = `paginas_preliminares/introduccion.aux'.
 
- (paginas_preliminares/introduccion.tex [1
+ (paginas_preliminares/introduccion.tex
+Overfull \hbox (4.52518pt too wide) in paragraph at lines 7--8
+\T1/ptm/m/n/12 sus dimensiones precisas, columnas, puertas, ventanas, etc., así
+ mismo se necesita documentar
+ []
+
+[1
 
 
 ]
-[2]) [3]
+Overfull \hbox (1.38142pt too wide) in paragraph at lines 13--14
+\T1/ptm/m/n/12 requisitos iniciales del sistema, y pueden ser fácilmente entend
+idos por todos los involucrados
+ []
+
+
+Overfull \hbox (20.08987pt too wide) in paragraph at lines 13--14
+\T1/ptm/m/n/12 mediante condiciones previas (precondiciones), poscondiciones y 
+secuencia de eventos normales.
+ []
+
+
+Overfull \hbox (2.14972pt too wide) in paragraph at lines 13--14
+\T1/ptm/m/n/12 específicas y las postcondiciones que se deben tomar en cuenta a
+l momento de estar utilizando
+ []
+
+
+Overfull \hbox (15.36201pt too wide) in paragraph at lines 15--16
+\T1/ptm/m/n/12 fase de elaboración y se perfecciona posteriormente en la fase d
+e construcción [8], representando
+ []
+
+
+Overfull \hbox (10.27353pt too wide) in paragraph at lines 17--18
+[]\T1/ptm/m/n/12 Los diagramas de clases son utilizados por muchas herramientas
+ (Rational Rose[], MagicDraw[],
+ []
+
+
+Overfull \hbox (3.48227pt too wide) in paragraph at lines 19--20
+\T1/ptm/m/n/12 grano fino es posible generar los diagramas de clases, y el códi
+go de software correspondiente.
+ []
+
+[2]
+Overfull \hbox (2.34116pt too wide) in paragraph at lines 21--22
+\T1/ptm/m/n/12 (Armadillo.js). Armadillo permite interpretar las descripciones 
+de los casos de uso extendidos
+ []
+
+
+Overfull \hbox (8.5336pt too wide) in paragraph at lines 21--22
+\T1/ptm/m/n/12 la herramienta TDDT4IoTS. Además, Armadillo le permitirá elimina
+r todos los inconvenientes
+ []
+
+
+Overfull \hbox (13.82523pt too wide) in paragraph at lines 23--24
+\T1/ptm/m/n/12 documento, conceptos y definiciones importantes, y las limitacio
+nes, herramientas y tecnologías
+ []
+
+) [3]
 \openout2 = `cuerpo/cap1_contextualizacion_investigacion.aux'.
 
  (cuerpo/cap1_contextualizacion_investigacion.tex [4
@@ -871,8 +1049,49 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-] [5] [6]) [7]
-[8]
+]
+Overfull \hbox (7.24931pt too wide) in paragraph at lines 9--10
+\T1/ptm/m/n/12 sistemas informáticos han encontrado la manera de mejorar el des
+arrollo de software, mediante
+ []
+
+
+Overfull \hbox (2.78616pt too wide) in paragraph at lines 13--14
+\T1/ptm/m/n/12 favorables para ambos. Las descripciones de los casos de uso mod
+ificados por el desarrollador
+ []
+
+
+Overfull \hbox (11.18529pt too wide) in paragraph at lines 15--16
+[]\T1/ptm/m/n/12 TDDT4IoTS es una herramienta que usa un lenguaje de símbolos p
+ara escribir las descripciones
+ []
+
+
+Overfull \hbox (12.0256pt too wide) in paragraph at lines 17--18
+[]\T1/ptm/m/n/12 Sería importante proveer a los desarrolladores de software o u
+suarios que utilicen la herramienta
+ []
+
+[5]
+Overfull \hbox (2.67735pt too wide) in paragraph at lines 38--39
+[]\T1/ptm/m/n/12 ¾Cómo determinar el nivel de efectividad del producto de este 
+proyecto de investigación
+ []
+
+[6]
+Overfull \hbox (17.12453pt too wide) in paragraph at lines 56--57
+\T1/ptm/m/n/12 partir de casos de uso extendidos correspondientes a requisitos 
+de sistemas de información. 
+ []
+
+
+Overfull \hbox (13.3822pt too wide) in paragraph at lines 63--64
+\T1/ptm/m/n/12 información permitirá generar otros tipos de diagramas usando el
+ modelado UML. Sin embargo,
+ []
+
+) [7] [8]
 \openout2 = `cuerpo/cap2_fundamentacion_teorica.aux'.
 
  (cuerpo/cap2_fundamentacion_teorica.tex [9
@@ -881,6 +1100,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
+Overfull \hbox (13.00967pt too wide) in paragraph at lines 19--20
+\T1/ptm/m/n/12 en asociación de nombres y valores. A pesar de ser independiente
+ del lenguaje de programación,
+ []
+
 <img/json.png, id=83, 558.73744pt x 243.91125pt>
 File: img/json.png Graphic file (type png)
 <use img/json.png>
@@ -888,8 +1112,8 @@ Package pdftex.def Info: img/json.png  used on input line 23.
 (pdftex.def)             Requested size: 341.43306pt x 149.0536pt.
 
 Overfull \hbox (12.19437pt too wide) in paragraph at lines 30--31
-\T1/ptm/m/n/12 Es un lenguaje de mar-cado sim-i-lar a HTML. Sig-nifica Ex-ten-s
-i-ble Markup Lan-guage y pertenece
+\T1/ptm/m/n/12 Es un lenguaje de marcado similar a HTML. Significa Extensible M
+arkup Language y pertenece
  []
 
 [10 <./img/json.png>]
@@ -898,10 +1122,32 @@ File: img/xml.png Graphic file (type png)
 <use img/xml.png>
 Package pdftex.def Info: img/xml.png  used on input line 34.
 (pdftex.def)             Requested size: 341.43306pt x 181.61241pt.
- [11 <./img/xml.png>]
+
+Overfull \hbox (13.4546pt too wide) in paragraph at lines 40--42
+\T1/ptm/m/n/12 Están diseñados para traducir un fragmento de código escrito en 
+un de lenguaje de programación
+ []
+
+
+Overfull \hbox (3.07433pt too wide) in paragraph at lines 40--42
+\T1/ptm/m/n/12 compilador notificar al autor del código para que pueda arreglar
+lo.. Además, los compiladores
+ []
+
+[11 <./img/xml.png>]
+Overfull \hbox (4.64581pt too wide) in paragraph at lines 46--47
+[]\T1/ptm/m/n/12 También existen lenguajes de modelado personalizados para dist
+intas áreas, como por ejemplo
+ []
+
+
+Overfull \hbox (9.78304pt too wide) in paragraph at lines 46--47
+\T1/ptm/m/n/12 en [33] proponen un lenguaje de modelado conceptual multinivel a
+l denominan ML2 (Lenguaje
+ []
+
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
 5.
-
 (D:\Archivos de programa\MikTex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -932,11 +1178,22 @@ Package pdftex.def Info: img/metamodelosopamm.png  used on input line 76.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14] [15 <./img/metamodelosopamm.png>] [16]) [17]
+
+Overfull \hbox (11.20947pt too wide) in paragraph at lines 84--85
+\T1/ptm/m/n/12 aplicadas por varias metodologías de desarrollo. Las metodología
+s de desarrollo ágil comparten
+ []
+
+[14] [15 <./img/metamodelosopamm.png>]
+Overfull \hbox (2.37648pt too wide) in paragraph at lines 93--94
+\T1/ptm/m/n/12 permite al desarrollador tomar la decisión para elegir la técnic
+a de ejecución del modulo
+ []
+
+[16]) [17]
 \openout2 = `cuerpo/cap3_metodologia_investigcacion.aux'.
 
-
-(cuerpo/cap3_metodologia_investigcacion.tex [18
+ (cuerpo/cap3_metodologia_investigcacion.tex [18
 
 
 
@@ -949,42 +1206,155 @@ Package pdftex.def Info: img/campuslamaria.png  used on input line 11.
 (pdftex.def)             Requested size: 341.43306pt x 226.2446pt.
 
 Overfull \hbox (7.86174pt too wide) in paragraph at lines 20--21
-\T1/ptm/m/n/12 La eje-cu-ción de este proyecto im-plico re-alizar una in-ves-ti
--gación de tipo apli-cada. Se analizarán
+\T1/ptm/m/n/12 La ejecución de este proyecto implico realizar una investigación
+ de tipo aplicada. Se analizarán
  []
 
-[19 <./img/campuslamaria.png>] [20]
-Underfull \hbox (badness 6157) in paragraph at lines 63--64
-[]\T1/ptm/m/n/12 A lo largo de la eje-cu-ción de la
+[19 <./img/campuslamaria.png>]
+Overfull \hbox (18.27798pt too wide) in paragraph at lines 30--31
+\T1/ptm/m/n/12 las descripciones de los casos de uso. Además de potenciar el us
+o de la herramienta TDDT4IoTS.
+ []
+
+
+Overfull \hbox (13.2139pt too wide) in paragraph at lines 34--35
+\T1/ptm/m/n/12 con el objetivo de conocer que símbolos serán los que se logrará
+n identificar en las descripciones
+ []
+
+[20]
+Overfull \hbox (25.83716pt too wide) in paragraph at lines 48--49
+\T1/ptm/m/n/12 utilice el producto final de esta investigación. A continuación,
+ se describe el enfoque metodológico
+ []
+
+
+Underfull \hbox (badness 8000) in paragraph at lines 63--63
+[]|\T1/ptm/m/it/12 2. Aceptamos que los requisitos
+ []
+
+
+Underfull \hbox (badness 7740) in paragraph at lines 63--63
+\T1/ptm/m/it/12 cambien, incluso en etapas tardías
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 63--63
+\T1/ptm/m/it/12 del desarrollo. Los procesos Ágiles
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[]|\T1/ptm/m/n/12 A lo largo de la ejecución de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+\T1/ptm/m/n/12 la metodología se podrá realizar
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 63--64
+\T1/ptm/m/n/12 modificaciones en los requisitos que
+ []
+
+
+Underfull \hbox (badness 7012) in paragraph at lines 65--65
+[]|\T1/ptm/m/it/12 3. Entregamos software funcional
  []
 
 
 Underfull \hbox (badness 1394) in paragraph at lines 65--65
-\T1/ptm/m/it/12 meses, con pref-er-en-cia al pe-ri-odo de
+\T1/ptm/m/it/12 meses, con preferencia al periodo de
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 65--66
+[]|\T1/ptm/m/n/12 Se organiza una fase en la que se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\T1/ptm/m/n/12 genera todo el código fuente del
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 67--67
+[]|\T1/ptm/m/it/12 4. Los responsables de negocio y
  []
 
 
 Underfull \hbox (badness 1975) in paragraph at lines 67--68
-[]\T1/ptm/m/n/12 Durante la eje-cu-ción del proyecto se
+[]|\T1/ptm/m/n/12 Durante la ejecución del proyecto se
  []
 
 
 Underfull \hbox (badness 8132) in paragraph at lines 67--68
-\T1/ptm/m/n/12 mantiene con-stante con-tacto con el
+\T1/ptm/m/n/12 mantiene constante contacto con el
  []
 
 
 Underfull \hbox (badness 7759) in paragraph at lines 69--70
-[]\T1/ptm/m/n/12 Para brindar el en-torno de tra-bajo
+[]|\T1/ptm/m/n/12 Para brindar el entorno de trabajo
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
-\T1/ptm/m/n/12 ade-cuado a los de-sar-rol-ladores, la
+\T1/ptm/m/n/12 adecuado a los desarrolladores, la
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 75--76
+\T1/ptm/m/n/12 varias fases en las cuales todos los
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 75--76
+\T1/ptm/m/n/12 integrante pueden opinar o tratar con
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 77--77
+\T1/ptm/m/it/12 técnica y al buen diseño mejora la
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 89--89
+[]|\T1/ptm/m/it/12 10. La simplicidad, o el arte de
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 89--89
+\T1/ptm/m/it/12 maximizar la cantidad de trabajo no
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 91--91
+\T1/ptm/m/it/12 y diseños emergen de equipos auto-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+[]|\T1/ptm/m/n/12 Todos los integrantes del proyecto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+\T1/ptm/m/it/12 reflexiona sobre cómo ser más
+ []
+
+
+Underfull \hbox (badness 4024) in paragraph at lines 93--93
+\T1/ptm/m/it/12 efectivo para a continuación ajustar
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 93--93
+\T1/ptm/m/it/12 y perfeccionar su comportamiento en
+ []
 
 <img/metodologia.png, id=128, 608.82pt x 536.112pt>
 File: img/metodologia.png Graphic file (type png)
@@ -994,32 +1364,149 @@ Package pdftex.def Info: img/metodologia.png  used on input line 107.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21] [22] [23 <./img/metodologia.png>] [24] [25] [26] [27]
-Underfull \hbox (badness 1910) in paragraph at lines 230--230
-[]\T1/ptm/m/n/12 Herramienta para re-alizar video-
+
+Overfull \hbox (34.61958pt too wide) in paragraph at lines 117--118
+[]\T1/ptm/m/n/12 Previsible inestabilidad de requisitos. Es posible que el sist
+ema incorpora más funcionalidades
+ []
+
+[21] [22] [23 <./img/metodologia.png>]
+Overfull \hbox (5.08894pt too wide) in paragraph at lines 149--150
+[]\T1/ptm/m/n/12 Para que los requisitos obtenidos sean realizados de manera co
+rrecta se pueden priorizar.
+ []
+
+[24]
+Overfull \hbox (5.97919pt too wide) in paragraph at lines 152--153
+\T1/ptm/m/n/12 asignar cada requisito a un grupo de prioridad, transformando a 
+todos los requisitos
+ []
+
+
+Overfull \hbox (21.63927pt too wide) in paragraph at lines 152--153
+\T1/ptm/m/n/12 grupos. Caga grupo cuenta con un identificador único que les per
+mite ser identificados
+ []
+
+
+Overfull \hbox (7.65799pt too wide) in paragraph at lines 154--155
+[]\T1/ptm/m/it/12 Escala de relación: \T1/ptm/m/n/12 Son similares a la escala 
+ordinal, ademas muestran importancia
+ []
+
+
+Overfull \hbox (13.12886pt too wide) in paragraph at lines 161--162
+\T1/ptm/m/n/12 patrones de diseño. Es decir, se pueden crear diferentes tipos d
+e diagramas personalizados
+ []
+
+
+Overfull \hbox (16.84921pt too wide) in paragraph at lines 161--162
+\T1/ptm/m/n/12 ejecución. Además se pueden vincular los patrones encontrados co
+n pruebas de aceptación
+ []
+
+[25]
+Overfull \hbox (24.97278pt too wide) in paragraph at lines 165--166
+[]\T1/ptm/m/n/12 Se recomienda a los encargados de ejecutar esta etapa tener co
+nocimientos de programación.
+ []
+
+
+Overfull \hbox (26.17279pt too wide) in paragraph at lines 167--168
+[]\T1/ptm/m/n/12 Además para suprimir un poco los grandes desafíos a los que se
+ enfrentan los desarrolladores
+ []
+
+
+Overfull \hbox (24.4449pt too wide) in paragraph at lines 167--168
+\T1/ptm/m/n/12 cuenten con recursos de aprendizaje. Otra solución potente para 
+ayudar a los desarrolladores
+ []
+
+
+Overfull \hbox (0.96042pt too wide) in paragraph at lines 171--172
+[]\T1/ptm/m/n/12 Utilizando las pruebas de campo se puede realizar la manipulac
+ión del sistema teniendo
+ []
+
+[26]
+Overfull \hbox (8.68813pt too wide) in paragraph at lines 173--174
+\T1/ptm/m/n/12 permitirá usar sistemas de información ya desarrollados que perm
+itan utilizar el producto
+ []
+
+
+Overfull \hbox (18.2416pt too wide) in paragraph at lines 179--180
+\T1/ptm/m/n/12 El Modelo de Prototipado se aplica cuando la información detalla
+da relacionada a requerimientos
+ []
+
+
+Overfull \hbox (31.83658pt too wide) in paragraph at lines 190--191
+[]\T1/ptm/b/n/12 Reajuste del prototipo: \T1/ptm/m/n/12 el prototipo actual deb
+e reajustarse según los nuevos requerimientos,
+ []
+
+
+Overfull \hbox (11.82178pt too wide) in paragraph at lines 190--191
+\T1/ptm/m/n/12 es decir que, se debe crear un nuevo prototipo con la informació
+n adicional proporcionada
+ []
+
+
+Overfull \hbox (0.44531pt too wide) in paragraph at lines 190--191
+\T1/ptm/m/n/12 por los usuarios evaluados. Este nuevo prototipo será reevaluado
+ justo como el anterior.
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+[]|\T1/ptm/m/n/12 Licencia corporativa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+[]|\T1/ptm/m/n/12 Herramienta para realizar la
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 230--230
-\T1/ptm/m/n/12 con-fer-en-cias con el tu-tor de
+[]|\T1/ptm/m/n/12 Herramienta para realizar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
+\T1/ptm/m/n/12 videoconferencias con el tutor
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 234--234
-[]\T1/ptm/m/n/12 Programas de
+[]|\T1/ptm/m/n/12 Programas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+[]|\T1/ptm/m/n/12 Licencia corporativa
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+Overfull \hbox (0.14622pt too wide) in paragraph at lines 244--245
+\T1/ptm/m/n/12 Los recursos que se observan a continuación son tan necesarios p
+ara llevar a cabo la ejecución
+ []
+
 [28]
 Underfull \hbox (badness 10000) in paragraph at lines 254--254
-[]\T1/ptm/m/n/12 Dispositivo de al-ma-ce-
+[]|\T1/ptm/m/n/12 Dispositivo de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 254--254
-\T1/ptm/m/n/12 namiento (Disco duro
+\T1/ptm/m/n/12 almacenamiento (Disco
  []
 
 ) [29]
@@ -1048,221 +1535,959 @@ File: img/res_003.png Graphic file (type png)
 Package pdftex.def Info: img/res_003.png  used on input line 33.
 (pdftex.def)             Requested size: 398.33858pt x 185.26537pt.
 
+Overfull \hbox (11.8814pt too wide) in paragraph at lines 38--39
+\T1/ptm/m/n/12 detalladamente los significados de cada símbolo y como puede ser
+ utilizado en las descripciones
+ []
+
 [32 <./img/res_002.png> <./img/res_003.png>]
+Overfull \hbox (13.14049pt too wide) in paragraph at lines 41--42
+[]\T1/ptm/b/n/12 Asterisco *\T1/ptm/m/n/12 : Este símbolo sirve para ocultar cu
+alquier carácter que se encuentre redactado
+ []
+
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 43
 .
-
 (D:\Archivos de programa\MikTex\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [33] [34] [35]
-<img/modelamientocasodeuso.png, id=185, 587.19376pt x 271.0125pt>
+)
+Overfull \hbox (8.0885pt too wide) in paragraph at lines 53--54
+\T1/ptm/m/n/12 símbolos para crear las clases, permitirá definir Los métodos o 
+funciones que pertenecerá
+ []
+
+[33] [34] [35] [36]
+Overfull \hbox (0.10886pt too wide) in paragraph at lines 196--197
+[]\T1/ptm/b/n/12 Generalización < >: \T1/ptm/m/n/12 Para indicar que el tipo de
+ relación entre dos objetos del diagrama
+ []
+
+[37]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (18.42258pt too wide) in paragraph at lines 282--283
+[]\T1/ptm/m/n/12 Luego de a ver recopilado todos los símbolos que la librería v
+a interpretar, el docente proporciono
+ []
+
+[38]
+<img/usecaseTest.png, id=194, 388.45125pt x 124.21407pt>
+File: img/usecaseTest.png Graphic file (type png)
+<use img/usecaseTest.png>
+Package pdftex.def Info: img/usecaseTest.png  used on input line 286.
+(pdftex.def)             Requested size: 426.79134pt x 136.47665pt.
+ [39 <./img/usecaseTest.png>]
+Underfull \hbox (badness 1852) in paragraph at lines 306--306
+[]|\T1/ptm/m/n/12 Permite identificar las credenciales del usuario que intenta
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 312--312
+[]|\T1/ptm/m/n/12 2. The person accesses then User
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--323
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--323
+
+ []
+
+<img/cdtest.png, id=199, 804.00375pt x 471.56175pt>
+File: img/cdtest.png Graphic file (type png)
+<use img/cdtest.png>
+Package pdftex.def Info: img/cdtest.png  used on input line 329.
+(pdftex.def)             Requested size: 441.01772pt x 258.6618pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--332
+[][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 345--345
+[]|\T1/ptm/m/n/12 Permite identificar las credenciales del usuario que intenta
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 350--350
+[]|\T1/ptm/m/n/12 1. This use case starts when a
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 350--350
+\T1/ptm/m/n/12 person *(person &-id=int) wants to
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 350--350
+\T1/ptm/m/n/12 register as a tutor *(tutor &-id=int
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 350--350
+\T1/ptm/m/n/12 [+userRegistration=Tutor]) user in the
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 351--351
+[]|\T1/ptm/m/n/12 2. The person accesses then User
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
+\T1/ptm/m/n/12 Registration *(@User Registration)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--354
+[][]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 356.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\T1/ptm/m/n/12 interface user registration *(@User
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\T1/ptm/m/n/12 registration): *(Person &-/first
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\T1/ptm/m/n/12 &-/phone number/=String, &-
+ []
+
+
+Underfull \hbox (badness 7777) in paragraph at lines 359--359
+\T1/ptm/m/n/12 /email/=String) *(User &-id=Int, &-
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 359--359
+\T1/ptm/m/n/12 It should be taken into account that
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 359--359
+\T1/ptm/m/n/12 In addition, the system assigns an id
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+[]|\T1/ptm/m/n/12 5. Create a *(/person/ %.first
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 361--361
+\T1/ptm/m/n/12 name=String, .last name=String, .date
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 361--361
+\T1/ptm/m/n/12 of birth=Date, .gender=String, .phone
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 363--363
+\T1/ptm/m/n/12 .password=String, .status=Status, .user
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\T1/ptm/m/n/12 8. *(TutorDAO &id=Int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\T1/ptm/m/n/12 [/Save/=Tutor.tutor=Tutor])s the tutor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]|\T1/ptm/m/n/12 9. *(UserDAO &-id=Int
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\T1/ptm/m/n/12 [/Save/=User.user=User])s the user
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--369
+
+ []
+
+[40]
+
+LaTeX Warning: Text page 41 contains only floats.
+
+[41 <./img/cdtest.png>] [42]
+<img/modelamientocasodeuso.png, id=211, 587.19376pt x 271.0125pt>
 File: img/modelamientocasodeuso.png Graphic file (type png)
 <use img/modelamientocasodeuso.png>
-Package pdftex.def Info: img/modelamientocasodeuso.png  used on input line 156.
+Package pdftex.def Info: img/modelamientocasodeuso.png  used on input line 380.
 
 (pdftex.def)             Requested size: 426.79134pt x 196.98146pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--159
+Underfull \hbox (badness 10000) in paragraph at lines 380--383
 
  []
 
-[36 <./img/modelamientocasodeuso.png>]
-<img/algoritmoerror.png, id=190, 519.89232pt x 749.80125pt>
+[43 <./img/modelamientocasodeuso.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 394--416
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--416
+
+ []
+
+[44]
+Underfull \hbox (badness 2165) in paragraph at lines 436--436
+[]|\T1/ptm/m/n/12 1. Este caso de uso inicia cuando
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
+\T1/ptm/m/n/12 el analista pretende interpretar la
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 438--438
+[]|\T1/ptm/m/n/12 3. Muestra dentro de un apartado
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 438--438
+\T1/ptm/m/n/12 la descripción. Ademas de mostrar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--438
+\T1/ptm/m/n/12 rápidamente el texto redactado en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--452
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--452
+
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 462--462
+[]|\T1/ptm/m/n/12 Todos los símbolos serán omitidos en el texto que sea
+ []
+
+
+Underfull \hbox (badness 6995) in paragraph at lines 471--471
+[]|\T1/ptm/m/n/12 3. Se verifica que los símbolos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\T1/ptm/m/n/12 están usándose de forma correcta
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 471--471
+\T1/ptm/m/n/12 sin combinarlos con otros símbolos
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 472--472
+[]|\T1/ptm/m/n/12 4. Este caso de uso finaliza cuando
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--479
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--479
+
+ []
+
+[45]
+Underfull \hbox (badness 4072) in paragraph at lines 489--489
+[]|\T1/ptm/m/n/12 Todos los símbolos serán omitidos en el texto que sea
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 498--498
+[]|\T1/ptm/m/n/12 3. Si existen inconsistencias en la
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 499--499
+\T1/ptm/m/n/12 los mensajes acumulados mediante un
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 499--499
+\T1/ptm/m/n/12 amarillo para advertencia, verde para
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 499--499
+\T1/ptm/m/n/12 exitoso y rojo para notificar errores
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--506
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--506
+
+ []
+
+[46]
+Overfull \vbox (17.19849pt too high) has occurred while \output is active []
+
+
+[47]
+Underfull \hbox (badness 4072) in paragraph at lines 516--516
+[]|\T1/ptm/m/n/12 Todos los símbolos serán omitidos en el texto que sea
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 518--518
+[]|\T1/ptm/m/n/12 Permite obtener toda la estructura del diagrama de clases
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 524--524
+[]|\T1/ptm/m/n/12 2. Buscar los objetos que fueron
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 524--524
+\T1/ptm/m/n/12 identificados por los símbolos e ir
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 525--525
+[]|\T1/ptm/m/n/12 3. Este caso de uso finaliza cuando
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--532
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--532
+
+ []
+
+<img/algoritmoerror.png, id=229, 519.89232pt x 749.80125pt>
 File: img/algoritmoerror.png Graphic file (type png)
 <use img/algoritmoerror.png>
-Package pdftex.def Info: img/algoritmoerror.png  used on input line 168.
+Package pdftex.def Info: img/algoritmoerror.png  used on input line 538.
 (pdftex.def)             Requested size: 312.9803pt x 451.39444pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 538--541
 
  []
 
-[37 <./img/algoritmoerror.png>]
-(D:\Archivos de programa\MikTex\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(codigo/variables.js
 
-! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@FillFixed@).
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14     {simbol: "\Â¬"
-                       , text: "final"},
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
+[48] [49 <./img/algoritmoerror.png>] (codigo/variables.js)
+(codigo/notificaciones.js [50]) (codigo/detectarsimbolos.js [51]) [52]
+(codigo/pruebas/test01.json [53] [54]) (codigo/pruebas/test01.xml [55])
+[56]
+Overfull \hbox (1.10481pt too wide) in paragraph at lines 611--612
+\T1/ptm/m/n/12 diagrama de clases creado a partir de la estructura json o xml q
+ue la librería proporciona
+ []
 
-
-! LaTeX Error: Invalid UTF-8 byte "AC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14     {simbol: "\Â¬"
-                       , text: "final"},
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
+<img/prueba01.png, id=259, 922.647pt x 328.22626pt>
+File: img/prueba01.png Graphic file (type png)
+<use img/prueba01.png>
+Package pdftex.def Info: img/prueba01.png  used on input line 615.
+(pdftex.def)             Requested size: 426.79134pt x 151.8273pt.
+[57 <./img/prueba01.png>]
+Underfull \hbox (badness 1852) in paragraph at lines 634--634
+[]|\T1/ptm/m/n/12 Permite identificar las credenciales del usuario que intenta
+ []
 
 
-! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20     , {simbol: "\Â¬"
-                         , text: "final"}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
+Underfull \hbox (badness 1406) in paragraph at lines 639--639
+[]|\T1/ptm/m/n/12 1. Este caso de uso inicia el actor
+ []
 
 
-! LaTeX Error: Invalid UTF-8 byte "AC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20     , {simbol: "\Â¬"
-                         , text: "final"}
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-) [38] (codigo/notificaciones.js) (codigo/detectarsimbolos.js [39]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...c - 1] === "*" && characters[rec] === "Â¿"
-                                                  ) {
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
+Underfull \hbox (badness 10000) in paragraph at lines 628--651
+[][]
+ []
 
 
-! LaTeX Error: Invalid UTF-8 byte "BF.
+Underfull \hbox (badness 10000) in paragraph at lines 628--651
+[]
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...c - 1] === "*" && characters[rec] === "Â¿"
-                                                  ) {
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...c - 1] === "*" && characters[rec] === "Â¡"
-                                                  ) { // Â¿?
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...c - 1] === "*" && characters[rec] === "Â¡"
-                                                  ) { // Â¿?
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Â\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ... "*" && characters[rec] === "Â¡") { // Â¿?
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "BF.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ... "*" && characters[rec] === "Â¡") { // Â¿?
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[40])) [41]
+) [58]
 \openout2 = `cuerpo/cap5_conclusiones_recomendaciones.aux'.
 
- (cuerpo/cap5_conclusiones_recomendaciones.tex [42
+ (cuerpo/cap5_conclusiones_recomendaciones.tex [59
 
 
 
 
-] [43]) [44]
+]
+Overfull \hbox (8.98854pt too wide) in paragraph at lines 8--9
+\T1/ptm/m/n/12 datos técnicos que intervendrán en la generación del sistema inf
+ormático, logra disminuir
+ []
+
+
+Overfull \hbox (8.72453pt too wide) in paragraph at lines 8--9
+\T1/ptm/m/n/12 un poco el tiempo en la creación de este diagrama de clases. Pre
+viamente el desarrollador
+ []
+
+
+Overfull \hbox (17.06462pt too wide) in paragraph at lines 8--9
+\T1/ptm/m/n/12 podrá utilizar la librería en su propio proyecto o utilizar la a
+plicación web de demostración. 
+ []
+
+
+Overfull \hbox (7.26064pt too wide) in paragraph at lines 9--10
+\T1/ptm/m/n/12 de forma mas rápida donde están cometiendo errores al momento de
+ utilizar los símbolos
+ []
+
+
+Overfull \hbox (32.25635pt too wide) in paragraph at lines 10--11
+[]\T1/ptm/m/n/12 La aplicación de demostración sobre como funciona la librería 
+servirá para los desarrolladores
+ []
+
+[60]
+Overfull \hbox (4.24893pt too wide) in paragraph at lines 21--22
+[]\T1/ptm/m/n/12 Para lograr un mayor alance sobre las tecnologías de desarroll
+o que existen actualmente,
+ []
+
+) [61]
 \openout2 = `cuerpo/bibliografia.aux'.
 
-
-(cuerpo/bibliografia.tex [45
-
+ (cuerpo/bibliografia.tex [62
 
 
 
-] [46
 
-] [47]
-Overfull \hbox (37.62073pt too wide) in paragraph at lines 4--4
-\T1/ptm/m/it/12 sys-tem\T1/ptm/m/n/12 . [On-line]. Avail-able: $\T1/pcr/m/n/12 
-https : / / aplicaciones . uteq . edu . ec / tddt4iots/$\T1/ptm/m/n/12 . 
+]
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Panthi2022' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'august' untranslated
+(biblatex)                at entry 'Panthi2022' on input line 4.
+
+
+Overfull \hbox (4.15456pt too wide) in paragraph at lines 4--4
+[]\T1/ptm/m/n/12 V. Panthi, A. Tripathi [] D. P. Mohapatra, ``Software validati
+on based on prioritization
  []
+
+
+Overfull \hbox (27.90602pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/n/12 using concurrent activity diagram,'' \T1/ptm/m/it/12 Internation
+al Journal of Systems Assurance Engineering
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Chen2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'Chen2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'page' untranslated
+(biblatex)                at entry 'Chen2022' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'november' untranslated
+(biblatex)                at entry 'Chen2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'Chen2022' on input line 4.
+
+
+Overfull \hbox (12.56026pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/n/12 elements from uml class diagram images,'' \T1/ptm/m/it/12 Journa
+l of Systems and Software\T1/ptm/m/n/12 , [] 193,
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Kulesza2020' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'Kulesza2020' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'january' untranslated
+(biblatex)                at entry 'Kulesza2020' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'Kulesza2020' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Hamdi2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'Hamdi2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'Hamdi2022' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'march' untranslated
+(biblatex)                at entry 'Hamdi2022' on input line 4.
+
+
+Overfull \hbox (16.47403pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/n/12 for the purpose of software reuse: An interactive genetic algori
+thm approach,'' \T1/ptm/m/it/12 Innovations
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Guerra2021' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'Guerra2021' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'Guerra2021' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'OMGUML24' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'andothers' untranslated
+(biblatex)                at entry 'Bergstrom2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'page' untranslated
+(biblatex)                at entry 'Bergstrom2022' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'october' untranslated
+(biblatex)                at entry 'Bergstrom2022' on input line 4.
+
+[63
+
+]
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'Omg2009' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Jahan2021' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'Jahan2021' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'Jahan2021' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'september' untranslated
+(biblatex)                at entry 'Jahan2021' on input line 4.
+
+
+Overfull \hbox (29.89822pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/n/12 language requirements,'' \T1/ptm/m/it/12 Proceedings of the IEEE
+ International Conference on Requirements
+ []
+
+
+Overfull \hbox (10.20564pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/it/12 Engineering\T1/ptm/m/n/12 , [] 2021-September, [] 39^^U48, [] 2
+021, \T1/ptm/m/sc/12 issn\T1/ptm/m/n/12 : 23326441.
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Losavio2009' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'Losavio2009' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'Losavio2009' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'Losavio2009' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Zapata2008' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'Zapata2008' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'june' untranslated
+(biblatex)                at entry 'Zapata2008' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'Zapata2008' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'iqbal2020' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'iqbal2020' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'iqbal2020' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Overfull \hbox (8.89792pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/n/12 represent non-interactive functional requirements,'' \T1/ptm/m/i
+t/12 E-Informatica Software Engineering
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Abdelnabi2021' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'Abdelnabi2021' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'may' untranslated
+(biblatex)                at entry 'Abdelnabi2021' on input line 4.
+
+
+Overfull \hbox (29.13376pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/it/12 Automatic Control and Computer Engineering, MI-STA 2021 - Proce
+edings\T1/ptm/m/n/12 , [] 288^^U293,
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'abu2020' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'abu2020' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'abu2020' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+[64]
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'tddt4iots' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'tddt4iots' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'gonzalez2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'gonzalez2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'page' untranslated
+(biblatex)                at entry 'gonzalez2022' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'december' untranslated
+(biblatex)                at entry 'gonzalez2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'gonzalez2022' on input line 4.
+
+
+Overfull \hbox (7.84276pt too wide) in paragraph at lines 4--4
+[]\T1/ptm/m/n/12 C. G. Moyano, L. Pufahl, I. Weber [] J. Mendling, ``Uses of bu
+siness process modeling
+ []
+
+
+Overfull \hbox (27.621pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/n/12 in agile software development projects,'' \T1/ptm/m/it/12 Inform
+ation and Software Technology\T1/ptm/m/n/12 , [] 152,
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'hamza2021' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'hamza2021' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'hamza2021' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Tan2010' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'Tan2010' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Overfull \hbox (4.06183pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/it/12 and Service Sciences, ICSESS 2010\T1/ptm/m/n/12 , [] 392^^U395,
+ 2010. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : $\T1/pcr/m/n/12 10 . 1109 / ICSESS .
+
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Chen2010' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'Chen2010' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'Chen2010' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'july' untranslated
+(biblatex)                at entry 'Chen2010' on input line 4.
+
+
+Overfull \hbox (12.81372pt too wide) in paragraph at lines 4--4
+[]\T1/ptm/m/n/12 L. Chen [] Y. Zeng, ``Automatic generation of uml diagrams fro
+m product requirements
+ []
+
+
+Overfull \hbox (9.11502pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/n/12 described by natural language,'' \T1/ptm/m/it/12 Proceedings of 
+the ASME Design Engineering Technical
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Dawood2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'Dawood2022' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'june' untranslated
+(biblatex)                at entry 'Dawood2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'Alashqar2021' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'june' untranslated
+(biblatex)                at entry 'Alashqar2021' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Shweta2020' on input line 4.
 
 ! Misplaced alignment tab character &.
 <argument> Journal of Intelligent {&
                                     } Fuzzy Systems
-l.4 \printbibliography[title={\emph{}}]
-                                       
+l.4 \printbibliography[title={Referencias}]
+                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1271,12 +2496,47 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (68.6631pt too wide) in paragraph at lines 4--4
-[]\T1/ptm/m/it/12 Manifiesto por el de-sar-rollo ágil de soft-ware\T1/ptm/m/n/1
-2 . [On-line]. Avail-able: $\T1/pcr/m/n/12 https : / / agilemanifesto .
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'Shweta2020' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'Shweta2020' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'january' untranslated
+(biblatex)                at entry 'Shweta2020' on input line 4.
+
+
+Overfull \hbox (13.30394pt too wide) in paragraph at lines 4--4
+[]\T1/ptm/m/n/12 Shweta [] R. Sanyal, ``Impact of passive and negative sentence
+s in automatic generation
  []
 
-[48]
+[65]
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'managil' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Mohamed' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'page' untranslated
+(biblatex)                at entry 'Mohamed' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'Mohamed' on input line 4.
+
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Â\bibinitperiod).
 
@@ -1284,61 +2544,233 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 \printbibliography[title={\emph{}}]
-                                       
+l.4 \printbibliography[title={Referencias}]
+                                           
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
-[49]) [50]
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Kudo' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'Kudo' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'page' untranslated
+(biblatex)                at entry 'Kudo' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'Kudo' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Rokis2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'Rokis2022' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'Rokis2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Gazzola2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'pages' untranslated
+(biblatex)                at entry 'Gazzola2022' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Whiting2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'url' untranslated
+(biblatex)                at entry 'Whiting2022' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'JSON' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'JSON' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'march' untranslated
+(biblatex)                at entry 'JSON' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'XML-based' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'january' untranslated
+(biblatex)                at entry 'XML-based' on input line 4.
+
+
+Overfull \hbox (10.78136pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/n/12 applications,'' \T1/ptm/m/it/12 Automation in Construction\T1/pt
+m/m/n/12 , [] 121, [] 2021, \T1/ptm/m/sc/12 issn\T1/ptm/m/n/12 : 09265805.
+ []
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+[66]
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Blended' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'Blended' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'may' untranslated
+(biblatex)                at entry 'Blended' on input line 4.
+
+
+Overfull \hbox (2.75464pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/n/12 A proof-of-concept implementation and experiment,'' \T1/ptm/m/it
+/12 Journal of Systems and Software\T1/ptm/m/n/12 ,
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Multi-level' on input line 4.
+
+
+Package biblatex Warning: Bibliography string 'jourvol' untranslated
+(biblatex)                at entry 'Multi-level' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'july' untranslated
+(biblatex)                at entry 'Multi-level' on input line 4.
+
+
+Overfull \hbox (28.45282pt too wide) in paragraph at lines 4--4
+\T1/ptm/m/n/12 conceptual modeling: Theory, language and application,'' \T1/ptm
+/m/it/12 Data and Knowledge Engineering\T1/ptm/m/n/12 ,
+ []
+
+
+Package biblatex Warning: Bibliography string 'and' untranslated
+(biblatex)                at entry 'Shafiq2018' on input line 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'december' untranslated
+(biblatex)                at entry 'Shafiq2018' on input line 4.
+
+) [67]
 \openout2 = `cuerpo/cap6_anexos.aux'.
 
- (cuerpo/cap6_anexos.tex [51
+ (cuerpo/cap6_anexos.tex [68
 
 
 
 
 ]
-<img/anexo1.png, id=239, 1156.32pt x 549.85425pt>
+<img/anexo1.png, id=299, 1156.32pt x 549.85425pt>
 File: img/anexo1.png Graphic file (type png)
 <use img/anexo1.png>
 Package pdftex.def Info: img/anexo1.png  used on input line 7.
 (pdftex.def)             Requested size: 426.79134pt x 202.94786pt.
-<img/anexo2.png, id=240, 1156.32pt x 550.4565pt>
+<img/anexo2.png, id=300, 1156.32pt x 550.4565pt>
 File: img/anexo2.png Graphic file (type png)
 <use img/anexo2.png>
 Package pdftex.def Info: img/anexo2.png  used on input line 14.
 (pdftex.def)             Requested size: 426.79134pt x 203.17015pt.
-<img/anexo3.png, id=241, 1156.32pt x 548.64975pt>
+<img/anexo3.png, id=301, 1156.32pt x 548.64975pt>
 File: img/anexo3.png Graphic file (type png)
 <use img/anexo3.png>
 Package pdftex.def Info: img/anexo3.png  used on input line 21.
 (pdftex.def)             Requested size: 426.79134pt x 202.5033pt.
- [52 <./img/anexo1.png> <./img/anexo2.png>]
-<img/anexo4.png, id=248, 1156.32pt x 549.85425pt>
+ [69 <./img/anexo1.png> <./img/anexo2.png>]
+<img/anexo4.png, id=307, 1156.32pt x 549.85425pt>
 File: img/anexo4.png Graphic file (type png)
 <use img/anexo4.png>
 Package pdftex.def Info: img/anexo4.png  used on input line 28.
 (pdftex.def)             Requested size: 426.79134pt x 202.94786pt.
-<img/anexo5.png, id=249, 1156.32pt x 548.0475pt>
+<img/anexo5.png, id=308, 1156.32pt x 548.0475pt>
 File: img/anexo5.png Graphic file (type png)
 <use img/anexo5.png>
 Package pdftex.def Info: img/anexo5.png  used on input line 35.
 (pdftex.def)             Requested size: 426.79134pt x 202.281pt.
- [53 <./img/anexo3.png> <./img/anexo4.png>]
-<img/anexo6.png, id=255, 1156.32pt x 550.4565pt>
+
+[70 <./img/anexo3.png> <./img/anexo4.png>]
+<img/anexo6.png, id=315, 1156.32pt x 550.4565pt>
 File: img/anexo6.png Graphic file (type png)
 <use img/anexo6.png>
 Package pdftex.def Info: img/anexo6.png  used on input line 42.
 (pdftex.def)             Requested size: 426.79134pt x 203.17015pt.
-<img/anexo7.png, id=256, 1156.32pt x 549.252pt>
+<img/anexo7.png, id=316, 1156.32pt x 549.252pt>
 File: img/anexo7.png Graphic file (type png)
 <use img/anexo7.png>
 Package pdftex.def Info: img/anexo7.png  used on input line 49.
 (pdftex.def)             Requested size: 426.79134pt x 202.72559pt.
-) [54 <./img/anexo5.png> <./img/anexo6.png>] [55 <./img/anexo7.png>] (main.aux
+) [71 <./img/anexo5.png> <./img/anexo6.png>] [72 <./img/anexo7.png>] (main.aux 
 (paginas_preliminares/caratula.aux)
 (paginas_preliminares/declaracion_autorio.aux)
 (paginas_preliminares/certificacion_culminacion.aux)
@@ -1367,25 +2799,25 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 50 (\begingroup)
+### semi simple group (level 1) entered at line 49 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16782 strings out of 478582
- 319014 string characters out of 2850877
- 1286486 words of memory out of 3000000
- 34596 multiletter control sequences out of 15000+600000
- 529010 words of font info for 100 fonts, out of 8000000 for 9000
+ 18021 strings out of 478582
+ 337404 string characters out of 2850877
+ 1352948 words of memory out of 3000000
+ 35784 multiletter control sequences out of 15000+600000
+ 522972 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,10n,68p,1879b,11289s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 60i,11n,68p,1879b,10996s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {D:/Archivos de programa/MikTex/fonts/enc/dvips/base/8r.enc}<D:
 /Archivos de programa/MikTex/fonts/type1/urw/courier/ucrb8a.pfb><D:/Archivos de
  programa/MikTex/fonts/type1/urw/courier/ucrr8a.pfb><D:/Archivos de programa/Mi
 kTex/fonts/type1/urw/times/utmb8a.pfb><D:/Archivos de programa/MikTex/fonts/typ
 e1/urw/times/utmr8a.pfb><D:/Archivos de programa/MikTex/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on main.pdf (70 pages, 1979900 bytes).
+Output written on main.pdf (87 pages, 2106934 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
+ 352 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

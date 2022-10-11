@@ -1,4 +1,5 @@
 \documentclass[12pt,a4paper,final,oneside,onecolumn,openany]{book}
+\usepackage{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
@@ -35,9 +36,7 @@
 }
 
 \usepackage{color}
-\definecolor{gray97}{gray}{.97}
-\definecolor{gray75}{gray}{.75}
-\definecolor{gray45}{gray}{.45}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 %\pagestyle{myheadings}
 %\usepackage{fancyhdr}
 \usepackage{titleps}
@@ -51,9 +50,7 @@
 %espacio entre parrafos
 \setlength{\parskip}{2mm}
 %sangria
-\setlength{\parindent}{0px}
-
-\setcounter{chapter}{1}
+\setlength{\parindent}{0px}\setcounter{chapter}{1}
 \setcounter{secnumdepth}{3}
 
 %\renewcommand*\thesection{\arabic{part}}
@@ -88,47 +85,85 @@
 \addbibresource{citasArmadillo.bib}
 
 \usepackage{listings}
-\lstset{ frame=Ltb,
-	framerule=0pt,
-	aboveskip=0.5cm,
-	framextopmargin=3pt,
-	framexbottommargin=3pt,
-	framexleftmargin=0.4cm,
-	framesep=0pt,
-	rulesep=.4pt,
-	backgroundcolor=\color{gray97},
-	rulesepcolor=\color{black},
-	%
-	stringstyle=\ttfamily,
-	showstringspaces = false,
-	basicstyle=\small\ttfamily,
-	commentstyle=\color{gray45},
-	keywordstyle=\bfseries,
-	%
-	numbers=left,
-	numbersep=15pt,
-	numberstyle=\tiny,
-	numberfirstline = false,
-	breaklines=true,
-}
+\usepackage{listingsutf8}
 
-% minimizar fragmentado de listados
-\lstnewenvironment{listing}[1][]
-{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
-
-\lstdefinestyle{consola}
-{basicstyle=\scriptsize\bf\ttfamily,
-	backgroundcolor=\color{gray75},
-}
-
-\lstdefinestyle{Java}
-{language=java}
 \usepackage{color}
 
 \renewcommand{\tablename}{Tabla}
 \renewcommand{\contentsname}{Tabla de contenido}
 \renewcommand{\listtablename}{Lista de tablas}
 \renewcommand{\listfigurename}{Lista de figuras}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+%\definecolor{codepurple}{rgb}{0.58,0,0.82}
+%\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+%\definecolor{backcolour}{rgb}{0.95, 0.95, 0.96}
+%\definecolor{backcolour}{rgb}{1.0, 1.0, 1.0}
+\definecolor{backcolour}{rgb}{0.97, 0.97, 0.97}
+\definecolor{codepurple}{rgb}{0.6, 0.4, 0.8}
+\definecolor{bleudefrance}{rgb}{0.19, 0.55, 0.91}
+\definecolor{stringcolor}{rgb}{0.0, 0.5, 0.0}
+
+\definecolor{black}{rgb}{0.0, 0.0, 0.0}
+
+\lstdefinelanguage{JavaScript}{
+	keywords={typeof, new, true, false, catch, function, return, null, catch, switch,var, if, in, while, do, else, case, break, ajax, each, get, post},
+	keywordstyle=\color{bleudefrance}\bfseries,
+	keywords=[2]{class, export, boolean, throw, implements, import, this},
+	keywordstyle=[2]\color{bleudefrance}\bfseries,
+	identifierstyle=\color{black},
+	sensitive=false,
+	comment=[l]{//},
+	morecomment=[s]{/*}{*/},
+	commentstyle=\color{codegray}\ttfamily,
+	stringstyle=\color{stringcolor}\ttfamily,
+	morestring=[b]',
+	morestring=[b]"
+}
+
+\lstdefinestyle{mystyle}{
+	language=JavaScript,
+	basicstyle={\footnotesize\ttfamily\color{black}},
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	numberstyle=\ttfamily\color{black},
+	stringstyle=\color{stringcolor},
+	%basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=10pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2, 
+	frame=leftline
+}
+
+\lstset{literate=
+	{á}{{\'a}}1
+	{é}{{\'e}}1
+	{í}{{\'i}}1
+	{ó}{{\'o}}1
+	{ú}{{\'u}}1
+	{Á}{{\'A}}1
+	{É}{{\'E}}1
+	{Í}{{\'I}}1
+	{Ó}{{\'O}}1
+	{Ú}{{\'U}}1
+	{ñ}{{\~n}}1
+	{ü}{{\"u}}1
+	{Ü}{{\"U}}1
+	{\&}{{\&}}1
+	{¡}{{!`}}1
+	{¿}{{?`}}1
+	{·}{{$\cdot$}}1
+}
+
+\lstset{style=mystyle}
 
 \begin{document}
 	

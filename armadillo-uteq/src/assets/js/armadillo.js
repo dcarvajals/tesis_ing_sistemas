@@ -16,13 +16,13 @@ var DataTypeVisibility = [
 var DataTypeModifiers = [
         {simbol: "$", text: "static"},
         {simbol: "?", text: "abstract"},
-        {simbol: "¬", text: "final"},
+        {simbol: "_", text: "final"},
         {simbol: "@", text: "interface"}
     ];
 var DataTypeClass = [
         {simbol: "@", text: "interface"}
         , {simbol: "?", text: "abstract"}
-        , {simbol: "¬", text: "final"}
+        , {simbol: "_", text: "final"}
     ];
 var indexDataType_Armadillo = 0;
 var DataType_Armadillo = [];
@@ -393,14 +393,14 @@ function classx(text) {
       str2 = txtNatural;
 
     text2 = text2.toString().replace(str, str2);
-    var namet = parts[row].toString().replace(/[\*\(]/g, "");
+    var namet = parts[row].toString().replace(/[\*\(\)]\//g, "");
     namet = namet.toString().replace(/\/.*/g, "");
     namet = namet.toString().replace(/\[.*/g, "");
     namet = namet.toString().replace(/\{.*/g, "");
     namet = namet.toString().replace(/\%.*/g, "");
 
     var derivative = getClassDerivate(namet);
-    namet = parts[row].toString().replace(/:.*/g, "");
+    //namet = parts[row].toString().replace(/:.*/g, "");
     var className = getClassName(namet.toString().replace(/&.*/g, ""));
     let noexiste = false;
     // aumentado el dia 22/07/2022
@@ -567,7 +567,7 @@ function nameFormatAux(text, tipo) {
 
 function getClassName(text) {
     if (text !== undefined) {
-        text = text.replace(/[!@¬º\?\(\*\:\^\~`]/g, "").replace(/[\/\{\[\:\)\%].*/g, "");
+        text = text.replace(/[!@_º\?\(\*\:\^\~`]/g, "").replace(/[\/\{\[\:\)\%].*/g, "");
 
         text = unsupportedCharacters(text, 3);
 ////console.log("1"+unsupportedCharacters(text,3));
@@ -630,6 +630,9 @@ function typeOfRelationships(text, txtnatural) {
         } else if (splitType.cardinalidate === "*..1") {
           from_fk = nameFormatAux(minrel[1], 1) + ":" + getClassName(minrel[1]);
           to_fk = nameFormatAux(minrel[0], 1) + ":" + getClassName(minrel[0]) + "[]";
+        } else if (splitType.cardinalidate === " .. ") {
+          from_fk = nameFormatAux(getClassName(minrel[1]), 2) + ":" + getClassName(minrel[1]);
+          to_fk = nameFormatAux(getClassName(minrel[0]), 2) + ":" + getClassName(minrel[0]);
         }
         relations.push({
           from: getClassName(minrel[0]),
@@ -676,9 +679,14 @@ function validateCardinalidate (text, symbol_relation) {
     response.flag = true;
   } else if (text.toString().includes("n"+symbol_relation+"n")) { // muchos a muchos
     jsonType.name = simbolrelation[symbol_relation];
-    jsonType.simbol = "n"+symbol_relation+"n";
+    jsonType.simbol = "n" + symbol_relation + "n";
     jsonType.cardinalidate = "*..*";
     response.flag = true;
+  } else if (text.toString().includes("u"+symbol_relation+"u")) { // muchos a muchos
+      jsonType.name = simbolrelation[symbol_relation];
+      jsonType.simbol = "u"+symbol_relation+"u";
+      jsonType.cardinalidate = " .. ";
+      response.flag = true;
   } else if (text.toString().includes(symbol_relation)) {
     jsonType.name = simbolrelation[symbol_relation];
     jsonType.simbol = ""+symbol_relation+"";

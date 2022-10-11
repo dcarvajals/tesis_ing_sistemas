@@ -696,7 +696,7 @@ function createRelationClass(attributes) {
 
     if(attributes.typeRelatioship === "generalization"){
         rel = new UMLAssociation({a: attributes.a, b: attributes.b});
-        rel.setEnd(new OpenTip());
+        rel.setEnd(new CloseTip());
     } else if (attributes.typeRelatioship === "dependency") {
         rel = new UMLAssociation({a: attributes.a, b: attributes.b});
         rel.setLine(new DashedLine());
@@ -713,7 +713,9 @@ function createRelationClass(attributes) {
         }, 'Edit legend']
     ]);
 
-    rel.addStereotype(attributes.value);
+    if(attributes.value !== "") {
+      rel.addStereotype(attributes.value);
+    }
     rel.setRoleA(attributes.card_A);
     rel.setRoleB(attributes.card_B);
     diagramClass.addElement(rel);

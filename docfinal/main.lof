@@ -1,3 +1,4 @@
+\babel@toc {nil}{}\relax 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Estructura json.\relax }}{10}{}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Estructura xml.\relax }}{11}{}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces La estructura y los con-tentos de un FRP asociado a un ATP.\relax }}{13}{}%
@@ -7,12 +8,15 @@
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Símbolos que utiliza la herramienta TDDT4IoTS\relax }}{31}{}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Ejemplo de como se debe utilizar el símbolo respectivo para crear una clase.\relax }}{32}{}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Ejemplo de como se debe utilizar el símbolo respectivo generar los parámetros de un método declarado con el lenguaje de símbolos.\relax }}{32}{}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagrama de casos de uso armadillo.\relax }}{36}{}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagrama de flujo para detectar errores en las descripciones de los casos de uso utilizando un el lenguaje de símbolos.\relax }}{37}{}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Interfaz principal de aplicación demostrativa de la librería.\relax }}{52}{}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Interfaz donde se ingresaran las descripciones de los casos de uso a interpretar.\relax }}{52}{}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Descripción del caso de uso interpretada con su respectiva retroalimentación.\relax }}{53}{}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Diagrama de clases generado por la librería usando una librería externa denominada jsUML2.\relax }}{53}{}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Estructura JSON generada por la librería.\relax }}{54}{}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces XML generado por la librería.\relax }}{54}{}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Error detectado en la descripción del caso de uso\relax }}{55}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagrama de casos de uso para las pruebas.\relax }}{39}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagrama de clases de prueba\relax }}{41}{}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagrama de casos de uso armadillo.\relax }}{43}{}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagrama de flujo para detectar errores en las descripciones de los casos de uso utilizando un el lenguaje de símbolos.\relax }}{49}{}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js\relax }}{57}{}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Interfaz principal de aplicación demostrativa de la librería.\relax }}{69}{}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Interfaz donde se ingresaran las descripciones de los casos de uso a interpretar.\relax }}{69}{}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Descripción del caso de uso interpretada con su respectiva retroalimentación.\relax }}{70}{}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Diagrama de clases generado por la librería usando una librería externa denominada jsUML2.\relax }}{70}{}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Estructura JSON generada por la librería.\relax }}{71}{}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces XML generado por la librería.\relax }}{71}{}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Error detectado en la descripción del caso de uso\relax }}{72}{}%
