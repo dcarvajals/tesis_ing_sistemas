@@ -16,13 +16,13 @@ var DataTypeVisibility = [
 var DataTypeModifiers = [
         {simbol: "$", text: "static"},
         {simbol: "?", text: "abstract"},
-        {simbol: "_", text: "final"},
+        {simbol: "¬", text: "final"},
         {simbol: "@", text: "interface"}
     ];
 var DataTypeClass = [
         {simbol: "@", text: "interface"}
         , {simbol: "?", text: "abstract"}
-        , {simbol: "_", text: "final"}
+        , {simbol: "¬", text: "final"}
     ];
 var indexDataType_Armadillo = 0;
 var DataType_Armadillo = [];
@@ -567,7 +567,7 @@ function nameFormatAux(text, tipo) {
 
 function getClassName(text) {
     if (text !== undefined) {
-        text = text.replace(/[!@_º\?\(\*\:\^\~`]/g, "").replace(/[\/\{\[\:\)\%].*/g, "");
+        text = text.replace(/[!@¬º\?\(\*\:\^\~`]/g, "").replace(/[\/\{\[\:\)\%].*/g, "");
 
         text = unsupportedCharacters(text, 3);
 ////console.log("1"+unsupportedCharacters(text,3));

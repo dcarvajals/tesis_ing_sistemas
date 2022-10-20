@@ -997,565 +997,6 @@
     \field{year}{2021}
   \endentry
 
-  \entry{Tan2010}{article}{}
-    \name{author}{3}{}{%
-      {{hash=TL}{%
-         family={Tan},
-         familyi={T\bibinitperiod},
-         given={Li},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=YZ}{%
-         family={Yang},
-         familyi={Y\bibinitperiod},
-         given={Zongyuan},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=XJ}{%
-         family={Xie},
-         familyi={X\bibinitperiod},
-         given={Jinkui},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \keyw{Automatic generation,Lexical analysis,OCL,UML class diagram,XMI}
-    \strng{namehash}{TLYZXJ1}
-    \strng{fullhash}{TLYZXJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    As a standard modeling language of software architecture design, UML lacks
-  formal semantics on account of its informal graphical notation. To further
-  provide refined description of UML, OCL is primarily and widely employed.
-  Generally, OCL constraints are written manually, which may cause
-  incorrectness and extra overhead. Therefore, generating OCL constraints
-  template for UML models is a superior solution. The OCL constraints template
-  automatically generated can be used as a reference for software designers.
-  First of all, the significance of automatic generation of OCL constraints was
-  emphasized, and then the application domain of OCL was shown, followed by a
-  lexical analysis of how to extract the target objects in UML models where OCL
-  constraints were needed to build and an algorithm of extraction. Eventually,
-  this extraction algorithm was implemented by Perl. In our way, the overall
-  quality and efficiency of software design is enhanced and thus contributions
-  are made for the automation of Software Engineering. © 2010 IEEE.%
-    }
-    \verb{doi}
-    \verb 10.1109/ICSESS.2010.5552361
-    \endverb
-    \field{isbn}{9781424460526}
-    \field{pages}{392\bibrangedash 395}
-    \field{title}{OCL constraints automatic generation for UML class diagram}
-    \field{journaltitle}{Proceedings 2010 IEEE International Conference on
-  Software Engineering and Service Sciences, ICSESS 2010}
-    \field{year}{2010}
-  \endentry
-
-  \entry{Chen2010}{article}{}
-    \name{author}{2}{}{%
-      {{hash=CL}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Lei},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=ZY}{%
-         family={Zeng},
-         familyi={Z\bibinitperiod},
-         given={Yong},
-         giveni={Y\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Society of Mechanical Engineers Digital Collection}%
-    }
-    \keyw{Automotive engineering,Computer software,Engineering
-  prototypes,Semantics,UML}
-    \strng{namehash}{CLZY1}
-    \strng{fullhash}{CLZY1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    In this paper, a novel approach is proposed to transform a requirement text
-  described by natural language into two UML diagrams - use case and class
-  diagrams. The transformation consists of two steps: from natural language to
-  an intermediate graphic language called recursive object model (ROM) and from
-  ROM to UML. The ROM diagram corresponding to a text includes the main
-  semantic information implied in the text by modeling the relations between
-  words in a text. Based on the semantics in the ROM diagram, a set of
-  generation rules are proposed to generate UML diagrams from a ROM diagram. A
-  software prototype R2U is presented as a proof of concept for this approach.
-  A case study shows that the proposed approach is feasible. The proposed
-  approach can be applied to requirements modeling in various engineering
-  fields such as software engineering, automotive engineering, and aerospace
-  engineering. The future work is pointed out at the end of this paper. © 2009
-  by ASME.%
-    }
-    \verb{doi}
-    \verb 10.1115/DETC2009-86514
-    \endverb
-    \field{isbn}{9780791848999}
-    \field{issue}{PARTS A AND B}
-    \field{pages}{779\bibrangedash 786}
-    \field{title}{Automatic Generation of UML Diagrams From Product
-  Requirements Described by Natural Language}
-    \field{volume}{2}
-    \field{journaltitle}{Proceedings of the ASME Design Engineering Technical
-  Conference}
-    \field{month}{07}
-    \field{year}{2010}
-  \endentry
-
-  \entry{Dawood2022}{article}{}
-    \name{author}{2}{}{%
-      {{hash=OOSD}{%
-         family={Omer},
-         familyi={O\bibinitperiod},
-         given={Omer Salih\bibnamedelima Dawood},
-         giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
-  D\bibinitperiod},
-      }}%
-      {{hash=ES}{%
-         family={Eltyeb},
-         familyi={E\bibinitperiod},
-         given={Safaa},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{2}{%
-      {Institute of Electrical}%
-      {Electronics Engineers (IEEE)}%
-    }
-    \strng{namehash}{OOSDES1}
-    \strng{fullhash}{OOSDES1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1109/ICAAID51067.2022.9799502
-    \endverb
-    \field{pages}{1\bibrangedash 5}
-    \field{title}{Towards an Automatic Generation of UML Class Diagrams from
-  Textual Requirements using Case-based Reasoning Approach}
-    \field{month}{06}
-    \field{year}{2022}
-  \endentry
-
-  \entry{Alashqar2021}{article}{}
-    \name{author}{1}{}{%
-      {{hash=AAM}{%
-         family={Alashqar},
-         familyi={A\bibinitperiod},
-         given={Abdelkareem\bibnamedelima M},
-         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \keyw{Natural language processing,Object-oriented,Scenarios,Software
-  engineering,UML,Use cases}
-    \strng{namehash}{AAM1}
-    \strng{fullhash}{AAM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Effective software modeling tools are necessary for successful achievement
-  of software engineering activities, especially when working in the analysis
-  and design phase. Automating these tools facilitates work, makes it more
-  productive and reduces cost and time of development. This paper aims at the
-  development and validation of a method and a software tool for automatic
-  generation of UML diagrams when following the approach of object-oriented
-  development. These diagrams are generated from scenario-based requirements in
-  order to facilitate the modeling process. So, a template of scenario-based
-  requirements and its components are identified and constructed. Then a method
-  including an algorithm is designed and implemented based on natural language
-  processing (NLP) to generate UML diagrams automatically from the
-  scenario-based requirements. The diagrams include sequence and class
-  diagrams. The ability, performance and benefits of the proposed method and
-  the software tool are reported by experimental results.%
-    }
-    \field{issue}{02}
-    \field{title}{Automatic Generation of UML Diagrams from Scenario-Based User
-  Requirements}
-    \field{volume}{07}
-    \field{journaltitle}{Jordanian Journal of Computers and Information
-  Technology (JJCIT)}
-    \field{month}{06}
-    \field{year}{2021}
-  \endentry
-
-  \entry{Shweta2020}{article}{}
-    \name{author}{2}{}{%
-      {{hash=S}{%
-         family={Shweta},
-         familyi={S\bibinitperiod},
-      }}%
-      {{hash=SR}{%
-         family={Sanyal},
-         familyi={S\bibinitperiod},
-         given={Ratna},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {IOS Press}%
-    }
-    \keyw{Unified modeling language,class diagram,functional
-  requirements,natural language processing}
-    \strng{namehash}{SSR1}
-    \strng{fullhash}{SSR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    In this research work, we propose a rule based approach for the automatic
-  extraction of UML diagram from the unstructured format of software functional
-  requirements. The existing work provides decent results for active sentences
-  and positive sentences but the challenge in our work is to automatic extract
-  class diagram elements from passive voice type sentences and negative
-  sentences. Furthermore, there is scope to do more research in extraction
-  process using multi-word terms. Thus, we have endeavored to automatic extract
-  the class diagram elements by overcoming these challenges. The methodology
-  uses the Stanford CoreNLP Tools along with Java for the practical
-  implementation of formulated rules. Our approach has proved that without
-  supplant the human being and their decision making, one could reduce the
-  human effort while designing functional requirements. Several case studies
-  were performed to compare class diagrams generated by our methodology to the
-  ones created by experts. Our methodology outperforms the existing work and
-  provides impressive Average completeness (0.82), Average correctness (0.92)
-  and Average redundancy (0.15). Results show that class diagram elements
-  extracted by our methodology are precise as well as accurate and hence, in
-  practice, such class diagrams would be a good preliminary diagram to converge
-  towards to precise and comprehensive class diagrams.%
-    }
-    \verb{doi}
-    \verb 10.3233/JIFS-179871
-    \endverb
-    \field{issn}{1064-1246}
-    \field{issue}{2}
-    \field{pages}{2047\bibrangedash 2059}
-    \field{title}{Impact of passive and negative sentences in automatic
-  generation of static UML diagram using NLP}
-    \field{volume}{39}
-    \field{journaltitle}{Journal of Intelligent {&} Fuzzy Systems}
-    \field{month}{01}
-    \field{year}{2020}
-  \endentry
-
-  \entry{managil}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{title}{Manifiesto por el Desarrollo Ágil de Software}
-    \verb{url}
-    \verb https://agilemanifesto.org/iso/es/manifesto.html
-    \endverb
-  \endentry
-
-  \entry{Mohamed}{report}{}
-    \name{author}{3}{}{%
-      {{hash=MN}{%
-         family={Mohamed},
-         familyi={M\bibinitperiod},
-         given={Nahla},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Mazen},
-         familyi={M\bibinitperiod},
-         given={Sherif},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=HW}{%
-         family={Helmy},
-         familyi={H\bibinitperiod},
-         given={Waleed},
-         giveni={W\bibinitperiod},
-      }}%
-    }
-    \keyw{Requirements engineering,analytical hierarchy process,requirements
-  prioritization techniques,software engineering}
-    \strng{namehash}{MNMSHW1}
-    \strng{fullhash}{MNMSHW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    One of the main activities of software requirements analysis is
-  requirements prioritization. The wrong requirements prioritization is risky
-  as it leads to many software failures. The current requirements
-  prioritization techniques can't deal with large requirement numbers
-  efficiently, which is considered one of their main issues. Many researchers
-  have agreed that the analytical hierarchy process (AHP) is one of the best
-  prioritization techniques as it produces highly accurate results. AHP has two
-  main problems: scalability and inconsistency. These problems have motivated
-  us to propose an improved version of AHP for software requirements
-  prioritization, namely Enhanced AHP (E-AHP). A performance evaluation has
-  been done for the conventional AHP, E-AHP, and one of the recent algorithms
-  that also try to solve the AHP scalability problems, namely removing
-  eigenvalues and introducing the dynamic consistency checking algorithm into
-  AHP (ReDCCahp) algorithms The evaluation shows which algorithm takes the
-  least time, uses the least memory, produces the most consistent and accurate
-  results, and has the highest scalability. The three algorithms have been
-  evaluated by running their codes using different numbers of requirements
-  ranging from 10 to 500. The results show that E-AHP is more scalable, takes
-  the least time, uses the least memory, and produces the most consistent and
-  accurate results compared to the other two algorithms. That becomes
-  remarkable when the number of requirements increases. Therefore, E-AHP is
-  suitable to be applied in large software projects, as it can deal efficiently
-  with the large software requirements numbers.%
-    }
-    \field{issue}{7}
-    \field{pages}{2022}
-    \field{title}{E-AHP: An Enhanced Analytical Hierarchy Process Algorithm for
-  Priotrizing Large Software Requirements Numbers}
-    \verb{url}
-    \verb www.ijacsa.thesai.org
-    \endverb
-    \field{volume}{13}
-    \field{journaltitle}{IJACSA) International Journal of Advanced Computer
-  Science and Applications}
-  \endentry
-
-  \entry{Kudo}{article}{}
-    \name{author}{6}{}{%
-      {{hash=KTN}{%
-         family={Kudo},
-         familyi={K\bibinitperiod},
-         given={Taciana\bibnamedelima Novo},
-         giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-      {{hash=BNRDF}{%
-         family={Bulcão-Neto},
-         familyi={B\bibinithyphendelim N\bibinitperiod},
-         given={Renato De\bibnamedelima Freitas},
-         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
-  F\bibinitperiod},
-      }}%
-      {{hash=VV}{%
-         family={Vicente},
-         familyi={V\bibinitperiod},
-         given={Valdemar},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=NG}{%
-         family={Neto},
-         familyi={N\bibinitperiod},
-         given={Graciano},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=A�}{%
-         family={Auri},
-         familyi={A\bibinitperiod},
-         given={·},
-         giveni={�\bibinitperiod},
-      }}%
-      {{hash=VMR}{%
-         family={Vincenzi},
-         familyi={V\bibinitperiod},
-         given={Marcelo\bibnamedelima Rizzo},
-         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \keyw{Evaluation,Metamodel,Pattern,Quality,Requirement,Testing}
-    \strng{namehash}{KTNBNRDFVV+1}
-    \strng{fullhash}{KTNBNRDFVVNGA�VMR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Poorly executed requirements engineering activities profoundly affect the
-  deliverables' quality and project's budget and schedule. High-quality
-  requirements reuse through requirement patterns has been widely discussed to
-  mitigate these adverse outcomes. Requirement patterns aggregate similar
-  applications' behaviors and services into well-defined templates that can be
-  reused in later specifications. The abstraction capabilities of metamodeling
-  have shown promising results concerning the improvement of the requirement
-  specifications' quality and professionals' productivity. However, there is a
-  lack of research on requirement patterns beyond requirements engineering,
-  even using metamodels as the underlying structure. Besides, most companies
-  often struggle with the cost, rework, and delay effects resulting from a weak
-  alignment between requirements and testing. In this paper, we present a novel
-  metamodeling approach, called Software Pattern MetaModel (SoPaMM), which
-  aligns requirements and testing through requirement patterns and test
-  patterns. Influenced by well-established agile practices, SoPaMM describes
-  functional requirement patterns and acceptance test patterns as user stories
-  integrated with executable behaviors. Another novelty is the evaluation of
-  SoPaMM's quality properties against a metamodel quality evaluation framework.
-  We detail the evaluation planning, discuss evaluation results, and present
-  our study's threats to validity. Our experience with the design and
-  evaluation of SoPaMM is summarized as lessons learned.%
-    }
-    \verb{doi}
-    \verb 10.1007/s00766-022-00377-5
-    \endverb
-    \field{isbn}{0123456789}
-    \field{pages}{3}
-    \field{title}{Aligning requirements and testing through metamodeling and
-  patterns: design and evaluation}
-    \verb{url}
-    \verb https://doi.org/10.1007/s00766-022-00377-5
-    \endverb
-    \field{volume}{1}
-  \endentry
-
-  \entry{Rokis2022}{article}{}
-    \name{author}{2}{}{%
-      {{hash=RK}{%
-         family={Rokis},
-         familyi={R\bibinitperiod},
-         given={Karlis},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=KM}{%
-         family={Kirikova},
-         familyi={K\bibinitperiod},
-         given={Marite},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer, Cham}%
-    }
-    \keyw{Citizen developer,Low-code,Low-code development
-  platform,No-code,Requirements,Software development}
-    \strng{namehash}{RKKM1}
-    \strng{fullhash}{RKKM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Low-code/no-code software development is an emerging approach delivering
-  the opportunity to build software with a minimal need for manual coding and
-  enhancing the involvement of non-programmers in software development.
-  Low-code principles allow enterprises to save...%
-    }
-    \verb{doi}
-    \verb 10.1007/978-3-031-16947-2_1
-    \endverb
-    \field{pages}{3\bibrangedash 17}
-    \field{title}{Challenges of Low-Code/No-Code Software Development: A
-  Literature Review}
-    \verb{url}
-    \verb https://link.springer.com/chapter/10.1007/978-3-031-16947-2_1
-    \endverb
-    \field{year}{2022}
-  \endentry
-
-  \entry{Gazzola2022}{article}{}
-    \name{author}{5}{}{%
-      {{hash=GL}{%
-         family={Gazzola},
-         familyi={G\bibinitperiod},
-         given={Luca},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=ML}{%
-         family={Mariani},
-         familyi={M\bibinitperiod},
-         given={Leonardo},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=OM}{%
-         family={Orru},
-         familyi={O\bibinitperiod},
-         given={Matteo},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=PM}{%
-         family={Pezze},
-         familyi={P\bibinitperiod},
-         given={Mauro},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=TM}{%
-         family={Tappler},
-         familyi={T\bibinitperiod},
-         given={Martin},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{2}{%
-      {Institute of Electrical}%
-      {Electronics Engineers Inc.}%
-    }
-    \keyw{Fault detection,Field testing,Field-Ready test cases}
-    \strng{namehash}{GLMLOM+1}
-    \strng{fullhash}{GLMLOMPMTM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Software systems may fail in production environments, causing system
-  crashes, erroneous outputs, and overall system instability. Thoroughly
-  testing software systems in development environments can reduce but not avoid
-  failures, due to both the complexity of software applications, which may lead
-  to a myriad of execution conditions impossible to sample exhaustively, and
-  the many behaviors that emerge in production, which can be hardly predicted
-  and exercised during development. This paper presents field-ready test cases,
-  tests designed to run in production environments, aiming to proactively
-  execute soft-ware components in yet unexplored execution scenarios, exposing
-  error states before they result in system failures. Intuitively, the approach
-  conceives the production environment as a testbed for opportunistically
-  executing unit test cases that exploit the objects that become available as
-  test data. The paper presents the results of a set of experiments with
-  field-ready test cases that we produced for the JFreeChart and Apache Commons
-  Lang libraries. Our field-ready test suites execute 64% of the faults that
-  the original test suites miss, and exposes 33% of the missed faults.%
-    }
-    \verb{doi}
-    \verb 10.1109/ICST53961.2022.00017
-    \endverb
-    \field{isbn}{9781665466790}
-    \field{pages}{58\bibrangedash 69}
-    \field{title}{Testing Software in Production Environments with Data from
-  the Field}
-    \field{journaltitle}{Proceedings - 2022 IEEE 15th International Conference
-  on Software Testing, Verification and Validation, ICST 2022}
-    \field{year}{2022}
-  \endentry
-
-  \entry{Whiting2022}{article}{}
-    \name{author}{2}{}{%
-      {{hash=WE}{%
-         family={Whiting},
-         familyi={W\bibinitperiod},
-         given={E},
-         giveni={E},
-      }}%
-      {{hash=DS}{%
-         family={Datta},
-         familyi={D\bibinitperiod},
-         given={S},
-         giveni={S},
-      }}%
-    }
-    \keyw{Software testing,non-functional requirements,performance testing}
-    \strng{namehash}{WEDS1}
-    \strng{fullhash}{WEDS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Testing the non-functional requirements (NFR) of a system is particularly
-  complicated and time-consuming. Challenges in this area are compounded when
-  the system is developed under some offspring of Agile methodologies, which
-  favor iterative development and rapid feedback from extensive testing. The
-  authors of this paper build upon previous work investigating the common
-  challenges and solutions cited in recent peer-reviewed research on this topic
-  to design and build a tool consolidating many of the concepts found in this
-  investigation. The tool is known as LuluPerfTest (LPT) and is an NFR testing
-  framework meant to plug into continuous integration (CI) systems to run NFR
-  tests configured with a JSON script. This allows developers and testers to
-  build maintainable and minimally complex automated NFR test scripts. This
-  study explains the challenges inherent in NFR testing in Agile software
-  development and presents how LPT confronts those challenges. It aims to
-  explain LPT and invite collaboration among other testing, verification, and
-  validation researchers to create an open sources software (OSS) solution to
-  the problems of NFR testing in Agile software development projects. CCS
-  CONCEPTS • Software and its engineering; • Software creation and
-  management ; • Software verification and validation;%
-    }
-    \verb{doi}
-    \verb 10.1145/3520084.3520092
-    \endverb
-    \field{isbn}{9781450395519}
-    \field{title}{Design and Development of a Technology-Agnostic NFR Testing
-  Framework Introducing the framework and discussing the future of load testing
-  in Agile software development}
-    \verb{url}
-    \verb https://doi.org/10.1145/3520084.3520092
-    \endverb
-  \endentry
-
   \entry{JSON}{article}{}
     \name{author}{3}{}{%
       {{hash=BP}{%
@@ -1846,6 +1287,122 @@
     \field{year}{2021}
   \endentry
 
+  \entry{Mohamed}{report}{}
+    \name{author}{3}{}{%
+      {{hash=MN}{%
+         family={Mohamed},
+         familyi={M\bibinitperiod},
+         given={Nahla},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mazen},
+         familyi={M\bibinitperiod},
+         given={Sherif},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Helmy},
+         familyi={H\bibinitperiod},
+         given={Waleed},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \keyw{Requirements engineering,analytical hierarchy process,requirements
+  prioritization techniques,software engineering}
+    \strng{namehash}{MNMSHW1}
+    \strng{fullhash}{MNMSHW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    One of the main activities of software requirements analysis is
+  requirements prioritization. The wrong requirements prioritization is risky
+  as it leads to many software failures. The current requirements
+  prioritization techniques can't deal with large requirement numbers
+  efficiently, which is considered one of their main issues. Many researchers
+  have agreed that the analytical hierarchy process (AHP) is one of the best
+  prioritization techniques as it produces highly accurate results. AHP has two
+  main problems: scalability and inconsistency. These problems have motivated
+  us to propose an improved version of AHP for software requirements
+  prioritization, namely Enhanced AHP (E-AHP). A performance evaluation has
+  been done for the conventional AHP, E-AHP, and one of the recent algorithms
+  that also try to solve the AHP scalability problems, namely removing
+  eigenvalues and introducing the dynamic consistency checking algorithm into
+  AHP (ReDCCahp) algorithms The evaluation shows which algorithm takes the
+  least time, uses the least memory, produces the most consistent and accurate
+  results, and has the highest scalability. The three algorithms have been
+  evaluated by running their codes using different numbers of requirements
+  ranging from 10 to 500. The results show that E-AHP is more scalable, takes
+  the least time, uses the least memory, and produces the most consistent and
+  accurate results compared to the other two algorithms. That becomes
+  remarkable when the number of requirements increases. Therefore, E-AHP is
+  suitable to be applied in large software projects, as it can deal efficiently
+  with the large software requirements numbers.%
+    }
+    \field{issue}{7}
+    \field{pages}{2022}
+    \field{title}{E-AHP: An Enhanced Analytical Hierarchy Process Algorithm for
+  Priotrizing Large Software Requirements Numbers}
+    \verb{url}
+    \verb www.ijacsa.thesai.org
+    \endverb
+    \field{volume}{13}
+    \field{journaltitle}{IJACSA) International Journal of Advanced Computer
+  Science and Applications}
+  \endentry
+
+  \entry{Whiting2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WE}{%
+         family={Whiting},
+         familyi={W\bibinitperiod},
+         given={E},
+         giveni={E},
+      }}%
+      {{hash=DS}{%
+         family={Datta},
+         familyi={D\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+    }
+    \keyw{Software testing,non-functional requirements,performance testing}
+    \strng{namehash}{WEDS1}
+    \strng{fullhash}{WEDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Testing the non-functional requirements (NFR) of a system is particularly
+  complicated and time-consuming. Challenges in this area are compounded when
+  the system is developed under some offspring of Agile methodologies, which
+  favor iterative development and rapid feedback from extensive testing. The
+  authors of this paper build upon previous work investigating the common
+  challenges and solutions cited in recent peer-reviewed research on this topic
+  to design and build a tool consolidating many of the concepts found in this
+  investigation. The tool is known as LuluPerfTest (LPT) and is an NFR testing
+  framework meant to plug into continuous integration (CI) systems to run NFR
+  tests configured with a JSON script. This allows developers and testers to
+  build maintainable and minimally complex automated NFR test scripts. This
+  study explains the challenges inherent in NFR testing in Agile software
+  development and presents how LPT confronts those challenges. It aims to
+  explain LPT and invite collaboration among other testing, verification, and
+  validation researchers to create an open sources software (OSS) solution to
+  the problems of NFR testing in Agile software development projects. CCS
+  CONCEPTS • Software and its engineering; • Software creation and
+  management ; • Software verification and validation;%
+    }
+    \verb{doi}
+    \verb 10.1145/3520084.3520092
+    \endverb
+    \field{isbn}{9781450395519}
+    \field{title}{Design and Development of a Technology-Agnostic NFR Testing
+  Framework Introducing the framework and discussing the future of load testing
+  in Agile software development}
+    \verb{url}
+    \verb https://doi.org/10.1145/3520084.3520092
+    \endverb
+  \endentry
+
   \entry{Shafiq2018}{article}{}
     \name{author}{2}{}{%
       {{hash=SM}{%
@@ -1895,6 +1452,563 @@
   Conference, INMIC 2018}
     \field{month}{12}
     \field{year}{2018}
+  \endentry
+
+  \entry{Tan2010}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TL}{%
+         family={Tan},
+         familyi={T\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=YZ}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Zongyuan},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=XJ}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={Jinkui},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Automatic generation,Lexical analysis,OCL,UML class diagram,XMI}
+    \strng{namehash}{TLYZXJ1}
+    \strng{fullhash}{TLYZXJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    As a standard modeling language of software architecture design, UML lacks
+  formal semantics on account of its informal graphical notation. To further
+  provide refined description of UML, OCL is primarily and widely employed.
+  Generally, OCL constraints are written manually, which may cause
+  incorrectness and extra overhead. Therefore, generating OCL constraints
+  template for UML models is a superior solution. The OCL constraints template
+  automatically generated can be used as a reference for software designers.
+  First of all, the significance of automatic generation of OCL constraints was
+  emphasized, and then the application domain of OCL was shown, followed by a
+  lexical analysis of how to extract the target objects in UML models where OCL
+  constraints were needed to build and an algorithm of extraction. Eventually,
+  this extraction algorithm was implemented by Perl. In our way, the overall
+  quality and efficiency of software design is enhanced and thus contributions
+  are made for the automation of Software Engineering. © 2010 IEEE.%
+    }
+    \verb{doi}
+    \verb 10.1109/ICSESS.2010.5552361
+    \endverb
+    \field{isbn}{9781424460526}
+    \field{pages}{392\bibrangedash 395}
+    \field{title}{OCL constraints automatic generation for UML class diagram}
+    \field{journaltitle}{Proceedings 2010 IEEE International Conference on
+  Software Engineering and Service Sciences, ICSESS 2010}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Chen2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CL}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Lei},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zeng},
+         familyi={Z\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Society of Mechanical Engineers Digital Collection}%
+    }
+    \keyw{Automotive engineering,Computer software,Engineering
+  prototypes,Semantics,UML}
+    \strng{namehash}{CLZY1}
+    \strng{fullhash}{CLZY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this paper, a novel approach is proposed to transform a requirement text
+  described by natural language into two UML diagrams - use case and class
+  diagrams. The transformation consists of two steps: from natural language to
+  an intermediate graphic language called recursive object model (ROM) and from
+  ROM to UML. The ROM diagram corresponding to a text includes the main
+  semantic information implied in the text by modeling the relations between
+  words in a text. Based on the semantics in the ROM diagram, a set of
+  generation rules are proposed to generate UML diagrams from a ROM diagram. A
+  software prototype R2U is presented as a proof of concept for this approach.
+  A case study shows that the proposed approach is feasible. The proposed
+  approach can be applied to requirements modeling in various engineering
+  fields such as software engineering, automotive engineering, and aerospace
+  engineering. The future work is pointed out at the end of this paper. © 2009
+  by ASME.%
+    }
+    \verb{doi}
+    \verb 10.1115/DETC2009-86514
+    \endverb
+    \field{isbn}{9780791848999}
+    \field{issue}{PARTS A AND B}
+    \field{pages}{779\bibrangedash 786}
+    \field{title}{Automatic Generation of UML Diagrams From Product
+  Requirements Described by Natural Language}
+    \field{volume}{2}
+    \field{journaltitle}{Proceedings of the ASME Design Engineering Technical
+  Conference}
+    \field{month}{07}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Dawood2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=OOSD}{%
+         family={Omer},
+         familyi={O\bibinitperiod},
+         given={Omer Salih\bibnamedelima Dawood},
+         giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Eltyeb},
+         familyi={E\bibinitperiod},
+         given={Safaa},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers (IEEE)}%
+    }
+    \strng{namehash}{OOSDES1}
+    \strng{fullhash}{OOSDES1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ICAAID51067.2022.9799502
+    \endverb
+    \field{pages}{1\bibrangedash 5}
+    \field{title}{Towards an Automatic Generation of UML Class Diagrams from
+  Textual Requirements using Case-based Reasoning Approach}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Alashqar2021}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AAM}{%
+         family={Alashqar},
+         familyi={A\bibinitperiod},
+         given={Abdelkareem\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Natural language processing,Object-oriented,Scenarios,Software
+  engineering,UML,Use cases}
+    \strng{namehash}{AAM1}
+    \strng{fullhash}{AAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Effective software modeling tools are necessary for successful achievement
+  of software engineering activities, especially when working in the analysis
+  and design phase. Automating these tools facilitates work, makes it more
+  productive and reduces cost and time of development. This paper aims at the
+  development and validation of a method and a software tool for automatic
+  generation of UML diagrams when following the approach of object-oriented
+  development. These diagrams are generated from scenario-based requirements in
+  order to facilitate the modeling process. So, a template of scenario-based
+  requirements and its components are identified and constructed. Then a method
+  including an algorithm is designed and implemented based on natural language
+  processing (NLP) to generate UML diagrams automatically from the
+  scenario-based requirements. The diagrams include sequence and class
+  diagrams. The ability, performance and benefits of the proposed method and
+  the software tool are reported by experimental results.%
+    }
+    \field{issue}{02}
+    \field{title}{Automatic Generation of UML Diagrams from Scenario-Based User
+  Requirements}
+    \field{volume}{07}
+    \field{journaltitle}{Jordanian Journal of Computers and Information
+  Technology (JJCIT)}
+    \field{month}{06}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Shweta2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=S}{%
+         family={Shweta},
+         familyi={S\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sanyal},
+         familyi={S\bibinitperiod},
+         given={Ratna},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOS Press}%
+    }
+    \keyw{Unified modeling language,class diagram,functional
+  requirements,natural language processing}
+    \strng{namehash}{SSR1}
+    \strng{fullhash}{SSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this research work, we propose a rule based approach for the automatic
+  extraction of UML diagram from the unstructured format of software functional
+  requirements. The existing work provides decent results for active sentences
+  and positive sentences but the challenge in our work is to automatic extract
+  class diagram elements from passive voice type sentences and negative
+  sentences. Furthermore, there is scope to do more research in extraction
+  process using multi-word terms. Thus, we have endeavored to automatic extract
+  the class diagram elements by overcoming these challenges. The methodology
+  uses the Stanford CoreNLP Tools along with Java for the practical
+  implementation of formulated rules. Our approach has proved that without
+  supplant the human being and their decision making, one could reduce the
+  human effort while designing functional requirements. Several case studies
+  were performed to compare class diagrams generated by our methodology to the
+  ones created by experts. Our methodology outperforms the existing work and
+  provides impressive Average completeness (0.82), Average correctness (0.92)
+  and Average redundancy (0.15). Results show that class diagram elements
+  extracted by our methodology are precise as well as accurate and hence, in
+  practice, such class diagrams would be a good preliminary diagram to converge
+  towards to precise and comprehensive class diagrams.%
+    }
+    \verb{doi}
+    \verb 10.3233/JIFS-179871
+    \endverb
+    \field{issn}{1064-1246}
+    \field{issue}{2}
+    \field{pages}{2047\bibrangedash 2059}
+    \field{title}{Impact of passive and negative sentences in automatic
+  generation of static UML diagram using NLP}
+    \field{volume}{39}
+    \field{journaltitle}{Journal of Intelligent {and} Fuzzy Systems}
+    \field{month}{01}
+    \field{year}{2020}
+  \endentry
+
+  \entry{managil}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Manifiesto por el Desarrollo Ágil de Software}
+    \verb{url}
+    \verb https://agilemanifesto.org/iso/es/manifesto.html
+    \endverb
+  \endentry
+
+  \entry{Kudo}{article}{}
+    \name{author}{6}{}{%
+      {{hash=KTN}{%
+         family={Kudo},
+         familyi={K\bibinitperiod},
+         given={Taciana\bibnamedelima Novo},
+         giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=BNRDF}{%
+         family={Bulcão-Neto},
+         familyi={B\bibinithyphendelim N\bibinitperiod},
+         given={Renato De\bibnamedelima Freitas},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vicente},
+         familyi={V\bibinitperiod},
+         given={Valdemar},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=NG}{%
+         family={Neto},
+         familyi={N\bibinitperiod},
+         given={Graciano},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=A�}{%
+         family={Auri},
+         familyi={A\bibinitperiod},
+         given={·},
+         giveni={�\bibinitperiod},
+      }}%
+      {{hash=VMR}{%
+         family={Vincenzi},
+         familyi={V\bibinitperiod},
+         given={Marcelo\bibnamedelima Rizzo},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{Evaluation,Metamodel,Pattern,Quality,Requirement,Testing}
+    \strng{namehash}{KTNBNRDFVV+1}
+    \strng{fullhash}{KTNBNRDFVVNGA�VMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Poorly executed requirements engineering activities profoundly affect the
+  deliverables' quality and project's budget and schedule. High-quality
+  requirements reuse through requirement patterns has been widely discussed to
+  mitigate these adverse outcomes. Requirement patterns aggregate similar
+  applications' behaviors and services into well-defined templates that can be
+  reused in later specifications. The abstraction capabilities of metamodeling
+  have shown promising results concerning the improvement of the requirement
+  specifications' quality and professionals' productivity. However, there is a
+  lack of research on requirement patterns beyond requirements engineering,
+  even using metamodels as the underlying structure. Besides, most companies
+  often struggle with the cost, rework, and delay effects resulting from a weak
+  alignment between requirements and testing. In this paper, we present a novel
+  metamodeling approach, called Software Pattern MetaModel (SoPaMM), which
+  aligns requirements and testing through requirement patterns and test
+  patterns. Influenced by well-established agile practices, SoPaMM describes
+  functional requirement patterns and acceptance test patterns as user stories
+  integrated with executable behaviors. Another novelty is the evaluation of
+  SoPaMM's quality properties against a metamodel quality evaluation framework.
+  We detail the evaluation planning, discuss evaluation results, and present
+  our study's threats to validity. Our experience with the design and
+  evaluation of SoPaMM is summarized as lessons learned.%
+    }
+    \verb{doi}
+    \verb 10.1007/s00766-022-00377-5
+    \endverb
+    \field{isbn}{0123456789}
+    \field{pages}{3}
+    \field{title}{Aligning requirements and testing through metamodeling and
+  patterns: design and evaluation}
+    \verb{url}
+    \verb https://doi.org/10.1007/s00766-022-00377-5
+    \endverb
+    \field{volume}{1}
+  \endentry
+
+  \entry{Rokis2022}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RK}{%
+         family={Rokis},
+         familyi={R\bibinitperiod},
+         given={Karlis},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kirikova},
+         familyi={K\bibinitperiod},
+         given={Marite},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer, Cham}%
+    }
+    \keyw{Citizen developer,Low-code,Low-code development
+  platform,No-code,Requirements,Software development}
+    \strng{namehash}{RKKM1}
+    \strng{fullhash}{RKKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Low-code/no-code software development is an emerging approach delivering
+  the opportunity to build software with a minimal need for manual coding and
+  enhancing the involvement of non-programmers in software development.
+  Low-code principles allow enterprises to save...%
+    }
+    \verb{doi}
+    \verb 10.1007/978-3-031-16947-2_1
+    \endverb
+    \field{pages}{3\bibrangedash 17}
+    \field{title}{Challenges of Low-Code/No-Code Software Development: A
+  Literature Review}
+    \verb{url}
+    \verb https://link.springer.com/chapter/10.1007/978-3-031-16947-2_1
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{Gazzola2022}{article}{}
+    \name{author}{5}{}{%
+      {{hash=GL}{%
+         family={Gazzola},
+         familyi={G\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Mariani},
+         familyi={M\bibinitperiod},
+         given={Leonardo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Orru},
+         familyi={O\bibinitperiod},
+         given={Matteo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pezze},
+         familyi={P\bibinitperiod},
+         given={Mauro},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tappler},
+         familyi={T\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \keyw{Fault detection,Field testing,Field-Ready test cases}
+    \strng{namehash}{GLMLOM+1}
+    \strng{fullhash}{GLMLOMPMTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Software systems may fail in production environments, causing system
+  crashes, erroneous outputs, and overall system instability. Thoroughly
+  testing software systems in development environments can reduce but not avoid
+  failures, due to both the complexity of software applications, which may lead
+  to a myriad of execution conditions impossible to sample exhaustively, and
+  the many behaviors that emerge in production, which can be hardly predicted
+  and exercised during development. This paper presents field-ready test cases,
+  tests designed to run in production environments, aiming to proactively
+  execute soft-ware components in yet unexplored execution scenarios, exposing
+  error states before they result in system failures. Intuitively, the approach
+  conceives the production environment as a testbed for opportunistically
+  executing unit test cases that exploit the objects that become available as
+  test data. The paper presents the results of a set of experiments with
+  field-ready test cases that we produced for the JFreeChart and Apache Commons
+  Lang libraries. Our field-ready test suites execute 64% of the faults that
+  the original test suites miss, and exposes 33% of the missed faults.%
+    }
+    \verb{doi}
+    \verb 10.1109/ICST53961.2022.00017
+    \endverb
+    \field{isbn}{9781665466790}
+    \field{pages}{58\bibrangedash 69}
+    \field{title}{Testing Software in Production Environments with Data from
+  the Field}
+    \field{journaltitle}{Proceedings - 2022 IEEE 15th International Conference
+  on Software Testing, Verification and Validation, ICST 2022}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Villafuerte2020}{article}{}
+    \name{author}{11}{}{%
+      {{hash=IPD}{%
+         family={Investigación},
+         familyi={I\bibinitperiod},
+         given={Proyecto\bibnamedelima De},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=LGD}{%
+         family={Los},
+         familyi={L\bibinitperiod},
+         given={Gestión\bibnamedelima De},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={De},
+         familyi={D\bibinitperiod},
+         given={Recursos},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AUN}{%
+         family={Aula},
+         familyi={A\bibinitperiod},
+         given={U\bibnamedelima N},
+         giveni={U\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=CDE}{%
+         family={Clases},
+         familyi={C\bibinitperiod},
+         given={D\bibnamedelima E},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Stalin},
+         familyi={S\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Solórzano},
+         familyi={S\bibinitperiod},
+         given={Villafuerte},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Jordan},
+         familyi={J\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MY}{%
+         family={Moreira},
+         familyi={M\bibinitperiod},
+         given={Yánez},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GI}{%
+         family={Gleiston},
+         familyi={G\bibinitperiod},
+         given={Ing},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=UG}{%
+         family={Ulloa},
+         familyi={U\bibinitperiod},
+         given={Guerrero},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Quevedo: Quevedo}%
+    }
+    \keyw{Autenticación,Domótica,Internet de las Cosas,Reconocimiento
+  facial,masterThesis}
+    \strng{namehash}{IPDLGDDR+1}
+    \strng{fullhash}{IPDLGDDRAUNCDESJSVJMMYGIUG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    IoT allows the interconnection of electrical and electronic devices to an
+  Internet network, the same ones that communicate to provide a better
+  lifestyle for those who use it, observing from a technical point of view, is
+  a set of sensors that send signals to devices connected to fixed and wireless
+  networks. The buildings are the ones that most attend this type of
+  technologies, and thus make them innovative, for this reason, in actions to
+  modernize the facilities of the State Technical University of Quevedo, a
+  "Internet of Things Based System for the Management of The Resources of a
+  Classroom Classes" was implemented. The objective is to intercommunicate the
+  electronic and electrical devices of a given space, giving full control of
+  the on and off of the artifacts to the authorized person who must perform
+  authentication to access the course. Test-Driven Development Methodology for
+  IoTS (TDDM4IoTS) was used to carry out this research, which enabled the
+  development of the hardware-composite system, complemented by the IoT-based
+  system composed of microcontrollers, single board computers, and power grid
+  connection of the given space; and, the software that consists of a mobile
+  application for the total control of these electrical and electronic devices.
+  Adding digital academic features useful to the teacher such as registering
+  their attendance and that of their students, gaining control of electrical
+  and electronic devices, consulting assistance, requesting temporary permits
+  to access a course, among others. For authentication, facial recognition was
+  incorporated allowing the automatic opening of locks, as long as the teacher
+  has assigned schedule and subjects to the classroom that he wants to access;
+  and thus, decreased the waiting time on the part of the teacher for a third
+  person to help him with this activity. Keywords: Internet of Things,
+  authentication, facial recognition, domotic.%
+    }
+    \field{title}{Sistema basado en internet de las cosas para la gestión de
+  los recursos de un aula de clases}
+    \verb{url}
+    \verb https://repositorio.uteq.edu.ec/handle/43000/5943
+    \endverb
+    \field{year}{2020}
   \endentry
 \enddatalist
 \endinput

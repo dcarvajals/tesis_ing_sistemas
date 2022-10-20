@@ -5,7 +5,7 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: biblatex.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Reallocating 'name_of_file' (item size: 1) to 15 items.
-Illegal, another \bibstyle command---line 12 of file main.aux
+Illegal, another \bibstyle command---line 8 of file main.aux
  : \bibstyle
  :          {main}
 I'm skipping whatever remains of this command
@@ -35,8 +35,14 @@ Reallocating 'name_of_file' (item size: 1) to 39 items.
 A level-1 auxiliary file: cuerpo/cap2_fundamentacion_teorica.aux
 Reallocating 'name_of_file' (item size: 1) to 43 items.
 A level-1 auxiliary file: cuerpo/cap3_metodologia_investigcacion.aux
+Reallocating 'name_of_file' (item size: 1) to 37 items.
+A level-1 auxiliary file: cuerpo/cap4_resultados_discusion.aux
+Reallocating 'name_of_file' (item size: 1) to 45 items.
+A level-1 auxiliary file: cuerpo/cap5_conclusiones_recomendaciones.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: cuerpo/bibliografia.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: cuerpo/cap6_anexos.aux
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
@@ -52,6 +58,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 10040 items.
 Database file #1: main-blx.bib
 Database file #2: citasArmadillo.bib
 Warning--entry type for "OMGUML24" isn't style-file defined
@@ -63,45 +70,45 @@ Warning--entry type for "managil" isn't style-file defined
 Biblatex version: 3.17
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 35 entries,
+You've used 36 entries,
             6399 wiz_defined-function locations,
-            1544 strings with 54104 characters,
-and the built_in function-call counts, 339969 in all, are:
-= -- 29012
-> -- 4840
-< -- 1491
-+ -- 9522
-- -- 1831
-* -- 24917
-:= -- 38176
+            1555 strings with 56602 characters,
+and the built_in function-call counts, 366687 in all, are:
+= -- 31626
+> -- 5047
+< -- 1530
++ -- 10461
+- -- 1928
+* -- 26932
+:= -- 41748
 add.period$ -- 0
-call.type$ -- 35
-change.case$ -- 889
+call.type$ -- 36
+change.case$ -- 912
 chr.to.int$ -- 108
-cite$ -- 68
-duplicate$ -- 32486
-empty$ -- 29237
-format.name$ -- 2634
-if$ -- 69403
+cite$ -- 70
+duplicate$ -- 35098
+empty$ -- 31343
+format.name$ -- 2805
+if$ -- 74510
 int.to.chr$ -- 0
-int.to.str$ -- 92
+int.to.str$ -- 95
 missing$ -- 0
-newline$ -- 1396
-num.names$ -- 1967
-pop$ -- 12458
+newline$ -- 1483
+num.names$ -- 2023
+pop$ -- 12993
 preamble$ -- 1
-purify$ -- 1168
+purify$ -- 1216
 quote$ -- 0
-skip$ -- 7842
+skip$ -- 8096
 stack$ -- 0
-substring$ -- 56565
-swap$ -- 6091
-text.length$ -- 952
+substring$ -- 61957
+swap$ -- 6362
+text.length$ -- 987
 text.prefix$ -- 2
 top$ -- 1
-type$ -- 1175
+type$ -- 1209
 warning$ -- 0
-while$ -- 4248
+while$ -- 4660
 width$ -- 0
-write$ -- 1362
+write$ -- 1448
 (There was 1 error message)

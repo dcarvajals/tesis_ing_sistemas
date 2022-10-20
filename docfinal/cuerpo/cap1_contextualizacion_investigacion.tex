@@ -2,9 +2,9 @@
 \setcounter{section}{0}
 \part{CONTEXTUALIZACIÓN DE LA INVESTIGACIÓN} 
 
-\section{Problema de investigación.}
+\section{Problema de investigación}
 
-\subsection{Planteamiento del problema.}
+\subsection{Planteamiento del problema}
 
 Con el aumento en la complejidad de los productos de software los desarrolladores de sistemas informáticos han encontrado la manera de mejorar el desarrollo de software, mediante el uso del modelado UML \parencite{Jahan2021}. El modelado de software permite a los desarrolladores comprender todo el diseño de software, obteniendo como resultado una visión general del sistema y una herramienta de comunicación con otros desarrolladores \parencite{gonzalez2022}.
 
@@ -12,41 +12,36 @@ Para empezar con el modelado de un software se necesitan los requisitos plantead
 
 El desacuerdo que existe entre el cliente y el desarrollador podría llevar a resultados poco favorables para ambos. Las descripciones de los casos de uso modificados por el desarrollador podrán ser útiles para construir uno de los diagramas más populares del modelado UML como lo es el diagrama de clases \parencite{Abdelnabi2021}. Pero, para el cliente los casos de uso no tendrán sentido lógico respecto a las condiciones previas dictadas por él.
 
-TDDT4IoTS es una herramienta que usa un lenguaje de símbolos para escribir las descripciones de los casos de uso, permitiendo detallar datos técnicos sobre las clases, interfaces, métodos, etc. que formaran parte del sistema informático a desarrollar. Esta herramienta no cuenta con algún mecanismo que permita notificar si se está utilizando de manera correcta los símbolos respectivos. Además, solo permite generar una estructura JSON del diagrama de clases personalizada, sin tomar en cuenta la posibilidad de generar una estructura que pueda ser comprendida por otras herramientas que realizan el modelado con UML.
+TDDT4IoTS es una herramienta que usa un lenguaje de símbolos para escribir las descripciones de los casos de uso, permitiendo detallar datos técnicos sobre las clases, interfaces, métodos, etc. que formaran parte del sistema informático a desarrollar. Esta herramienta no cuenta con algún mecanismo que permita notificar si se está utilizando de manera correcta los símbolos respectivos.
 
-Sería importante proveer a los desarrolladores de software o usuarios que utilicen la herramienta TDDT4IoTS, una tecnología que permita detectar los errores cometidos al momento de usar el lenguaje de símbolos para crear los casos de uso extendidos. Además, seria interesante generar una estructura del diagrama de clases pertinente a los casos de uso y pueda ser utilizado por otras herramientas de modelado UML.
+Sería importante proveer a los desarrolladores de software o usuarios que utilicen la herramienta TDDT4IoTS, una tecnología que permita detectar los errores cometidos al momento de usar el lenguaje de símbolos para crear los casos de uso extendidos. Además, sería interesante generar una estructura del diagrama de clases pertinente a los casos de uso.
 
-\textbf{Diagnóstico.}
+\textbf{Diagnóstico} \\
+Analizando el actual interprete que utiliza la herramienta TDDT4IoTS, interpreta solo las descripciones que estén bien escritas. El hecho que no muestra alguna notificación o mensajes indicando algún error que se este cometiendo al momento de redactar los casos de uso, no se sabe como corregir o arreglar lo que este mal escrito. 
 
-...
+\subsection{Formulación del problema}
 
-\textbf{Pronóstico.}
+¿Es posible detectar los errores de escritura en los casos de uso , escritos en el lenguaje de símbolos utilizado en la herramienta TDDT4IoTS para generar un diagrama de clases?
 
-...
-
-\subsection{Formulación del problema.}
-
-¿Es posible detectar los errores de escritura en los casos de uso extendidos, escritos en el lenguaje de símbolos utilizado en la herramienta TDDT4IoTS para generar un diagrama de clases?
-
-\subsection{Sistematización del problema.}
+\subsection{Sistematización del problema}
 
 \begin{enumerate}
-	\item ¿Qué estructura de dato permitirá a otras librerías que generar diagramas modificar el diagrama de clases generado por la librería propuesta?
+	\item ¿Qué estructura de dato permitirá a otras librerías que generan diagramas, modificar el diagrama de clases generado por la librería propuesta?
 	
 	\item ¿Se puede notificar al desarrollador sobre la incorrecta escritura de los casos de uso redactados con el lenguaje de símbolos?
 	
 	\item ¿Cómo determinar el nivel de efectividad del producto de este proyecto de investigación respecto a la generación del diagrama de clases?
 \end{enumerate}
 
-\section{Objetivos.}
+\section{Objetivos}
 
 La problematización de este proyecto ha llevado a plantearse los siguiente objetivos.
 
-\subsection{Objetivo General.}
+\subsection{Objetivo General}
 
 Desarrollar una librería JavaScript que interprete los casos de uso escritos con el lenguaje de símbolos usado en la herramienta TDDT4IoTS, detectando los errores de escritura parar generar un diagrama de clases. 
 
-\subsection{Objetivos Específicos.}
+\subsection{Objetivos Específicos}
 
 \begin{enumerate}
 	\item Generar un estructura en formato JSON y XML para almacenar el diagrama de clases, y pueda ser visualizado mediante otras librerías que generen diagramas.
@@ -56,7 +51,7 @@ Desarrollar una librería JavaScript que interprete los casos de uso escritos co
 	\item Evaluar la librería JavaScript propuesta, con la elaboración de diagramas de clases a partir de casos de uso extendidos correspondientes a requisitos de sistemas de información.
 \end{enumerate}
 
-\section{Justificación.}
+\section{Justificación}
 
 Los requisitos planteados por el cliente no siempre estarán claros desde el principio \parencite{iqbal2020}. Al momento de comenzar la fase de desarrollo de un sistema informático, pueden surgir problemas que deberán ser resueltos de diferentes formas a las que fueron planteadas al inicio. Existen herramientas que permiten crear los diagramas de casos de uso transmitiendo de forma gráfica los requisitos que se deben ejecutar, pero no detallan toda la información requerida por un solo caso de uso \parencite{Abdelnabi2021}.
 

@@ -3,56 +3,56 @@
 \contentsline {chapter}{Lista de tablas}{xiii}{}%
 \contentsline {chapter}{Lista de figuras}{xiv}{}%
 \contentsline {part}{I\hspace {1em}CONTEXTUALIZACIÓN DE LA INVESTIGACIÓN}{4}{}%
-\contentsline {section}{\numberline {1.1}Problema de investigación.}{5}{}%
-\contentsline {subsection}{\numberline {1.1.1}Planteamiento del problema.}{5}{}%
-\contentsline {subsection}{\numberline {1.1.2}Formulación del problema.}{6}{}%
-\contentsline {subsection}{\numberline {1.1.3}Sistematización del problema.}{6}{}%
-\contentsline {section}{\numberline {1.2}Objetivos.}{6}{}%
-\contentsline {subsection}{\numberline {1.2.1}Objetivo General.}{6}{}%
-\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos.}{7}{}%
-\contentsline {section}{\numberline {1.3}Justificación.}{7}{}%
-\contentsline {part}{II\hspace {1em}FUNDAMENTACIÓN TEÓRICA DE LA INVESTIGACIÓN}{9}{}%
-\contentsline {section}{\numberline {2.1}Marco conceptual}{10}{}%
-\contentsline {subsection}{\numberline {2.1.1}Lenguajes de marcado}{10}{}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}JSON}{10}{}%
-\contentsline {subsubsection}{\numberline {2.1.1.2}XML}{11}{}%
-\contentsline {subsection}{\numberline {2.1.2}Compiladores}{11}{}%
-\contentsline {subsection}{\numberline {2.1.3}Modelamiento de software}{11}{}%
-\contentsline {subsection}{\numberline {2.1.4}Metamodelado}{12}{}%
-\contentsline {subsection}{\numberline {2.1.5}Desarrollo ágil de software}{14}{}%
-\contentsline {section}{\numberline {2.2}Marco referencial}{16}{}%
-\contentsline {part}{III\hspace {1em}MÉTODOLOGÍA DE LA INVESTIGACIÓN}{18}{}%
-\contentsline {section}{\numberline {3.1}Localización}{19}{}%
-\contentsline {section}{\numberline {3.2}Tipo de investigación}{19}{}%
-\contentsline {subsection}{\numberline {3.2.1}Investigación aplicada}{19}{}%
-\contentsline {section}{\numberline {3.3}Método de investigación}{20}{}%
-\contentsline {subsection}{\numberline {3.3.1}Método inductivo}{20}{}%
-\contentsline {subsection}{\numberline {3.3.2}Método deductivo}{20}{}%
-\contentsline {subsection}{\numberline {3.3.3}Método analítico}{20}{}%
-\contentsline {section}{\numberline {3.4}Fuentes de recopilación de información}{20}{}%
-\contentsline {subsection}{\numberline {3.4.1}Fuentes primarias}{20}{}%
-\contentsline {subsection}{\numberline {3.4.2}Fuentes secundarias}{21}{}%
-\contentsline {section}{\numberline {3.5}Diseño de la investigación}{21}{}%
-\contentsline {subsection}{\numberline {3.5.1}Metodología de desarrollo aplicada al proyecto}{21}{}%
-\contentsline {subsubsection}{\numberline {3.5.1.1}Descripción general de la metodología}{21}{}%
-\contentsline {paragraph}{Roles}{24}{}%
-\contentsline {paragraph}{Fases}{24}{}%
-\contentsline {subsection}{\numberline {3.5.2}Modelo de prototipado}{27}{}%
-\contentsline {section}{\numberline {3.6}Instrumentos de investigación}{28}{}%
-\contentsline {section}{\numberline {3.7}Recursos humanos y materiales}{28}{}%
-\contentsline {subsection}{\numberline {3.7.1}Talento humano}{28}{}%
-\contentsline {subsection}{\numberline {3.7.2}Equipo de trabajo}{28}{}%
-\contentsline {subsection}{\numberline {3.7.3}Recursos de software}{28}{}%
-\contentsline {subsection}{\numberline {3.7.4}Recursos de hardware}{29}{}%
-\contentsline {part}{IV\hspace {1em}RESULTADOS Y DISCUSIÓN}{30}{}%
-\contentsline {section}{\numberline {4.1}Resultados de la metodología}{31}{}%
-\contentsline {subsection}{\numberline {4.1.1}Análisis de requisitos y obtención de pruebas}{31}{}%
-\contentsline {section}{\numberline {4.2}Modelamiento}{43}{}%
-\contentsline {section}{\numberline {4.3}Generación de código}{49}{}%
-\contentsline {section}{\numberline {4.4}Ejecución de pruebas}{53}{}%
-\contentsline {section}{\numberline {4.5}Evaluación con sistemas de información}{58}{}%
-\contentsline {part}{V\hspace {1em}CONCLUSIONES Y RECOMENDACIONES}{59}{}%
-\contentsline {section}{\numberline {5.1}Conclusiones}{60}{}%
-\contentsline {section}{\numberline {5.2}Recomendaciones}{61}{}%
-\contentsline {part}{VI\hspace {1em}BIBLIOGRAFÍA}{62}{}%
-\contentsline {part}{VII\hspace {1em}ANEXOS}{68}{}%
+\contentsline {section}{\numberline {1.1}Problema de investigación}{5}{}%
+\contentsline {subsection}{\numberline {1.1.1}Planteamiento del problema}{5}{}%
+\contentsline {subsection}{\numberline {1.1.2}Formulación del problema}{6}{}%
+\contentsline {subsection}{\numberline {1.1.3}Sistematización del problema}{6}{}%
+\contentsline {section}{\numberline {1.2}Objetivos}{6}{}%
+\contentsline {subsection}{\numberline {1.2.1}Objetivo General}{6}{}%
+\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos}{6}{}%
+\contentsline {section}{\numberline {1.3}Justificación}{7}{}%
+\contentsline {part}{II\hspace {1em}FUNDAMENTACIÓN TEÓRICA DE LA INVESTIGACIÓN}{8}{}%
+\contentsline {section}{\numberline {2.1}Marco conceptual}{9}{}%
+\contentsline {subsection}{\numberline {2.1.1}Lenguajes de marcado}{9}{}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}JSON}{9}{}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}XML}{10}{}%
+\contentsline {subsection}{\numberline {2.1.2}Compiladores}{10}{}%
+\contentsline {subsection}{\numberline {2.1.3}Modelamiento de software}{10}{}%
+\contentsline {subsection}{\numberline {2.1.4}Metamodelado}{11}{}%
+\contentsline {subsection}{\numberline {2.1.5}Desarrollo ágil de software}{13}{}%
+\contentsline {section}{\numberline {2.2}Marco referencial}{15}{}%
+\contentsline {part}{III\hspace {1em}MÉTODOLOGÍA DE LA INVESTIGACIÓN}{17}{}%
+\contentsline {section}{\numberline {3.1}Localización}{18}{}%
+\contentsline {section}{\numberline {3.2}Tipo de investigación}{18}{}%
+\contentsline {subsection}{\numberline {3.2.1}Investigación aplicada}{18}{}%
+\contentsline {section}{\numberline {3.3}Método de investigación}{19}{}%
+\contentsline {subsection}{\numberline {3.3.1}Método inductivo}{19}{}%
+\contentsline {subsection}{\numberline {3.3.2}Método deductivo}{19}{}%
+\contentsline {subsection}{\numberline {3.3.3}Método analítico}{19}{}%
+\contentsline {section}{\numberline {3.4}Fuentes de recopilación de información}{19}{}%
+\contentsline {subsection}{\numberline {3.4.1}Fuentes primarias}{19}{}%
+\contentsline {subsection}{\numberline {3.4.2}Fuentes secundarias}{20}{}%
+\contentsline {section}{\numberline {3.5}Diseño de la investigación}{20}{}%
+\contentsline {subsection}{\numberline {3.5.1}Metodología de desarrollo aplicada al proyecto}{20}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}Descripción general de la metodología}{20}{}%
+\contentsline {paragraph}{Roles}{23}{}%
+\contentsline {paragraph}{Fases}{23}{}%
+\contentsline {subsection}{\numberline {3.5.2}Modelo de prototipado}{26}{}%
+\contentsline {section}{\numberline {3.6}Instrumentos de investigación}{27}{}%
+\contentsline {section}{\numberline {3.7}Recursos humanos y materiales}{27}{}%
+\contentsline {subsection}{\numberline {3.7.1}Talento humano}{27}{}%
+\contentsline {subsection}{\numberline {3.7.2}Equipo de trabajo}{27}{}%
+\contentsline {subsection}{\numberline {3.7.3}Recursos de software}{27}{}%
+\contentsline {subsection}{\numberline {3.7.4}Recursos de hardware}{28}{}%
+\contentsline {part}{IV\hspace {1em}RESULTADOS Y DISCUSIÓN}{29}{}%
+\contentsline {section}{\numberline {4.1}Resultados de la metodología}{30}{}%
+\contentsline {subsection}{\numberline {4.1.1}Análisis de requisitos y obtención de pruebas}{30}{}%
+\contentsline {subsection}{\numberline {4.1.2}Modelamiento}{42}{}%
+\contentsline {subsection}{\numberline {4.1.3}Generación de código}{48}{}%
+\contentsline {subsection}{\numberline {4.1.4}Ejecución de pruebas}{52}{}%
+\contentsline {subsection}{\numberline {4.1.5}Evaluación con sistemas de información}{63}{}%
+\contentsline {part}{V\hspace {1em}CONCLUSIONES Y RECOMENDACIONES}{85}{}%
+\contentsline {section}{\numberline {5.1}Conclusiones}{86}{}%
+\contentsline {section}{\numberline {5.2}Recomendaciones}{87}{}%
+\contentsline {part}{VI\hspace {1em}BIBLIOGRAFÍA}{88}{}%
+\contentsline {part}{VII\hspace {1em}ANEXOS}{94}{}%

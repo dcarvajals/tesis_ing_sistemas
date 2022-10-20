@@ -1,0 +1,112 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=3.00cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
+\usepackage[spanish]{babel}
+
+\usepackage{listings}
+\usepackage{listingsutf8}
+\usepackage{color}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{backcolour}{rgb}{0.97, 0.97, 0.97}
+\definecolor{codepurple}{rgb}{0.6, 0.4, 0.8}
+%\definecolor{stringcolor}{rgb}{0.0, 0.5, 0.0}
+\definecolor{stringcolor}{rgb}{0.97, 0.51, 0.47}
+
+\lstdefinestyle{mystyle}{
+	language=Python,
+	keywordstyle=\color{codepurple}\bfseries,
+	basicstyle={\footnotesize\ttfamily\color{black}},
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegray},
+	numberstyle=\ttfamily\color{black},
+	stringstyle=\color{stringcolor},
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=10pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2, 
+	frame=leftline
+}
+
+\lstset{literate=
+	{á}{{\'a}}1
+	{é}{{\'e}}1
+	{í}{{\'i}}1
+	{ó}{{\'o}}1
+	{ú}{{\'u}}1
+	{Á}{{\'A}}1
+	{É}{{\'E}}1
+	{Í}{{\'I}}1
+	{Ó}{{\'O}}1
+	{Ú}{{\'U}}1
+	{ñ}{{\~n}}1
+	{ü}{{\"u}}1
+	{Ü}{{\"U}}1
+	{\&}{{\&}}1
+	{¡}{{!`}}1
+	{¿}{{?`}}1
+	{·}{{$\cdot$}}1
+	{»}{{>>}}1
+}
+
+\lstset{style=mystyle}
+
+
+\begin{document}
+	\begin{lstlisting}[language=Python]
+	{
+	# Impartación de librerias para el funcionamiento
+	import RPi.GPIO as GPIO
+	import time
+	import speech_recognition as sr
+	import serial
+	import struct
+	from gtts import gTTS
+	import os
+	import unicodedata
+	
+	#Formato de texto
+	trans_tab = dict.fromkeys(map(ord, u'\u0301\u0308'), None)
+	#puerto_serie = serial.Serial('/dev/ttyAMA0',9600)
+	#Inicializa puerto serial, velociad, paridad, puerto de tranmision raspberry
+	puerto_serie = serial.Serial(port='/dev/ttyAMA0',baudrate=9600,parity=serial.PARITY_NONE,
+	stopbits=serial.STOPBITS_ONE,
+	bytesize=serial.EIGHTBITS,
+	timeout=1) 
+	# estructura para enviar hexadecimal
+	k=struct.pack('B', 0xff)
+	
+	# funciones para imagen de cada letra, según posición de la A - Z
+	def letraA(x,y):
+	x=str(x)
+	y=str(y)
+	command = "pic "+ x +","+ y +",64"
+	#command = 'pic 200,200,2'
+	puerto_serie.write(command.encode())
+	puerto_serie.write(k)
+	puerto_serie.write(k)
+	puerto_serie.write(k)
+	def letraB(x,y):
+	x=str(x)
+	y=str(y)
+	command = "pic "+ x +","+ y +",65"
+	#command = 'pic 200,200,2'
+	puerto_serie.write(command.encode())
+	puerto_serie.write(k)
+	puerto_serie.write(k)
+	puerto_serie.write(k)	
+	}
+\end{lstlisting}
+	
+\end{document}
