@@ -252,31 +252,23 @@ function count(text, character) {
  * @param {string} characters
  * */
 function manualPartition(beging, end, characters) {
+    console.log("################### MANUAL PARTITION ########################");
     var subs = {x1: 0, x2: 0};
     var elements = [];
     var open = true;
     let countBegin = count(characters, beging);
     let countEnd = count(characters, end);
+    let textaux = "";
     if (countBegin === countEnd) {
         for (var rec = 0; rec < characters.length; rec++) {
             if (characters[rec] === beging && open === true) {
                 subs.x1 = rec;
                 open = false;
-                if (characters[rec - 1] === "!" && characters[rec] === "(") {
-                    subs.x1 = rec - 1;
+                if (characters[rec - 1] === "*" && characters[rec] === beging) {
+                  subs.x1 = rec - 1;
                 }
-                if (characters[rec - 1] === "*" && characters[rec] === "(") {
-                    subs.x1 = rec - 1;
-                }
-                if (characters[rec - 2] === "*" && characters[rec] === "(") {
-                    subs.x1 = rec - 2;
-                }
-                if (characters[rec - 1] === "*" && characters[rec] === "¿") {
-                    subs.x1 = rec - 1;
-                }
-              if (characters[rec - 1] === "*" && characters[rec] === "¡") { // ¿?
-                subs.x1 = rec - 1;
-              }
+              console.log(open);
+              console.log("subs.x1: ", subs.x1);
             }
             if (characters[rec] === end && open === false && subs.x1 !== rec) {
                 open = true;
@@ -379,7 +371,7 @@ function increadingClassData(classObject, objects) {
 function classx(text) {
   var classx_p = [];
   text = unsupportedCharacters(text, 2);
-
+  console.log("### ENVIANDO LOS SIMBOLOS PARA INDENTIFICAR LAS CLASES")
   var parts = manualPartition("(", ")", unsupportedCharacters(text, 3));
   var parts2 = manualPartition("(", ")", unsupportedCharacters(text, 2));
   var text2 = text;
@@ -471,7 +463,11 @@ function getClassDerivate(text) {
 function textNatural(text) {
   if (text[0] === "*") {
     let textManualPartition = manualPartition("/", "/", text);
-    return textManualPartition.join(" ").toString().replace(/[\/\\\]\}]/g, "").toString().replace(/[\.\[\{\(\)\&\+\¡\!¿?\-\$\#]/g, "").toString().replace(/=.*/g, "").replace(/\:.*/g, "");
+    return textManualPartition.join(" ").toString()
+      .replace(/[\/\\\]\}]/g, "").toString()
+      .replace(/[\.\[\{\(\)\&\+\¡\!¿?\-\$\#]/g, "").toString()
+      .replace(/=.*/g, "")
+      .replace(/\:.*/g, "");
   } else { // ¿?
     return text.toString().replace(/[\!\(\)¿?]/g, "").toString().replace(/\{.*\}/g, "").toString().replace(/\[.*\]/g, "").replace(/\:.*/g, "");
   }
@@ -793,15 +789,12 @@ function getDataTypes(obj) {
     return types;
 }
 
-function getHackDiagram(text) {
+function getDiagramClass(text) {
     notifications.length = 0;
     text = text.replace(/[\r\n]/g, '');
     setNotifications(0, "Description entered: " + text, []);
     var packs = packages(text);
-//    var rel = getRelationship(packs[1]);
     var rel = typeOfRelationships(text, packs[0]);
-//console.log("tipos");
-//console.log(DataType_RoyalCodex[indexDataType_RoyalCorex]);
 
     return [rel[1], {
             diagram: packs[1],

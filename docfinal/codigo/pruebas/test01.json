@@ -1,61 +1,61 @@
 {
-  "diagram": [
-    {
-      "packName": "Default",
-      "class": [
-        {
-          "action": "update",
-          "derivative": [],
-          "className": "Person",
-          "visibility": "public",
-          "modifiers": "",
-          "attributes": [
-            {
-              "visibility": "private",
-              "name": "id",
-              "type": "Int"
-            }
-          ],
-          "methods": [],
-          "constructors": []
-        },
-        {
-          "action": "update",
-          "derivative": [],
-          "className": "Tutor",
-          "visibility": "public",
-          "modifiers": "",
-          "attributes": [
-            {
-              "visibility": "private",
-              "name": "id",
-              "type": "String"
-            }
-          ],
-          "methods": [
-            {
-              "visibility": "public",
-              "name": "userRegistration",
-              "type": "void",
-              "parameters": []
-            }
-          ],
-          "constructors": []
-        }
-      ],
-      "enums": []
-    }
-  ],
-  "relationships": [
-    {
-      "from": "Tutor",
-      "to": "Person",
-      "typeRelatioship": "generalization",
-      "value": "register",
-      "cardinalidate": "1..*",
-      "from_fk": " Person:Person[]",
-      "to_fk": "tutor :Tutor",
-      "simbol": "1<>n"
-    }
-  ]
+	"diagram": [
+		{
+			"packName": "Default",
+			"class": [
+				{
+					"action": "update",
+					"derivative": [],
+					"className": "Persona",
+					"visibility": "public",
+					"modifiers": "",
+					"attributes": [
+						{
+							"visibility": "private",
+							"name": "id",
+							"type": "Int"
+						}
+					],
+					"methods": [],
+					"constructors": []
+				},
+				{
+					"action": "update",
+					"derivative": [],
+					"className": "Tutor",
+					"visibility": "public",
+					"modifiers": "",
+					"attributes": [
+						{
+							"visibility": "private",
+							"name": "id",
+							"type": "String"
+						}
+					],
+					"methods": [
+						{
+							"visibility": "public",
+							"name": "usuarioRegistrar",
+							"type": "void",
+							"parameters": []
+						}
+					],
+					"constructors": []
+				}
+			],
+			"enums": []
+		}
+	],
+	"relationships": [
+		{
+			"from": "Tutor",
+			"to": "Persona",
+			"typeRelatioship": "generalization",
+			"value": "registrar",
+			"cardinalidate": "1..*",
+			"from_fk": " Persona:Persona[]",
+			"to_fk": "tutor :Tutor",
+			"simbol": "1<>n"
+		}
+	]
 }

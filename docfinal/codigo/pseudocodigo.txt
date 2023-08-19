@@ -1,0 +1,21 @@
+Procedimiento detectarErrores (descricpion, sim_apertura, sim_cierre)
+	abrir = verdad
+	repetir i = 0	
+		si descripcion[i] es igual sim_apertura
+			cantidad_a = cantidad_a + 1
+		finSi 
+		si descripcion[i] es igual sim_cierre
+			cantidad_b = cantidad_b + 1
+		finSi
+		i = i + 1
+	hasta que i = descripcion.length - 1
+	si cantidad_a es igual a cantidad_b
+		repetir j = 0
+			
+		hasta que j = descripcion.length - 1	
+	siNo	
+		mostrar "Error"
+	finSi
+
+	
+	

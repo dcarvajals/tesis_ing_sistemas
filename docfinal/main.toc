@@ -1,58 +1,58 @@
 \babel@toc {nil}{}\relax 
-\contentsline {chapter}{Tabla de contenido}{x}{}%
-\contentsline {chapter}{Lista de tablas}{xiii}{}%
-\contentsline {chapter}{Lista de figuras}{xiv}{}%
-\contentsline {part}{I\hspace {1em}CONTEXTUALIZACIÓN DE LA INVESTIGACIÓN}{4}{}%
-\contentsline {section}{\numberline {1.1}Problema de investigación}{5}{}%
-\contentsline {subsection}{\numberline {1.1.1}Planteamiento del problema}{5}{}%
-\contentsline {subsection}{\numberline {1.1.2}Formulación del problema}{6}{}%
-\contentsline {subsection}{\numberline {1.1.3}Sistematización del problema}{6}{}%
-\contentsline {section}{\numberline {1.2}Objetivos}{6}{}%
-\contentsline {subsection}{\numberline {1.2.1}Objetivo General}{6}{}%
-\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos}{6}{}%
-\contentsline {section}{\numberline {1.3}Justificación}{7}{}%
-\contentsline {part}{II\hspace {1em}FUNDAMENTACIÓN TEÓRICA DE LA INVESTIGACIÓN}{8}{}%
-\contentsline {section}{\numberline {2.1}Marco conceptual}{9}{}%
-\contentsline {subsection}{\numberline {2.1.1}Lenguajes de marcado}{9}{}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}JSON}{9}{}%
-\contentsline {subsubsection}{\numberline {2.1.1.2}XML}{10}{}%
-\contentsline {subsection}{\numberline {2.1.2}Compiladores}{10}{}%
-\contentsline {subsection}{\numberline {2.1.3}Modelamiento de software}{10}{}%
-\contentsline {subsection}{\numberline {2.1.4}Metamodelado}{11}{}%
-\contentsline {subsection}{\numberline {2.1.5}Desarrollo ágil de software}{13}{}%
-\contentsline {section}{\numberline {2.2}Marco referencial}{15}{}%
-\contentsline {part}{III\hspace {1em}MÉTODOLOGÍA DE LA INVESTIGACIÓN}{17}{}%
-\contentsline {section}{\numberline {3.1}Localización}{18}{}%
-\contentsline {section}{\numberline {3.2}Tipo de investigación}{18}{}%
-\contentsline {subsection}{\numberline {3.2.1}Investigación aplicada}{18}{}%
-\contentsline {section}{\numberline {3.3}Método de investigación}{19}{}%
-\contentsline {subsection}{\numberline {3.3.1}Método inductivo}{19}{}%
-\contentsline {subsection}{\numberline {3.3.2}Método deductivo}{19}{}%
-\contentsline {subsection}{\numberline {3.3.3}Método analítico}{19}{}%
-\contentsline {section}{\numberline {3.4}Fuentes de recopilación de información}{19}{}%
-\contentsline {subsection}{\numberline {3.4.1}Fuentes primarias}{19}{}%
-\contentsline {subsection}{\numberline {3.4.2}Fuentes secundarias}{20}{}%
-\contentsline {section}{\numberline {3.5}Diseño de la investigación}{20}{}%
-\contentsline {subsection}{\numberline {3.5.1}Metodología de desarrollo aplicada al proyecto}{20}{}%
-\contentsline {subsubsection}{\numberline {3.5.1.1}Descripción general de la metodología}{20}{}%
-\contentsline {paragraph}{Roles}{23}{}%
-\contentsline {paragraph}{Fases}{23}{}%
-\contentsline {subsection}{\numberline {3.5.2}Modelo de prototipado}{26}{}%
-\contentsline {section}{\numberline {3.6}Instrumentos de investigación}{27}{}%
-\contentsline {section}{\numberline {3.7}Recursos humanos y materiales}{27}{}%
-\contentsline {subsection}{\numberline {3.7.1}Talento humano}{27}{}%
-\contentsline {subsection}{\numberline {3.7.2}Equipo de trabajo}{27}{}%
-\contentsline {subsection}{\numberline {3.7.3}Recursos de software}{27}{}%
-\contentsline {subsection}{\numberline {3.7.4}Recursos de hardware}{28}{}%
-\contentsline {part}{IV\hspace {1em}RESULTADOS Y DISCUSIÓN}{29}{}%
-\contentsline {section}{\numberline {4.1}Resultados de la metodología}{30}{}%
-\contentsline {subsection}{\numberline {4.1.1}Análisis de requisitos y obtención de pruebas}{30}{}%
-\contentsline {subsection}{\numberline {4.1.2}Modelamiento}{42}{}%
+\contentsline {part}{I\hspace {1em}CONTEXTUALIZACIÓN DE LA INVESTIGACIÓN}{5}{}%
+\contentsline {section}{\numberline {1.1}Problema de investigación}{6}{}%
+\contentsline {subsection}{\numberline {1.1.1}Planteamiento del problema}{6}{}%
+\contentsline {subsection}{\numberline {1.1.2}Formulación del problema}{7}{}%
+\contentsline {subsection}{\numberline {1.1.3}Sistematización del problema}{8}{}%
+\contentsline {section}{\numberline {1.2}Objetivos}{8}{}%
+\contentsline {subsection}{\numberline {1.2.1}Objetivo General}{8}{}%
+\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos}{8}{}%
+\contentsline {section}{\numberline {1.3}Justificación}{9}{}%
+\contentsline {part}{II\hspace {1em}FUNDAMENTACIÓN TEÓRICA DE LA INVESTIGACIÓN}{10}{}%
+\contentsline {section}{\numberline {2.1}Marco conceptual}{11}{}%
+\contentsline {subsection}{\numberline {2.1.1}Lenguajes de marcado}{11}{}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}JSON}{11}{}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}XML}{11}{}%
+\contentsline {subsection}{\numberline {2.1.2}Compiladores}{12}{}%
+\contentsline {subsection}{\numberline {2.1.3}Modelamiento de software}{13}{}%
+\contentsline {subsection}{\numberline {2.1.4}Metamodelado}{13}{}%
+\contentsline {subsection}{\numberline {2.1.5}Desarrollo ágil de software}{15}{}%
+\contentsline {section}{\numberline {2.2}Marco referencial}{16}{}%
+\contentsline {part}{III\hspace {1em}METODOLOGÍA DE LA INVESTIGACIÓN}{19}{}%
+\contentsline {section}{\numberline {3.1}Localización}{20}{}%
+\contentsline {section}{\numberline {3.2}Tipo de investigación}{20}{}%
+\contentsline {subsection}{\numberline {3.2.1}Investigación aplicada}{20}{}%
+\contentsline {section}{\numberline {3.3}Métodos de investigación}{21}{}%
+\contentsline {subsection}{\numberline {3.3.1}Método inductivo}{21}{}%
+\contentsline {subsection}{\numberline {3.3.2}Método deductivo}{21}{}%
+\contentsline {subsection}{\numberline {3.3.3}Método analítico}{21}{}%
+\contentsline {section}{\numberline {3.4}Fuentes de recopilación de información}{21}{}%
+\contentsline {section}{\numberline {3.5}Diseño de la investigación}{23}{}%
+\contentsline {subsection}{\numberline {3.5.1}Metodología de investigación aplicada al proyecto}{23}{}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}Descripción general de la metodología}{25}{}%
+\contentsline {paragraph}{Roles}{26}{}%
+\contentsline {paragraph}{Fases}{27}{}%
+\contentsline {section}{\numberline {3.6}Recursos humanos y materiales}{29}{}%
+\contentsline {subsection}{\numberline {3.6.1}Talento humano}{29}{}%
+\contentsline {subsection}{\numberline {3.6.2}Equipo de trabajo}{30}{}%
+\contentsline {subsection}{\numberline {3.6.3}Recursos de software}{30}{}%
+\contentsline {subsection}{\numberline {3.6.4}Recursos de hardware}{30}{}%
+\contentsline {part}{IV\hspace {1em}RESULTADOS Y DISCUSIÓN}{31}{}%
+\contentsline {section}{\numberline {4.1}Resultados de la metodología}{32}{}%
+\contentsline {subsection}{\numberline {4.1.1}Análisis de requisitos y obtención de pruebas}{32}{}%
+\contentsline {subsection}{\numberline {4.1.2}Modelamiento}{44}{}%
 \contentsline {subsection}{\numberline {4.1.3}Generación de código}{48}{}%
-\contentsline {subsection}{\numberline {4.1.4}Ejecución de pruebas}{52}{}%
-\contentsline {subsection}{\numberline {4.1.5}Evaluación con sistemas de información}{63}{}%
+\contentsline {subsection}{\numberline {4.1.4}Ejecución de pruebas}{51}{}%
+\contentsline {subsection}{\numberline {4.1.5}Evaluación con sistemas de información}{62}{}%
 \contentsline {part}{V\hspace {1em}CONCLUSIONES Y RECOMENDACIONES}{85}{}%
 \contentsline {section}{\numberline {5.1}Conclusiones}{86}{}%
 \contentsline {section}{\numberline {5.2}Recomendaciones}{87}{}%
 \contentsline {part}{VI\hspace {1em}BIBLIOGRAFÍA}{88}{}%
 \contentsline {part}{VII\hspace {1em}ANEXOS}{94}{}%
+\contentsline {section}{\numberline {6.1}Interfaz principal de aplicación demostrativa de la librería}{95}{}%
+\contentsline {section}{\numberline {6.2}Interfaz donde se ingresarán las descripciones de los casos de uso a interpretar}{95}{}%
+\contentsline {section}{\numberline {6.3}Descripción del caso de uso interpretada con su respectiva retroalimentación}{96}{}%
+\contentsline {section}{\numberline {6.4}Diagrama de clases generado por la librería usando una librería externa denominada jsUML2}{96}{}%
+\contentsline {section}{\numberline {6.5}Estructura JSON generada por la librería}{97}{}%
+\contentsline {section}{\numberline {6.6}XML generado por la librería}{97}{}%
+\contentsline {section}{\numberline {6.7}Error detectado en la descripción del caso de uso}{98}{}%

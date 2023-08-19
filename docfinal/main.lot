@@ -1,21 +1,23 @@
 \babel@toc {nil}{}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Los 12 principios ágiles y su análisis en la metodología.\relax }}{21}{}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Recursos de software utilizados en el proyecto\relax }}{28}{}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Recursos de hardware utilizados en el proyecto\relax }}{28}{}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Código ASCII para cada símbolo del lenguaje.\relax }}{37}{}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Código ASCII para cada símbolo del lenguaje que especifican las relaciones.\relax }}{38}{}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Descripción del caso de uso para Tutor registration.\relax }}{39}{}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Descripción del caso de uso para Tutor registration.\relax }}{40}{}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Descripción del caso de uso para ingresar la descripción.\relax }}{43}{}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces Descripción del caso de uso para interpretar la descripción.\relax }}{44}{}%
-\contentsline {table}{\numberline {4.10}{\ignorespaces Descripción del caso de uso para validar símbolos.\relax }}{45}{}%
-\contentsline {table}{\numberline {4.11}{\ignorespaces Descripción del caso de uso para identificar errores.\relax }}{46}{}%
-\contentsline {table}{\numberline {4.12}{\ignorespaces Descripción del caso de uso para generar estructura json y xml.\relax }}{47}{}%
-\contentsline {table}{\numberline {4.13}{\ignorespaces Descripción del caso de uso para ingresar al sistema.\relax }}{76}{}%
-\contentsline {table}{\numberline {4.14}{\ignorespaces Descripción del caso de uso para ingresar al sistema usando el lenguaje de símbolos.\relax }}{77}{}%
-\contentsline {table}{\numberline {4.15}{\ignorespaces Descripción del caso de uso para solicitar accesos físicos temporales.\relax }}{78}{}%
-\contentsline {table}{\numberline {4.16}{\ignorespaces Descripción del caso de uso para solicitar accesos físicos temporales redactado con el lenguaje de símbolos.\relax }}{79}{}%
-\contentsline {table}{\numberline {4.17}{\ignorespaces Descripción del caso de uso para acceder a cursos temporales.\relax }}{80}{}%
-\contentsline {table}{\numberline {4.18}{\ignorespaces Descripción del caso de uso para Acceder a cursos temporales.\relax }}{81}{}%
-\contentsline {table}{\numberline {4.19}{\ignorespaces Descripción del caso de uso para registrar asistencia de estudiantes.\relax }}{82}{}%
-\contentsline {table}{\numberline {4.20}{\ignorespaces Descripción del caso de uso para Registrar asistencia de estudiantes redactado con el lenguaje de símbolos.\relax }}{83}{}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Proyectos integradores de los estudiantes entre el 5to y 8vo semestre de la carrera Ingeniería en Sistemas.\relax }}{22}{}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Algunos artículos científicos que ayudaron con la investigación de este proyecto.\relax }}{23}{}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Los 12 principios ágiles y su análisis en la metodología.\relax }}{24}{}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Recursos de software utilizados en el proyecto\relax }}{30}{}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Recursos de hardware utilizados en el proyecto\relax }}{30}{}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Código ASCII para cada símbolo del lenguaje.\relax }}{39}{}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Código ASCII para cada símbolo del lenguaje que especifican las relaciones.\relax }}{40}{}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Descripción del caso de uso Registrar tutor.\relax }}{41}{}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Descripción del caso de uso para registrar tutor.\relax }}{42}{}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Descripción del caso de uso para interpretar la descripción.\relax }}{45}{}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Descripción del caso de uso para ingresar la descripción.\relax }}{46}{}%
+\contentsline {table}{\numberline {4.12}{\ignorespaces Descripción del caso de uso para generar estructura json y xml.\relax }}{46}{}%
+\contentsline {table}{\numberline {4.13}{\ignorespaces Descripción del caso de uso para validar símbolos.\relax }}{47}{}%
+\contentsline {table}{\numberline {4.14}{\ignorespaces Descripción del caso de uso para identificar errores.\relax }}{47}{}%
+\contentsline {table}{\numberline {4.15}{\ignorespaces Descripción del caso de uso para ingresar al sistema.\relax }}{76}{}%
+\contentsline {table}{\numberline {4.16}{\ignorespaces Descripción del caso de uso con Symlen para ingresar al sistema.\relax }}{77}{}%
+\contentsline {table}{\numberline {4.17}{\ignorespaces Descripción del caso de uso para solicitar accesos físicos temporales.\relax }}{78}{}%
+\contentsline {table}{\numberline {4.18}{\ignorespaces Descripción del caso de uso con Symlen para solicitar accesos físicos temp.\relax }}{79}{}%
+\contentsline {table}{\numberline {4.19}{\ignorespaces Descripción del caso de uso para acceder a cursos temporales.\relax }}{80}{}%
+\contentsline {table}{\numberline {4.20}{\ignorespaces Descripción del caso de uso para Acceder a cursos temporales.\relax }}{81}{}%
+\contentsline {table}{\numberline {4.21}{\ignorespaces Descripción del caso de uso para registrar asistencia de estudiantes.\relax }}{82}{}%
+\contentsline {table}{\numberline {4.22}{\ignorespaces Descripción del caso de uso con Symlen para Registrar asistencia de est.\relax }}{83}{}%

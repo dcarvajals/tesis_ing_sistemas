@@ -5,58 +5,94 @@
 \section{Problema de investigación}
 
 \subsection{Planteamiento del problema}
+% buscar algo sobre OMG
+La complejidad de los productos de software han hecho que los desarrolladores de sistemas informáticos busquen la manera de acelerar el desarrollo de software. Este objetivo se ha tratado de cumplir mediante el uso del modelado de sistemas utilizando UML \parencite{Jahan2021}, propuesto por \textit{Object Management Group} (OMG) mediante \textit{Model-Driven Architecture} (MDA). El modelado de software permite a los desarrolladores comprender y obtener una visión global del sistema, y ser una herramienta de comunicación entre los miembros del equipo de desarrollo \parencite{gonzalez2022}. Sin embargo, el tiempo que se toma para el análisis de requisitos y a partir de ellos la creación de los diagramas de clases que hacen posible la generación de código automático es considerable.
 
-Con el aumento en la complejidad de los productos de software los desarrolladores de sistemas informáticos han encontrado la manera de mejorar el desarrollo de software, mediante el uso del modelado UML \parencite{Jahan2021}. El modelado de software permite a los desarrolladores comprender todo el diseño de software, obteniendo como resultado una visión general del sistema y una herramienta de comunicación con otros desarrolladores \parencite{gonzalez2022}.
+Para empezar con el modelado de un software se necesitan los requisitos planteados por el cliente. Un estudio reveló que el 95\% de los documentos de requisitos de un sistema son redactados en lenguaje natural \parencite{Jahan2021}. Todos los requisitos planteados son plasmados en casos de uso, siendo la herramienta de modelado más habitualmente utilizada para representar las especificaciones del software \parencite{hamza2021}. Estos casos de uso permiten analizar más a fondo entre el equipo de desarrolladores las necesidades del cliente. Sin embargo, cuando el equipo de desarrolladores redactan las descripciones de los casos de uso pueden detallar características técnicas del software que el cliente no logrará comprender \parencite{Abdelnabi2021}. % El desacuerdo que existe entre el cliente y los desarrolladores podría llevar a resultados poco favorables para ambos 
 
-Para empezar con el modelado de un software se necesitan los requisitos planteados por el cliente. Un estudio revelo que el 95\% de los documentos de requisitos de un sistema estaban redactados en algún tipo de lenguaje natural \parencite{Jahan2021}. Todos los requisitos planteados son plasmados en casos de uso, siendo la herramienta de modelado más habitualmente utilizada para representar las especificaciones del software \parencite{hamza2021}. Estos casos de uso permiten analizar más a fondo de forma privada las necesidades del cliente. Sin embargo, al realizar esto suelen surgir confusiones entre el cliente y el desarrollador, debido a que los casos de uso podrían ser modificados, detallando características técnicas del software que el cliente no logrará comprender.
+Las características técnicas que se podrían detallar en las descripciones de los casos de uso pueden ser  por ejemplo: nombre de clases, atributos, métodos, etc. que el analista necesite plasmar en los casos de uso. Con el uso de TDDT4IoTS los desarrolladores  pueden especificar datos técnicos en los casos de uso escritos con SymLen y obtener de manera automática el diagrama de clases correspondiente. Pero, muchas de las veces los resultados no son los esperados por el desarrollador sin conocer las razones. Otro caso es que el desarrollador debe analizar cada uno de los requisitos en las que se describe el caso de uso para determinar los posibles errores en el uso de SymLen.
 
-El desacuerdo que existe entre el cliente y el desarrollador podría llevar a resultados poco favorables para ambos. Las descripciones de los casos de uso modificados por el desarrollador podrán ser útiles para construir uno de los diagramas más populares del modelado UML como lo es el diagrama de clases \parencite{Abdelnabi2021}. Pero, para el cliente los casos de uso no tendrán sentido lógico respecto a las condiciones previas dictadas por él.
+\newpage 
 
-TDDT4IoTS es una herramienta que usa un lenguaje de símbolos para escribir las descripciones de los casos de uso, permitiendo detallar datos técnicos sobre las clases, interfaces, métodos, etc. que formaran parte del sistema informático a desarrollar. Esta herramienta no cuenta con algún mecanismo que permita notificar si se está utilizando de manera correcta los símbolos respectivos.
+ Al realizar el análisis de requisitos, los desarrolladores deben agregar información técnica que el cliente no podría comprender, lo que imposibilita a que el cliente revise los documentos por si solo. Por lo tanto, los desarrolladores deben dedicarle tiempo a revisar con el cliente los documentos de requisitos actualizados para proporcionar las especificaciones correspondientes.
 
-Sería importante proveer a los desarrolladores de software o usuarios que utilicen la herramienta TDDT4IoTS, una tecnología que permita detectar los errores cometidos al momento de usar el lenguaje de símbolos para crear los casos de uso extendidos. Además, sería interesante generar una estructura del diagrama de clases pertinente a los casos de uso.
+Analizando el actual intérprete que utiliza la herramienta TDDT4IoTS, genera el diagrama de clases tomando las descripciones que estén bien escritas, sin retroalimentar a los miembros del equipo de desarrollo los errores que se hayan cometido al momento de redactar los casos de uso, dificultando la corrección de los mismos. Además, el formato generado no permite compartir los datos con otras librerías para visualizar el diagrama con otras herramientas que dibujen estos tipos de diagramas. 
 
 \textbf{Diagnóstico} \\
-Analizando el actual interprete que utiliza la herramienta TDDT4IoTS, interpreta solo las descripciones que estén bien escritas. El hecho que no muestra alguna notificación o mensajes indicando algún error que se este cometiendo al momento de redactar los casos de uso, no se sabe como corregir o arreglar lo que este mal escrito. 
+Aunque existen herramientas que permiten la generación automática de software, el tiempo para realizar el análisis de los requisitos y obtener la materia prima con la que se alimenta a estas herramientas hace que el proyecto sea demorado. Además, al realizar una modificación en los requisitos por omisiones del cliente o por errores de los desarrolladores, hace que se tenga que modificar los documentos de requisitos y a su vez realimentar a las herramientas que se han usado para el modelado y la generación de código automático. 
+
+\textbf{Pronóstico} \\
+En el transcurso del proyecto pueden surgir varias anomalías que se deben tomar en cuenta que puedan llegar a suceder. Si la librería no logra identificar algunos errores escritos en las especificaciones de los casos de uso usando SymLen, será muy difícil que el analista corrija los errores en su respectiva escritura. Esto tendrá como consecuencia un tiempo más demorado para detallar los datos técnicos del modelado de software. Además, la generación del diagrama de clases tomara más tiempo en realizarlo haciendo poco atractivo el uso de SymLen.
+
+% justificacion
+%Sería importante proveer a los desarrolladores de software o usuarios que utilicen la herramienta TDDT4IoTS, una tecnología que permita detectar los errores cometidos al momento de usar el lenguaje de símbolos para crear los casos de uso extendidos. Además, sería interesante generar una estructura del diagrama de clases pertinente a los casos de uso. 
 
 \subsection{Formulación del problema}
+% como detectar los errores en la escritura de los casos de uso utilizando SymLen para guiar a los desarrolladores en su correccion 
 
-¿Es posible detectar los errores de escritura en los casos de uso , escritos en el lenguaje de símbolos utilizado en la herramienta TDDT4IoTS para generar un diagrama de clases?
+% como ayudar a los desarrolladores a disminuir el tiempo ene la obtencion del software de un sistema informatico
+
+%¿Es posible detectar los errores de escritura en los casos de uso, escritos en el lenguaje de símbolos utilizado en la herramienta TDDT4IoTS para generar un diagrama de clases?%
+
+¿Cómo gestionar la obtención del diagramas de clases a partir de la especificación de los casos de uso usando SymLen?
 
 \subsection{Sistematización del problema}
 
+\sloppy
 \begin{enumerate}
-	\item ¿Qué estructura de dato permitirá a otras librerías que generan diagramas, modificar el diagrama de clases generado por la librería propuesta?
 	
-	\item ¿Se puede notificar al desarrollador sobre la incorrecta escritura de los casos de uso redactados con el lenguaje de símbolos?
+	% Como dar a conocer al desarrollador la incorrecta escritura de los casos de uso utilizando el lenguaje SymLen para obtener el diagrama de clases esperado.
+	% Se puede notificar al desarrollador sobre la incorrecta escritura de los casos de uso redactados con el lenguaje de símbolos
+	\item ¿Cómo dar a conocer al desarrollador la incorrecta utilización del lenguaje SymLen en la escritura de los casos de uso para obtener el diagrama de clases esperado?
 	
-	\item ¿Cómo determinar el nivel de efectividad del producto de este proyecto de investigación respecto a la generación del diagrama de clases?
+	% que estructura de datos permitira compartir el diagrama de clases generado actualmente con librerias especificas de generacion de diagramas UML para su manipulacion
+	% Qué estructura de dato permitirá a otras librerías que generan diagramas, modificar el diagrama de clases generado por la librería propuesta
+	 \item  ¿Qué estructura de datos permitirá compartir el diagrama de clases generado por Armadillo con otras librerías para la generación de diagramas UML?
+	
+	\item ¿Cómo determinar el nivel de efectividad del producto de este proyecto de investigación respecto a la generación de diagramas de clases?
 \end{enumerate}
 
 \section{Objetivos}
 
-La problematización de este proyecto ha llevado a plantearse los siguiente objetivos.
+La problematización de este proyecto ha llevado a plantearse los siguientes objetivos.
 
 \subsection{Objetivo General}
 
-Desarrollar una librería JavaScript que interprete los casos de uso escritos con el lenguaje de símbolos usado en la herramienta TDDT4IoTS, detectando los errores de escritura parar generar un diagrama de clases. 
+% Desarrollar una librería JavaScript para generar el diagrama de clases en formatos compatibles con librerias especificas para la generacion de diagramas UML a partir de los casos de uso escritos en SymLen.
+
+%Desarrollar una librería JavaScript para generar el diagrama de clases en formatos compatibles con librerías especificas para la generación de diagramas UML a partir de los casos de uso escritos en SymLen.
+
+Desarrollar una librería JavaScript para generar el diagrama de clases en formatos compatibles con librerías específicas para la generación de diagramas UML a partir de los casos de uso escritos en SymLen.
 
 \subsection{Objetivos Específicos}
 
 \begin{enumerate}
-	\item Generar un estructura en formato JSON y XML para almacenar el diagrama de clases, y pueda ser visualizado mediante otras librerías que generen diagramas.
+	% Como dar a conocer al desarrollador la incorrecta escritura de los casos de uso utilizando el lenguaje SymLen para obtener el diagrama de clases esperado.
 	
-	\item Diseñar e implementar una manera de retroalimentar a los usuarios de TDDT4IoTS sobre la incorrecta escritura de los casos de uso redactados con el lenguaje de símbolos. 
+	% Retroalimentar a los desarrolladores sobre los errores de escritura de los casos de uso escritos en SymLen que impiden obtener el diagrama de clases esperado.
+	% Generar un estructura en formato JSON y XML para almacenar el diagrama de clases, y pueda ser visualizado mediante otras librerías que generen diagramas.
+	\item Retroalimentar a los desarrolladores sobre los errores de escritura de los casos de uso escritos en SymLen que impiden obtener el diagrama de clases esperado.
 	
-	\item Evaluar la librería JavaScript propuesta, con la elaboración de diagramas de clases a partir de casos de uso extendidos correspondientes a requisitos de sistemas de información.
+	% que estructura de datos permitira compartir el diagrama de clases generado actualmente con librerias especificas de generacion de diagramas UML para su manipulacion
+	
+	% Generar los archivos json y xml con la informacion del diagrama de clases generado, compatible con librerias especificas para la generacion de diagramas UML. 
+	% Diseñar e implementar una manera de retroalimentar a los usuarios de TDDT4IoTS sobre la incorrecta escritura de los casos de uso redactados con el lenguaje de símbolos.
+	\item Generar los archivos json y xml con la información del diagrama de clases generado, compatible con otras librerías para la generación de diagramas UML.  
+	
+	% ¿Cómo determinar el nivel de efectividad del producto de este proyecto de investigación respecto a la generación del diagrama de clases?
+	\item Evaluar la librería JavaScript propuesta, con la elaboración de diagramas de clases a partir de casos de uso extendidos correspondientes a requisitos de un sistema de información.
 \end{enumerate}
 
 \section{Justificación}
 
-Los requisitos planteados por el cliente no siempre estarán claros desde el principio \parencite{iqbal2020}. Al momento de comenzar la fase de desarrollo de un sistema informático, pueden surgir problemas que deberán ser resueltos de diferentes formas a las que fueron planteadas al inicio. Existen herramientas que permiten crear los diagramas de casos de uso transmitiendo de forma gráfica los requisitos que se deben ejecutar, pero no detallan toda la información requerida por un solo caso de uso \parencite{Abdelnabi2021}.
+%
 
-Toda la información de un caso de uso detalla las condiciones previas, precondiciones y secuencia de eventos que deberá seguir un sistema informático \parencite{iqbal2020}. Es decir, toda esa información permitirá generar otros tipos de diagramas usando el modelado UML. Sin embargo, las herramientas existentes hasta el momento permiten generar varios tipos de diagramas UML, pero es necesario para poder crearlos o modificarlos, construirlos por separado y de manera manual.
+%Los requisitos planteados por el cliente no siempre estarán claros desde el principio \parencite{iqbal2020}. Al momento de comenzar la fase de desarrollo de un sistema informático, pueden surgir problemas que deberán ser resueltos de diferentes formas a las que fueron planteadas al inicio. Existen herramientas que permiten crear los diagramas de casos de uso transmitiendo de forma gráfica los requisitos que se deben ejecutar, pero no detallan toda la información requerida por un solo caso de uso \parencite{Abdelnabi2021}.
 
-Una solución para mejorar el rendimiento de los desarrolladores es utilizar un lenguaje para la escritura de los casos de uso que permita escribir toda la información necesaria de un caso de uso y al mismo tiempo permita detallar información técnica del sistema informático. Se podrá obtener todo lo necesario para crear un diagrama de casos de uso y generar de forma automática la estructura del diagrama de clases pertinente a los datos técnicos detallados con la ayuda del lenguaje de símbolos usando por la herramienta TDDT4IoTS. 
+%Toda la información de un caso de uso detalla las condiciones previas, precondiciones y secuencia de eventos que deberá seguir un sistema informático \parencite{iqbal2020}. Es decir, toda esa información permitirá generar otros tipos de diagramas usando el modelado UML. Sin embargo, las herramientas existentes hasta el momento permiten generar varios tipos de diagramas UML, pero es necesario para poder crearlos o modificarlos, construirlos por separado y de manera manual.
 
-Para los usuarios de la herramienta TDDT4IoTS será muy beneficioso contar con una librería que le permita interpretar para detectar si la escritura de la información es correcta. Además, el producto final de este trabajo permitirá modificar los casos de uso y al mismo tiempo poder hacerlo con los datos técnicos referentes al diagrama de clases, tratando de reducir el tiempo en el refinamiento de modelos del software. Finalmente se puede mencionar que no se ha encontrado aplicaciones o algún tipo de software que permita escribir los casos de uso, haciendo posible la generación de otros tipos de diagramas. 
+Los casos de uso son la herramienta que sirve para la obtención de los requisitos del sistema, y como herramienta de comunicación entre los miembros del equipo de desarrollo. Siendo la obtención de los requisitos una de las etapas que se podría afirmar que no es posible liberar de ella al equipo de desarrollo. En mucho de los casos la obtención de requisitos consume tiempo sustancial de la planificación de proyectos.
+
+Una solución para mejorar el rendimiento de los desarrolladores es efectivizar el tiempo consumido en las fases y análisis de diseño del sistema, escribiendo los requisitos obtenidos, utilizando un lenguaje que permita que el usuario lea sin problema toda la información del caso de uso y permita identificar la información necesaria para generar el modelo (diagrama de clases) y el software del sistema informático de manera transparente para el usuario. Esto sin duda mejora los tiempos dedicados al desarrollo, y mejora la comunicación entre el usuario y el equipo de desarrollo. Hasta el momento existen herramientas de generación de código de software a partir del diagrama UML. Sin embargo, la materia prima para realizar estos diagramas debe ser obtenida por los desarrolladores en el análisis de requisitos consumiendo tiempo adicional.   
+
+ Intentando mejorar los tiempos de desarrollo se ha implementado la herramienta TDDT4IoTS. Para  los desarrolladores que utilicen la herramienta TDDT4IoTS será muy beneficioso contar con una librería que les permita interpretar la escritura de los casos de uso, y generar los diagramas de clases que puedan ser exportados para ser utilizados en otras herramientas que generen diagramas UML. Además, el producto final de este trabajo permite modificar los casos de uso y al mismo tiempo poder hacerlo con los datos referentes al diagrama de clases, tratando de reducir el tiempo en el refinamiento del modelado del software. Finalmente, se puede mencionar que no se ha encontrado aplicaciones o algún tipo de software que permita escribir los casos de uso y a partir de ellos generar diagramas UML.

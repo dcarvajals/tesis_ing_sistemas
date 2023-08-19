@@ -4,19 +4,38 @@
 
 \section{Conclusiones}
 
+% En este proyecto de inves se ha desarrollado una libreria para la aplicacion tdd o para otra herramienta ... preambulo.
+
 \begin{itemize}
-	\item Con la utilización de un lenguaje de símbolos que permita estar combinado con las descripciones de los casos de uso escritos en texto natural, además que permita detallar datos técnicos que intervendrán en la generación del sistema informático, logra disminuir un poco el tiempo en la creación de este diagrama de clases. Previamente el desarrollador podrá utilizar la librería en su propio proyecto o utilizar la aplicación web de demostración.
-	\item Para los usuarios que utilizan la herramienta TDDT4IoTS al momento de interpretar las descripciones de los casos de uso con la librería desarrollada, les permite identificar de forma más rápida donde están cometiendo errores al momento de utilizar los símbolos respectivos.
-	\item La aplicación de demostración sobre cómo funciona la librería servirá para los desarrolladores que necesiten generar un diagrama de clases de una forma rápida dependiendo del sistema informático al que se estén enfrentando. La librería puede ser descargada para que cada desarrollador personalice la forma en cómo y con que genere el diagrama de clases, obteniendo una aplicativo que funcione con todos los proyectos que desarrolle a futuro.   
-	\item Se logro obtener un solo archivo de tipo .js que puede ser exportado a cualquier tipo de proyecto web. Esto beneficia a muchas aplicaciones que necesiten de la interpretación de los casos de uso que usen los símbolos de una forma rápida y sin tener que instalar programas externos para su correcto funcionamiento.
+	% La escritura de los casos de uso yutilizando SymLen permite marcar los terminos teecnicos utilizados para la creacion de los diagramas de clases
+	
+	% La escritura de los casos de uso utilizando SymLen permite marcar terminos tecnicos utilizados para la creacion de los diagramas de clases. Ademas, se logra disminuir el tiempo al momento de realizar la recopilacion de los requisitos del software y al mismo tiempo realizar la documentacion con los diagramas ded casos de uso y de clases.
+	
+	% Los usuarios que utilizan la herramienta TDDT4IoTS, ingresan las descripciones de los casos de uso y cuando es interepretado el texto ingresado, reciben una retroalimentacion indicando si existen errores en la utilizacion de los simbolos.
+	
+	% Los archivos json y xml generados por armadillo pueden ser compartidos con otras librerias que sean compatibles con estas estructuras. Se podra visualizar el diagrama de clases pertienente a la informacion recopilada por los casos de uso teniendo la oportunidad de generarlo de forma automatica leyendo cualquiera de las estructuras mencionadas y poder manipularlo dependiendo de las funcionalidades de la libreria utilizada. 
+	
+	% La aplicacion web que demuestra el debido funcionamiento de la libreria, permite que los desarrollares generen su diagrama de clases a modo de prueba. La libreria puede ser descargada de forma individual para que cada desarrollador o empresa construya su propia herramienta que les permita generar y visualizar varios diagramas UML a partir de la descripcion de los casos de uso utilizando el lenguaje SymLen.
+	
+	% \item Con la utilización de un lenguaje de símbolos que permita estar combinado con las descripciones de los casos de uso escritos en texto natural, además que permita detallar datos técnicos que intervendrán en la generación del sistema informático, logra disminuir un poco el tiempo en la creación de este diagrama de clases. Previamente el desarrollador podrá utilizar la librería en su propio proyecto o utilizar la aplicación web de demostración.
+	
+	%En este trabajo de investigacion se presenta armadillo para la retroaliemtancion 
+	
+	\item Para la gestionar la obtención del diagrama de clases a partir de las especificaciones de los casos de uso se implementaron mensajes de información notificando el estado en el que se encuentre las descripciones ingresadas. Además, se genera una estructura json y xml que permita compartir los datos del diagrama de clases y poder visualizarlo con otras librerías enfocadas a la creación de diagramas UML y finalmente se evaluó la librería con un sistemas de información que fue publicado por la universidad de Quevedo.
+	
+	% \item La escritura de los casos de uso utilizando SymLen permite marcar términos técnicos que son identificados al momento de recopilar los requisitos del software planteados por el usuario.  Tomará un poco mas de tiempo hacer los casos de uso, pero Armadillo facilitará la generación automática de los diagramas de clases.
+	\item Armadillo fue un complemento muy bueno para potenciar el funcionamiento de la herramienta TDDT4IoTS. Permite retroalimentar a los desarrolladores de software sobre los errores que se pueden cometer en la escritura de los casos de uso utilizando el lenguaje SymLen. Además, si el texto ingresado no cuenta con ningún error de escritura se muestran mensajes de éxito detallando lo que se pudo interpretar.
+	\item La estructura que contiene la información técnica diagrama de clases se generó en un formato que pueda ser compatible con otras librerías que permitan crear diagramas UML, por ejemplo jsUML2  (\url{http://www.jrromero.net/tools/jsUML2}) es compatible con la estructura generada automáticamente. Si el desarrollador lo desea, puede crear su propia librería personalizada que le permita visualizar el diagrama de clases mediante la información generada por Armadillo. 
+	\item TDDT4IoTS es una aplicación orientada a la generación del código fuente a partir del modelado del software que se pretende desarrollar. Armadillo permite generar uno de los diagramas más importantes para el modelado de software que es el diagrama de clases, mediante el cual se podrá generar código usable para su posterior implementación. 
 \end{itemize}
 
 \newpage
 \section{Recomendaciones}
 	
+\sloppy	
 \begin{itemize}
-	\item La librería desarrollada en el lenguaje javascript puede ser fácilmente escalable. Se puede desarrollar un proyecto npm y subirlo al repositorio oficial para que pueda ser utilizado mediante proyectos que utilicen como servidor de aplicaciones Node.js. 
-	\item Durante la elaboración de la retroalimentación sobre cómo utilizar los símbolos para escribir las descripciones de los casos de uso, se pueden realizar trabajos posteriores sobre como identificar la posición exacta del error que se está cometiendo. Se pueden utilizar una serie de colores que permita identificar los caracteres donde se encuentren las anomalías.
-	\item Para lograr que la librería pueda ser mejorada, se puede pensar en publicar el código fuente en una plataforma web como lo es GitHub y permitir que otros desarrolladores  mejoren la librería para llegar a un mayor alcance en la comunidad de programadores a nivel mundial.
-	\item Para lograr un mayor alance sobre las tecnologías de desarrollo que existen actualmente, y con las que en un futuro serán desarrolladas. Se podrá crear un proyecto que este desplegado en un servidor que este en la nube para crear un servicio web que realice el mismo proceso de la librería, con la ventaja que podrá ser utilizado en casi todos los tipos de proyectos que existen. Se podrá obtener los resultados del proyecto de forma clara y remota.  
+	\item Armadillo puede ser fácilmente escalable. A futuro se pretende desarrollar un versión para npm y subir Armadillo a su repositorio oficial para que pueda ser utilizado mediante proyectos que utilicen como servidor de aplicaciones Node.js. 
+	\item Durante la elaboración de la retroalimentación sobre cómo utilizar los símbolos del lenguaje SymLen para escribir las descripciones de los casos de uso, se pretenden realizar trabajos a futuro sobre como mejorar la identificación de la posición exacta del error que se está cometiendo. Además, que permita resaltar con diferentes colores  los caracteres donde se encuentren las anomalías.
+	\item Para que armadillo pueda seguir mejorando su funcionalidad, se pretende publicar el código fuente en una plataforma web. GitHub es una de las plataformas mas conocidas para realizar este tipo de aportes a la comunidad de desarrolladores, permitiendo que pueda recibir mejoras y su alcance pueda llegar ser a nivel mundial.
+	\item Para lograr un mayor alance sobre las tecnologías de desarrollo que existen actualmente, y con las que en un futuro serán desarrolladas. Se podrá crear una versión de armadillo como servicio web, desplegado en un servidor publico ubicado en la nube. Se pretende que realice el mismo proceso que la versión actual, con la ventaja que podrá ser utilizado en casi todos los tipos de proyectos que existen. Se podrá obtener los resultados del proyecto de forma clara y remota.  
 \end{itemize}

@@ -66,7 +66,7 @@ export class CompilerComponent implements OnInit {
 
     for(let i = 0; i < this.descriptions.length; i++){
       // @ts-ignore
-      let minjson = getHackDiagram(this.descriptions[i].model_text);
+      let minjson = getDiagramClass(this.descriptions[i].model_text);
       // @ts-ignore
       mergeClassDiagram(this.jsonStructure, minjson[1]);
       this.viewXml += minjson[1].xmldiagram;

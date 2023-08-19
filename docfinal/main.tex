@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper,final,oneside,onecolumn,openany]{book}
+ \documentclass[12pt,a4paper,final,oneside,onecolumn,openany]{book}
 \usepackage{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -15,18 +15,19 @@
 \usepackage{caption}
 \usepackage{longtable}
 \usepackage{float}
+\usepackage[justification=centering]{caption}
 
 % Label format
 \DeclareCaptionLabelFormat{custom}
 {%
-		#1 #2
+	   #1 #2:
 }
 % Separator style
-\DeclareCaptionLabelSeparator{custom}{\newline}
+\DeclareCaptionLabelSeparator{custom}{}
 % Caption format    
 \DeclareCaptionFormat{custom}
 {%
-	\raggedright{#1#2 \textit{#3}}
+		#1#2 \textit{#3}
 }
 \captionsetup
 {
@@ -48,7 +49,9 @@
 %interlineado 
 \spacing{1.5}
 %espacio entre parrafos
-\setlength{\parskip}{2mm}
+\global\setlength{\parskip}{4mm}
+\let\oldparbox\parbox
+%\setlength{\parskip}{4mm}
 %sangria
 \setlength{\parindent}{0px}\setcounter{chapter}{1}
 \setcounter{secnumdepth}{3}
@@ -92,14 +95,11 @@
 \renewcommand{\tablename}{Tabla}
 \renewcommand{\contentsname}{Tabla de contenido}
 \renewcommand{\listtablename}{Lista de tablas}
-\renewcommand{\listfigurename}{Lista de figuras}
+\renewcommand{\listfigurename}{Lista de ilustraciones}
+\renewcommand{\figurename}{Ilustración}
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
-%\definecolor{codepurple}{rgb}{0.58,0,0.82}
-%\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-%\definecolor{backcolour}{rgb}{0.95, 0.95, 0.96}
-%\definecolor{backcolour}{rgb}{1.0, 1.0, 1.0}
 \definecolor{backcolour}{rgb}{0.97, 0.97, 0.97}
 \definecolor{codepurple}{rgb}{0.6, 0.4, 0.8}
 \definecolor{bleudefrance}{rgb}{0.19, 0.55, 0.91}
@@ -185,19 +185,21 @@
 	\include{paginas_preliminares/abstract}
 	
 	% Índice de contenido
-	\addcontentsline{toc}{chapter}{Tabla de contenido}
+	%\addcontentsline{toc}{chapter}{Tabla de contenido}
 	\tableofcontents
 	
 	\newpage{\ }
 	% Índice de tablas
-	\addcontentsline{toc}{chapter}{Lista de tablas}
+	%\addcontentsline{toc}{chapter}{Lista de tablas}
 	\listoftables
 	
 	\newpage{\ }
 		
 	% Índice de figuras
-	\addcontentsline{toc}{chapter}{Lista de figuras}
+	%\addcontentsline{toc}{chapter}{Lista de figuras}
 	\listoffigures
+
+	\include{paginas_preliminares/codigo_dublim}
 
 	\cleardoublepage
 	

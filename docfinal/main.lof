@@ -1,55 +1,47 @@
 \babel@toc {nil}{}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Estructura json.\relax }}{9}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Estructura xml.\relax }}{10}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces La estructura y los contenidos de un FRP asociado a un ATP.\relax }}{12}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces El metamodelo SoPaMM.\relax }}{14}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Localización de la UTEQ campus "La María".\relax }}{18}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Fases de la metodología\relax }}{22}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Símbolos que utiliza la herramienta TDDT4IoTS\relax }}{30}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Ejemplo de cómo se debe utilizar el símbolo respectivo para crear una clase.\relax }}{31}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Ejemplo de cómo se debe utilizar el símbolo respectivo generar los parámetros de un método declarado con el lenguaje de símbolos.\relax }}{31}{}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagrama de casos de uso para las pruebas.\relax }}{38}{}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagrama de clases de prueba\relax }}{40}{}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagrama de casos de uso armadillo.\relax }}{42}{}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagrama de flujo para detectar errores en las descripciones de los casos de uso utilizando un el lenguaje de símbolos.\relax }}{48}{}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 1\relax }}{56}{}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 2\relax }}{57}{}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 3\relax }}{58}{}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 4\relax }}{59}{}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 5\relax }}{59}{}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 6\relax }}{60}{}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 6\relax }}{61}{}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 6\relax }}{62}{}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 6\relax }}{62}{}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Diagrama de casos de uso para "SISTEMA BASADO EN INTERNET DE LAS COSAS PARA LA GESTIÓN DE LOS RECURSOS DE UN AULA DE CLASES"\relax }}{63}{}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Diagrama de casos de uso basado en el "SISTEMA BASADO EN INTERNET DE LAS COSAS PARA LA GESTIÓN DE LOS RECURSOS DE UN AULA DE CLASES" para ser evaluado por armadillo.js\relax }}{64}{}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Diagrama de clases de el "SISTEMA BASADO EN INTERNET DE LAS COSAS PARA LA GESTIÓN DE LOS RECURSOS DE UN AULA DE CLASES" para ser evaluado por armadillo.js\relax }}{64}{}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Mensajes de consola notificando si existe algún error en la escritura de la descripción 1.\relax }}{65}{}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Diagrama de clases generado para la descripción 1.\relax }}{65}{}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Mensajes de consola notificando si existe algún error en la escritura de la descripción 2.\relax }}{66}{}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Diagrama de clases generado para la descripción 2.\relax }}{66}{}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Mensajes de consola notificando si existe algún error en la escritura de la descripción 3.\relax }}{67}{}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Diagrama de clases generado para la descripción 3.\relax }}{67}{}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Mensajes de consola notificando si existe algún error en la escritura de la descripción 4.\relax }}{68}{}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Diagrama de clases generado para la descripción 4.\relax }}{68}{}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Mensajes de consola notificando si existe algún error en la escritura de la descripción 5.\relax }}{69}{}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Diagrama de clases generado para la descripción 5.\relax }}{69}{}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Mensajes de consola notificando si existe algún error en la escritura de la descripción 6.\relax }}{70}{}%
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Diagrama de clases generado para la descripción 6.\relax }}{70}{}%
-\contentsline {figure}{\numberline {4.38}{\ignorespaces Mensajes de consola notificando si existe algún error en la escritura de la descripción 7.\relax }}{71}{}%
-\contentsline {figure}{\numberline {4.39}{\ignorespaces Diagrama de clases generado para la descripción 7.\relax }}{71}{}%
-\contentsline {figure}{\numberline {4.40}{\ignorespaces Mensajes de consola notificando si existe algún error en la escritura de la descripción 8.\relax }}{72}{}%
-\contentsline {figure}{\numberline {4.41}{\ignorespaces Diagrama de clases generado para la descripción 8.\relax }}{72}{}%
-\contentsline {figure}{\numberline {4.42}{\ignorespaces Mensajes de consola notificando si existe algún error en la escritura de la descripción 9.\relax }}{72}{}%
-\contentsline {figure}{\numberline {4.43}{\ignorespaces Diagrama de clases generado para la descripción 9.\relax }}{73}{}%
-\contentsline {figure}{\numberline {4.44}{\ignorespaces Mensajes de consola notificando si existe algún error en la escritura de la descripción 10.\relax }}{73}{}%
-\contentsline {figure}{\numberline {4.45}{\ignorespaces Diagrama de clases generado para la descripción 10.\relax }}{74}{}%
-\contentsline {figure}{\numberline {4.46}{\ignorespaces Mensajes de consola notificando si existe algún error en la escritura de la descripción 11.\relax }}{74}{}%
-\contentsline {figure}{\numberline {4.47}{\ignorespaces Diagrama de clases generado para la descripción 10.\relax }}{75}{}%
-\contentsline {figure}{\numberline {6.48}{\ignorespaces Interfaz principal de aplicación demostrativa de la librería.\relax }}{95}{}%
-\contentsline {figure}{\numberline {6.49}{\ignorespaces Interfaz donde se ingresarán las descripciones de los casos de uso a interpretar.\relax }}{95}{}%
-\contentsline {figure}{\numberline {6.50}{\ignorespaces Descripción del caso de uso interpretada con su respectiva retroalimentación.\relax }}{96}{}%
-\contentsline {figure}{\numberline {6.51}{\ignorespaces Diagrama de clases generado por la librería usando una librería externa denominada jsUML2.\relax }}{96}{}%
-\contentsline {figure}{\numberline {6.52}{\ignorespaces Estructura JSON generada por la librería.\relax }}{97}{}%
-\contentsline {figure}{\numberline {6.53}{\ignorespaces XML generado por la librería.\relax }}{97}{}%
-\contentsline {figure}{\numberline {6.54}{\ignorespaces Error detectado en la descripción del caso de uso\relax }}{98}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Estructura de los elementos de un json.\relax }}{12}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Estructura de los elementos de un xml.\relax }}{12}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces La estructura de un FRP.\relax }}{14}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Resumen del metamodelo SoPaMM.\relax }}{15}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Localización de la UTEQ campus "La María".\relax }}{20}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Fases de la metodología\relax }}{26}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Símbolos que utiliza la herramienta TDDT4IoTS\relax }}{32}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ejemplo de cómo se debe utilizar el símbolo respectivo para crear una clase.\relax }}{33}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Ejemplo de cómo se debe utilizar el símbolo respectivo generar los parámetros de un método declarado con el lenguaje de símbolos.\relax }}{33}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagrama de casos de uso para las pruebas.\relax }}{40}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagrama de clases de prueba\relax }}{42}{}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagrama de casos de uso armadillo.\relax }}{44}{}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 1\relax }}{56}{}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 2\relax }}{56}{}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 3\relax }}{58}{}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 4\relax }}{58}{}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 5\relax }}{59}{}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 6\relax }}{60}{}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando Armadillo, descripción 7\relax }}{60}{}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 8\relax }}{61}{}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Diagrama de clases generado por la aplicación web de demostración usando la librería de armadillo.js, descripción 9\relax }}{62}{}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Diagrama de casos de uso para "SISTEMA BASADO EN INTERNET DE LAS COSAS PARA LA GESTIÓN DE LOS RECURSOS DE UN AULA DE CLASES"\relax }}{63}{}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Diagrama de casos de uso basado en el "SISTEMA BASADO EN INTERNET DE LAS COSAS PARA LA GESTIÓN DE LOS RECURSOS DE UN AULA DE CLASES" para ser evaluado por armadillo.js\relax }}{64}{}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Diagrama de clases de el "SISTEMA BASADO EN INTERNET DE LAS COSAS PARA LA GESTIÓN DE LOS RECURSOS DE UN AULA DE CLASES" para ser evaluado por armadillo.js\relax }}{64}{}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Mensajes de consola relacionado a la escritura de la descripción 1.\relax }}{65}{}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Diagrama de clases generado para la descripción 1.\relax }}{65}{}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Mensajes de consola relacionado a la escritura de la descripción 2.\relax }}{66}{}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Diagrama de clases generado para la descripción 2.\relax }}{66}{}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Mensajes de consola notificando si existe algún error en la escritura de la descripción 3.\relax }}{67}{}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Diagrama de clases generado para la descripción 3.\relax }}{67}{}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Mensajes de consola relacionado a la escritura de la descripción 4.\relax }}{68}{}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Diagrama de clases generado para la descripción 4.\relax }}{68}{}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Mensajes de consola relacionado a la escritura de la descripción 5.\relax }}{69}{}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Diagrama de clases generado para la descripción 5.\relax }}{69}{}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Mensajes de consola relacionado a la escritura de la descripción 6.\relax }}{70}{}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Diagrama de clases generado para la descripción 6.\relax }}{70}{}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Mensajes de consola relacionado a la escritura de la descripción 7.\relax }}{71}{}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Diagrama de clases generado para la descripción 7.\relax }}{71}{}%
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Mensajes de consola relacionado a la escritura de la descripción 8.\relax }}{72}{}%
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Diagrama de clases generado para la descripción 8.\relax }}{72}{}%
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Mensajes de consola relacionado a la escritura de la descripción 9.\relax }}{73}{}%
+\contentsline {figure}{\numberline {4.42}{\ignorespaces Diagrama de clases generado para la descripción 9.\relax }}{73}{}%
+\contentsline {figure}{\numberline {4.43}{\ignorespaces Mensajes de consola relacionado a la escritura de la descripción 10.\relax }}{74}{}%
+\contentsline {figure}{\numberline {4.44}{\ignorespaces Diagrama de clases generado para la descripción 10.\relax }}{74}{}%
+\contentsline {figure}{\numberline {4.45}{\ignorespaces Mensajes de consola relacionado a la escritura de la descripción 11.\relax }}{75}{}%
+\contentsline {figure}{\numberline {4.46}{\ignorespaces Diagrama de clases generado para la descripción 10.\relax }}{75}{}%
